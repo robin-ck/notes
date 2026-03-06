@@ -1,5 +1,5 @@
 {:blocks (
-{:block/created-at 1772787582206
+{:block/created-at 1772790461137
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -16,17 +16,17 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [900 1284.0001244023745]
+:size [900 1283.9999450444893]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
 :id "50c01234-18c0-11f1-aaf5-67b897198f16"
 :noFill false
-:point [700 -700]
+:point [680 -224]
 :parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
 :collapsedHeight 0
-:nonce 1772800000004}}
-:block/updated-at 1772787582206} 
+:nonce 1772800000038}}
+:block/updated-at 1772790461137} 
 {:block/content ""
 :block/format :markdown
 :block/left 
@@ -36,7 +36,7 @@
 :block/properties 
 {}
 :block/uuid #uuid "b9101235-18c0-11f1-aaf5-67b897198f16"} 
-{:block/created-at 1772787582190
+{:block/created-at 1772790457948
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -53,18 +53,18 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [900 888.0000466123041]
+:size [900 887.9998402833013]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
 :id "ec001234-18c0-11f1-aaf5-67b897198f16"
 :noFill false
-:point [-1600 -700]
+:point [-2312 -216]
 :parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
 :collapsedHeight 0
-:nonce 1772800000002}}
-:block/updated-at 1772787582190} 
-{:block/created-at 1772788088712
+:nonce 1772800000034}}
+:block/updated-at 1772790457948} 
+{:block/created-at 1772790537775
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -72,7 +72,7 @@
 :index 3
 :scale [1 1]
 :refs []
-:scaleLevel "md"
+:scaleLevel "xl"
 :fill "green"
 :type "line"
 :strokeType "line"
@@ -82,26 +82,26 @@
 :id "ae101234-18c0-11f1-aaf5-67b897198f16"
 :fontWeight 400
 :noFill true
-:point [-32.16 -1107]
-:fontSize 20
+:point [-970.64 -1059]
+:fontSize 48
 :handles 
 {:start 
 {:id "start"
 :canBind true
-:point [8.9 0]
+:point [0 0]
 :bindingId "f0a70ac1-193b-11f1-9a43-f1aeb66e1bb7"}
 :end 
 {:id "end"
 :canBind true
-:point [0 403]
+:point [378.99 799]
 :bindingId "f95aac31-193b-11f1-9a43-f1aeb66e1bb7"}}
 :decorations 
 {:end "arrow"}
 :parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
-:nonce 1772800000207
+:nonce 1772800000308
 :italic false}}
-:block/updated-at 1772788088712} 
-{:block/created-at 1772787594909
+:block/updated-at 1772790537775} 
+{:block/created-at 1772790459372
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -118,18 +118,18 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [900 1167.0000322244387]
+:size [900 1166.999878718945]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
 :id "e0e01234-18c0-11f1-aaf5-67b897198f16"
 :noFill false
-:point [-450 -700]
+:point [-712 -256]
 :parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
 :collapsedHeight 0
-:nonce 1772800000006}}
-:block/updated-at 1772787594909} 
-{:block/created-at 1772788088713
+:nonce 1772800000042}}
+:block/updated-at 1772790459372} 
+{:block/created-at 1772790474814
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -137,7 +137,7 @@
 :index 4
 :scale [1 1]
 :refs []
-:scaleLevel "md"
+:scaleLevel "xl"
 :fill "green"
 :type "line"
 :strokeType "line"
@@ -147,8 +147,8 @@
 :id "ae201234-18c0-11f1-aaf5-67b897198f16"
 :fontWeight 400
 :noFill true
-:point [85.78 -1107]
-:fontSize 20
+:point [-900.13 -1059]
+:fontSize 48
 :handles 
 {:start 
 {:id "start"
@@ -158,13 +158,14 @@
 :end 
 {:id "end"
 :canBind true
-:point [1089.22 407]}}
+:point [1984.85 831]
+:bindingId "85520671-1941-11f1-96a1-e96a7ff46a97"}}
 :decorations 
 {:end "arrow"}
 :parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
-:nonce 1772800000084
+:nonce 1772800000255
 :italic false}}
-:block/updated-at 1772788088713} 
+:block/updated-at 1772790474814} 
 {:block/content ""
 :block/format :markdown
 :block/left 
@@ -183,7 +184,7 @@
 :block/properties 
 {}
 :block/uuid #uuid "b9101236-18c0-11f1-aaf5-67b897198f16"} 
-{:block/created-at 1772788088713
+{:block/created-at 1772790456610
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -195,30 +196,30 @@
 :index 5
 :scale [1 1]
 :pageId "Blue Green Infrastructure"
-:scaleLevel "md"
+:scaleLevel "lg"
 :fill ""
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [856 364]
+:size [1284 756.0000662282865]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
 :id "e58e6cb0-193a-11f1-9a43-f1aeb66e1bb7"
 :noFill false
-:point [-464 -1472]
+:point [-1840 -1816]
 :parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
 :collapsedHeight 0
-:nonce 1772787617800}}
-:block/updated-at 1772788088713} 
-{:block/created-at 1772788097160
+:nonce 1772787617994}}
+:block/updated-at 1772790456610} 
+{:block/created-at 1772790542079
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:stroke "green"
 :index 6
 :scale [1 1]
-:scaleLevel "md"
+:scaleLevel "xl"
 :fill "green"
 :type "line"
 :strokeType "line"
@@ -228,38 +229,39 @@
 :id "f3c820e2-193b-11f1-9a43-f1aeb66e1bb7"
 :fontWeight 400
 :noFill true
-:point [-990.69 -1107]
-:fontSize 20
+:point [-1884.14 -1059]
+:fontSize 48
 :handles 
 {:start 
 {:id "start"
 :canBind true
-:point [656.55 0]
+:point [472.64 0]
 :bindingId "f3c820e0-193b-11f1-9a43-f1aeb66e1bb7"}
 :end 
 {:id "end"
 :canBind true
-:point [0 403]
+:point [0 839]
 :bindingId "f3c820e1-193b-11f1-9a43-f1aeb66e1bb7"}}
 :decorations 
 {:end "arrow"}
 :parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
-:nonce 1772788071013
+:nonce 1772788071113
 :italic false}}
-:block/updated-at 1772788097160} 
-{:block/created-at 1772788121742
+:block/updated-at 1772790542079} 
+{:block/created-at 1772790539777
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:isSizeLocked true
 :stroke ""
+:rotation 0
 :borderRadius 0
 :index 7
 :scale [1 1]
-:scaleLevel "md"
+:scaleLevel "xl"
 :fill ""
 :type "text"
-:size [79 34]
+:size [173 68]
 :fontFamily "var(--ls-font-family)"
 :strokeType "line"
 :strokeWidth 2
@@ -268,74 +270,403 @@
 :padding 4
 :fontWeight 400
 :noFill true
-:point [-608 -984]
+:point [-960 -840]
 :lineHeight 1.2
-:fontSize 20
+:fontSize 48
 :parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
-:nonce 1772788106933
+:nonce 1772788107072
 :italic false
 :text "Benefit"}}
-:block/updated-at 1772788121742} 
-{:block/created-at 1772788128894
+:block/updated-at 1772790539777} 
+{:block/created-at 1772790546747
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
-{:isSizeLocked true
+{:blockType "P"
 :stroke ""
-:borderRadius 0
+:rotation 0
+:collapsed false
+:borderRadius 8
 :index 8
 :scale [1 1]
+:pageId "Barriers to Blue-Green Infrastructure Implementation"
 :scaleLevel "md"
 :fill ""
-:type "text"
-:size [79 34]
-:fontFamily "var(--ls-font-family)"
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [900 1730.000093353136]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
-:id "13bfb8e0-193c-11f1-9a43-f1aeb66e1bb7"
-:padding 4
+:id "ba001234-18c0-11f1-aaf5-67b897198f16"
+:noFill false
+:point [1712 -2248]
+:parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
+:collapsedHeight 0
+:nonce 1772800001115}}
+:block/updated-at 1772790546747} 
+{:block/created-at 1772790549241
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke "red"
+:index 9
+:scale [1 1]
+:refs []
+:scaleLevel "xl"
+:fill "red"
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "af001234-18c0-11f1-aaf5-67b897198f16"
 :fontWeight 400
 :noFill true
-:isLocked false
-:point [-72 -928]
-:lineHeight 1.2
-:fontSize 20
+:point [-555 -1758.54]
+:fontSize 48
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 212.97]
+:bindingId "e389e2c1-193d-11f1-8fbb-41ff044e0a7c"}
+:end 
+{:id "end"
+:canBind true
+:point [2263 0]
+:bindingId "e1fc8c01-193d-11f1-8fbb-41ff044e0a7c"}}
+:decorations 
+{:end "arrow"}
 :parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
-:nonce 1772788106987
-:italic false
-:text "Benefit"}}
-:block/updated-at 1772788128894} 
-{:block/created-at 1772788132023
+:nonce 1772800001228
+:italic false}}
+:block/updated-at 1772790549241} 
+{:block/created-at 1772790546747
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:isSizeLocked true
 :stroke ""
 :borderRadius 0
-:index 9
+:index 10
 :scale [1 1]
-:scaleLevel "md"
+:scaleLevel "xl"
 :fill ""
 :type "text"
-:size [79 34]
+:size [188 68]
 :fontFamily "var(--ls-font-family)"
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
-:id "16d78030-193c-11f1-9a43-f1aeb66e1bb7"
+:id "e70c04a0-193d-11f1-8fbb-41ff044e0a7c"
+:padding 4
+:fontWeight 400
+:noFill true
+:point [648 -1704]
+:lineHeight 1.2
+:fontSize 48
+:parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
+:nonce 1772788908591
+:italic false
+:text "Barriers"}}
+:block/updated-at 1772790546747} 
+{:block/created-at 1772790557315
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 11
+:scale [1 1]
+:pageId "Natural Water Features: Ponds, Rivers, Lakes, and Wetlands"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [768 336.99999914664926]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "d76f2c10-193e-11f1-8fbb-41ff044e0a7c"
+:noFill false
+:point [-1400 -2752]
+:parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
+:collapsedHeight 0
+:nonce 1772789312042}}
+:block/updated-at 1772790557315} 
+{:block/content "Stormwater Detention or Retention Systems"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "b9101237-18c0-11f1-aaf5-67b897198f16"}
+:block/parent 
+{:block/uuid #uuid "b9101234-18c0-11f1-aaf5-67b897198f16"}
+:block/uuid #uuid "69aa9eae-172f-4857-a8ca-115342cc6783"} 
+{:block/created-at 1772792108206
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 12
+:scale [1 1]
+:pageId "Stormwater Detention or Retention Systems"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [1304 1511.1402967593951]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "1c9c5ec0-193f-11f1-8fbb-41ff044e0a7c"
+:noFill false
+:point [-368 -5080]
+:parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
+:collapsedHeight 0
+:nonce 1772789429462}}
+:block/updated-at 1772792108206} 
+{:block/created-at 1772792352695
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 13
+:scale [1 1]
+:pageId "Riparian Buffers, Restored Waterways, and Constructed Wetlands"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [1224 1380.8591751398424]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "7a6aa700-193f-11f1-8fbb-41ff044e0a7c"
+:noFill false
+:point [-1824 -5088]
+:parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
+:collapsedHeight 0
+:nonce 1772789585646}}
+:block/updated-at 1772792352695} 
+{:block/created-at 1772790577104
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke "yellow"
+:index 14
+:scale [1 1]
+:scaleLevel "xl"
+:fill "yellow"
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "a17c8652-1940-11f1-96a1-e96a7ff46a97"
+:fontWeight 400
+:noFill true
+:point [-1148.05 -2411]
+:fontSize 48
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 594]
+:bindingId "a17c8650-1940-11f1-96a1-e96a7ff46a97"}
+:end 
+{:id "end"
+:canBind true
+:point [78.28 0]
+:bindingId "a17c8651-1940-11f1-96a1-e96a7ff46a97"}}
+:decorations 
+{:end "arrow"}
+:parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
+:nonce 1772790080540
+:italic false}}
+:block/updated-at 1772790577104} 
+{:block/created-at 1772792108215
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke "yellow"
+:index 15
+:scale [1 1]
+:scaleLevel "xl"
+:fill "yellow"
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "a7e77042-1940-11f1-96a1-e96a7ff46a97"
+:fontWeight 400
+:noFill true
+:point [-881.77 -3564.86]
+:fontSize 48
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 811.86]
+:bindingId "a7e77040-1940-11f1-96a1-e96a7ff46a97"}
+:end 
+{:id "end"
+:canBind true
+:point [642.95 0]
+:bindingId "a7e77041-1940-11f1-96a1-e96a7ff46a97"}}
+:decorations 
+{:end "arrow"}
+:parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
+:nonce 1772790091872
+:italic false}}
+:block/updated-at 1772792108215} 
+{:block/created-at 1772792352693
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke "yellow"
+:index 16
+:scale [1 1]
+:scaleLevel "xl"
+:fill "yellow"
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "ac6a6050-1940-11f1-96a1-e96a7ff46a97"
+:fontWeight 400
+:noFill true
+:point [-1076.14 -3703.14]
+:fontSize 48
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [51.04 950.14]
+:bindingId "ac6a3940-1940-11f1-96a1-e96a7ff46a97"}
+:end 
+{:id "end"
+:canBind true
+:point [0 0]
+:bindingId "ac6a3941-1940-11f1-96a1-e96a7ff46a97"}}
+:decorations 
+{:end "arrow"}
+:parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
+:nonce 1772790098911
+:italic false}}
+:block/updated-at 1772792352693} 
+{:block/created-at 1772790563338
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke ""
+:borderRadius 0
+:index 17
+:scale [1 1]
+:scaleLevel "xl"
+:fill ""
+:type "text"
+:size [199 68]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "b803bc90-1940-11f1-96a1-e96a7ff46a97"
 :padding 4
 :fontWeight 400
 :noFill true
 :isLocked false
-:point [544 -936]
+:point [-1208 -2224]
 :lineHeight 1.2
-:fontSize 20
+:fontSize 48
 :parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
-:nonce 1772788106959
+:nonce 1772790110869
 :italic false
-:text "Benefit"}}
-:block/updated-at 1772788132023})
+:text "consists"}}
+:block/updated-at 1772790563338} 
+{:block/created-at 1772790660027
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 18
+:scale [1 1]
+:pageId "Stormwater Detention and Retention Systems Benefits"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [1320 403.00010761490404]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "d583f680-1941-11f1-96a1-e96a7ff46a97"
+:noFill false
+:point [2544 -4728]
+:parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
+:collapsedHeight 0
+:nonce 1772790597151}}
+:block/updated-at 1772790660027} 
+{:block/created-at 1772792108214
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke "green"
+:index 19
+:scale [1 1]
+:refs []
+:scaleLevel "xl"
+:fill "green"
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "f7751490-1941-11f1-96a1-e96a7ff46a97"
+:fontWeight 400
+:noFill true
+:isLocked false
+:point [937 -4633.16]
+:fontSize 48
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 3.46]
+:bindingId "f82db631-1941-11f1-96a1-e96a7ff46a97"}
+:end 
+{:id "end"
+:canBind true
+:point [1603 0]
+:bindingId "f98249b1-1941-11f1-96a1-e96a7ff46a97"}}
+:decorations 
+{:end "arrow"}
+:parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
+:nonce 1772800000982
+:italic false}}
+:block/updated-at 1772792108214})
 :pages (
 {:block/uuid #uuid "b9101234-18c0-11f1-aaf5-67b897198f16"
 :block/properties 
@@ -344,21 +675,21 @@
 {:id "b9101234-18c0-11f1-aaf5-67b897198f16"
 :name "blue-green infrastructure benefits"
 :bindings 
-{:eebc2ab1-193b-11f1-9a43-f1aeb66e1bb7 
+{:ac6a3941-1940-11f1-96a1-e96a7ff46a97 
+{:id "ac6a3941-1940-11f1-96a1-e96a7ff46a97"
+:type "line"
+:fromId "ac6a6050-1940-11f1-96a1-e96a7ff46a97"
+:toId "7a6aa700-193f-11f1-8fbb-41ff044e0a7c"
+:handleId "end"
+:point [0.58 0.5]
+:distance 4}
+:eebc2ab1-193b-11f1-9a43-f1aeb66e1bb7 
 {:id "eebc2ab1-193b-11f1-9a43-f1aeb66e1bb7"
 :type "line"
 :fromId "ae201234-18c0-11f1-aaf5-67b897198f16"
 :toId "e58e6cb0-193a-11f1-9a43-f1aeb66e1bb7"
 :handleId "start"
 :point [0.27 0.67]
-:distance 4}
-:f0a70ac1-193b-11f1-9a43-f1aeb66e1bb7 
-{:id "f0a70ac1-193b-11f1-9a43-f1aeb66e1bb7"
-:type "line"
-:fromId "ae101234-18c0-11f1-aaf5-67b897198f16"
-:toId "e58e6cb0-193a-11f1-9a43-f1aeb66e1bb7"
-:handleId "start"
-:point [0.52 0.44]
 :distance 4}
 :f3c820e0-193b-11f1-9a43-f1aeb66e1bb7 
 {:id "f3c820e0-193b-11f1-9a43-f1aeb66e1bb7"
@@ -368,6 +699,22 @@
 :handleId "start"
 :point [0.5 0.5]
 :distance 4}
+:a7e77041-1940-11f1-96a1-e96a7ff46a97 
+{:id "a7e77041-1940-11f1-96a1-e96a7ff46a97"
+:type "line"
+:fromId "a7e77042-1940-11f1-96a1-e96a7ff46a97"
+:toId "1c9c5ec0-193f-11f1-8fbb-41ff044e0a7c"
+:handleId "end"
+:point [0.56 0.5]
+:distance 4}
+:a17c8651-1940-11f1-96a1-e96a7ff46a97 
+{:id "a17c8651-1940-11f1-96a1-e96a7ff46a97"
+:type "line"
+:fromId "a17c8652-1940-11f1-96a1-e96a7ff46a97"
+:toId "d76f2c10-193e-11f1-8fbb-41ff044e0a7c"
+:handleId "end"
+:point [0.46 0.5]
+:distance 4}
 :f3c820e1-193b-11f1-9a43-f1aeb66e1bb7 
 {:id "f3c820e1-193b-11f1-9a43-f1aeb66e1bb7"
 :type "line"
@@ -376,6 +723,70 @@
 :handleId "end"
 :point [0.37 0.19]
 :distance 4}
+:e1fc8c01-193d-11f1-8fbb-41ff044e0a7c 
+{:id "e1fc8c01-193d-11f1-8fbb-41ff044e0a7c"
+:type "line"
+:fromId "af001234-18c0-11f1-aaf5-67b897198f16"
+:toId "ba001234-18c0-11f1-aaf5-67b897198f16"
+:handleId "end"
+:point [0.69 0.25]
+:distance 4}
+:f98249b1-1941-11f1-96a1-e96a7ff46a97 
+{:id "f98249b1-1941-11f1-96a1-e96a7ff46a97"
+:type "line"
+:fromId "f7751490-1941-11f1-96a1-e96a7ff46a97"
+:toId "d583f680-1941-11f1-96a1-e96a7ff46a97"
+:handleId "end"
+:point [0.07 0.24]
+:distance 4}
+:a7e77040-1940-11f1-96a1-e96a7ff46a97 
+{:id "a7e77040-1940-11f1-96a1-e96a7ff46a97"
+:type "line"
+:fromId "a7e77042-1940-11f1-96a1-e96a7ff46a97"
+:toId "d76f2c10-193e-11f1-8fbb-41ff044e0a7c"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:f0a70ac1-193b-11f1-9a43-f1aeb66e1bb7 
+{:id "f0a70ac1-193b-11f1-9a43-f1aeb66e1bb7"
+:type "line"
+:fromId "ae101234-18c0-11f1-aaf5-67b897198f16"
+:toId "e58e6cb0-193a-11f1-9a43-f1aeb66e1bb7"
+:handleId "start"
+:point [0.52 0.44]
+:distance 4}
+:85520671-1941-11f1-96a1-e96a7ff46a97 
+{:id "85520671-1941-11f1-96a1-e96a7ff46a97"
+:type "line"
+:fromId "ae201234-18c0-11f1-aaf5-67b897198f16"
+:toId "50c01234-18c0-11f1-aaf5-67b897198f16"
+:handleId "end"
+:point [0.79 0.1]
+:distance 4}
+:ac6a3940-1940-11f1-96a1-e96a7ff46a97 
+{:id "ac6a3940-1940-11f1-96a1-e96a7ff46a97"
+:type "line"
+:fromId "ac6a6050-1940-11f1-96a1-e96a7ff46a97"
+:toId "d76f2c10-193e-11f1-8fbb-41ff044e0a7c"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:a17c8650-1940-11f1-96a1-e96a7ff46a97 
+{:id "a17c8650-1940-11f1-96a1-e96a7ff46a97"
+:type "line"
+:fromId "a17c8652-1940-11f1-96a1-e96a7ff46a97"
+:toId "e58e6cb0-193a-11f1-9a43-f1aeb66e1bb7"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:e389e2c1-193d-11f1-8fbb-41ff044e0a7c 
+{:id "e389e2c1-193d-11f1-8fbb-41ff044e0a7c"
+:type "line"
+:fromId "af001234-18c0-11f1-aaf5-67b897198f16"
+:toId "e58e6cb0-193a-11f1-9a43-f1aeb66e1bb7"
+:handleId "start"
+:point [0.49 0.44]
+:distance 4}
 :f95aac31-193b-11f1-9a43-f1aeb66e1bb7 
 {:id "f95aac31-193b-11f1-9a43-f1aeb66e1bb7"
 :type "line"
@@ -383,12 +794,20 @@
 :toId "e0e01234-18c0-11f1-aaf5-67b897198f16"
 :handleId "end"
 :point [0.45 0.51]
+:distance 4}
+:f82db631-1941-11f1-96a1-e96a7ff46a97 
+{:id "f82db631-1941-11f1-96a1-e96a7ff46a97"
+:type "line"
+:fromId "f7751490-1941-11f1-96a1-e96a7ff46a97"
+:toId "1c9c5ec0-193f-11f1-8fbb-41ff044e0a7c"
+:handleId "start"
+:point [0.49 0.3]
 :distance 4}}
 :nonce 1
 :assets []
-:shapes-index ("ec001234-18c0-11f1-aaf5-67b897198f16" "e0e01234-18c0-11f1-aaf5-67b897198f16" "50c01234-18c0-11f1-aaf5-67b897198f16" "ae101234-18c0-11f1-aaf5-67b897198f16" "ae201234-18c0-11f1-aaf5-67b897198f16" "e58e6cb0-193a-11f1-9a43-f1aeb66e1bb7" "f3c820e2-193b-11f1-9a43-f1aeb66e1bb7" "0933adf0-193c-11f1-9a43-f1aeb66e1bb7" "13bfb8e0-193c-11f1-9a43-f1aeb66e1bb7" "16d78030-193c-11f1-9a43-f1aeb66e1bb7")}}
-:block/updated-at 1772788132023
+:shapes-index ("ec001234-18c0-11f1-aaf5-67b897198f16" "e0e01234-18c0-11f1-aaf5-67b897198f16" "50c01234-18c0-11f1-aaf5-67b897198f16" "ae101234-18c0-11f1-aaf5-67b897198f16" "ae201234-18c0-11f1-aaf5-67b897198f16" "e58e6cb0-193a-11f1-9a43-f1aeb66e1bb7" "f3c820e2-193b-11f1-9a43-f1aeb66e1bb7" "0933adf0-193c-11f1-9a43-f1aeb66e1bb7" "ba001234-18c0-11f1-aaf5-67b897198f16" "af001234-18c0-11f1-aaf5-67b897198f16" "e70c04a0-193d-11f1-8fbb-41ff044e0a7c" "d76f2c10-193e-11f1-8fbb-41ff044e0a7c" "1c9c5ec0-193f-11f1-8fbb-41ff044e0a7c" "7a6aa700-193f-11f1-8fbb-41ff044e0a7c" "a17c8652-1940-11f1-96a1-e96a7ff46a97" "a7e77042-1940-11f1-96a1-e96a7ff46a97" "ac6a6050-1940-11f1-96a1-e96a7ff46a97" "b803bc90-1940-11f1-96a1-e96a7ff46a97" "d583f680-1941-11f1-96a1-e96a7ff46a97" "f7751490-1941-11f1-96a1-e96a7ff46a97")}}
+:block/updated-at 1772792352693
 :block/created-at 1772800000000
 :block/type "whiteboard"
 :block/name "blue-green infrastructure benefits"
-:block/original-name "Blue-Green Infrastructure Benefits"})}
+:block/original-name "blue-green infrastructure benefits"})}

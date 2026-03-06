@@ -8,7 +8,7 @@
 :block/properties 
 {}
 :block/uuid #uuid "69a98dd3-9a7b-4bfb-ae9d-dc825dd8d764"} 
-{:block/created-at 1772722676711
+{:block/created-at 1772788301871
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -25,7 +25,7 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [1072 394.9999692286237]
+:size [1072 423.9999948387736]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -34,9 +34,8 @@
 :point [-928 -664]
 :parentId "69a95ea0-eac7-4858-9a09-c4d729c54ba4"
 :collapsedHeight 0
-:nonce 1772719595159}
-:id "84c62920-189c-11f1-aaf5-67b897198f16"}
-:block/updated-at 1772722676711} 
+:nonce 1772719595162}}
+:block/updated-at 1772788301871} 
 {:block/content ""
 :block/format :markdown
 :block/left 
@@ -46,7 +45,7 @@
 :block/properties 
 {}
 :block/uuid #uuid "69a99142-9bcf-4e5a-8737-407e21004426"} 
-{:block/created-at 1772722302760
+{:block/created-at 1772788301868
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -63,7 +62,7 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [664 345.000005466268]
+:size [664 344.9999998452526]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -73,9 +72,9 @@
 :point [-1048 -112]
 :parentId "69a95ea0-eac7-4858-9a09-c4d729c54ba4"
 :collapsedHeight 0
-:nonce 1772721183743}}
-:block/updated-at 1772722302760} 
-{:block/created-at 1772722676721
+:nonce 1772721183745}}
+:block/updated-at 1772788301868} 
+{:block/created-at 1772788301883
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -93,13 +92,13 @@
 :id "66d057c2-18a0-11f1-b8d1-cf6a39b591c2"
 :fontWeight 400
 :noFill true
-:point [-716 -265]
+:point [-716 -236]
 :fontSize 20
 :handles 
 {:start 
 {:id "start"
 :canBind true
-:point [0 149]
+:point [0 123]
 :bindingId "66d057c0-18a0-11f1-b8d1-cf6a39b591c2"}
 :end 
 {:id "end"
@@ -109,10 +108,9 @@
 :decorations 
 {:end "arrow"}
 :parentId "69a95ea0-eac7-4858-9a09-c4d729c54ba4"
-:nonce 1772721262723
-:italic false}
-:id "66d057c2-18a0-11f1-b8d1-cf6a39b591c2"}
-:block/updated-at 1772722676721} 
+:nonce 1772721262727
+:italic false}}
+:block/updated-at 1772788301883} 
 {:block/content ""
 :block/format :markdown
 :block/left 
@@ -122,7 +120,7 @@
 :block/properties 
 {}
 :block/uuid #uuid "69a99675-8897-45ba-aaec-74a2b9285448"} 
-{:block/created-at 1772722676716
+{:block/created-at 1772788301876
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -139,7 +137,7 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [704 258.00001027282383]
+:size [704 257.9999891806004]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -148,9 +146,9 @@
 :point [-296 -112]
 :parentId "69a95ea0-eac7-4858-9a09-c4d729c54ba4"
 :collapsedHeight 0
-:nonce 1772721959038}}
-:block/updated-at 1772722676716} 
-{:block/created-at 1772722697856
+:nonce 1772721959040}}
+:block/updated-at 1772788301876} 
+{:block/created-at 1772788301886
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -167,13 +165,13 @@
 :id "32b77b12-18a2-11f1-b8d1-cf6a39b591c2"
 :fontWeight 400
 :noFill true
-:point [52.99 -265]
+:point [53.22 -236]
 :fontSize 20
 :handles 
 {:start 
 {:id "start"
 :canBind true
-:point [1.62 152]
+:point [1.35 123]
 :bindingId "32b77b10-18a2-11f1-b8d1-cf6a39b591c2"}
 :end 
 {:id "end"
@@ -183,9 +181,9 @@
 :decorations 
 {:end "arrow"}
 :parentId "69a95ea0-eac7-4858-9a09-c4d729c54ba4"
-:nonce 1772722034222
+:nonce 1772722034225
 :italic false}}
-:block/updated-at 1772722697856} 
+:block/updated-at 1772788301886} 
 {:block/content "Impact Water Quality"
 :block/format :markdown
 :block/left 
@@ -321,8 +319,8 @@
 :nonce 1
 :assets []
 :shapes-index ("37620240-18a0-11f1-b8d1-cf6a39b591c2" "84c62920-189c-11f1-aaf5-67b897198f16" "66d057c2-18a0-11f1-b8d1-cf6a39b591c2" "05c6cfc0-18a2-11f1-b8d1-cf6a39b591c2" "32b77b12-18a2-11f1-b8d1-cf6a39b591c2" "aafb4ac0-18a2-11f1-b8d1-cf6a39b591c2" "b6c0c010-18a2-11f1-b8d1-cf6a39b591c2")}}
-:block/updated-at 1772723289443
+:block/updated-at 1772788301897
 :block/created-at 1772707488588
 :block/type "whiteboard"
 :block/name "gray infrastructure"
-:block/original-name "gray infrastructure"})}
+:block/original-name "Gray Infrastructure"})}
