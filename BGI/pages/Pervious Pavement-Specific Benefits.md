@@ -1,0 +1,10 @@
+- **Benefits** (Table 3.4)
+	- **Reduced stormwater runoff**: Permeable pavement reduces stormwater runoff volumes and rates by allowing stormwater to infiltrate underlying soils
+	- **Increased groundwater recharge**: Allowing rainfall to infiltrate permeable pavements can help increase groundwater recharge
+	- **Reduced salt use**: In cold climates, permeable pavements delay the formation of frost layers, reducing the need for salt use. Reduced salt use reduces pollution in local waterways and groundwater sources
+	- **Reduced energy use**: Permeable pavements can reduce surrounding air temperatures, which in turn lowers energy demand for cooling purposes
+	- **Improved air quality**: Permeable pavements reduce the amount of stormwater requiring treatment, which in turn lowers carbon emissions in fossil-fuel treatment plants
+	- **Reduced atmospheric carbon emissions**: Permeable pavements have lower lifecycle carbon emissions compared to asphalt and cement
+	- **Reduced urban heat island effect**: Permeable pavements absorb less heat than conventional pavements, helping to reduce surrounding air temperatures
+	- **Improved community liveability**: Permeable pavements reduce noise pollution by increasing street porosity levels
+	- **Enhanced public education**: Permeable pavements educate local communities on the numerous benefits of BGI
