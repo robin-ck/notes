@@ -1,0 +1,32 @@
+- Source: Cohen-Shacham et al. (2016), Chapter 5
+- ## Why an Operational Framework is Needed
+	- NbS remains for many a **general metaphor** — without clear guidelines for effective operationalisation
+	- No accepted basis on which governments, municipalities or companies can **systematically assess** the efficiency, effectiveness and sustainability of a nature-based intervention
+	- Risk: poorly defined or ill-considered interventions fail to deliver and **undermine confidence**
+	- Without operational clarity, proponents transfer the responsibility of interpreting how to put the idea into practice to the policy maker or manager
+	- Parallel development of different criteria by different actors risks **fractious, ideological debates** among otherwise like-minded champions
+	- IUCN promotes a **single operational framework** so practitioners can focus on effective implementation rather than comparing multiple approaches/methodologies
+- ## Ecosystem Approach as the Foundation
+	- The **Ecosystem Approach** (adopted by CBD in 1995) provides the conceptual foundation for an NbS operational framework
+	- Defined as: "a strategy for the integrated management of land, water and living resources that promotes conservation and sustainable use in an equitable way"
+	- Does not substitute traditional conservation approaches but comes as a **holistic, integrated process**
+	- Analogy: Ecosystem Approach = **constitution** (broad foundation); NbS = a **class of laws** (e.g. tax law) enabling a consistent operational approach to a particular issue
+	- NbS is a specific application of the Ecosystem Approach — when management or restoration of ecosystem functions helps address a **societal challenge**
+	- Note: Ecosystem Approach is broader than NbS — it addresses all 20 Aichi targets, while NbS mainly addresses a **sub-set** (Targets 1-3, 6, 8, 13-15)
+- ## What a Single Operational Framework Should Deliver
+	- A framework is **not** a single methodology or blueprint — NbS approaches are context-specific
+	- Three key functions:
+		- 1. **Distinguish** whether an intervention actually meets the NbS definition (e.g. is an oil-palm plantation for biofuel an NbS? Is wind/solar energy an NbS? Is biomimicry an NbS? → No)
+		- 2. **Assess robustness and sustainability** — distinguish between weak/temporary and strong/lasting NbS interventions
+		- 3. **Strengthen viability over time** — optimise the intervention against each parameter, especially when implemented alongside other technical or policy interventions
+	- Framework also ensures the **social-ecological system** in which NbS is implemented is fully considered — enabling cross-disciplinary work and informed societal choice
+- ## Key Criteria for Selecting Parameters
+	- Parameters should be **underpinned by sound and reliable science** — enabling clear, robust criteria and measurable indicators
+	- Parameters should be **essential components** for effective and sustained functioning of a wide range of NbS (not "nice to have")
+	- Together they should represent the **basic determinants** of an effective NbS across different situations — avoiding redundancy and excessive specificity
+- ## Five Proposed Operational Parameters
+	- a. **Ecological complexity** — supports interventions that maintain or promote complexity at different ecological scales
+	- b. **Long-term stability** — supports interventions that can persist over many years
+	- c. **Scale of ecological organisation** — supports implementation at a scale that helps mediate "upstream and downstream" relationships, dependencies and benefits
+	- d. **Direct societal benefits** — supports delivery of an attributable and substantial stream of direct societal benefits
+	- e. **Adaptive governance** — ensures the NbS intervention and the ecosystems on which it depends are supported by institutional and decision-making arrangements that can **flexibly adapt over time** to meet changing needs

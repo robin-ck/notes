@@ -1,0 +1,34 @@
+- Source: Cohen-Shacham et al. (2016), Chapter 4 — lessons from 10 case studies worldwide
+- ## Inclusive, Integrated Approaches
+	- **Cross-sectoral approaches** are required for many NbS to succeed
+	- May involve training, capacity building and communication efforts
+	- New and innovative **partnerships and governance structures** may be required
+	- Example: Jordan (Case Study 6) — three levels of governance (national, regional, local communities) combined to combat desertification
+	- **Multi-scale co-management** especially valuable when managing resources across boundaries (e.g. transboundary water issues)
+- ## Stakeholder Participation
+	- **Participatory processes** that support stakeholder empowerment facilitate sustained success
+	- Community organisation is a **long-term process** — requires ability to deal with conflicts and constraints
+	- Community members need a clear understanding of: the project, the process, their rights and role, and benefits from participation
+	- Examples: Case Studies 3 and 6
+- ## Champions and Leaders
+	- Identifying and working with **champions** who can motivate, mobilise and guide peers is critical
+	- Champions may come from **government** (technical expertise, institutional linkages) — e.g. Rwanda (Case Study 4)
+	- Or from **local communities** — e.g. individual in Ecuador, group of women in Costa Rica, local residents in UK (Case Studies 5, 7, 3)
+	- Local leaders play a key role in demonstrating commitment and success to local decision-makers
+- ## Public and Private Sector Roles
+	- **Public-private partnerships** may be needed to finance NbS at larger scales
+	- Private enterprises can work **in parallel** with government initiatives to increase scale — e.g. Medmerry, UK (Case Study 3)
+	- Rwanda (Case Study 4) offers an emerging model for financing restoration through such partnerships
+- ## "Locally-Grown" Solutions
+	- Using elements of **traditional nature-based practices** (e.g. customary resource management) may be more appropriate and accepted
+	- NbS can be initiated by individuals **without external funding** — e.g. Ecuador (Case Study 5) — offering a model for replication
+	- Jordan (Case Study 6): traditional food security practices being supported by government for wider uptake
+- ## Addressing Biodiversity and Social Benefits Together
+	- Biodiversity and social impacts can be **achieved together** and increase overall success
+	- Example: Medmerry, UK — wetland restoration for coastal flooding also created a **bird sanctuary**
+	- Barcelona Green Infrastructure Plan (Case Study 9) — improves quality of life **and** increases urban biodiversity through green spaces and ecological connectivity
+- ## Valuation and Funding
+	- **Valuing ecosystem services** is essential for making a business case for investment
+	- Economic planning for water resources must **account for ecosystem services** at basin or national scales
+	- Rwanda (Case Study 4): economic valuation of forest restoration options later informed a **financing programme**
+	- Critical to make financing available to local initiatives through **decentralised funds** and credit schemes integrating water, ecosystem services, livelihoods and economic development
