@@ -1,0 +1,20 @@
+- Urban forests and vegetation intercept and filter stormwater runoff, preventing flooding and improving water quality; also absorb pollutants, provide windbreaks, regulate heat island effects, provide wildlife habitats and ecosystem services, and mitigate climate change by storing carbon dioxide
+- **Trees** (Table 3.5)
+	- **Reduced stormwater runoff**: intercept rainfall, enhance infiltration, and reduce surface runoff through transpiration, aiding a balanced water cycle
+	- **Increased groundwater recharge**: contribute to local aquifer recharge
+	- **Reduced energy use**: shade cools air temperatures, reducing energy for cooling; reduce wind speed, lowering heating energy in winter
+	- **Improved air quality**: absorb pollutants and intercept particulate matter; reduce carbon emissions associated with heating and cooling of buildings
+	- **Reduced atmospheric carbon emissions**: directly sequester CO2 from the air
+	- **Reduced urban heat island effect**: provide shade, reducing local temperatures
+	- **Improved community liveability**: provide a sense of well-being, enhance recreational spaces, reduce local noise and pollution levels
+	- **Improved habitat**: increase wildlife habitat, especially when native species are used
+	- **Enhanced public education**: community tree planting creates opportunities to raise awareness of BGI benefits
+- **Parks and Open Spaces**
+	- Parklands contain significant permeable surfaces that can easily absorb rainwater
+	- If well-designed, parks can create hydraulic connections to larger impervious land areas, enabling them to filter stormwater runoff from surrounding roadways and other impervious surfaces
+- **Multifunctional Public Facilities**
+	- Municipal buildings, libraries, public parking lots, schools, community centres, and parks provide opportunities for highly visible BGI retrofits (permeable pavements, bioretention, trees, rainwater harvesting)
+	- Projects can be undertaken as part of capital improvement processes (building renovations, repaving, re-landscaping, infrastructure repair)
+	- Benefits: reductions in impervious areas, infiltration of runoff from paved areas and rooftops, public education, shade, wildlife habitat, welcoming areas, and creation of park-like spaces
+- ---
+- Literature: Blue and Green Cities: The Role of Blue-Green Infrastructure in Managing Urban Water Resources | Springer Nature Link (Chapter 3, pp. 53-55)

@@ -1,0 +1,40 @@
+- Two main BGI strategies for streets, footpaths, car parks, and alleyways: **capturing stormwater in vegetated areas** or **allowing water to percolate into the ground**
+- **Buffer Vegetation and Lawns**
+	- Buffer vegetation strips increase water evaporation and infiltration; replace traditional stormwater solutions with open trenches along roads, sidewalks, and squares
+	- Stormwater from roads can accumulate in nearby lawns before percolating into the ground; reduces flooding, soil erosion, and materials entering the stormwater drainage system
+- **Stormwater Planters**
+	- Specialised planters installed into the sidewalk; rectangular with concrete sides; lined with permeable fabric, filled with gravel or stones, topped with soil and plants
+	- Top of soil lower than the sidewalk, allowing runoff to flow in through a street-level inlet; manage runoff by providing storage, infiltration, and evapotranspiration
+	- Excess runoff directed to overflow pipe connected to combined or separated stormwater pipe
+- **Stormwater Bump-Outs**
+	- Vegetated kerb extension protruding into the street; comprised of a stone layer topped by soil and plants
+	- Inlet channels stormwater runoff into the bump-out for storage, infiltration, and evapotranspiration; excess runoff flows to an existing stormwater drain
+	- Additional benefits: slow traffic and decrease distance pedestrians must travel in the roadway
+- **Stormwater Tree Trenches**
+	- Underground infiltration structure; trench along a sidewalk lined with permeable fabric, filled with stone or gravel, topped with soil and trees
+	- Runoff stored in porous stone or gravel, watering the trees and slowly infiltrating through the bottom; excess bypasses to existing stormwater drain
+- **Pervious Pavement and Depaving**
+	- Pervious pavement: porous surface with an underground stone reservoir for temporary storage before infiltration into the soil
+	- Main types: pervious asphalt, pervious concrete, and interlocking pavers (with gravel or grass between pavers for infiltration)
+	- Benefits (Table 3.4)
+		- **Reduced stormwater runoff**: reduces runoff volumes and rates by allowing stormwater to infiltrate underlying soils
+		- **Increased groundwater recharge**: rainfall infiltrating permeable pavements helps increase groundwater recharge
+		- **Reduced salt use**: in cold climates, delays frost layer formation, reducing need for salt use and associated waterway/groundwater pollution
+		- **Reduced energy use**: reduces surrounding air temperatures, lowering energy demand for cooling
+		- **Improved air quality**: reduces stormwater requiring treatment, lowering carbon emissions from fossil-fuel treatment plants
+		- **Reduced atmospheric carbon emissions**: lower lifecycle carbon emissions compared to asphalt and cement
+		- **Reduced urban heat island effect**: absorbs less heat than conventional pavements, reducing surrounding air temperatures
+		- **Improved community liveability**: reduces noise pollution by increasing street porosity levels
+		- **Enhanced public education**: educates local communities on the numerous benefits of BGI
+	- **Depaving**: frees up underutilised paved surfaces for trees and plants; allows stormwater to infiltrate where it falls instead of carrying pollutants into waterways; provides habitat for birds, insects, and wildlife
+- **Gravel Trenches**
+	- Non-vegetated trench filled with stone to create an underground reservoir for stormwater runoff
+	- Stormwater gradually exfiltrates through the bottom and sides into the subsoil; designed with overflow pipe for excess stormwater
+- **Detention Tanks / Underground Systems**
+	- Placed underground to capture runoff and reduce peak flows into the drainage system
+	- Can be constructed from precast concrete, prefabricated vendor systems, or cast-in-place concrete; can be combined with rainwater harvesting for non-potable reuse
+- **Green Parking Spaces**
+	- Parking lots provide opportunities for permeable pavement, bioretention techniques, and trees in new or retrofitted designs
+	- Benefits: reduce impervious areas, infiltrate runoff from parking lanes and stalls, improve drainage and pedestrian safety, improve aesthetics, provide wildlife habitat
+- ---
+- Literature: Blue and Green Cities: The Role of Blue-Green Infrastructure in Managing Urban Water Resources | Springer Nature Link (Chapter 3, pp. 50-53)

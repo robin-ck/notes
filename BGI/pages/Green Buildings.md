@@ -1,0 +1,34 @@
+- **Green Roofs**
+	- Treat stormwater through retention or bioretention; comprise waterproofing and root barrier, drainage layer, permeable fabric, growing medium, and vegetation
+	- Reduce annual stormwater runoff by 50-60% on average; capture up to 85% of some water nutrient pollutants
+	- Filter air pollutants including CO2; reduce surface temperature by 30-60 degrees C and ambient temperatures by 5 degrees C vs. conventional roofs
+	- Benefits (Table 3.2)
+		- **Reduced stormwater runoff**: absorb 50-80% of annual rainfall; delay stormwater entering sewage during heavy rain events
+		- **Reduced energy usage**: reduce solar radiation at roof surface, decreasing temperatures in warmer months; provide insulation in cooler months
+		- **Improved air quality**: absorb air pollutants and intercept particulate matter; cooling effect reduces smog formation by slowing reaction rate of NOx and volatile organic compounds
+		- **Reduced carbon emissions**: vegetation directly sequesters carbon; reduced energy use lowers carbon emissions
+		- **Reduced urban heat island effect**: provide localised cooling for neighbourhoods
+		- **Improved community liveability**: improve local aesthetics; provide vegetable gardens and communal spaces
+		- **Improved habitat**: provide habitats for animals and plants; different growth media and soil depths can support insects and native plants
+		- **Increased public education opportunities**: enhance community awareness of BGI
+- **Blue Roofs**
+	- Detention systems with a flow restriction device around the drain that holds water back until the storm event has passed
+	- If ponded water exceeds the threshold, water overflows into a roof drain
+	- Require a flat, watertight roof with sufficient load-bearing capacity to support ponded water
+- **Disconnecting Downspouts and Rain Barrels**
+	- Downspout disconnection: removes direct sewage connection and redirects downspout water towards permeable areas or rain barrels/cisterns
+	- **Rain barrels**: small above-ground barrels (~50 gallons); well-suited to small parcels; water used for irrigation
+	- **Cisterns**: larger (300-1000 gallons), above or below ground; used mainly by large buildings
+- **Rainwater Harvesting**
+	- Diverts and stores runoff from residential and commercial roofs; generally lower pollutant concentrations than runoff from impervious surfaces
+	- Storage volume depends on roof area and available space
+	- Benefits (Table 3.3)
+		- **Reduced stormwater runoff**: capture rainfall where it lands, enabling reuse on-site
+		- **Increased available water supply**: significantly reduces demand for potable water
+		- **Increased groundwater recharge**: reusing rainwater for irrigation helps increase groundwater recharge
+		- **Reduced energy use**: reduces energy required to pump, treat, and transport potable water
+		- **Improved air quality**: reduces emissions from water and wastewater treatment plants
+		- **Reduced atmospheric carbon emissions**: reduces water treatment required, lowering power plant emissions
+		- **Enhanced public education**: educates local communities on BGI and sustainable water resources management
+- ---
+- Literature: Blue and Green Cities: The Role of Blue-Green Infrastructure in Managing Urban Water Resources | Springer Nature Link (Chapter 3, pp. 47-50)
