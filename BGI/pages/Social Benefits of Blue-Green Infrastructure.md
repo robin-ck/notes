@@ -1,0 +1,35 @@
+- **Increasing Life Expectancy and Reducing Health Inequalities**
+	- BGI provides exercise and relaxation opportunities, reducing obesity, circulatory disease, chronic stress, and asthma
+	- Especially beneficial in underprivileged neighbourhoods where green space access is typically lower
+- **Improving Levels of Physical Activity and Health**
+	- Proximity to parks and recreation facilities correlates with higher physical activity
+	- Communities with more parks show significantly higher levels of walking and cycling
+- **Improving Psychological Health and Mental Well-Being**
+	- BGI spaces alleviate stress and mental fatigue through physical access, usage, and views of green space
+- **Social Interaction, Inclusion, and Cohesion**
+	- BGI beautifies neighbourhoods and creates shared spaces, fostering community cohesion, local attachment, and lower crime levels
+- **Increased Quality of Neighbourhoods**
+	- BGI adds community amenities (shade trees, communal green roofs, enhanced parks) beyond what grey infrastructure restores
+- **Increased Public Safety**
+	- BGI reduces street widths, slows traffic, and improves pedestrian safety
+- **Healthier Air**
+	- BGI purifies air, particularly benefiting children and older people
+- **Food Production**
+	- BGI food-producing spaces provide affordable healthy food to low-income residents; also offer educational and business opportunities
+- **Recreation and Pleasure**
+	- BGI spaces provide resources for sports, recreation, and leisure, increasing health and well-being
+- **Quality of Place**
+	- BGI improves the quality of space, motivating people to enjoy nature and exercise
+- **Safer Water Quality**
+	- BGI reduces polluted runoff, minimising illness from recreational contact or contaminated drinking water; lowers healthcare costs and prevents beach closures
+- **Reduced Crime Levels**
+	- Increased actual and implied surveillance in BGI areas makes them less attractive for criminal activity
+- **Educational Opportunities**
+	- Visible BGI offers public education about mitigating environmental impacts of the built environment
+- **Beautifies Neighbourhoods**
+	- Private gardens and public right-of-way BGI beautify streets and neighbourhoods
+- **Enhanced Climate Resilience**
+	- BGI reduces stormwater runoff during flooding and replenishes groundwater during droughts
+	- On-property rainwater harvesting (rain barrels, cisterns) reduces demand for potable water
+- ---
+- Literature: Blue and Green Cities: The Role of Blue-Green Infrastructure in Managing Urban Water Resources | Springer Nature Link (Chapter 2, pp. 19–21)

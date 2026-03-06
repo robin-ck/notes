@@ -1,0 +1,394 @@
+{:blocks (
+{:block/created-at 1772787582206
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 2
+:scale [1 1]
+:pageId "Social Benefits of Blue-Green Infrastructure"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [900 1284.0001244023745]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "50c01234-18c0-11f1-aaf5-67b897198f16"
+:noFill false
+:point [700 -700]
+:parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
+:collapsedHeight 0
+:nonce 1772800000004}}
+:block/updated-at 1772787582206} 
+{:block/content ""
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "b9101234-18c0-11f1-aaf5-67b897198f16"}
+:block/parent 
+{:block/uuid #uuid "b9101234-18c0-11f1-aaf5-67b897198f16"}
+:block/properties 
+{}
+:block/uuid #uuid "b9101235-18c0-11f1-aaf5-67b897198f16"} 
+{:block/created-at 1772787582190
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 0
+:scale [1 1]
+:pageId "Economic Benefits of Blue-Green Infrastructure"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [900 888.0000466123041]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "ec001234-18c0-11f1-aaf5-67b897198f16"
+:noFill false
+:point [-1600 -700]
+:parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
+:collapsedHeight 0
+:nonce 1772800000002}}
+:block/updated-at 1772787582190} 
+{:block/created-at 1772788088712
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke "green"
+:index 3
+:scale [1 1]
+:refs []
+:scaleLevel "md"
+:fill "green"
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "ae101234-18c0-11f1-aaf5-67b897198f16"
+:fontWeight 400
+:noFill true
+:point [-32.16 -1107]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [8.9 0]
+:bindingId "f0a70ac1-193b-11f1-9a43-f1aeb66e1bb7"}
+:end 
+{:id "end"
+:canBind true
+:point [0 403]
+:bindingId "f95aac31-193b-11f1-9a43-f1aeb66e1bb7"}}
+:decorations 
+{:end "arrow"}
+:parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
+:nonce 1772800000207
+:italic false}}
+:block/updated-at 1772788088712} 
+{:block/created-at 1772787594909
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 1
+:scale [1 1]
+:pageId "Environmental Benefits of Blue-Green Infrastructure"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [900 1167.0000322244387]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "e0e01234-18c0-11f1-aaf5-67b897198f16"
+:noFill false
+:point [-450 -700]
+:parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
+:collapsedHeight 0
+:nonce 1772800000006}}
+:block/updated-at 1772787594909} 
+{:block/created-at 1772788088713
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke "green"
+:index 4
+:scale [1 1]
+:refs []
+:scaleLevel "md"
+:fill "green"
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "ae201234-18c0-11f1-aaf5-67b897198f16"
+:fontWeight 400
+:noFill true
+:point [85.78 -1107]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]
+:bindingId "eebc2ab1-193b-11f1-9a43-f1aeb66e1bb7"}
+:end 
+{:id "end"
+:canBind true
+:point [1089.22 407]}}
+:decorations 
+{:end "arrow"}
+:parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
+:nonce 1772800000084
+:italic false}}
+:block/updated-at 1772788088713} 
+{:block/content ""
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "b9101236-18c0-11f1-aaf5-67b897198f16"}
+:block/parent 
+{:block/uuid #uuid "b9101234-18c0-11f1-aaf5-67b897198f16"}
+:block/properties 
+{}
+:block/uuid #uuid "b9101237-18c0-11f1-aaf5-67b897198f16"} 
+{:block/content ""
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "b9101235-18c0-11f1-aaf5-67b897198f16"}
+:block/parent 
+{:block/uuid #uuid "b9101234-18c0-11f1-aaf5-67b897198f16"}
+:block/properties 
+{}
+:block/uuid #uuid "b9101236-18c0-11f1-aaf5-67b897198f16"} 
+{:block/created-at 1772788088713
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 5
+:scale [1 1]
+:pageId "Blue Green Infrastructure"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [856 364]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "e58e6cb0-193a-11f1-9a43-f1aeb66e1bb7"
+:noFill false
+:point [-464 -1472]
+:parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
+:collapsedHeight 0
+:nonce 1772787617800}}
+:block/updated-at 1772788088713} 
+{:block/created-at 1772788097160
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke "green"
+:index 6
+:scale [1 1]
+:scaleLevel "md"
+:fill "green"
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "f3c820e2-193b-11f1-9a43-f1aeb66e1bb7"
+:fontWeight 400
+:noFill true
+:point [-990.69 -1107]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [656.55 0]
+:bindingId "f3c820e0-193b-11f1-9a43-f1aeb66e1bb7"}
+:end 
+{:id "end"
+:canBind true
+:point [0 403]
+:bindingId "f3c820e1-193b-11f1-9a43-f1aeb66e1bb7"}}
+:decorations 
+{:end "arrow"}
+:parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
+:nonce 1772788071013
+:italic false}}
+:block/updated-at 1772788097160} 
+{:block/created-at 1772788121742
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke ""
+:borderRadius 0
+:index 7
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "text"
+:size [79 34]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "0933adf0-193c-11f1-9a43-f1aeb66e1bb7"
+:padding 4
+:fontWeight 400
+:noFill true
+:point [-608 -984]
+:lineHeight 1.2
+:fontSize 20
+:parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
+:nonce 1772788106933
+:italic false
+:text "Benefit"}}
+:block/updated-at 1772788121742} 
+{:block/created-at 1772788128894
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke ""
+:borderRadius 0
+:index 8
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "text"
+:size [79 34]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "13bfb8e0-193c-11f1-9a43-f1aeb66e1bb7"
+:padding 4
+:fontWeight 400
+:noFill true
+:isLocked false
+:point [-72 -928]
+:lineHeight 1.2
+:fontSize 20
+:parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
+:nonce 1772788106987
+:italic false
+:text "Benefit"}}
+:block/updated-at 1772788128894} 
+{:block/created-at 1772788132023
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke ""
+:borderRadius 0
+:index 9
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "text"
+:size [79 34]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "16d78030-193c-11f1-9a43-f1aeb66e1bb7"
+:padding 4
+:fontWeight 400
+:noFill true
+:isLocked false
+:point [544 -936]
+:lineHeight 1.2
+:fontSize 20
+:parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
+:nonce 1772788106959
+:italic false
+:text "Benefit"}}
+:block/updated-at 1772788132023})
+:pages (
+{:block/uuid #uuid "b9101234-18c0-11f1-aaf5-67b897198f16"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "b9101234-18c0-11f1-aaf5-67b897198f16"
+:name "blue-green infrastructure benefits"
+:bindings 
+{:eebc2ab1-193b-11f1-9a43-f1aeb66e1bb7 
+{:id "eebc2ab1-193b-11f1-9a43-f1aeb66e1bb7"
+:type "line"
+:fromId "ae201234-18c0-11f1-aaf5-67b897198f16"
+:toId "e58e6cb0-193a-11f1-9a43-f1aeb66e1bb7"
+:handleId "start"
+:point [0.27 0.67]
+:distance 4}
+:f0a70ac1-193b-11f1-9a43-f1aeb66e1bb7 
+{:id "f0a70ac1-193b-11f1-9a43-f1aeb66e1bb7"
+:type "line"
+:fromId "ae101234-18c0-11f1-aaf5-67b897198f16"
+:toId "e58e6cb0-193a-11f1-9a43-f1aeb66e1bb7"
+:handleId "start"
+:point [0.52 0.44]
+:distance 4}
+:f3c820e0-193b-11f1-9a43-f1aeb66e1bb7 
+{:id "f3c820e0-193b-11f1-9a43-f1aeb66e1bb7"
+:type "line"
+:fromId "f3c820e2-193b-11f1-9a43-f1aeb66e1bb7"
+:toId "e58e6cb0-193a-11f1-9a43-f1aeb66e1bb7"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:f3c820e1-193b-11f1-9a43-f1aeb66e1bb7 
+{:id "f3c820e1-193b-11f1-9a43-f1aeb66e1bb7"
+:type "line"
+:fromId "f3c820e2-193b-11f1-9a43-f1aeb66e1bb7"
+:toId "ec001234-18c0-11f1-aaf5-67b897198f16"
+:handleId "end"
+:point [0.37 0.19]
+:distance 4}
+:f95aac31-193b-11f1-9a43-f1aeb66e1bb7 
+{:id "f95aac31-193b-11f1-9a43-f1aeb66e1bb7"
+:type "line"
+:fromId "ae101234-18c0-11f1-aaf5-67b897198f16"
+:toId "e0e01234-18c0-11f1-aaf5-67b897198f16"
+:handleId "end"
+:point [0.45 0.51]
+:distance 4}}
+:nonce 1
+:assets []
+:shapes-index ("ec001234-18c0-11f1-aaf5-67b897198f16" "e0e01234-18c0-11f1-aaf5-67b897198f16" "50c01234-18c0-11f1-aaf5-67b897198f16" "ae101234-18c0-11f1-aaf5-67b897198f16" "ae201234-18c0-11f1-aaf5-67b897198f16" "e58e6cb0-193a-11f1-9a43-f1aeb66e1bb7" "f3c820e2-193b-11f1-9a43-f1aeb66e1bb7" "0933adf0-193c-11f1-9a43-f1aeb66e1bb7" "13bfb8e0-193c-11f1-9a43-f1aeb66e1bb7" "16d78030-193c-11f1-9a43-f1aeb66e1bb7")}}
+:block/updated-at 1772788132023
+:block/created-at 1772800000000
+:block/type "whiteboard"
+:block/name "blue-green infrastructure benefits"
+:block/original-name "Blue-Green Infrastructure Benefits"})}

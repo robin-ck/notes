@@ -1,0 +1,10 @@
+- Green Infrastructure
+	- **strategically planned network** of natural and semi-natural areas with other **environmental features**
+	- designed and managed to deliver wide range of **ecosystem services**
+	- **incorporates green or blue spaces**
+- BGI
+	- **strategically planned network** of high-quality natural and semi-natural areas that utilises natural processes to manage **water quantity** and improve **water quality**
+	- restores urban landscapes hydrologic functions
+	- delivering wide range of **ecosystem services and protecting biodiversity**
+- Benefits: [[Economic Benefits of Blue-Green Infrastructure]], [[Environmental Benefits of Blue-Green Infrastructure]], [[Social Benefits of Blue-Green Infrastructure]]
+-
