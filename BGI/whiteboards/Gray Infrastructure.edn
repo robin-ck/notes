@@ -1,0 +1,328 @@
+{:blocks (
+{:block/content "Systems"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "69a95ea0-eac7-4858-9a09-c4d729c54ba4"}
+:block/parent 
+{:block/uuid #uuid "69a95ea0-eac7-4858-9a09-c4d729c54ba4"}
+:block/properties 
+{}
+:block/uuid #uuid "69a98dd3-9a7b-4bfb-ae9d-dc825dd8d764"} 
+{:block/created-at 1772722676711
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 1
+:scale [1 1]
+:pageId "Traditional Grey Infrastructure Systems"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [1072 394.9999692286237]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "84c62920-189c-11f1-aaf5-67b897198f16"
+:noFill false
+:point [-928 -664]
+:parentId "69a95ea0-eac7-4858-9a09-c4d729c54ba4"
+:collapsedHeight 0
+:nonce 1772719595159}
+:id "84c62920-189c-11f1-aaf5-67b897198f16"}
+:block/updated-at 1772722676711} 
+{:block/content ""
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "69a98dd3-9a7b-4bfb-ae9d-dc825dd8d764"}
+:block/parent 
+{:block/uuid #uuid "69a95ea0-eac7-4858-9a09-c4d729c54ba4"}
+:block/properties 
+{}
+:block/uuid #uuid "69a99142-9bcf-4e5a-8737-407e21004426"} 
+{:block/created-at 1772722302760
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 0
+:scale [1 1]
+:pageId "Impacts of Grey Infrastructure on Water Quantity"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [664 345.000005466268]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "37620240-18a0-11f1-b8d1-cf6a39b591c2"
+:noFill false
+:isLocked false
+:point [-1048 -112]
+:parentId "69a95ea0-eac7-4858-9a09-c4d729c54ba4"
+:collapsedHeight 0
+:nonce 1772721183743}}
+:block/updated-at 1772722302760} 
+{:block/created-at 1772722676721
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke "red"
+:index 2
+:scale [1 1]
+:refs []
+:scaleLevel "md"
+:fill "red"
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "66d057c2-18a0-11f1-b8d1-cf6a39b591c2"
+:fontWeight 400
+:noFill true
+:point [-716 -265]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 149]
+:bindingId "66d057c0-18a0-11f1-b8d1-cf6a39b591c2"}
+:end 
+{:id "end"
+:canBind true
+:point [0 0]
+:bindingId "efb9ef11-18a0-11f1-b8d1-cf6a39b591c2"}}
+:decorations 
+{:end "arrow"}
+:parentId "69a95ea0-eac7-4858-9a09-c4d729c54ba4"
+:nonce 1772721262723
+:italic false}
+:id "66d057c2-18a0-11f1-b8d1-cf6a39b591c2"}
+:block/updated-at 1772722676721} 
+{:block/content ""
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "69a99142-9bcf-4e5a-8737-407e21004426"}
+:block/parent 
+{:block/uuid #uuid "69a95ea0-eac7-4858-9a09-c4d729c54ba4"}
+:block/properties 
+{}
+:block/uuid #uuid "69a99675-8897-45ba-aaec-74a2b9285448"} 
+{:block/created-at 1772722676716
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 3
+:scale [1 1]
+:pageId "Impacts of Grey Infrastructure of Water Quality"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [704 258.00001027282383]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "05c6cfc0-18a2-11f1-b8d1-cf6a39b591c2"
+:noFill false
+:point [-296 -112]
+:parentId "69a95ea0-eac7-4858-9a09-c4d729c54ba4"
+:collapsedHeight 0
+:nonce 1772721959038}}
+:block/updated-at 1772722676716} 
+{:block/created-at 1772722697856
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke "red"
+:index 4
+:scale [1 1]
+:scaleLevel "md"
+:fill "red"
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "32b77b12-18a2-11f1-b8d1-cf6a39b591c2"
+:fontWeight 400
+:noFill true
+:point [52.99 -265]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [1.62 152]
+:bindingId "32b77b10-18a2-11f1-b8d1-cf6a39b591c2"}
+:end 
+{:id "end"
+:canBind true
+:point [0 0]
+:bindingId "bdcbc521-18a3-11f1-b8d1-cf6a39b591c2"}}
+:decorations 
+{:end "arrow"}
+:parentId "69a95ea0-eac7-4858-9a09-c4d729c54ba4"
+:nonce 1772722034222
+:italic false}}
+:block/updated-at 1772722697856} 
+{:block/content "Impact Water Quality"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "69a99675-8897-45ba-aaec-74a2b9285448"}
+:block/parent 
+{:block/uuid #uuid "69a95ea0-eac7-4858-9a09-c4d729c54ba4"}
+:block/properties 
+{}
+:block/uuid #uuid "69a997e0-9470-4f0f-a8d8-d23c0394696d"} 
+{:block/created-at 1772722271046
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke ""
+:borderRadius 0
+:index 5
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "text"
+:size [232 34]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "aafb4ac0-18a2-11f1-b8d1-cf6a39b591c2"
+:padding 4
+:fontWeight 700
+:noFill true
+:point [-704 -192]
+:lineHeight 1.2
+:fontSize 20
+:parentId "69a95ea0-eac7-4858-9a09-c4d729c54ba4"
+:nonce 1772722235913
+:italic false
+:text "Impact Water Quantity"}}
+:block/updated-at 1772722271046} 
+{:block/created-at 1772722268589
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke ""
+:borderRadius 0
+:index 6
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "text"
+:size [217 34]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "b6c0c010-18a2-11f1-b8d1-cf6a39b591c2"
+:padding 4
+:fontWeight 700
+:noFill true
+:isLocked false
+:point [64 -192]
+:lineHeight 1.2
+:fontSize 20
+:parentId "69a95ea0-eac7-4858-9a09-c4d729c54ba4"
+:nonce 1772722236004
+:italic false
+:text "Impact Water Quality"}}
+:block/updated-at 1772722268589})
+:pages (
+{:block/uuid #uuid "69a95ea0-eac7-4858-9a09-c4d729c54ba4"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "69a95ea0-eac7-4858-9a09-c4d729c54ba4"
+:name "gray infrastructure"
+:bindings 
+{:66d057c0-18a0-11f1-b8d1-cf6a39b591c2 
+{:id "66d057c0-18a0-11f1-b8d1-cf6a39b591c2"
+:type "line"
+:fromId "66d057c2-18a0-11f1-b8d1-cf6a39b591c2"
+:toId "37620240-18a0-11f1-b8d1-cf6a39b591c2"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:66d057c1-18a0-11f1-b8d1-cf6a39b591c2 
+{:id "66d057c1-18a0-11f1-b8d1-cf6a39b591c2"
+:type "line"
+:fromId "66d057c2-18a0-11f1-b8d1-cf6a39b591c2"
+:toId "84c62920-189c-11f1-aaf5-67b897198f16"
+:handleId "end"
+:point [0.2 0.43]
+:distance 4}
+:6974c3d1-18a0-11f1-b8d1-cf6a39b591c2 
+{:id "6974c3d1-18a0-11f1-b8d1-cf6a39b591c2"
+:type "line"
+:fromId "66d057c2-18a0-11f1-b8d1-cf6a39b591c2"
+:toId "84c62920-189c-11f1-aaf5-67b897198f16"
+:handleId "end"
+:point [0.2 0.5]
+:distance 4}
+:efb9ef11-18a0-11f1-b8d1-cf6a39b591c2 
+{:id "efb9ef11-18a0-11f1-b8d1-cf6a39b591c2"
+:type "line"
+:fromId "66d057c2-18a0-11f1-b8d1-cf6a39b591c2"
+:toId "84c62920-189c-11f1-aaf5-67b897198f16"
+:handleId "end"
+:point [0.2 0.49]
+:distance 4}
+:32b77b10-18a2-11f1-b8d1-cf6a39b591c2 
+{:id "32b77b10-18a2-11f1-b8d1-cf6a39b591c2"
+:type "line"
+:fromId "32b77b12-18a2-11f1-b8d1-cf6a39b591c2"
+:toId "05c6cfc0-18a2-11f1-b8d1-cf6a39b591c2"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:32b77b11-18a2-11f1-b8d1-cf6a39b591c2 
+{:id "32b77b11-18a2-11f1-b8d1-cf6a39b591c2"
+:type "line"
+:fromId "32b77b12-18a2-11f1-b8d1-cf6a39b591c2"
+:toId "84c62920-189c-11f1-aaf5-67b897198f16"
+:handleId "end"
+:point [0.95 0.91]
+:distance 4}
+:bdcbc521-18a3-11f1-b8d1-cf6a39b591c2 
+{:id "bdcbc521-18a3-11f1-b8d1-cf6a39b591c2"
+:type "line"
+:fromId "32b77b12-18a2-11f1-b8d1-cf6a39b591c2"
+:toId "84c62920-189c-11f1-aaf5-67b897198f16"
+:handleId "end"
+:point [0.91 0.49]
+:distance 4}}
+:nonce 1
+:assets []
+:shapes-index ("37620240-18a0-11f1-b8d1-cf6a39b591c2" "84c62920-189c-11f1-aaf5-67b897198f16" "66d057c2-18a0-11f1-b8d1-cf6a39b591c2" "05c6cfc0-18a2-11f1-b8d1-cf6a39b591c2" "32b77b12-18a2-11f1-b8d1-cf6a39b591c2" "aafb4ac0-18a2-11f1-b8d1-cf6a39b591c2" "b6c0c010-18a2-11f1-b8d1-cf6a39b591c2")}}
+:block/updated-at 1772723289443
+:block/created-at 1772707488588
+:block/type "whiteboard"
+:block/name "gray infrastructure"
+:block/original-name "gray infrastructure"})}
