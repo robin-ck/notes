@@ -9,4 +9,4 @@
 - Benefits: [[Economic Benefits of Blue-Green Infrastructure]], [[Environmental Benefits of Blue-Green Infrastructure]], [[Social Benefits of Blue-Green Infrastructure]]
 - Barriers: [[Barriers to Blue-Green Infrastructure Implementation]]
 - Consists: [[Natural Water Features: Ponds, Rivers, Lakes, and Wetlands]] & [[Human-Made Water Features: Green  Buildings, Streets, and Spaces]]
--
+- Part of: [[History and Evolution of Urban Drainage Term]]

@@ -1,5 +1,70 @@
 {:blocks (
-{:block/created-at 1772801989775
+{:block/created-at 1773062356000
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke "green"
+:index 34
+:scale [1 1]
+:scaleLevel "xl"
+:fill "green"
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "2a97a960-194b-11f1-9718-2391e8c1d6d5"
+:fontWeight 400
+:noFill true
+:isLocked false
+:point [-8124 -657.8]
+:fontSize 48
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [1043 0]
+:bindingId "2d0dd981-194b-11f1-9718-2391e8c1d6d5"}
+:end 
+{:id "end"
+:canBind true
+:point [0 330.62]
+:bindingId "2b6077a1-194b-11f1-9718-2391e8c1d6d5"}}
+:decorations 
+{:end "arrow"}
+:parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
+:nonce 1772794317050
+:italic false}}
+:block/updated-at 1773062356000} 
+{:block/created-at 1773061649866
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 30
+:scale [1 1]
+:pageId "Rainwater Harvesting-Specific Benefits"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [1080 363.99993896484375]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "6589ccc0-194a-11f1-8a83-4fd255f0d716"
+:noFill false
+:point [-8416 -4096]
+:parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
+:collapsedHeight 0
+:nonce 1772794274875}}
+:block/updated-at 1773061649866} 
+{:block/created-at 1773061649865
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -16,26 +81,92 @@
 :id "a17c8652-1940-11f1-96a1-e96a7ff46a97"
 :fontWeight 400
 :noFill true
-:point [-1146.78 -2412.67]
+:point [-1146.49 -2411]
 :fontSize 48
 :handles 
 {:start 
 {:id "start"
 :canBind true
-:point [0 595.67]
+:point [0 594]
 :bindingId "a17c8650-1940-11f1-96a1-e96a7ff46a97"}
 :end 
 {:id "end"
 :canBind true
-:point [77.43 0]
+:point [77.07 0]
 :bindingId "a17c8651-1940-11f1-96a1-e96a7ff46a97"}}
 :decorations 
 {:end "arrow"}
 :parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
-:nonce 1772790080546
+:nonce 1772790080547
 :italic false}}
-:block/updated-at 1772801989775} 
-{:block/created-at 1772801989673
+:block/updated-at 1773061649865} 
+{:block/created-at 1773062166515
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke "yellow"
+:index 27
+:scale [1 1]
+:refs []
+:scaleLevel "xl"
+:fill "yellow"
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "29cbb8c0-1949-11f1-8a83-4fd255f0d716"
+:fontWeight 400
+:noFill true
+:isLocked false
+:point [-5560 -3492.69]
+:fontSize 48
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [2663 700.39]
+:bindingId "2febb701-1949-11f1-8a83-4fd255f0d716"}
+:end 
+{:id "end"
+:canBind true
+:point [0 0]
+:bindingId "2bbd4f91-1949-11f1-8a83-4fd255f0d716"}}
+:decorations 
+{:end "arrow"}
+:parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
+:nonce 1772793000968
+:italic false}}
+:block/updated-at 1773062166515} 
+{:block/created-at 1773061649861
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 31
+:scale [1 1]
+:pageId "Pervious Pavement-Specific Benefits"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [1424 398.0002848178237]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "698404d0-194a-11f1-8a83-4fd255f0d716"
+:noFill false
+:point [-9552 -352]
+:parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
+:collapsedHeight 0
+:nonce 1772794281937}}
+:block/updated-at 1773061649861} 
+{:block/created-at 1773061649865
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -52,7 +183,7 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [900 1271.9999694824219]
+:size [900 1284.000244140625]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -61,9 +192,9 @@
 :point [680 -224]
 :parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
 :collapsedHeight 0
-:nonce 1772800000043}}
-:block/updated-at 1772801989673} 
-{:block/created-at 1772801989679
+:nonce 1772800000044}}
+:block/updated-at 1773061649865} 
+{:block/created-at 1773061649865
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -80,7 +211,7 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [1284 785.9999847412109]
+:size [1284 792.0004272460938]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -89,8 +220,8 @@
 :point [-1840 -1816]
 :parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
 :collapsedHeight 0
-:nonce 1772787618000}}
-:block/updated-at 1772801989679} 
+:nonce 1772787618001}}
+:block/updated-at 1773061649865} 
 {:block/content ""
 :block/format :markdown
 :block/left 
@@ -100,7 +231,7 @@
 :block/properties 
 {}
 :block/uuid #uuid "b9101235-18c0-11f1-aaf5-67b897198f16"} 
-{:block/created-at 1772801992469
+{:block/created-at 1773062166323
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -117,26 +248,54 @@
 :id "a7e77042-1940-11f1-96a1-e96a7ff46a97"
 :fontWeight 400
 :noFill true
-:point [-882.62 -3571.52]
+:point [-893.52 -3899]
 :fontSize 48
 :handles 
 {:start 
 {:id "start"
 :canBind true
-:point [0 818.52]
+:point [0 1146]
 :bindingId "a7e77040-1940-11f1-96a1-e96a7ff46a97"}
 :end 
 {:id "end"
 :canBind true
-:point [647.3 0]
+:point [828.1 0]
 :bindingId "a7e77041-1940-11f1-96a1-e96a7ff46a97"}}
 :decorations 
 {:end "arrow"}
 :parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
-:nonce 1772790091880
+:nonce 1772790091886
 :italic false}}
-:block/updated-at 1772801992469} 
-{:block/created-at 1772801989715
+:block/updated-at 1773062166323} 
+{:block/created-at 1773061649866
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 28
+:scale [1 1]
+:pageId "Benefits of Planting Trees"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [1224 446.00006103515625]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "547b5840-194a-11f1-8a83-4fd255f0d716"
+:noFill false
+:point [-7736 -5400]
+:parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
+:collapsedHeight 0
+:nonce 1772794246235}}
+:block/updated-at 1773061649866} 
+{:block/created-at 1773061649866
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -153,7 +312,7 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [1320 399.33349609375]
+:size [1320 403.00018310546875]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -162,9 +321,37 @@
 :point [2544 -4728]
 :parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
 :collapsedHeight 0
-:nonce 1772790597156}}
-:block/updated-at 1772801989715} 
-{:block/created-at 1772809102552
+:nonce 1772790597157}}
+:block/updated-at 1773061649866} 
+{:block/created-at 1773061649865
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 29
+:scale [1 1]
+:pageId "Green Roof-Specific Benefits"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [1264 512.9998779296875]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "597b6790-194a-11f1-8a83-4fd255f0d716"
+:noFill false
+:point [-8536 -3464]
+:parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
+:collapsedHeight 0
+:nonce 1772794254678}}
+:block/updated-at 1773061649865} 
+{:block/created-at 1773062166515
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -182,13 +369,13 @@
 :id "d7001234-18c0-11f1-aaf5-67b897198f16"
 :fontWeight 400
 :noFill true
-:point [-5032 -4302.75]
+:point [-5087.94 -4433]
 :fontSize 48
 :handles 
 {:start 
 {:id "start"
 :canBind true
-:point [2135 1448.06]
+:point [2190.94 1572.62]
 :bindingId "36fb9381-1949-11f1-8a83-4fd255f0d716"}
 :end 
 {:id "end"
@@ -198,10 +385,10 @@
 :decorations 
 {:end "arrow"}
 :parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
-:nonce 1772793000360
+:nonce 1772793000366
 :italic false}}
-:block/updated-at 1772809102552} 
-{:block/created-at 1772801989652
+:block/updated-at 1773062166515} 
+{:block/created-at 1773061649866
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -218,7 +405,7 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [900 880]
+:size [900 887.9998779296875]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -227,9 +414,9 @@
 :point [-2312 -216]
 :parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
 :collapsedHeight 0
-:nonce 1772800000039}}
-:block/updated-at 1772801989652} 
-{:block/created-at 1772801989685
+:nonce 1772800000040}}
+:block/updated-at 1773061649866} 
+{:block/created-at 1773061649866
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -246,7 +433,7 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [900 1718.6666870117188]
+:size [900 1730]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -255,8 +442,8 @@
 :point [1712 -2248]
 :parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
 :collapsedHeight 0
-:nonce 1772800001120}}
-:block/updated-at 1772801989685} 
+:nonce 1772800001121}}
+:block/updated-at 1773061649866} 
 {:block/content "Stormwater Detention or Retention Systems"
 :block/format :markdown
 :block/left 
@@ -264,7 +451,7 @@
 :block/parent 
 {:block/uuid #uuid "b9101234-18c0-11f1-aaf5-67b897198f16"}
 :block/uuid #uuid "69aa9eae-172f-4857-a8ca-115342cc6783"} 
-{:block/created-at 1772801989762
+{:block/created-at 1773061649866
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -282,7 +469,7 @@
 :id "ae101234-18c0-11f1-aaf5-67b897198f16"
 :fontWeight 400
 :noFill true
-:point [-960.61 -1029]
+:point [-959.23 -1023]
 :fontSize 48
 :handles 
 {:start 
@@ -293,15 +480,15 @@
 :end 
 {:id "end"
 :canBind true
-:point [368.36 769]
+:point [365.09 763]
 :bindingId "f95aac31-193b-11f1-9a43-f1aeb66e1bb7"}}
 :decorations 
 {:end "arrow"}
 :parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
-:nonce 1772800000314
+:nonce 1772800000315
 :italic false}}
-:block/updated-at 1772801989762} 
-{:block/created-at 1772801989663
+:block/updated-at 1773061649866} 
+{:block/created-at 1773061649865
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -318,7 +505,7 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [900 1158.0001068115234]
+:size [900 1166.99951171875]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -327,9 +514,9 @@
 :point [-712 -256]
 :parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
 :collapsedHeight 0
-:nonce 1772800000047}}
-:block/updated-at 1772801989663} 
-{:block/created-at 1772793587266
+:nonce 1772800000048}}
+:block/updated-at 1773061649865} 
+{:block/created-at 1773061649865
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -358,8 +545,8 @@
 :nonce 1772790110869
 :italic false
 :text "consists"}}
-:block/updated-at 1772793587266} 
-{:block/created-at 1772801989775
+:block/updated-at 1773061649865} 
+{:block/created-at 1773061649866
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -377,13 +564,13 @@
 :id "af001234-18c0-11f1-aaf5-67b897198f16"
 :fontWeight 400
 :noFill true
-:point [-555 -1758.54]
+:point [-555 -1755.74]
 :fontSize 48
 :handles 
 {:start 
 {:id "start"
 :canBind true
-:point [0 223.21]
+:point [0 223.08]
 :bindingId "e389e2c1-193d-11f1-8fbb-41ff044e0a7c"}
 :end 
 {:id "end"
@@ -393,10 +580,10 @@
 :decorations 
 {:end "arrow"}
 :parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
-:nonce 1772800001234
+:nonce 1772800001235
 :italic false}}
-:block/updated-at 1772801989775} 
-{:block/created-at 1772809102464
+:block/updated-at 1773061649866} 
+{:block/created-at 1773062166361
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -413,7 +600,7 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [1100 931.0002136230469]
+:size [1100 706.9996911823438]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -422,9 +609,9 @@
 :point [-6136 -5144]
 :parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
 :collapsedHeight 0
-:nonce 1772793000076}}
-:block/updated-at 1772809102464} 
-{:block/created-at 1772809102458
+:nonce 1772793000082}}
+:block/updated-at 1773062166361} 
+{:block/created-at 1773062355981
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -441,7 +628,7 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [1100 5502.042236328125]
+:size [1100 2347.624980152304]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -450,9 +637,82 @@
 :point [-7080 -1680]
 :parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
 :collapsedHeight 0
-:nonce 1772793001035}}
-:block/updated-at 1772809102458} 
-{:block/created-at 1772801989768
+:nonce 1772793001049}}
+:block/updated-at 1773062355981} 
+{:block/created-at 1773062166515
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke "green"
+:index 32
+:scale [1 1]
+:scaleLevel "xl"
+:fill "green"
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "7e2256d2-194a-11f1-8a83-4fd255f0d716"
+:fontWeight 400
+:noFill true
+:point [-7268 -3322.77]
+:fontSize 48
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [603 0]
+:bindingId "7e2256d0-194a-11f1-8a83-4fd255f0d716"}
+:end 
+{:id "end"
+:canBind true
+:point [0 35.81]
+:bindingId "7e2256d1-194a-11f1-8a83-4fd255f0d716"}}
+:decorations 
+{:end "arrow"}
+:parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
+:nonce 1772794316108
+:italic false}}
+:block/updated-at 1773062166515} 
+{:block/created-at 1773062166531
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke "green"
+:index 35
+:scale [1 1]
+:scaleLevel "xl"
+:fill "green"
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "55456990-194b-11f1-9718-2391e8c1d6d5"
+:fontWeight 400
+:noFill true
+:isLocked false
+:point [-6508 -5112.41]
+:fontSize 48
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [371 321.07]
+:bindingId "576ed941-194b-11f1-9718-2391e8c1d6d5"}
+:end 
+{:id "end"
+:canBind true
+:point [0 0]
+:bindingId "55fde421-194b-11f1-9718-2391e8c1d6d5"}}
+:decorations 
+{:end "arrow"}
+:parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
+:nonce 1772794316324
+:italic false}}
+:block/updated-at 1773062166531} 
+{:block/created-at 1773061649866
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -470,7 +730,7 @@
 :id "ae201234-18c0-11f1-aaf5-67b897198f16"
 :fontWeight 400
 :noFill true
-:point [-865.39 -1029]
+:point [-859.07 -1023]
 :fontSize 48
 :handles 
 {:start 
@@ -481,15 +741,15 @@
 :end 
 {:id "end"
 :canBind true
-:point [1947.5 801]
+:point [1937.51 795]
 :bindingId "85520671-1941-11f1-96a1-e96a7ff46a97"}}
 :decorations 
 {:end "arrow"}
 :parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
-:nonce 1772800000261
+:nonce 1772800000262
 :italic false}}
-:block/updated-at 1772801989768} 
-{:block/created-at 1772801992468
+:block/updated-at 1773061649866} 
+{:block/created-at 1773062166319
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -508,25 +768,25 @@
 :fontWeight 400
 :noFill true
 :isLocked false
-:point [937 -4634.08]
+:point [937 -4701.67]
 :fontSize 48
 :handles 
 {:start 
 {:id "start"
 :canBind true
-:point [0 2.7]
+:point [0 0]
 :bindingId "f82db631-1941-11f1-96a1-e96a7ff46a97"}
 :end 
 {:id "end"
 :canBind true
-:point [1603 0]
+:point [1603 64.57]
 :bindingId "f98249b1-1941-11f1-96a1-e96a7ff46a97"}}
 :decorations 
 {:end "arrow"}
 :parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
-:nonce 1772800000990
+:nonce 1772800000996
 :italic false}}
-:block/updated-at 1772801992468} 
+:block/updated-at 1773062166319} 
 {:block/content ""
 :block/format :markdown
 :block/left 
@@ -545,7 +805,7 @@
 :block/properties 
 {}
 :block/uuid #uuid "b9101236-18c0-11f1-aaf5-67b897198f16"} 
-{:block/created-at 1772801992379
+{:block/created-at 1773062166485
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -562,13 +822,13 @@
 :id "ac6a6050-1940-11f1-96a1-e96a7ff46a97"
 :fontWeight 400
 :noFill true
-:point [-1076.61 -3716.31]
+:point [-1072.9 -3618]
 :fontSize 48
 :handles 
 {:start 
 {:id "start"
 :canBind true
-:point [51.58 963.31]
+:point [47.58 865]
 :bindingId "ac6a3940-1940-11f1-96a1-e96a7ff46a97"}
 :end 
 {:id "end"
@@ -578,10 +838,47 @@
 :decorations 
 {:end "arrow"}
 :parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
-:nonce 1772790098917
+:nonce 1772790098925
 :italic false}}
-:block/updated-at 1772801992379} 
-{:block/created-at 1772809102546
+:block/updated-at 1773062166485} 
+{:block/created-at 1773062166512
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke "green"
+:index 33
+:scale [1 1]
+:scaleLevel "xl"
+:fill "green"
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "0caef430-194b-11f1-9718-2391e8c1d6d5"
+:fontWeight 400
+:noFill true
+:isLocked false
+:point [-7332 -3847.2]
+:fontSize 48
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [667 86.46]
+:bindingId "0f33ca51-194b-11f1-9718-2391e8c1d6d5"}
+:end 
+{:id "end"
+:canBind true
+:point [0 0]
+:bindingId "0d6aca21-194b-11f1-9718-2391e8c1d6d5"}}
+:decorations 
+{:end "arrow"}
+:parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
+:nonce 1772794316269
+:italic false}}
+:block/updated-at 1773062166512} 
+{:block/created-at 1773062356004
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -610,15 +907,15 @@
 :end 
 {:id "end"
 :canBind true
-:point [0 3224.59]
+:point [0 1888.36]
 :bindingId "d6b11234-1940-11f1-96a1-e96a7ff46a97"}}
 :decorations 
 {:end "arrow"}
 :parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
-:nonce 1772793001275
+:nonce 1772793001289
 :italic false}}
-:block/updated-at 1772809102546} 
-{:block/created-at 1772793587267
+:block/updated-at 1773062356004} 
+{:block/created-at 1773061649866
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -647,8 +944,8 @@
 :nonce 1772788107072
 :italic false
 :text "Benefit"}}
-:block/updated-at 1772793587267} 
-{:block/created-at 1772801989721
+:block/updated-at 1773061649866} 
+{:block/created-at 1773062166339
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -665,7 +962,7 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [1100 1646.6665649414062]
+:size [1100 1352.9996450912076]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -674,9 +971,9 @@
 :point [-6664 -4032]
 :parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
 :collapsedHeight 0
-:nonce 1772793000366}}
-:block/updated-at 1772801989721} 
-{:block/created-at 1772801992448
+:nonce 1772793000373}}
+:block/updated-at 1773062166339} 
+{:block/created-at 1773062166276
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -693,7 +990,7 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [1304 1504.4792175292969]
+:size [1304 1176.999635280381]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -702,9 +999,9 @@
 :point [-368 -5080]
 :parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
 :collapsedHeight 0
-:nonce 1772789429470}}
-:block/updated-at 1772801992448} 
-{:block/created-at 1772801992360
+:nonce 1772789429476}}
+:block/updated-at 1773062166276} 
+{:block/created-at 1773062166289
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -721,7 +1018,7 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [1224 1367.6876831054688]
+:size [1224 1465.9999270160956]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -730,9 +1027,9 @@
 :point [-1824 -5088]
 :parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
 :collapsedHeight 0
-:nonce 1772789585652}}
-:block/updated-at 1772801992360} 
-{:block/created-at 1772801989693
+:nonce 1772789585660}}
+:block/updated-at 1773062166289} 
+{:block/created-at 1773061649865
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -749,7 +1046,7 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [768 335.3334617614746]
+:size [768 337.0001220703125]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -758,9 +1055,9 @@
 :point [-1400 -2752]
 :parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
 :collapsedHeight 0
-:nonce 1772789312047}}
-:block/updated-at 1772801989693} 
-{:block/created-at 1772793587266
+:nonce 1772789312048}}
+:block/updated-at 1773061649865} 
+{:block/created-at 1773061649866
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -788,8 +1085,8 @@
 :nonce 1772788908591
 :italic false
 :text "Barriers"}}
-:block/updated-at 1772793587266} 
-{:block/created-at 1772801989775
+:block/updated-at 1773061649866} 
+{:block/created-at 1773061649865
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -807,13 +1104,13 @@
 :id "d5001234-18c0-11f1-aaf5-67b897198f16"
 :fontWeight 400
 :noFill true
-:point [-2437.29 -2689]
+:point [-2437.55 -2689]
 :fontSize 48
 :handles 
 {:start 
 {:id "start"
 :canBind true
-:point [853.6 872]
+:point [851.76 872]
 :bindingId "d5b01234-1940-11f1-96a1-e96a7ff46a97"}
 :end 
 {:id "end"
@@ -823,46 +1120,10 @@
 :decorations 
 {:end "arrow"}
 :parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
-:nonce 1772793000346
+:nonce 1772793000347
 :italic false}}
-:block/updated-at 1772801989775} 
-{:block/created-at 1772801989753
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:stroke "green"
-:index 6
-:scale [1 1]
-:scaleLevel "xl"
-:fill "green"
-:type "line"
-:strokeType "line"
-:strokeWidth 1
-:opacity 1
-:label ""
-:id "f3c820e2-193b-11f1-9a43-f1aeb66e1bb7"
-:fontWeight 400
-:noFill true
-:point [-1883.85 -1029]
-:fontSize 48
-:handles 
-{:start 
-{:id "start"
-:canBind true
-:point [461.22 0]
-:bindingId "f3c820e0-193b-11f1-9a43-f1aeb66e1bb7"}
-:end 
-{:id "end"
-:canBind true
-:point [0 809]
-:bindingId "f3c820e1-193b-11f1-9a43-f1aeb66e1bb7"}}
-:decorations 
-{:end "arrow"}
-:parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
-:nonce 1772788071119
-:italic false}}
-:block/updated-at 1772801989753} 
-{:block/created-at 1772794440475
+:block/updated-at 1773061649865} 
+{:block/created-at 1773061649866
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -889,163 +1150,13 @@
 :parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
 :collapsedHeight 0
 :nonce 1772793640937}}
-:block/updated-at 1772794440475} 
-{:block/created-at 1772801989805
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:stroke "yellow"
-:index 27
-:scale [1 1]
-:refs []
-:scaleLevel "xl"
-:fill "yellow"
-:type "line"
-:strokeType "line"
-:strokeWidth 1
-:opacity 1
-:label ""
-:id "29cbb8c0-1949-11f1-8a83-4fd255f0d716"
-:fontWeight 400
-:noFill true
-:isLocked false
-:point [-5560 -3421.7]
-:fontSize 48
-:handles 
-{:start 
-{:id "start"
-:canBind true
-:point [2663 633.62]
-:bindingId "2febb701-1949-11f1-8a83-4fd255f0d716"}
-:end 
-{:id "end"
-:canBind true
-:point [0 0]
-:bindingId "2bbd4f91-1949-11f1-8a83-4fd255f0d716"}}
-:decorations 
-{:end "arrow"}
-:parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
-:nonce 1772793000961
-:italic false}}
-:block/updated-at 1772801989805} 
-{:block/created-at 1772801989739
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:blockType "P"
-:stroke ""
-:rotation 0
-:collapsed false
-:borderRadius 8
-:index 28
-:scale [1 1]
-:pageId "Benefits of Planting Trees"
-:scaleLevel "md"
-:fill ""
-:compact false
-:isAutoResizing true
-:type "logseq-portal"
-:size [1224 442.6664352416992]
-:strokeType "line"
-:strokeWidth 2
-:opacity 1
-:id "547b5840-194a-11f1-8a83-4fd255f0d716"
-:noFill false
-:point [-7736 -5400]
-:parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
-:collapsedHeight 0
-:nonce 1772794246234}}
-:block/updated-at 1772801989739} 
-{:block/created-at 1772801989744
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:blockType "P"
-:stroke ""
-:rotation 0
-:collapsed false
-:borderRadius 8
-:index 29
-:scale [1 1]
-:pageId "Green Roof-Specific Benefits"
-:scaleLevel "md"
-:fill ""
-:compact false
-:isAutoResizing true
-:type "logseq-portal"
-:size [1264 510.00022888183594]
-:strokeType "line"
-:strokeWidth 2
-:opacity 1
-:id "597b6790-194a-11f1-8a83-4fd255f0d716"
-:noFill false
-:point [-8536 -3464]
-:parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
-:collapsedHeight 0
-:nonce 1772794254677}}
-:block/updated-at 1772801989744} 
-{:block/created-at 1772801989757
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:blockType "P"
-:stroke ""
-:rotation 0
-:collapsed false
-:borderRadius 8
-:index 30
-:scale [1 1]
-:pageId "Rainwater Harvesting-Specific Benefits"
-:scaleLevel "md"
-:fill ""
-:compact false
-:isAutoResizing true
-:type "logseq-portal"
-:size [1080 361.3334274291992]
-:strokeType "line"
-:strokeWidth 2
-:opacity 1
-:id "6589ccc0-194a-11f1-8a83-4fd255f0d716"
-:noFill false
-:point [-8416 -4096]
-:parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
-:collapsedHeight 0
-:nonce 1772794274874}}
-:block/updated-at 1772801989757} 
-{:block/created-at 1772801989911
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:blockType "P"
-:stroke ""
-:rotation 0
-:collapsed false
-:borderRadius 8
-:index 31
-:scale [1 1]
-:pageId "Pervious Pavement-Specific Benefits"
-:scaleLevel "md"
-:fill ""
-:compact false
-:isAutoResizing true
-:type "logseq-portal"
-:size [1424 394.666748046875]
-:strokeType "line"
-:strokeWidth 2
-:opacity 1
-:id "698404d0-194a-11f1-8a83-4fd255f0d716"
-:noFill false
-:point [-9552 -352]
-:parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
-:collapsedHeight 0
-:nonce 1772794281932}}
-:block/updated-at 1772801989911} 
-{:block/created-at 1772801989805
+:block/updated-at 1773061649866} 
+{:block/created-at 1773061649866
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:stroke "green"
-:index 32
+:index 6
 :scale [1 1]
 :scaleLevel "xl"
 :fill "green"
@@ -1054,139 +1165,28 @@
 :strokeWidth 1
 :opacity 1
 :label ""
-:id "7e2256d2-194a-11f1-8a83-4fd255f0d716"
+:id "f3c820e2-193b-11f1-9a43-f1aeb66e1bb7"
 :fontWeight 400
 :noFill true
-:point [-7268 -3235.6]
+:point [-1882.88 -1023]
 :fontSize 48
 :handles 
 {:start 
 {:id "start"
 :canBind true
-:point [603 14.07]
-:bindingId "7e2256d0-194a-11f1-8a83-4fd255f0d716"}
+:point [458.3 0]
+:bindingId "f3c820e0-193b-11f1-9a43-f1aeb66e1bb7"}
 :end 
 {:id "end"
 :canBind true
-:point [0 0]
-:bindingId "7e2256d1-194a-11f1-8a83-4fd255f0d716"}}
+:point [0 803]
+:bindingId "f3c820e1-193b-11f1-9a43-f1aeb66e1bb7"}}
 :decorations 
 {:end "arrow"}
 :parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
-:nonce 1772794316101
+:nonce 1772788071120
 :italic false}}
-:block/updated-at 1772801989805} 
-{:block/created-at 1772801989804
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:stroke "green"
-:index 33
-:scale [1 1]
-:scaleLevel "xl"
-:fill "green"
-:type "line"
-:strokeType "line"
-:strokeWidth 1
-:opacity 1
-:label ""
-:id "0caef430-194b-11f1-9718-2391e8c1d6d5"
-:fontWeight 400
-:noFill true
-:isLocked false
-:point [-7332 -3825.26]
-:fontSize 48
-:handles 
-{:start 
-{:id "start"
-:canBind true
-:point [667 114.96]
-:bindingId "0f33ca51-194b-11f1-9718-2391e8c1d6d5"}
-:end 
-{:id "end"
-:canBind true
-:point [0 0]
-:bindingId "0d6aca21-194b-11f1-9718-2391e8c1d6d5"}}
-:decorations 
-{:end "arrow"}
-:parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
-:nonce 1772794316262
-:italic false}}
-:block/updated-at 1772801989804} 
-{:block/created-at 1772809102544
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:stroke "green"
-:index 34
-:scale [1 1]
-:scaleLevel "xl"
-:fill "green"
-:type "line"
-:strokeType "line"
-:strokeWidth 1
-:opacity 1
-:label ""
-:id "2a97a960-194b-11f1-9718-2391e8c1d6d5"
-:fontWeight 400
-:noFill true
-:isLocked false
-:point [-8124 21.67]
-:fontSize 48
-:handles 
-{:start 
-{:id "start"
-:canBind true
-:point [1043 180.61]
-:bindingId "2d0dd981-194b-11f1-9718-2391e8c1d6d5"}
-:end 
-{:id "end"
-:canBind true
-:point [0 0]
-:bindingId "2b6077a1-194b-11f1-9718-2391e8c1d6d5"}}
-:decorations 
-{:end "arrow"}
-:parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
-:nonce 1772794317032
-:italic false}}
-:block/updated-at 1772809102544} 
-{:block/created-at 1772809102553
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:stroke "green"
-:index 35
-:scale [1 1]
-:scaleLevel "xl"
-:fill "green"
-:type "line"
-:strokeType "line"
-:strokeWidth 1
-:opacity 1
-:label ""
-:id "55456990-194b-11f1-9718-2391e8c1d6d5"
-:fontWeight 400
-:noFill true
-:isLocked false
-:point [-6508 -5072.47]
-:fontSize 48
-:handles 
-{:start 
-{:id "start"
-:canBind true
-:point [371 403.19]
-:bindingId "576ed941-194b-11f1-9718-2391e8c1d6d5"}
-:end 
-{:id "end"
-:canBind true
-:point [0 0]
-:bindingId "55fde421-194b-11f1-9718-2391e8c1d6d5"}}
-:decorations 
-{:end "arrow"}
-:parentId "b9101234-18c0-11f1-aaf5-67b897198f16"
-:nonce 1772794316318
-:italic false}}
-:block/updated-at 1772809102553})
+:block/updated-at 1773061649866})
 :pages (
 {:block/uuid #uuid "b9101234-18c0-11f1-aaf5-67b897198f16"
 :block/properties 
@@ -1502,7 +1502,7 @@
 :nonce 1
 :assets []
 :shapes-index ("ec001234-18c0-11f1-aaf5-67b897198f16" "e0e01234-18c0-11f1-aaf5-67b897198f16" "50c01234-18c0-11f1-aaf5-67b897198f16" "ae101234-18c0-11f1-aaf5-67b897198f16" "ae201234-18c0-11f1-aaf5-67b897198f16" "e58e6cb0-193a-11f1-9a43-f1aeb66e1bb7" "f3c820e2-193b-11f1-9a43-f1aeb66e1bb7" "0933adf0-193c-11f1-9a43-f1aeb66e1bb7" "ba001234-18c0-11f1-aaf5-67b897198f16" "af001234-18c0-11f1-aaf5-67b897198f16" "e70c04a0-193d-11f1-8fbb-41ff044e0a7c" "d76f2c10-193e-11f1-8fbb-41ff044e0a7c" "1c9c5ec0-193f-11f1-8fbb-41ff044e0a7c" "7a6aa700-193f-11f1-8fbb-41ff044e0a7c" "a17c8652-1940-11f1-96a1-e96a7ff46a97" "a7e77042-1940-11f1-96a1-e96a7ff46a97" "ac6a6050-1940-11f1-96a1-e96a7ff46a97" "b803bc90-1940-11f1-96a1-e96a7ff46a97" "d583f680-1941-11f1-96a1-e96a7ff46a97" "f7751490-1941-11f1-96a1-e96a7ff46a97" "d1001234-18c0-11f1-aaf5-67b897198f16" "d2001234-18c0-11f1-aaf5-67b897198f16" "d3001234-18c0-11f1-aaf5-67b897198f16" "d5001234-18c0-11f1-aaf5-67b897198f16" "d6001234-18c0-11f1-aaf5-67b897198f16" "d7001234-18c0-11f1-aaf5-67b897198f16" "ebc40d70-1948-11f1-8a83-4fd255f0d716" "29cbb8c0-1949-11f1-8a83-4fd255f0d716" "547b5840-194a-11f1-8a83-4fd255f0d716" "597b6790-194a-11f1-8a83-4fd255f0d716" "6589ccc0-194a-11f1-8a83-4fd255f0d716" "698404d0-194a-11f1-8a83-4fd255f0d716" "7e2256d2-194a-11f1-8a83-4fd255f0d716" "0caef430-194b-11f1-9718-2391e8c1d6d5" "2a97a960-194b-11f1-9718-2391e8c1d6d5" "55456990-194b-11f1-9718-2391e8c1d6d5")}}
-:block/updated-at 1772809121338
+:block/updated-at 1773062358566
 :block/created-at 1772800000000
 :block/type "whiteboard"
 :block/name "blue-green infrastructure"

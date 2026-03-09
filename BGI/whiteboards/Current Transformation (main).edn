@@ -542,14 +542,144 @@
 :parentId "69a99c77-6ed3-4443-ab94-52f473a22d76"
 :collapsedHeight 0
 :nonce 1773054435220}}
-:block/updated-at 1773054699189})
+:block/updated-at 1773054699189} 
+{:block/content "Literature mostly:\nBlue and Green Cities: The Role of Blue-Green Infrastructure in Managing Urban Water Resources | Springer Nature Link"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "69aea461-a45e-46ef-8ea4-9319f6b62bcc"}
+:block/parent 
+{:block/uuid #uuid "69a99c77-6ed3-4443-ab94-52f473a22d76"}
+:block/properties 
+{}
+:block/uuid #uuid "69aeb9b2-7072-4372-9ff5-940aa41dd2d4"} 
+{:block/created-at 1773061507412
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 17
+:scale [1 1]
+:pageId "69aeb9b2-7072-4372-9ff5-940aa41dd2d4"
+:scaleLevel "xxl"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [1880 266.9998451674632]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "8b20cce0-1bb1-11f1-b482-0d3fcbd8d5aa"
+:noFill false
+:point [1408 -880]
+:parentId "69a99c77-6ed3-4443-ab94-52f473a22d76"
+:collapsedHeight 0
+:nonce 1773058478298}}
+:block/updated-at 1773061507412} 
+{:block/created-at 1773062377033
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 18
+:scale [1 1]
+:pageId "Urban Drainage Terms"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [2776 4632.999883396639]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "50432240-1bba-11f1-97ec-45715e47ed8d"
+:noFill false
+:point [1664 1952]
+:parentId "69a99c77-6ed3-4443-ab94-52f473a22d76"
+:collapsedHeight 0
+:nonce 1773062245082}}
+:block/updated-at 1773062377033} 
+{:block/created-at 1773062377047
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 19
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "76809000-1bba-11f1-97ec-45715e47ed8d"
+:fontWeight 400
+:noFill true
+:point [2597.82 1489]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [3.78 0]
+:bindingId "768068f0-1bba-11f1-97ec-45715e47ed8d"}
+:end 
+{:id "end"
+:canBind true
+:point [0 459]
+:bindingId "768068f1-1bba-11f1-97ec-45715e47ed8d"}}
+:decorations 
+{:end "arrow"}
+:parentId "69a99c77-6ed3-4443-ab94-52f473a22d76"
+:nonce 1773062309344
+:italic false}}
+:block/updated-at 1773062377047} 
+{:block/created-at 1773062337012
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke ""
+:borderRadius 0
+:index 20
+:scale [1 1]
+:scaleLevel "xl"
+:fill ""
+:type "text"
+:size [320 68]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "7af83570-1bba-11f1-97ec-45715e47ed8d"
+:padding 4
+:fontWeight 400
+:noFill true
+:point [2624 1624]
+:lineHeight 1.2
+:fontSize 48
+:parentId "69a99c77-6ed3-4443-ab94-52f473a22d76"
+:nonce 1773062316660
+:italic false
+:text "Infrastrucutre"}}
+:block/updated-at 1773062337012})
 :pages (
 {:block/uuid #uuid "69a99c77-6ed3-4443-ab94-52f473a22d76"
 :block/properties 
 {:ls-type :whiteboard-page
 :logseq.tldraw.page 
 {:id "69a99c77-6ed3-4443-ab94-52f473a22d76"
-:name "current transformation"
+:name "current transformation (main)"
 :bindings 
 {:a1c79520-18a8-11f1-b8d1-cf6a39b591c2 
 {:id "a1c79520-18a8-11f1-b8d1-cf6a39b591c2"
@@ -590,12 +720,28 @@
 :toId "a2720ae0-1ba6-11f1-b482-0d3fcbd8d5aa"
 :handleId "end"
 :point [0.54 0.29]
+:distance 4}
+:768068f0-1bba-11f1-97ec-45715e47ed8d 
+{:id "768068f0-1bba-11f1-97ec-45715e47ed8d"
+:type "line"
+:fromId "76809000-1bba-11f1-97ec-45715e47ed8d"
+:toId "506f1640-1ba4-11f1-b482-0d3fcbd8d5aa"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:768068f1-1bba-11f1-97ec-45715e47ed8d 
+{:id "768068f1-1bba-11f1-97ec-45715e47ed8d"
+:type "line"
+:fromId "76809000-1bba-11f1-97ec-45715e47ed8d"
+:toId "50432240-1bba-11f1-97ec-45715e47ed8d"
+:handleId "end"
+:point [0.33 0.5]
 :distance 4}}
 :nonce 1
 :assets []
-:shapes-index ("a2720ae0-1ba6-11f1-b482-0d3fcbd8d5aa" "096e7e30-18a6-11f1-b8d1-cf6a39b591c2" "90509040-18a7-11f1-b8d1-cf6a39b591c2" "a1c79522-18a8-11f1-b8d1-cf6a39b591c2" "aa839b00-18a8-11f1-b8d1-cf6a39b591c2" "c1464e00-1934-11f1-852a-cb8a4f9e22e1" "a224dfd0-1936-11f1-852a-cb8a4f9e22e1" "4c683400-1ba4-11f1-b482-0d3fcbd8d5aa" "506f1640-1ba4-11f1-b482-0d3fcbd8d5aa" "506f6460-1ba4-11f1-b482-0d3fcbd8d5aa" "7f6f8ec0-1ba4-11f1-b482-0d3fcbd8d5aa" "f6814710-1ba4-11f1-b482-0d3fcbd8d5aa" "c83c1d62-1ba6-11f1-b482-0d3fcbd8d5aa" "cab42240-1ba6-11f1-b482-0d3fcbd8d5aa" "e9af0ac0-1ba6-11f1-b482-0d3fcbd8d5aa" "fc2e2640-1ba6-11f1-b482-0d3fcbd8d5aa" "2122cae0-1ba8-11f1-b482-0d3fcbd8d5aa")}}
-:block/updated-at 1773054722930
+:shapes-index ("a2720ae0-1ba6-11f1-b482-0d3fcbd8d5aa" "096e7e30-18a6-11f1-b8d1-cf6a39b591c2" "90509040-18a7-11f1-b8d1-cf6a39b591c2" "a1c79522-18a8-11f1-b8d1-cf6a39b591c2" "aa839b00-18a8-11f1-b8d1-cf6a39b591c2" "c1464e00-1934-11f1-852a-cb8a4f9e22e1" "a224dfd0-1936-11f1-852a-cb8a4f9e22e1" "4c683400-1ba4-11f1-b482-0d3fcbd8d5aa" "506f1640-1ba4-11f1-b482-0d3fcbd8d5aa" "506f6460-1ba4-11f1-b482-0d3fcbd8d5aa" "7f6f8ec0-1ba4-11f1-b482-0d3fcbd8d5aa" "f6814710-1ba4-11f1-b482-0d3fcbd8d5aa" "c83c1d62-1ba6-11f1-b482-0d3fcbd8d5aa" "cab42240-1ba6-11f1-b482-0d3fcbd8d5aa" "e9af0ac0-1ba6-11f1-b482-0d3fcbd8d5aa" "fc2e2640-1ba6-11f1-b482-0d3fcbd8d5aa" "2122cae0-1ba8-11f1-b482-0d3fcbd8d5aa" "8b20cce0-1bb1-11f1-b482-0d3fcbd8d5aa" "50432240-1bba-11f1-97ec-45715e47ed8d" "76809000-1bba-11f1-97ec-45715e47ed8d" "7af83570-1bba-11f1-97ec-45715e47ed8d")}}
+:block/updated-at 1773062377066
 :block/created-at 1772723319155
 :block/type "whiteboard"
-:block/name "current transformation"
-:block/original-name "Current Transformation"})}
+:block/name "current transformation (main)"
+:block/original-name "Current Transformation (main)"})}
