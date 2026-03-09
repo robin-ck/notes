@@ -1,0 +1,14 @@
+- assessment of its resilience to the various impacts of future trends, including climate change
+- Climate Change Risk Analysis:
+	- Expected annual damage (EAD)
+	- Expected event damage
+- Vulnerability Analysis:
+	- someone or something can be affected by climate change and environmental hazards
+	- Physical Vulnerability of People and Infracture
+	- Unfavourable Organisational and Economic Conditions
+		- lack of organisation can lead to chaos
+		- reducing earning capacities
+	- Attitudes and Motivations
+		- education, economic opportunities, political participation
+-
+	-

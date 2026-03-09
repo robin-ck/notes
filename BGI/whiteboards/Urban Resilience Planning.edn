@@ -1,0 +1,573 @@
+{:blocks (
+{:block/content ""
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "69ae836c-8484-4956-af19-f788b80c3a75"}
+:block/parent 
+{:block/uuid #uuid "69ae836c-8484-4956-af19-f788b80c3a75"}
+:block/properties 
+{}
+:block/uuid #uuid "69ae839b-d5dc-49f1-840a-c29e08b7d148"} 
+{:block/created-at 1773049371613
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 0
+:scale [1 1]
+:pageId "Urban Resilience"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [1112 590.9999662869369]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "5361c400-1b91-11f1-b482-0d3fcbd8d5aa"
+:noFill false
+:point [640 352]
+:parentId "69ae836c-8484-4956-af19-f788b80c3a75"
+:collapsedHeight 0
+:nonce 1773044640981}}
+:block/updated-at 1773049371613} 
+{:block/created-at 1773049223862
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 1
+:scale [1 1]
+:pageId "Urban Analysis"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [808 605.9999536352356]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "5fa83e40-1b93-11f1-b482-0d3fcbd8d5aa"
+:noFill false
+:point [-352 352]
+:parentId "69ae836c-8484-4956-af19-f788b80c3a75"
+:collapsedHeight 0
+:nonce 1773045520579}}
+:block/updated-at 1773049223862} 
+{:block/created-at 1773049855293
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 2
+:scale [1 1]
+:pageId "Adoption of an Iterative Decision-Support Framework"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [800 913.000045099594]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "f08b7c30-1b9b-11f1-b482-0d3fcbd8d5aa"
+:noFill false
+:point [-344 1088]
+:parentId "69ae836c-8484-4956-af19-f788b80c3a75"
+:collapsedHeight 0
+:nonce 1773049199544}}
+:block/updated-at 1773049855293} 
+{:block/created-at 1773049855309
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 3
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "0a6a68f2-1b9c-11f1-b482-0d3fcbd8d5aa"
+:fontWeight 400
+:noFill true
+:point [-120.46 959]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0.32 0]
+:bindingId "0df11eb1-1b9c-11f1-b482-0d3fcbd8d5aa"}
+:end 
+{:id "end"
+:canBind true
+:point [0 125]
+:bindingId "0a6a68f1-1b9c-11f1-b482-0d3fcbd8d5aa"}}
+:decorations 
+{:end "arrow"}
+:parentId "69ae836c-8484-4956-af19-f788b80c3a75"
+:nonce 1773049243144
+:italic false}}
+:block/updated-at 1773049855309} 
+{:block/created-at 1773049855309
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 4
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "11e7fb62-1b9c-11f1-b482-0d3fcbd8d5aa"
+:fontWeight 400
+:noFill true
+:point [62.34 962]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 125]
+:bindingId "11e7fb60-1b9c-11f1-b482-0d3fcbd8d5aa"}
+:end 
+{:id "end"
+:canBind true
+:point [1.73 0]
+:bindingId "11e7fb61-1b9c-11f1-b482-0d3fcbd8d5aa"}}
+:decorations 
+{:end "arrow"}
+:parentId "69ae836c-8484-4956-af19-f788b80c3a75"
+:nonce 1773049255830
+:italic false}}
+:block/updated-at 1773049855309} 
+{:block/created-at 1773049371622
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 5
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "21f860d2-1b9c-11f1-b482-0d3fcbd8d5aa"
+:fontWeight 400
+:noFill true
+:point [460 621.1]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [179 6.42]
+:bindingId "21f860d0-1b9c-11f1-b482-0d3fcbd8d5aa"}
+:end 
+{:id "end"
+:canBind true
+:point [0 0]
+:bindingId "21f860d1-1b9c-11f1-b482-0d3fcbd8d5aa"}}
+:decorations 
+{:end "arrow"}
+:parentId "69ae836c-8484-4956-af19-f788b80c3a75"
+:nonce 1773049282451
+:italic false}}
+:block/updated-at 1773049371622} 
+{:block/created-at 1773049307096
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke ""
+:borderRadius 0
+:index 6
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "text"
+:size [115 34]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "26889750-1b9c-11f1-b482-0d3fcbd8d5aa"
+:padding 4
+:fontWeight 400
+:noFill true
+:point [488 560]
+:lineHeight 1.2
+:fontSize 20
+:parentId "69ae836c-8484-4956-af19-f788b80c3a75"
+:nonce 1773049290106
+:italic false
+:text "knowlegde"}}
+:block/updated-at 1773049307096} 
+{:block/created-at 1773049855307
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 7
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "34053280-1b9c-11f1-b482-0d3fcbd8d5aa"
+:fontWeight 400
+:noFill true
+:point [460 944]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [471.44 0]
+:bindingId "34050b70-1b9c-11f1-b482-0d3fcbd8d5aa"}
+:end 
+{:id "end"
+:canBind true
+:point [0 528.36]
+:bindingId "34050b71-1b9c-11f1-b482-0d3fcbd8d5aa"}}
+:decorations 
+{:end "arrow"}
+:parentId "69ae836c-8484-4956-af19-f788b80c3a75"
+:nonce 1773049312772
+:italic false}}
+:block/updated-at 1773049855307} 
+{:block/created-at 1773049633962
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke ""
+:borderRadius 0
+:index 8
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "text"
+:size [160 34]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "3b920730-1b9c-11f1-b482-0d3fcbd8d5aa"
+:padding 4
+:fontWeight 400
+:noFill true
+:point [576 1088]
+:lineHeight 1.2
+:fontSize 20
+:parentId "69ae836c-8484-4956-af19-f788b80c3a75"
+:nonce 1773049325435
+:italic false
+:text "apply knowldge"}}
+:block/updated-at 1773049633962} 
+{:block/created-at 1773052127944
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 9
+:scale [1 1]
+:pageId "Adaptive Management Framework"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [928 1217.999903944484]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "7b609a60-1b9d-11f1-b482-0d3fcbd8d5aa"
+:noFill false
+:point [816 1376]
+:parentId "69ae836c-8484-4956-af19-f788b80c3a75"
+:collapsedHeight 0
+:nonce 1773049862001}}
+:block/updated-at 1773052127944} 
+{:block/created-at 1773052127964
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 10
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "885037d2-1b9d-11f1-b482-0d3fcbd8d5aa"
+:fontWeight 400
+:noFill true
+:point [457 1749.06]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]
+:bindingId "885037d0-1b9d-11f1-b482-0d3fcbd8d5aa"}
+:end 
+{:id "end"
+:canBind true
+:point [355 181.1]
+:bindingId "885037d1-1b9d-11f1-b482-0d3fcbd8d5aa"}}
+:decorations 
+{:end "arrow"}
+:parentId "69ae836c-8484-4956-af19-f788b80c3a75"
+:nonce 1773049883763
+:italic false}}
+:block/updated-at 1773052127964} 
+{:block/created-at 1773052072293
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke ""
+:borderRadius 0
+:index 11
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "text"
+:size [206 34]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "f4230ff0-1b9d-11f1-b482-0d3fcbd8d5aa"
+:padding 4
+:fontWeight 400
+:noFill true
+:point [480 1792]
+:lineHeight 1.2
+:fontSize 20
+:parentId "69ae836c-8484-4956-af19-f788b80c3a75"
+:nonce 1773050064669
+:italic false
+:text "appropriate instance"}}
+:block/updated-at 1773052072293} 
+{:block/created-at 1773052052431
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 12
+:scale [1 1]
+:pageId "Natural Resource Management"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [728 644.0000363178249]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "aeae9e40-1ba1-11f1-b482-0d3fcbd8d5aa"
+:noFill false
+:point [2080 1920]
+:parentId "69ae836c-8484-4956-af19-f788b80c3a75"
+:collapsedHeight 0
+:nonce 1773051666002}}
+:block/updated-at 1773052052431} 
+{:block/created-at 1773052127961
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 13
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "9e6a3b12-1ba2-11f1-b482-0d3fcbd8d5aa"
+:fontWeight 400
+:noFill true
+:point [1745 2037.85]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]
+:bindingId "9e6a3b10-1ba2-11f1-b482-0d3fcbd8d5aa"}
+:end 
+{:id "end"
+:canBind true
+:point [331 37.61]
+:bindingId "9e6a3b11-1ba2-11f1-b482-0d3fcbd8d5aa"}}
+:decorations 
+{:end "arrow"}
+:parentId "69ae836c-8484-4956-af19-f788b80c3a75"
+:nonce 1773052068250
+:italic false}}
+:block/updated-at 1773052127961})
+:pages (
+{:block/uuid #uuid "69ae836c-8484-4956-af19-f788b80c3a75"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "69ae836c-8484-4956-af19-f788b80c3a75"
+:name "urban resilience planning"
+:bindings 
+{:21f860d1-1b9c-11f1-b482-0d3fcbd8d5aa 
+{:id "21f860d1-1b9c-11f1-b482-0d3fcbd8d5aa"
+:type "line"
+:fromId "21f860d2-1b9c-11f1-b482-0d3fcbd8d5aa"
+:toId "5fa83e40-1b93-11f1-b482-0d3fcbd8d5aa"
+:handleId "end"
+:point [0.48 0.42]
+:distance 4}
+:9e6a3b10-1ba2-11f1-b482-0d3fcbd8d5aa 
+{:id "9e6a3b10-1ba2-11f1-b482-0d3fcbd8d5aa"
+:type "line"
+:fromId "9e6a3b12-1ba2-11f1-b482-0d3fcbd8d5aa"
+:toId "7b609a60-1b9d-11f1-b482-0d3fcbd8d5aa"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:21f860d0-1b9c-11f1-b482-0d3fcbd8d5aa 
+{:id "21f860d0-1b9c-11f1-b482-0d3fcbd8d5aa"
+:type "line"
+:fromId "21f860d2-1b9c-11f1-b482-0d3fcbd8d5aa"
+:toId "5361c400-1b91-11f1-b482-0d3fcbd8d5aa"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:0a6a68f1-1b9c-11f1-b482-0d3fcbd8d5aa 
+{:id "0a6a68f1-1b9c-11f1-b482-0d3fcbd8d5aa"
+:type "line"
+:fromId "0a6a68f2-1b9c-11f1-b482-0d3fcbd8d5aa"
+:toId "f08b7c30-1b9b-11f1-b482-0d3fcbd8d5aa"
+:handleId "end"
+:point [0.28 0.55]
+:distance 4}
+:0a6a68f0-1b9c-11f1-b482-0d3fcbd8d5aa 
+{:id "0a6a68f0-1b9c-11f1-b482-0d3fcbd8d5aa"
+:type "line"
+:fromId "0a6a68f2-1b9c-11f1-b482-0d3fcbd8d5aa"
+:toId "5fa83e40-1b93-11f1-b482-0d3fcbd8d5aa"
+:handleId "start"
+:point [0.5 0.5]
+:distance 0}
+:34050b70-1b9c-11f1-b482-0d3fcbd8d5aa 
+{:id "34050b70-1b9c-11f1-b482-0d3fcbd8d5aa"
+:type "line"
+:fromId "34053280-1b9c-11f1-b482-0d3fcbd8d5aa"
+:toId "5361c400-1b91-11f1-b482-0d3fcbd8d5aa"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:11e7fb60-1b9c-11f1-b482-0d3fcbd8d5aa 
+{:id "11e7fb60-1b9c-11f1-b482-0d3fcbd8d5aa"
+:type "line"
+:fromId "11e7fb62-1b9c-11f1-b482-0d3fcbd8d5aa"
+:toId "f08b7c30-1b9b-11f1-b482-0d3fcbd8d5aa"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:34050b71-1b9c-11f1-b482-0d3fcbd8d5aa 
+{:id "34050b71-1b9c-11f1-b482-0d3fcbd8d5aa"
+:type "line"
+:fromId "34053280-1b9c-11f1-b482-0d3fcbd8d5aa"
+:toId "f08b7c30-1b9b-11f1-b482-0d3fcbd8d5aa"
+:handleId "end"
+:point [0.9 0.52]
+:distance 4}
+:0df11eb1-1b9c-11f1-b482-0d3fcbd8d5aa 
+{:id "0df11eb1-1b9c-11f1-b482-0d3fcbd8d5aa"
+:type "line"
+:fromId "0a6a68f2-1b9c-11f1-b482-0d3fcbd8d5aa"
+:toId "5fa83e40-1b93-11f1-b482-0d3fcbd8d5aa"
+:handleId "start"
+:point [0.29 0.5]
+:distance 4}
+:885037d1-1b9d-11f1-b482-0d3fcbd8d5aa 
+{:id "885037d1-1b9d-11f1-b482-0d3fcbd8d5aa"
+:type "line"
+:fromId "885037d2-1b9d-11f1-b482-0d3fcbd8d5aa"
+:toId "7b609a60-1b9d-11f1-b482-0d3fcbd8d5aa"
+:handleId "end"
+:point [0.5 0.65]
+:distance 4}
+:9e6a3b11-1ba2-11f1-b482-0d3fcbd8d5aa 
+{:id "9e6a3b11-1ba2-11f1-b482-0d3fcbd8d5aa"
+:type "line"
+:fromId "9e6a3b12-1ba2-11f1-b482-0d3fcbd8d5aa"
+:toId "aeae9e40-1ba1-11f1-b482-0d3fcbd8d5aa"
+:handleId "end"
+:point [0.51 0.31]
+:distance 4}
+:11e7fb61-1b9c-11f1-b482-0d3fcbd8d5aa 
+{:id "11e7fb61-1b9c-11f1-b482-0d3fcbd8d5aa"
+:type "line"
+:fromId "11e7fb62-1b9c-11f1-b482-0d3fcbd8d5aa"
+:toId "5fa83e40-1b93-11f1-b482-0d3fcbd8d5aa"
+:handleId "end"
+:point [0.52 0.5]
+:distance 4}
+:885037d0-1b9d-11f1-b482-0d3fcbd8d5aa 
+{:id "885037d0-1b9d-11f1-b482-0d3fcbd8d5aa"
+:type "line"
+:fromId "885037d2-1b9d-11f1-b482-0d3fcbd8d5aa"
+:toId "f08b7c30-1b9b-11f1-b482-0d3fcbd8d5aa"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}}
+:nonce 1
+:assets []
+:shapes-index ("5361c400-1b91-11f1-b482-0d3fcbd8d5aa" "5fa83e40-1b93-11f1-b482-0d3fcbd8d5aa" "f08b7c30-1b9b-11f1-b482-0d3fcbd8d5aa" "0a6a68f2-1b9c-11f1-b482-0d3fcbd8d5aa" "11e7fb62-1b9c-11f1-b482-0d3fcbd8d5aa" "21f860d2-1b9c-11f1-b482-0d3fcbd8d5aa" "26889750-1b9c-11f1-b482-0d3fcbd8d5aa" "34053280-1b9c-11f1-b482-0d3fcbd8d5aa" "3b920730-1b9c-11f1-b482-0d3fcbd8d5aa" "7b609a60-1b9d-11f1-b482-0d3fcbd8d5aa" "885037d2-1b9d-11f1-b482-0d3fcbd8d5aa" "f4230ff0-1b9d-11f1-b482-0d3fcbd8d5aa" "aeae9e40-1ba1-11f1-b482-0d3fcbd8d5aa" "9e6a3b12-1ba2-11f1-b482-0d3fcbd8d5aa")}}
+:block/updated-at 1773052146153
+:block/created-at 1773044588295
+:block/type "whiteboard"
+:block/name "urban resilience planning"
+:block/original-name "Urban Resilience Planning"})}

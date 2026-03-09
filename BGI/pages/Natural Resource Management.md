@@ -1,0 +1,16 @@
+- In natural resources management, adaptive management [[Adaptive Management Framework]] is the process of hypothesising how ecosystems work, monitoring results, comparing them with expectations and modifying management decisions to achieve conservation objectives through an improved understanding of how ecosystems function.
+- Three main groups benefit from adaptive management
+	- natural resource agencies and organisations
+	- public benefits
+	- natural resources
+- involves:
+	- natural resource system being managed dynamically
+	- environmental variations
+	- influence resource systems either directly or indirectly
+	- limited by uncertainty
+- Uncertainty:
+	- Environmental variation
+	- partial observability
+	- partial controllability
+	- structural or process uncertainty
+	-
