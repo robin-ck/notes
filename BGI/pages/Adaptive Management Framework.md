@@ -35,4 +35,4 @@
 - Can handle [[Natural Resource Management]]
 - **Components:**
 	- ![image.png](../assets/image_1773051601124_0.png)
-	-
+-

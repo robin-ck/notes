@@ -12,4 +12,6 @@
 	- **Inclusive:** various stakeholders
 	- **Integrated:** mutually supportive of a common outcome
 - Actions [[Urban Analysis]] (for knowledge generation), [[Adoption of an Iterative Decision-Support Framework]] (for actions and evaluation)
+- Implementations: [[Fiscal and Non Fiscal Tools]]
+	-
 	-

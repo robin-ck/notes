@@ -1,0 +1,20 @@
+- **Introduction**
+	- Blue-Green Cities use natural and human-made water features to manage water and stormwater, building resilience to extreme weather while protecting aquatic ecosystems
+	- Traditional grey infrastructure has failed to keep up with climate change, urbanisation, and stricter regulation — driving cities to adopt BGI as a nature-based alternative with environmental, economic, and social co-benefits
+	- Urban water managers can use an adaptive management framework (planning → design → implementation → monitoring) to guide city-wide BGI rollout
+- **Best Practices** (derived from case studies: Amsterdam, Copenhagen, Melbourne, NYC, Philadelphia, San Francisco, Singapore)
+	- **Financial Incentives & Subsidies**: Tax abatements, grants, and subsidies for green roofs, permeable pavement, and rain gardens lower upfront costs, drive innovation, and promote equity in low-income areas
+	- **Policies & Regulations**: Stormwater performance standards for new developments and retrofits mandate BGI adoption; extra incentives (e.g. tax credits) reward developers who exceed requirements
+	- **Public–Private Partnerships (PPPs)**: Collaboration with engineering firms and landscape architects secures private funding and expertise, especially for BGI on private property
+	- **Community Engagement & Education**: Outreach programmes, volunteer opportunities (e.g. maintaining rain gardens), and technical assistance build grassroots support and long-term sustainability
+	- **Data Collection & Performance Monitoring**: Standardised monitoring demonstrates BGI effectiveness, builds public trust, guides design improvements, and quantifies economic benefits
+	- **Technical Support & Training**: Government-provided training for architects, engineers, and developers ensures quality implementation and stimulates innovation
+	- **Standards & Guidelines**: Design specifications for streets, sidewalks, and city-owned sites ensure consistent, context-appropriate BGI deployment (e.g. permeable pavement in high-traffic areas; green roofs elsewhere)
+	- **Awards & Recognition**: Celebrating successful BGI projects raises public awareness and creates a virtuous cycle of adoption
+	- **Community Programmes & Volunteer Opportunities**: Workshops, installation events, and citizen stewardship foster neighbourhood-level ownership and implementation
+	- **Professional Certification Programmes**: Credentialling architects, engineers, and landscape architects ensures BGI is designed and maintained correctly
+- **Conclusion**
+	- Mainstreaming BGI requires a comprehensive, multifaceted approach — no single tool is sufficient
+	- A combination of fiscal tools (fees, subsidies, grants), regulatory instruments, PPPs, community engagement, monitoring, training, and certification can overcome barriers to city-wide BGI adoption
+- ---
+- Literature: Blue and Green Cities: The Role of Blue-Green Infrastructure in Managing Urban Water Resources | Springer Nature Link (Chapter 12, pp. 237–248)
