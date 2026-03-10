@@ -1,4 +1,5 @@
 topic:: NbS
+
 - Source: Cohen-Shacham et al. (2016), Table 4 and Chapter 3
 - NbS is an **umbrella concept** — the approaches below all address societal challenges through ecosystem-based means
 - ## 1. Ecosystem Restoration Approaches
@@ -48,7 +49,7 @@ topic:: NbS
 		- Restoring **structure, function and composition** of ecosystems to deliver ecosystem services
 		- Used at **landscape scale** only
 		- Examples: forests for water storage, wetlands for filtration, floodplains for flood attenuation, mangroves for coastal protection
-	- ### Green Infrastructure (GI)
+	- ### Green Infrastructure (GI) [[Blue Green Infrastructure]]
 		- EU definition: "a strategically planned network of natural and semi-natural areas with other environmental features designed and managed to deliver a wide range of ecosystem services"
 		- Used at both **urban and landscape scale**
 		- Considers conservation values in land development, growth management and built infrastructure planning
