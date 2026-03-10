@@ -1,9 +1,0 @@
-- Changes in **Local Hydrological Cycle**
-	- naturally limited impervious surfaces
-	- in cities rainwater flows on surface
-- Increased **Peak Flows**
-- Downstream **Flooding Risks**
-- Changes in **Groundwater and Surface Water** Levels
-	- infiltration and evaporation is reduced
-	- making cities warmer, limits drinking water, lower groundwater,...
-- Increased **Climate Change-Related Flooding** Events

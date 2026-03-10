@@ -1,7 +1,0 @@
-- **Combined sewage systems:** Wastewater and stormwater are collected in one pipe network. Mixed water is then transported to a wastewater treatment plant for cleaning before being discharged into a river or large body of water
-- **Separate sewage systems:** Wastewater and stormwater are collected in two separate networks. The wastewater is directed to a wastewater treatment plant while the stormwater pipe discharges to the receiving water if it does not contain pollutants or is treated separately before being discharged into a waterway
-- ---
-- Impacts: [[Impacts of Grey Infrastructure on Water Quantity]] & [[Impacts of Grey Infrastructure of Water Quality]]
-- Badly prepared for [[Climate change risks to cities]]
--
-- Literature: Blue and Green Cities: The Role of Blue-Green Infrastructure in Managing Urban Water Resources | Springer Nature Link (Chapter 1)
