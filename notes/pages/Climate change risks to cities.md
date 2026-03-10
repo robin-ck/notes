@@ -1,4 +1,4 @@
-topic:: BGI
+tags:: BGI
 - **Higher temperatures**
 	- reduce snow and ice
 	- more evaporation from lakes,...

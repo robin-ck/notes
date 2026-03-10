@@ -1,4 +1,4 @@
-topic:: NbS
+tags:: NbS
 - **Source:** Cohen-Shacham et al. (2016) — Nature-based Solutions to address global societal challenges. IUCN.
 - **Typology:** [[A typology of NbS applications]]
 - **Categories:** [[Categories of NbS]]

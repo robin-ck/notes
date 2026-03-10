@@ -1,0 +1,12 @@
+topic:: BGI
+- **Benefits** (Table 3.1)
+	- **Reduced stormwater runoff**: store and infiltrate stormwater, mitigating flood impacts and preventing stormwater from polluting waterways
+	- **Increased water supply**: can be used to increase available water supplies
+	- **Increased groundwater recharge**: direct rainwater into the ground instead of stormwater pipes
+	- **Improved air quality**: vegetation removes air pollutants; reduced stormwater entering treatment plants reduces carbon emissions
+	- **Reduced atmospheric carbon emissions**: reduce carbon emissions through direct carbon sequestration
+	- **Reduced urban heat island effect**: evaporative cooling and reduction of surface albedo help reduce urban temperatures
+	- **Improved community liveability**: improve local aesthetics, help reduce noise, and improve social networks in neighbourhoods
+	- **Improved habitats**: provide habitats for wildlife
+	- **Enhanced public education**: educational opportunities for residents to understand how BGI functions and its associated benefits
+	- **Green transport**: can be designed to calm traffic by reducing speeds along roads

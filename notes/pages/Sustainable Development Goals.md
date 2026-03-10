@@ -1,4 +1,4 @@
-topic:: NbS
+tags:: NbS
 - **Source:** United Nations — https://sdgs.un.org/goals
 - **Adopted:** 2015, as part of the 2030 Agenda for Sustainable Development
 - 17 goals addressing global challenges across social, economic and environmental dimensions

@@ -1,4 +1,4 @@
-topic:: BGI
+tags:: BGI
 - **Increasing Life Expectancy and Reducing Health Inequalities**
 	- BGI provides exercise and relaxation opportunities, reducing obesity, circulatory disease, chronic stress, and asthma
 	- Especially beneficial in underprivileged neighbourhoods where green space access is typically lower

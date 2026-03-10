@@ -1,4 +1,4 @@
-topic:: BGI
+tags:: BGI
 - ![image.png](../assets/image_1773049392178_0.png)
 - Identifying projected impacts and challenges (land use changes, populations growth,...)
 - Cataloguing threshold conditions

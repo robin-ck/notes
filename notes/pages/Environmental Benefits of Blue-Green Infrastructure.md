@@ -1,4 +1,4 @@
-topic:: BGI
+tags:: BGI
 - **Reduced Flood Risk**
 	- BGI restores natural environmental features, alleviates floods by delaying flood flows, reducing runoff volume, and promoting rainfall infiltration
 - **Reduced and Delayed Stormwater Runoff Volumes**

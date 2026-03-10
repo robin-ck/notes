@@ -1,4 +1,4 @@
-topic:: BGI
+tags:: BGI
 - BGI natural water features include **stormwater detention or retention systems**, **riparian buffers**, **restored waterways**, and **constructed wetlands**, each providing numerous multifunctional benefits in addition to managing water quantity and water quality
 - Consists of [[Stormwater Detention or Retention Systems]] & [[Riparian Buffers, Restored Waterways, and Constructed Wetlands]]
 - ---

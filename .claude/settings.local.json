@@ -8,7 +8,9 @@
       "mcp__zotero__zotero_semantic_search",
       "mcp__zotero__zotero_get_annotations",
       "Bash(python3 -c \"import sys; sys.stdout.buffer.write\\(sys.stdin.buffer.read\\(\\)\\)\" 2)",
-      "Bash(1 python3 -c \" with open\\(''C:/Users/0994359/AppData/Local/Temp/chapter2.txt'', ''r'', encoding=''utf-8''\\) as f: print\\(f.read\\(\\)\\) \")"
+      "Bash(1 python3 -c \" with open\\(''C:/Users/0994359/AppData/Local/Temp/chapter2.txt'', ''r'', encoding=''utf-8''\\) as f: print\\(f.read\\(\\)\\) \")",
+      "Bash(sed -i 's/^topic:: NbS/tags:: NbS/' notes/pages/*.md)",
+      "Bash(sed -i 's/^topic:: BGI/tags:: BGI/' notes/pages/*.md)"
     ]
   }
 }

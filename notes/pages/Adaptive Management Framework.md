@@ -1,4 +1,4 @@
-topic:: BGI
+tags:: BGI
 - evolving process involving learning and adaption
 - **Overall** objectives:
 	- short-term decisions contribute to long-term objectives

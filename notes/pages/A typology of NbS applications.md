@@ -1,4 +1,4 @@
-topic:: NbS
+tags:: NbS
 - #topic::NbS
 - Source: Cohen-Shacham et al. (2016), section 1.3.2 — based on BiodivERsA ERA-NET analysis (Eggermont et al., 2015)
 - ![image.png](../assets/image_1773136735035_0.png)

@@ -1,4 +1,4 @@
-topic:: BGI
+tags:: BGI
 ### Fiscal Tools
 
 Fiscal tools are easy to implement and give decision-makers flexibility to tailor programmes to a community's priorities. They can be piloted at smaller scales before citywide rollout.

@@ -1,4 +1,4 @@
-topic:: BGI
+tags:: BGI
 - **Benefits** (Table 3.3)
 	- **Reduced stormwater runoff**: Rainwater harvesting systems capture rainfall where it lands, enabling reuse on-site
 	- **Increased available water supply**: Rainwater used for irrigation purposes can significantly reduce the demand for potable water

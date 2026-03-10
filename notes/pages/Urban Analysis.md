@@ -1,4 +1,4 @@
-topic:: BGI
+tags:: BGI
 - assessment of its resilience to the various impacts of future trends, including climate change
 - Climate Change Risk Analysis:
 	- Expected annual damage (EAD)

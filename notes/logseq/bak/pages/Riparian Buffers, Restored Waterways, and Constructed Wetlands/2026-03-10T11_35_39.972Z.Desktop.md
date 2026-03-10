@@ -1,0 +1,22 @@
+topic:: BGI
+- **Riparian Buffers**
+	- ![Riparian Buffers - an overview | ScienceDirect Topics](https://ars.els-cdn.com/content/image/3-s2.0-B9780126633153500113-f10-09-9780126633153.jpg){:height 270, :width 374}
+	- Act as biological filters between catchments and receiving environments, intercepting a significant proportion of nutrients
+	- Stormwater runoff slowed and filtered; plants directly uptake and transform contaminants
+	- Vegetation and humus layers hold significant volumes of water, promoting infiltration into the soil and releasing it over an extended period
+	- Restrict land development adjacent to creeks, streams, and other urban waterways to reduce erosion and preserve channel form and function
+	- When applied throughout a watershed, provide multiple environmental benefits: contributing to stream base flows, interconnected habitat networks, increased wildlife diversity, and recreational opportunities
+- **River and Stream Restoration**
+	- ![Stream Restoration & Channel Stabilization Modeling using HEC-RAS -  CivilGEO Knowledge Base](https://knowledge.civilgeo.com/wp-content/uploads/2025/02/Kinnickinnic-River-1.png){:height 224, :width 517}
+	- Reservoirs and catchments can be restored for purposeful retention of excess stormwater from the surrounding area and for improving water quality
+	- Improve micro-climate, enhance groundwater restoration, aesthetics of recreational areas, and provide habitat for fauna and flora
+	- During rain-free periods, temporary retention reservoirs can be used for other purposes such as sports and recreation
+- **Constructed Wetlands**
+	- ![Technology Screening Matrix | Federal Remediation Technologies Roundtable  (FRTR)](https://frtr.gov/matrix/figures/Constructed-Wetlands.jpg){:height 166, :width 350}
+	- Slow water down; suspended solids trapped by vegetation and settling out; other pollutants transformed into less soluble forms, taken up by plants or become inactive
+	- Microorganisms transform and remove pollutants from water
+	- Nutrients (nitrogen, phosphorous) deposited from stormwater runoff are absorbed by wetland soils and taken up by plants and microorganisms
+	- Typically built on uplands outside floodplains or in a floodway to avoid damage to infrastructure from excess stormwater
+	- Constructed by excavating, backfilling, grading, diking, and installing water control structures; wetland vegetation planted or allowed to establish naturally
+- ---
+- Literature: Blue and Green Cities: The Role of Blue-Green Infrastructure in Managing Urban Water Resources | Springer Nature Link (Chapter 3, pp. 46–47)

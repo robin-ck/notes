@@ -1,4 +1,4 @@
-topic:: NbS
+tags:: NbS
 ## Natural Capital and NbS (Section 2.6)
 	- **Natural capital** = the finite stock of environmental assets (water, land, air, species, minerals) producing ecosystem goods and services
 	- **Natural Capital Approaches (NCAP)** aim to make the value of nature **visible in decision making**

@@ -1,4 +1,4 @@
-topic:: BGI
+tags:: BGI
 - Two main BGI strategies for streets, footpaths, car parks, and alleyways: **capturing stormwater in vegetated areas** or **allowing water to percolate into the ground**
 - **Buffer Vegetation and Lawns**
 	- ![No mow: is Australia's long love affair with lawn ending? | Environment |  The Guardian](https://i.guim.co.uk/img/media/a279e80544c5f2ddbe7efd5667b2d83db0cdbe80/0_237_3208_1925/master/3208.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=bce11a2ec9035264ac8d6635cf49461e){:height 286, :width 508}

@@ -1,4 +1,4 @@
-topic:: BGI
+tags:: BGI
 - Green Infrastructure
 	- **strategically planned network** of natural and semi-natural areas with other **environmental features**
 	- designed and managed to deliver wide range of **ecosystem services**

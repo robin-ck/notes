@@ -1,4 +1,4 @@
-topic:: NbS
+tags:: NbS
 - Source: Cohen-Shacham et al. (2016), Chapter 2
 - NbS are designed to address a range of **major societal challenges** — see [[Nature-based Solutions]]
 - ## Water Security

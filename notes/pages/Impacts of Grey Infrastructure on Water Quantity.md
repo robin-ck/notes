@@ -1,4 +1,4 @@
-topic:: BGI
+tags:: BGI
 - Changes in **Local Hydrological Cycle**
 	- naturally limited impervious surfaces
 	- in cities rainwater flows on surface

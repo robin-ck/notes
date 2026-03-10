@@ -1,4 +1,4 @@
-topic:: BGI
+tags:: BGI
 - **Benefits** (Table 3.1)
 	- **Reduced stormwater runoff**: store and infiltrate stormwater, mitigating flood impacts and preventing stormwater from polluting waterways
 	- **Increased water supply**: can be used to increase available water supplies

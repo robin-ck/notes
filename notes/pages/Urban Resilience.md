@@ -1,4 +1,4 @@
-topic:: BGI
+tags:: BGI
 - **Definition:** Urban resilience is the capacity of cities to function so that people living and working in cities survive and thrive no matter what stresses or shocks they encounter. Urban resilience embraces climate change adaptation while recognising the environmental impacts of urban centres and urbanisation.
 - Urban resilience levels:
 	- 1) The system of the city to survive shocks and stresses

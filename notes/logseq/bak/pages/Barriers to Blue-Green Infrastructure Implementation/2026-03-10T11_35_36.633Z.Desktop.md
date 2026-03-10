@@ -1,0 +1,34 @@
+topic:: BGI
+- **Economic Barriers**
+	- **High transaction costs**: BGI requires coordination of multiple stakeholders across regulatory jurisdictions and collaborating with dispersed landowners — time-consuming and costly
+	- **High land values**: BGI solutions often require more land than grey infrastructure, making them more expensive in the short-term
+	- **Difficult to quantify**: Difficulty quantifying BGI benefits (water quality, aquatic ecosystems) means cost-benefit analyses often favour grey infrastructure despite its numerous negative impacts
+	- **Long-time horizons**: BGI may require more time to establish; several years before delivering the full range of benefits
+	- **Initial high costs**: Initial investments can be expensive despite relatively low maintenance costs
+- **Financial Barriers**
+	- **Perceived higher risk**: BGI economic analysis is relatively new with a lack of historical cost/benefit data, increasing perceived risk compared to grey infrastructure
+	- **Undefined financial responsibilities**: Unclear who pays for BGI and how to fund monitoring/maintenance creates challenges for scaling up; beneficiaries often receive benefits for free and may not finance long-term maintenance
+	- **Lack of financial resources**: Municipalities have limited resources; inadequate long-term investment leads to unrealised benefits and a consequent lack of future investment
+- **Institutional Barriers**
+	- **Lock-in of traditional practices**: Grey infrastructure has dominated water management and engineering curricula for decades, creating informal biases and scepticism of BGI
+	- **Lack of long-term planning**: Decentralised BGI depends on cumulative effects of many small measures, which can fail without coordinated planning across public agencies, community groups, and private landowners
+	- **Insufficient policy coherence**: Lack of policy coherence regarding different aspects of the water cycle that cross administrative boundaries and jurisdictions undermines the competitiveness of BGI
+	- **Lack of resources**: Planning systems can lack sufficient resources to turn BGI strategies into completed projects
+	- **Political boundaries**: Administrative boundaries can limit the area considered for effective BGI implementation
+- **Regulatory Barriers**
+	- **Regulatory standards**: Standards-based approaches have in the past emphasised quantity over quality and single-use land allocations rather than rich, multifunctional green space
+	- **Lack of clarity on BGI compliance**: Uncertainty about how BGI aligns with environmental regulations deters implementation; regulators may not approve projects due to temporal variability in performance
+	- **Regulations crossing multiple jurisdictions**: Regulations across different agencies, jurisdictions, or levels of government may hinder BGI development
+- **Infrastructural Barriers**
+	- **Lack of physical space**: Urban density limits BGI; detention ponds require too much area for city centres; retrofitting is difficult in high-density areas
+	- **Poor maintenance**: Lack of proper maintenance can make BGI ineffective over time; large-scale programmes constrained by insufficient resources and trained personnel
+	- **Inadequate sizing**: BGI handles small rain events well but significant storms can overwhelm measures such as rain gardens, rain barrels, and bioswales
+- **Awareness and Knowledge Barriers**
+	- **Lack of knowledge of BGI benefits**: Many communities are unaware of BGI benefits or believe it is more expensive or difficult to implement than grey infrastructure
+	- **Limited scope of current pilot projects**: Pilot projects provide short-term, small-scale data but cannot inform large-scale implementation costs or watershed-level benefits
+	- **Lack of awareness of private sector actors**: Private sector not widely convinced of commercial benefits; fails to make land available for multifunctional use or dedicate resources to BGI
+	- **Lack of understanding**: Insufficient understanding of BGI and the importance of multifunctional land use planning and connectivity between spaces
+	- **Shortage of trained professionals**: Shortage of professionals with the skills to plan, design, and manage successful BGI
+	- **Short-term thinking**: A culture of short-term thinking means BGI, as a long-term contributor to environmental, social, and economic benefits, fails to receive sufficient support
+- ---
+- Literature: Blue and Green Cities: The Role of Blue-Green Infrastructure in Managing Urban Water Resources | Springer Nature Link (Chapter 2, pp. 22–25)

@@ -1,4 +1,4 @@
-topic:: BGI
+tags:: BGI
 - **Economic Barriers**
 	- **High transaction costs**: BGI requires coordination of multiple stakeholders across regulatory jurisdictions and collaborating with dispersed landowners — time-consuming and costly
 	- **High land values**: BGI solutions often require more land than grey infrastructure, making them more expensive in the short-term

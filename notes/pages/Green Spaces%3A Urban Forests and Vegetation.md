@@ -1,4 +1,4 @@
-topic:: BGI
+tags:: BGI
 - Urban forests and vegetation intercept and filter stormwater runoff, preventing flooding and improving water quality; also absorb pollutants, provide windbreaks, regulate heat island effects, provide wildlife habitats and ecosystem services, and mitigate climate change by storing carbon dioxide
 - **Trees** (Table 3.5)
 	- Benefits: [[Benefits of Planting Trees]]

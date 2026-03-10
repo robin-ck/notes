@@ -1,4 +1,4 @@
-topic:: BGI
+tags:: BGI
 - Mega-Cities
 	- \>10 Mil.
 	- 1990: 153 Mil.-> 529 Mil.

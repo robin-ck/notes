@@ -1,4 +1,4 @@
-topic:: BGI
+tags:: BGI
 - Pollutants **Entering Waterways**
 	- Suspended solids, Pathogens, Nitrogen and phosphorous, Heavy Metals
 - Poor **Visual Quality**

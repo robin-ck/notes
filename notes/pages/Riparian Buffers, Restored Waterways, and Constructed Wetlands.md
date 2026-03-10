@@ -1,4 +1,4 @@
-topic:: BGI
+tags:: BGI
 - **Riparian Buffers**
 	- ![Riparian Buffers - an overview | ScienceDirect Topics](https://ars.els-cdn.com/content/image/3-s2.0-B9780126633153500113-f10-09-9780126633153.jpg){:height 270, :width 374}
 	- Act as biological filters between catchments and receiving environments, intercepting a significant proportion of nutrients

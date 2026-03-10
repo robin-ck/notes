@@ -1,4 +1,4 @@
-topic:: NbS
+tags:: NbS
 
 - Source: Cohen-Shacham et al. (2016), Table 4 and Chapter 3
 - NbS is an **umbrella concept** — the approaches below all address societal challenges through ecosystem-based means

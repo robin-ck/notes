@@ -1,4 +1,4 @@
-topic:: BGI
+tags:: BGI
 - **Stormwater Detention or Retention Basins**
 	- Detention ponds temporarily store stormwater runoff during a rain event and release it later at a controlled rate to the drainage system
 	- Retention ponds maintain a permanent pool of water; designed for peak runoff control, pre-treatment, water quality improvement, wildlife habitat, and aesthetic purposes

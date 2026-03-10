@@ -1,2 +1,2 @@
-topic:: BGI
+tags:: BGI
 -

@@ -1,4 +1,4 @@
-topic:: BGI
+tags:: BGI
 - **Benefits** (Table 3.5)
 	- **Reduced stormwater runoff**: Trees intercept rainfall, enhance infiltration, and reduce surface runoff through transpiration, aiding in maintaining a balanced water cycle
 	- **Increased groundwater recharge**: Trees contribute to local aquifer recharge

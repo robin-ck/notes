@@ -1,0 +1,27 @@
+topic:: BGI
+- **Green Roofs**
+	- ![Urban Climate Roof | ZinCo Green Roof Systems UK](https://zinco-greenroof.co.uk/sites/default/files/styles/flexslider_full/public/2017-02/Kolumbien_Mario_Laserna1.jpg?itok=Qwe-aC5b){:height 176, :width 542}
+	-
+	- Treat stormwater through retention or bioretention; comprise waterproofing and root barrier, drainage layer, permeable fabric, growing medium, and vegetation
+	- Reduce annual stormwater runoff by 50-60% on average; capture up to 85% of some water nutrient pollutants
+	- Filter air pollutants including CO2; reduce surface temperature by 30-60 degrees C and ambient temperatures by 5 degrees C vs. conventional roofs
+	- Benefits: [[Green Roof-Specific Benefits]]
+- **Blue Roofs**
+	- ![Blue Roofs - Sustainable Technologies Evaluation Program (STEP)](https://sustainabletechnologies.ca/app/uploads/2018/04/blue-roof.jpg)
+	-
+	- Detention systems with a flow restriction device around the drain that holds water back until the storm event has passed
+	- If ponded water exceeds the threshold, water overflows into a roof drain
+	- Require a flat, watertight roof with sufficient load-bearing capacity to support ponded water
+- **Disconnecting Downspouts and Rain Barrels**
+	- ![Downspout Disconnection Program | DC Water](https://www.dcwater.com/sites/default/files/downspout%20images.png){:height 202, :width 498}
+	-
+	- Downspout disconnection: removes direct sewage connection and redirects downspout water towards permeable areas or rain barrels/cisterns
+	- **Rain barrels**: small above-ground barrels (~50 gallons); well-suited to small parcels; water used for irrigation
+	- **Cisterns**: larger (300-1000 gallons), above or below ground; used mainly by large buildings
+- **Rainwater Harvesting**
+	- Diverts and stores runoff from residential and commercial roofs; generally lower pollutant concentrations than runoff from impervious surfaces
+	- Storage volume depends on roof area and available space
+	- Benefits: [[Rainwater Harvesting-Specific Benefits]]
+- ---
+- Literature: Blue and Green Cities: The Role of Blue-Green Infrastructure in Managing Urban Water Resources | Springer Nature Link (Chapter 3, pp. 47-50)
+-

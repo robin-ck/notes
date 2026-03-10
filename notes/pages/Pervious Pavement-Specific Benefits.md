@@ -1,4 +1,4 @@
-topic:: BGI
+tags:: BGI
 - **Benefits** (Table 3.4)
 	- **Reduced stormwater runoff**: Permeable pavement reduces stormwater runoff volumes and rates by allowing stormwater to infiltrate underlying soils
 	- **Increased groundwater recharge**: Allowing rainfall to infiltrate permeable pavements can help increase groundwater recharge

@@ -1,4 +1,4 @@
-topic:: NbS
+tags:: NbS
 - Source: Cohen-Shacham et al. (2016), Chapter 4 — lessons from 10 case studies worldwide
 - ## Inclusive, Integrated Approaches
 	- **Cross-sectoral approaches** are required for many NbS to succeed

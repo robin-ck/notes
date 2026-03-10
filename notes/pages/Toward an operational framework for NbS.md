@@ -1,4 +1,4 @@
-topic:: NbS
+tags:: NbS
 - Source: Cohen-Shacham et al. (2016), Chapter 5
 - ## Why an Operational Framework is Needed
 	- NbS remains for many a **general metaphor** — without clear guidelines for effective operationalisation

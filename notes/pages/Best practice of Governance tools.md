@@ -1,4 +1,4 @@
-topic:: BGI
+tags:: BGI
 - **Introduction**
 	- Blue-Green Cities use natural and human-made water features to manage water and stormwater, building resilience to extreme weather while protecting aquatic ecosystems
 	- Traditional grey infrastructure has failed to keep up with climate change, urbanisation, and stricter regulation — driving cities to adopt BGI as a nature-based alternative with environmental, economic, and social co-benefits

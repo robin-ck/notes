@@ -1,4 +1,4 @@
-topic:: BGI
+tags:: BGI
 - **### Low Impact Development (LID) / Low Impact Urban Design and Development (LIUDD)**
   
   **Current definition:** A mainstream stormwater management approach in North America using small-scale, distributed practices (bioretention, green roofs, swales) to restore pre-development hydrology — including runoff volume, infiltration, and evapotranspiration — across a catchment. Codified in legislation in the USA and Canada.

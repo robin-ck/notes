@@ -1,4 +1,4 @@
-topic:: BGI
+tags:: BGI
 - **Deferring or Replacing Costly Grey Infrastructure**
 	- BGI can defer or replace costly grey infrastructure (e.g. sewage expansions, deep tunnels)
 	- More flexible cash flows; lower built capital, land, operational, repair, and replacement costs

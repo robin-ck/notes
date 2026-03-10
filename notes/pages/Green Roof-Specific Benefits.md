@@ -1,4 +1,4 @@
-topic:: BGI
+tags:: BGI
 - **Benefits** (Table 3.2)
 	- **Reduced stormwater runoff**: Green roofs can absorb between 50 and 80 per cent of annual rainfall. During heavy rain events, green roofs delay stormwater from entering the sewage system
 	- **Reduced energy usage**: Green roofs reduce the amount of solar radiation reaching the roof's surface, decreasing roof surface temperatures and internal building temperatures during warmer months and reducing the energy needed for cooling. In cooler months, green roofs provide additional insulation reducing the building's heating requirements
