@@ -1,4 +1,6 @@
+- #topic::NbS
 - Source: Cohen-Shacham et al. (2016), section 1.3.2 — based on BiodivERsA ERA-NET analysis (Eggermont et al., 2015)
+- ![image.png](../assets/image_1773136735035_0.png)
 - NbS interventions are categorised along two gradients:
 	- (i) required **level of ecosystem engineering** involved
 	- (ii) **level of ecosystem service enhancement** achievable
