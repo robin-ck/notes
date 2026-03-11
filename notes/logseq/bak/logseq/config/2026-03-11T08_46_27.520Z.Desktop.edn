@@ -418,6 +418,4 @@
  ;;   - :triple-lowbar (default)
  ;;      ;use triple underscore `___` for slash `/` in page title
  ;;      ;use Percent-encoding for other invalid characters
- :file/name-format :triple-lowbar
- :zotero/settings-v2 {"default" {:type-id "15717741" :citekey-format "{{citekey}}"}}
- :feature/enable-flashcards? false}
+ :file/name-format :triple-lowbar}

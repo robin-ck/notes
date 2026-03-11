@@ -1,0 +1,17 @@
+- Objectiveness:
+	- should be testable and replicable
+	- Visual validation is often used in PSS practice, but it lacks objectivity
+- Reasonableness:
+	- aims to balance error tolerance and reliability of PSS results
+	- randomness and uncertainties inherent in complex urban environments
+	- exact locations of future urban development are typically less critical (approximation generally suffice)
+- Understandability
+	- process of making contextual information accessible to PSS users
+	- quantitative validation analysis are not always intuitive
+- Usefulness:
+	- is the information given used in the planning process
+-
+- ---
+-
+- \ [[@Reporting on the Performance and Usability of Planning Support Systems—Towards a Common Understanding]]
+-

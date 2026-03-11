@@ -1,0 +1,101 @@
+{:blocks (
+{:block/created-at 1773218004546
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 0
+:scale [1 1]
+:pageId "PSS Definition"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 93]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "f3312b30-1d24-11f1-8192-337b6cfc03a9"
+:noFill false
+:point [936 544]
+:parentId "69b128c9-e677-4f5c-ae4d-7dc666c786eb"
+:collapsedHeight 0
+:nonce 1773217996133}}
+:block/updated-at 1773218004546} 
+{:block/created-at 1773224890914
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 1
+:scale [1 1]
+:pageId "4 criteria for PSS modeling and planning"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [936 642.0000728342347]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "557d8180-1d25-11f1-8192-337b6cfc03a9"
+:noFill false
+:point [512 1016]
+:parentId "69b128c9-e677-4f5c-ae4d-7dc666c786eb"
+:collapsedHeight 0
+:nonce 1773218161117}}
+:block/updated-at 1773224890914} 
+{:block/created-at 1773237095127
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 2
+:scale [1 1]
+:pageId "Urban Drainage Terms"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [4136 3575.999887436065]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "f5371a10-1d34-11f1-a722-d7dfe177d3c2"
+:noFill false
+:point [2360 16]
+:parentId "69b128c9-e677-4f5c-ae4d-7dc666c786eb"
+:collapsedHeight 0
+:nonce 1773224871656}}
+:block/updated-at 1773237095127})
+:pages (
+{:block/uuid #uuid "69b128c9-e677-4f5c-ae4d-7dc666c786eb"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "69b128c9-e677-4f5c-ae4d-7dc666c786eb"
+:name "69b128c9-e677-4f5c-ae4d-7dc666c786eb"
+:bindings 
+{}
+:nonce 1
+:assets []
+:shapes-index ("f3312b30-1d24-11f1-8192-337b6cfc03a9" "557d8180-1d25-11f1-8192-337b6cfc03a9" "f5371a10-1d34-11f1-a722-d7dfe177d3c2")}}
+:block/updated-at 1773237095127
+:block/created-at 1773217993633
+:block/type "whiteboard"
+:block/name "69b128c9-e677-4f5c-ae4d-7dc666c786eb"
+:block/original-name "69b128c9-e677-4f5c-ae4d-7dc666c786eb"})}

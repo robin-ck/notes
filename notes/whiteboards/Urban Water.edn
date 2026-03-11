@@ -1,0 +1,972 @@
+{:blocks (
+{:block/created-at 1773245560271
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:rotation 0
+:borderRadius 2
+:index 9
+:scale [1 1]
+:refs []
+:scaleLevel "md"
+:fill ""
+:type "box"
+:size [1440 1552]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:label ""
+:id "506f1640-1ba4-11f1-b482-0d3fcbd8d5aa"
+:fontWeight 400
+:noFill true
+:point [1888 -64]
+:fontSize 20
+:parentId "69a99c77-6ed3-4443-ab94-52f473a22d76"
+:nonce 1773052797025
+:italic false}}
+:block/updated-at 1773245560271} 
+{:block/created-at 1773245560271
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke ""
+:borderRadius 0
+:index 14
+:scale [1 1]
+:scaleLevel "xl"
+:fill ""
+:type "text"
+:size [393 68]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "cab42240-1ba6-11f1-b482-0d3fcbd8d5aa"
+:padding 4
+:fontWeight 400
+:noFill true
+:point [3888 96]
+:lineHeight 1.2
+:fontSize 48
+:parentId "69a99c77-6ed3-4443-ab94-52f473a22d76"
+:nonce 1773053860615
+:italic false
+:text "support by using"}}
+:block/updated-at 1773245560271} 
+{:block/content "Changes:"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "69a99dde-45b0-405d-b1a0-c350eb025c9d"}
+:block/parent 
+{:block/uuid #uuid "69a99c77-6ed3-4443-ab94-52f473a22d76"}
+:block/uuid #uuid "69aa8fd9-848f-4cda-acde-f53256646753"} 
+{:block/created-at 1773245560271
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke ""
+:borderRadius 0
+:index 21
+:scale [1 1]
+:scaleLevel "xl"
+:fill ""
+:type "text"
+:size [320 68]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "7af83570-1bba-11f1-97ec-45715e47ed8d"
+:padding 4
+:fontWeight 400
+:noFill true
+:point [2408 1672]
+:lineHeight 1.2
+:fontSize 48
+:parentId "69a99c77-6ed3-4443-ab94-52f473a22d76"
+:nonce 1773062316686
+:italic false
+:text "Infrastrucutre"}}
+:block/updated-at 1773245560271} 
+{:block/created-at 1773245560271
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 6
+:scale [1 1]
+:pageId "Urbanization"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [584 563.9999389648438]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "c1464e00-1934-11f1-852a-cb8a4f9e22e1"
+:noFill false
+:point [616 656]
+:parentId "69a99c77-6ed3-4443-ab94-52f473a22d76"
+:collapsedHeight 0
+:nonce 1772784979900}}
+:block/updated-at 1773245560271} 
+{:block/created-at 1773245560271
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed true
+:borderRadius 8
+:index 2
+:scale [1 1]
+:pageId "Gray Infrastructure"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing false
+:type "logseq-portal"
+:size [320 40]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "096e7e30-18a6-11f1-b8d1-cf6a39b591c2"
+:noFill false
+:point [-392 24]
+:parentId "69a99c77-6ed3-4443-ab94-52f473a22d76"
+:collapsedHeight 633.9999728732639
+:nonce 1772723685489}}
+:block/updated-at 1773245560271} 
+{:block/created-at 1773245560271
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 16
+:scale [1 1]
+:pageId "Urban Resilience Planning"
+:scaleLevel "xl"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [800 691.9999999999999]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "fc2e2640-1ba6-11f1-b482-0d3fcbd8d5aa"
+:noFill false
+:point [3768 208]
+:parentId "69a99c77-6ed3-4443-ab94-52f473a22d76"
+:collapsedHeight 0
+:nonce 1773053943764}}
+:block/updated-at 1773245560271} 
+{:block/content ""
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "69aa8fd9-848f-4cda-acde-f53256646753"}
+:block/parent 
+{:block/uuid #uuid "69a99c77-6ed3-4443-ab94-52f473a22d76"}
+:block/properties 
+{}
+:block/uuid #uuid "69aa9073-a981-437d-bbf1-ca0e561ff083"} 
+{:block/created-at 1773245560271
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 20
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "76809000-1bba-11f1-97ec-45715e47ed8d"
+:fontWeight 400
+:noFill true
+:point [2337.78 1489]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [100.35 0]
+:bindingId "768068f0-1bba-11f1-97ec-45715e47ed8d"}
+:end 
+{:id "end"
+:canBind true
+:point [0 459]
+:bindingId "768068f1-1bba-11f1-97ec-45715e47ed8d"}}
+:decorations 
+{:end "arrow"}
+:parentId "69a99c77-6ed3-4443-ab94-52f473a22d76"
+:nonce 1773062309418
+:italic false}}
+:block/updated-at 1773245560271} 
+{:block/created-at 1773245560271
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke ""
+:borderRadius 0
+:index 11
+:scale [1 1]
+:scaleLevel "xl"
+:fill ""
+:type "text"
+:size [397 68]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "7f6f8ec0-1ba4-11f1-b482-0d3fcbd8d5aa"
+:padding 4
+:fontWeight 400
+:noFill true
+:point [632 -40]
+:lineHeight 1.2
+:fontSize 48
+:parentId "69a99c77-6ed3-4443-ab94-52f473a22d76"
+:nonce 1773052875202
+:italic false
+:text "Current Changes"}}
+:block/updated-at 1773245560271} 
+{:block/content ""
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "69aa9073-a981-437d-bbf1-ca0e561ff083"}
+:block/parent 
+{:block/uuid #uuid "69a99c77-6ed3-4443-ab94-52f473a22d76"}
+:block/properties 
+{}
+:block/uuid #uuid "69aea461-a45e-46ef-8ea4-9319f6b62bcc"} 
+{:block/created-at 1773245560271
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 19
+:scale [1 1]
+:pageId "Urban Drainage Terms"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [2776 4154.999815992055]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "50432240-1bba-11f1-97ec-45715e47ed8d"
+:noFill false
+:point [968 1952]
+:parentId "69a99c77-6ed3-4443-ab94-52f473a22d76"
+:collapsedHeight 0
+:nonce 1773062245222}}
+:block/updated-at 1773245560271} 
+{:block/created-at 1773245560271
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 1
+:scale [1 1]
+:pageId "Blue-Green Infrastructure"
+:scaleLevel "xl"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [632 565.999901094383]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "a2720ae0-1ba6-11f1-b482-0d3fcbd8d5aa"
+:noFill false
+:isLocked false
+:point [4720 8]
+:parentId "69a99c77-6ed3-4443-ab94-52f473a22d76"
+:collapsedHeight 0
+:nonce 1773053793736}}
+:block/updated-at 1773245560271} 
+{:block/created-at 1773245560271
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 13
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "c83c1d62-1ba6-11f1-b482-0d3fcbd8d5aa"
+:fontWeight 400
+:noFill true
+:point [3328 172.3]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 7.4]}
+:end 
+{:id "end"
+:canBind true
+:point [1388 0]
+:bindingId "c83c1d61-1ba6-11f1-b482-0d3fcbd8d5aa"}}
+:decorations 
+{:end "arrow"}
+:parentId "69a99c77-6ed3-4443-ab94-52f473a22d76"
+:nonce 1773053856710
+:italic false}}
+:block/updated-at 1773245560271} 
+{:block/created-at 1773245560271
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke ""
+:borderRadius 0
+:index 12
+:scale [1 1]
+:scaleLevel "xl"
+:fill ""
+:type "text"
+:size [284 68]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "f6814710-1ba4-11f1-b482-0d3fcbd8d5aa"
+:padding 4
+:fontWeight 400
+:noFill true
+:point [1896 -56]
+:lineHeight 1.2
+:fontSize 48
+:parentId "69a99c77-6ed3-4443-ab94-52f473a22d76"
+:nonce 1773053075007
+:italic false
+:text "Governance"}}
+:block/updated-at 1773245560271} 
+{:block/created-at 1773245560271
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 3
+:scale [1 1]
+:pageId "Climate change risks to cities"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [824 617.0001220703125]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "90509040-18a7-11f1-b8d1-cf6a39b591c2"
+:noFill false
+:point [616 56]
+:parentId "69a99c77-6ed3-4443-ab94-52f473a22d76"
+:collapsedHeight 0
+:nonce 1772724338874}}
+:block/updated-at 1773245560271} 
+{:block/created-at 1773245560271
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:rotation 0
+:borderRadius 2
+:index 8
+:scale [1 1]
+:scaleLevel "xl"
+:fill ""
+:type "box"
+:size [1040 1248]
+:strokeType "line"
+:strokeWidth 4.8
+:opacity 1
+:label ""
+:id "4c683400-1ba4-11f1-b482-0d3fcbd8d5aa"
+:fontWeight 400
+:noFill true
+:point [592 -56]
+:fontSize 48
+:parentId "69a99c77-6ed3-4443-ab94-52f473a22d76"
+:nonce 1773052789980
+:italic false}}
+:block/updated-at 1773245560271} 
+{:block/created-at 1773245560271
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 18
+:scale [1 1]
+:pageId "69aeb9b2-7072-4372-9ff5-940aa41dd2d4"
+:scaleLevel "xxl"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [1880 266.9998451674632]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "8b20cce0-1bb1-11f1-b482-0d3fcbd8d5aa"
+:noFill false
+:point [1408 -880]
+:parentId "69a99c77-6ed3-4443-ab94-52f473a22d76"
+:collapsedHeight 0
+:nonce 1773058478298}}
+:block/updated-at 1773245560271} 
+{:block/content "w"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "69a99c77-6ed3-4443-ab94-52f473a22d76"}
+:block/parent 
+{:block/uuid #uuid "69a99c77-6ed3-4443-ab94-52f473a22d76"}
+:block/properties 
+{}
+:block/uuid #uuid "69a99ced-1318-4a37-b6a6-d763ce0be1ac"} 
+{:block/created-at 1773245560271
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked false
+:stroke ""
+:rotation 0
+:borderRadius 0
+:index 5
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "text"
+:size [152 64]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "aa839b00-18a8-11f1-b8d1-cf6a39b591c2"
+:padding 4
+:fontWeight 400
+:noFill true
+:point [240 72]
+:lineHeight 1.2
+:fontSize 20
+:parentId "69a99c77-6ed3-4443-ab94-52f473a22d76"
+:nonce 1772724812437
+:italic false
+:text "Badly prepared"}}
+:block/updated-at 1773245560271} 
+{:block/created-at 1773245560266
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 4
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "a1c79522-18a8-11f1-b8d1-cf6a39b591c2"
+:fontWeight 400
+:noFill true
+:point [-71 49.74]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]
+:bindingId "a1c79520-18a8-11f1-b8d1-cf6a39b591c2"}
+:end 
+{:id "end"
+:canBind true
+:point [683 24.34]
+:bindingId "a1c79521-18a8-11f1-b8d1-cf6a39b591c2"}}
+:decorations 
+{:end "arrow"}
+:parentId "69a99c77-6ed3-4443-ab94-52f473a22d76"
+:nonce 1772724797732
+:italic false}}
+:block/updated-at 1773245560266} 
+{:block/content "ads"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "69a99ced-1318-4a37-b6a6-d763ce0be1ac"}
+:block/parent 
+{:block/uuid #uuid "69a99c77-6ed3-4443-ab94-52f473a22d76"}
+:block/properties 
+{}
+:block/uuid #uuid "69a99dde-45b0-405d-b1a0-c350eb025c9d"} 
+{:block/content "Literature mostly:\nBlue and Green Cities: The Role of Blue-Green Infrastructure in Managing Urban Water Resources | Springer Nature Link"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "69aea461-a45e-46ef-8ea4-9319f6b62bcc"}
+:block/parent 
+{:block/uuid #uuid "69a99c77-6ed3-4443-ab94-52f473a22d76"}
+:block/properties 
+{}
+:block/uuid #uuid "69aeb9b2-7072-4372-9ff5-940aa41dd2d4"} 
+{:block/created-at 1773245560271
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 7
+:scale [1 1]
+:pageId "Regulatory Response"
+:scaleLevel "lg"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [736 322.4998474121094]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "a224dfd0-1936-11f1-852a-cb8a4f9e22e1"
+:noFill false
+:point [1904 8]
+:parentId "69a99c77-6ed3-4443-ab94-52f473a22d76"
+:collapsedHeight 0
+:nonce 1772785786861}}
+:block/updated-at 1773245560271} 
+{:block/created-at 1773245560271
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke ""
+:borderRadius 0
+:index 15
+:scale [1 1]
+:scaleLevel "xl"
+:fill ""
+:type "text"
+:size [196 68]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "e9af0ac0-1ba6-11f1-b482-0d3fcbd8d5aa"
+:padding 4
+:fontWeight 400
+:noFill true
+:point [1664 632]
+:lineHeight 1.2
+:fontSize 48
+:parentId "69a99c77-6ed3-4443-ab94-52f473a22d76"
+:nonce 1773053912445
+:italic false
+:text "reaction"}}
+:block/updated-at 1773245560271} 
+{:block/created-at 1773245560271
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 17
+:scale [1 1]
+:pageId "Best practice of Governance tools"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [1208 1085.9999084472656]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "2122cae0-1ba8-11f1-b482-0d3fcbd8d5aa"
+:noFill false
+:point [1904 424]
+:parentId "69a99c77-6ed3-4443-ab94-52f473a22d76"
+:collapsedHeight 0
+:nonce 1773054435221}}
+:block/updated-at 1773245560271} 
+{:block/created-at 1773245560271
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 10
+:scale [1 1]
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "506f6460-1ba4-11f1-b482-0d3fcbd8d5aa"
+:fontWeight 400
+:noFill true
+:point [1633 618.15]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]
+:bindingId "506f6461-1ba4-11f1-b482-0d3fcbd8d5aa"}
+:end 
+{:id "end"
+:canBind true
+:point [251 24.16]
+:bindingId "506f6462-1ba4-11f1-b482-0d3fcbd8d5aa"}}
+:decorations 
+{:end "arrow"}
+:parentId "69a99c77-6ed3-4443-ab94-52f473a22d76"
+:nonce 1773052796736
+:italic false}}
+:block/updated-at 1773245560271} 
+{:block/content "New Page"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "69aeb9b2-7072-4372-9ff5-940aa41dd2d4"}
+:block/parent 
+{:block/uuid #uuid "69a99c77-6ed3-4443-ab94-52f473a22d76"}
+:block/uuid #uuid "69b188e9-3687-4145-b88f-2988c6f22ecd"} 
+{:block/created-at 1773245560271
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 22
+:scale [1 1]
+:pageId "WSUD PSS State"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [2600 5029.562871587246]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "3ff2bcc0-1d5e-11f1-9e1d-55e79d98259e"
+:noFill false
+:point [4304 6440]
+:parentId "69a99c77-6ed3-4443-ab94-52f473a22d76"
+:collapsedHeight 0
+:nonce 1773242606761}}
+:block/updated-at 1773245560271} 
+{:block/created-at 1773245560271
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 23
+:scale [1 1]
+:pageId "WSUD suitability Framework"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [2688 1553.9999807712325]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "d03538c0-1d64-11f1-9e1d-55e79d98259e"
+:noFill false
+:point [5008 3408]
+:parentId "69a99c77-6ed3-4443-ab94-52f473a22d76"
+:collapsedHeight 0
+:nonce 1773245425414}}
+:block/updated-at 1773245560271} 
+{:block/created-at 1773245565478
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 0
+:scale [1 1]
+:scaleLevel "xxl"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "1e36b440-1d65-11f1-9e1d-55e79d98259e"
+:fontWeight 400
+:noFill true
+:point [3776 4032]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]
+:bindingId nil}
+:end 
+{:id "end"
+:canBind true
+:point [1228 5.57]
+:bindingId "1e368d31-1d65-11f1-9e1d-55e79d98259e"}}
+:decorations 
+{:end "arrow"}
+:parentId "69a99c77-6ed3-4443-ab94-52f473a22d76"
+:nonce 1773245556198
+:italic false}}
+:block/updated-at 1773245565478} 
+{:block/created-at 1773245576962
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke ""
+:borderRadius 0
+:index 24
+:scale [1 1]
+:scaleLevel "xxl"
+:fill ""
+:type "text"
+:size [528 82]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "24bb8ed0-1d65-11f1-9e1d-55e79d98259e"
+:padding 4
+:fontWeight 400
+:noFill true
+:point [4136 3952]
+:lineHeight 1.2
+:fontSize 60
+:parentId "69a99c77-6ed3-4443-ab94-52f473a22d76"
+:nonce 1773245567056
+:italic false
+:text "WSUD Framework"}}
+:block/updated-at 1773245576962} 
+{:block/created-at 1773245596785
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 25
+:scale [1 1]
+:scaleLevel "xxl"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "2a1a38e2-1d65-11f1-9e1d-55e79d98259e"
+:fontWeight 400
+:noFill true
+:point [3745 5309.82]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]
+:bindingId "2a1a38e0-1d65-11f1-9e1d-55e79d98259e"}
+:end 
+{:id "end"
+:canBind true
+:point [1221.78 1126.18]
+:bindingId "2a1a38e1-1d65-11f1-9e1d-55e79d98259e"}}
+:decorations 
+{:end "arrow"}
+:parentId "69a99c77-6ed3-4443-ab94-52f473a22d76"
+:nonce 1773245576092
+:italic false}}
+:block/updated-at 1773245596785} 
+{:block/created-at 1773245596807
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke ""
+:borderRadius 0
+:index 26
+:scale [1 1]
+:scaleLevel "xxl"
+:fill ""
+:type "text"
+:size [577 82]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "2bd15ec0-1d65-11f1-9e1d-55e79d98259e"
+:padding 4
+:fontWeight 400
+:noFill true
+:point [4384 5768]
+:lineHeight 1.2
+:fontSize 60
+:parentId "69a99c77-6ed3-4443-ab94-52f473a22d76"
+:nonce 1773245578958
+:italic false
+:text "WSUD PSS Analysis"}}
+:block/updated-at 1773245596807})
+:pages (
+{:block/uuid #uuid "69a99c77-6ed3-4443-ab94-52f473a22d76"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "69a99c77-6ed3-4443-ab94-52f473a22d76"
+:name "urban water"
+:bindings 
+{:c83c1d61-1ba6-11f1-b482-0d3fcbd8d5aa 
+{:id "c83c1d61-1ba6-11f1-b482-0d3fcbd8d5aa"
+:type "line"
+:fromId "c83c1d62-1ba6-11f1-b482-0d3fcbd8d5aa"
+:toId "a2720ae0-1ba6-11f1-b482-0d3fcbd8d5aa"
+:handleId "end"
+:point [0.54 0.29]
+:distance 4}
+:506f6461-1ba4-11f1-b482-0d3fcbd8d5aa 
+{:id "506f6461-1ba4-11f1-b482-0d3fcbd8d5aa"
+:type "line"
+:fromId "506f6460-1ba4-11f1-b482-0d3fcbd8d5aa"
+:toId "4c683400-1ba4-11f1-b482-0d3fcbd8d5aa"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:1e368d31-1d65-11f1-9e1d-55e79d98259e 
+{:id "1e368d31-1d65-11f1-9e1d-55e79d98259e"
+:type "line"
+:fromId "1e36b440-1d65-11f1-9e1d-55e79d98259e"
+:toId "d03538c0-1d64-11f1-9e1d-55e79d98259e"
+:handleId "end"
+:point [0.56 0.41]
+:distance 4}
+:a1c79520-18a8-11f1-b8d1-cf6a39b591c2 
+{:id "a1c79520-18a8-11f1-b8d1-cf6a39b591c2"
+:type "line"
+:fromId "a1c79522-18a8-11f1-b8d1-cf6a39b591c2"
+:toId "096e7e30-18a6-11f1-b8d1-cf6a39b591c2"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:2a1a38e0-1d65-11f1-9e1d-55e79d98259e 
+{:id "2a1a38e0-1d65-11f1-9e1d-55e79d98259e"
+:type "line"
+:fromId "2a1a38e2-1d65-11f1-9e1d-55e79d98259e"
+:toId "50432240-1bba-11f1-97ec-45715e47ed8d"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:2a1a38e1-1d65-11f1-9e1d-55e79d98259e 
+{:id "2a1a38e1-1d65-11f1-9e1d-55e79d98259e"
+:type "line"
+:fromId "2a1a38e2-1d65-11f1-9e1d-55e79d98259e"
+:toId "3ff2bcc0-1d5e-11f1-9e1d-55e79d98259e"
+:handleId "end"
+:point [0.57 0.15]
+:distance 4}
+:506f6462-1ba4-11f1-b482-0d3fcbd8d5aa 
+{:id "506f6462-1ba4-11f1-b482-0d3fcbd8d5aa"
+:type "line"
+:fromId "506f6460-1ba4-11f1-b482-0d3fcbd8d5aa"
+:toId "506f1640-1ba4-11f1-b482-0d3fcbd8d5aa"
+:handleId "end"
+:point [0.5 0.5]
+:distance 4}
+:768068f0-1bba-11f1-97ec-45715e47ed8d 
+{:id "768068f0-1bba-11f1-97ec-45715e47ed8d"
+:type "line"
+:fromId "76809000-1bba-11f1-97ec-45715e47ed8d"
+:toId "506f1640-1ba4-11f1-b482-0d3fcbd8d5aa"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:227177c1-1d65-11f1-9e1d-55e79d98259e 
+{:id "227177c1-1d65-11f1-9e1d-55e79d98259e"
+:type "line"
+:fromId "1e36b440-1d65-11f1-9e1d-55e79d98259e"
+:toId "50432240-1bba-11f1-97ec-45715e47ed8d"
+:handleId "start"
+:point [0.5 0.53]
+:distance 4}
+:768068f1-1bba-11f1-97ec-45715e47ed8d 
+{:id "768068f1-1bba-11f1-97ec-45715e47ed8d"
+:type "line"
+:fromId "76809000-1bba-11f1-97ec-45715e47ed8d"
+:toId "50432240-1bba-11f1-97ec-45715e47ed8d"
+:handleId "end"
+:point [0.33 0.5]
+:distance 4}
+:a1c79521-18a8-11f1-b8d1-cf6a39b591c2 
+{:id "a1c79521-18a8-11f1-b8d1-cf6a39b591c2"
+:type "line"
+:fromId "a1c79522-18a8-11f1-b8d1-cf6a39b591c2"
+:toId "90509040-18a7-11f1-b8d1-cf6a39b591c2"
+:handleId "end"
+:point [0.52 0.06]
+:distance 4}}
+:nonce 1
+:assets []
+:shapes-index ("1e36b440-1d65-11f1-9e1d-55e79d98259e" "a2720ae0-1ba6-11f1-b482-0d3fcbd8d5aa" "096e7e30-18a6-11f1-b8d1-cf6a39b591c2" "90509040-18a7-11f1-b8d1-cf6a39b591c2" "a1c79522-18a8-11f1-b8d1-cf6a39b591c2" "aa839b00-18a8-11f1-b8d1-cf6a39b591c2" "c1464e00-1934-11f1-852a-cb8a4f9e22e1" "a224dfd0-1936-11f1-852a-cb8a4f9e22e1" "4c683400-1ba4-11f1-b482-0d3fcbd8d5aa" "506f1640-1ba4-11f1-b482-0d3fcbd8d5aa" "506f6460-1ba4-11f1-b482-0d3fcbd8d5aa" "7f6f8ec0-1ba4-11f1-b482-0d3fcbd8d5aa" "f6814710-1ba4-11f1-b482-0d3fcbd8d5aa" "c83c1d62-1ba6-11f1-b482-0d3fcbd8d5aa" "cab42240-1ba6-11f1-b482-0d3fcbd8d5aa" "e9af0ac0-1ba6-11f1-b482-0d3fcbd8d5aa" "fc2e2640-1ba6-11f1-b482-0d3fcbd8d5aa" "2122cae0-1ba8-11f1-b482-0d3fcbd8d5aa" "8b20cce0-1bb1-11f1-b482-0d3fcbd8d5aa" "50432240-1bba-11f1-97ec-45715e47ed8d" "76809000-1bba-11f1-97ec-45715e47ed8d" "7af83570-1bba-11f1-97ec-45715e47ed8d" "3ff2bcc0-1d5e-11f1-9e1d-55e79d98259e" "d03538c0-1d64-11f1-9e1d-55e79d98259e" "24bb8ed0-1d65-11f1-9e1d-55e79d98259e" "2a1a38e2-1d65-11f1-9e1d-55e79d98259e" "2bd15ec0-1d65-11f1-9e1d-55e79d98259e")}}
+:block/updated-at 1773245596807
+:block/created-at 1772723319155
+:block/type "whiteboard"
+:block/name "urban water"
+:block/original-name "Urban Water"})}
