@@ -4,7 +4,8 @@
 	- holistic approach taking technical, social, economic, and environmental factors into account
 	- considers all relevant scales
 	- Engaging all relevant stakeholders, effective communication and cooperation
-- ![image.png](../assets/image_1773243587029_0.png)
+- ![image.png](../assets/image_1773246081053_0.png)
+-
 - ## WSUD as Part of the Urban Water Cycle
   
   These tools operate at the lowest, most technical level — they model water flows and drainage system performance. They are primarily used during the design and implementation phases of WSUD, and are rooted in civil engineering.
@@ -29,7 +30,7 @@
 - ### Key Limitation
   
   While these tools are technically rigorous, the paper argues they are too narrowly focused on *how water behaves* and do not account for the broader planning context — things like land ownership, community values, or where green infrastructure would deliver the most benefit. They treat WSUD as an engineering problem rather than an urban planning one.
-- ## WSUD as Part of the Urban Form
+- ## WSUD as Part of the Urban Form #card 
   
   These tools sit in the middle of the three categories — they treat WSUD planning as a *location choice*, asking where in the city green infrastructure should go. The paper considers this the most relevant category for best planning practice.
 - ### 1. Planning Simulation
