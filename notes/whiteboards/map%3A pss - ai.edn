@@ -1,0 +1,124 @@
+{:blocks (
+{:block/content "Contextual Factors"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "69b2cf8e-eb90-40ff-9a46-5b76e82aca0f"}
+:block/parent 
+{:block/uuid #uuid "69b2cf8e-eb90-40ff-9a46-5b76e82aca0f"}
+:block/properties 
+{}
+:block/uuid #uuid "69b2cfa7-74ad-4686-8edc-33db707ce075"} 
+{:block/created-at 1773326264785
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 0
+:scale [1 1]
+:pageId "69b2cfa7-74ad-4686-8edc-33db707ce075"
+:scaleLevel "md"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 41]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "fbf83310-1e20-11f1-bef1-1349931039d0"
+:noFill false
+:point [440 392]
+:parentId "69b2cf8e-eb90-40ff-9a46-5b76e82aca0f"
+:collapsedHeight 0
+:nonce 1773326244037}}
+:block/updated-at 1773326264785} 
+{:block/content "Linear Regression"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "69b2cfa7-74ad-4686-8edc-33db707ce075"}
+:block/parent 
+{:block/uuid #uuid "69b2cf8e-eb90-40ff-9a46-5b76e82aca0f"}
+:block/uuid #uuid "69b2cfcd-a86b-478b-823a-23ffddfb2377"} 
+{:block/created-at 1773326346599
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 1
+:scale [1 1]
+:pageId "69b2cfcd-a86b-478b-823a-23ffddfb2377"
+:scaleLevel "md"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [160 41]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "0f989d10-1e21-11f1-bef1-1349931039d0"
+:noFill false
+:point [1384 400]
+:parentId "69b2cf8e-eb90-40ff-9a46-5b76e82aca0f"
+:collapsedHeight 0
+:nonce 1773326277133}}
+:block/updated-at 1773326346599} 
+{:block/content "Bayesian Models"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "69b2cfcd-a86b-478b-823a-23ffddfb2377"}
+:block/parent 
+{:block/uuid #uuid "69b2cf8e-eb90-40ff-9a46-5b76e82aca0f"}
+:block/uuid #uuid "69b2d002-52a8-46c9-8422-0db34eec7ffe"} 
+{:block/created-at 1773326348435
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 2
+:scale [1 1]
+:pageId "69b2d002-52a8-46c9-8422-0db34eec7ffe"
+:scaleLevel "md"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [168 41]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "20358b10-1e21-11f1-bef1-1349931039d0"
+:noFill false
+:point [1392 560]
+:parentId "69b2cf8e-eb90-40ff-9a46-5b76e82aca0f"
+:collapsedHeight 0
+:nonce 1773326304863}}
+:block/updated-at 1773326348435})
+:pages (
+{:block/uuid #uuid "69b2cf8e-eb90-40ff-9a46-5b76e82aca0f"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "69b2cf8e-eb90-40ff-9a46-5b76e82aca0f"
+:name "map: pss - ai"
+:bindings 
+{}
+:nonce 1
+:assets []
+:shapes-index ("fbf83310-1e20-11f1-bef1-1349931039d0" "0f989d10-1e21-11f1-bef1-1349931039d0" "20358b10-1e21-11f1-bef1-1349931039d0")}}
+:block/updated-at 1773326348435
+:block/created-at 1773326222495
+:block/type "whiteboard"
+:block/name "map: pss - ai"
+:block/original-name "map: pss - ai"})}

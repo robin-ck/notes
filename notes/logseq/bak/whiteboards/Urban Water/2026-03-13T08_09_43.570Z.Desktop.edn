@@ -183,7 +183,7 @@
 :block/properties 
 {}
 :block/uuid #uuid "69aa9073-a981-437d-bbf1-ca0e561ff083"} 
-{:block/created-at 1773303502407
+{:block/created-at 1773245904208
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -216,9 +216,9 @@
 :decorations 
 {:end "arrow"}
 :parentId "69a99c77-6ed3-4443-ab94-52f473a22d76"
-:nonce 1773062309422
+:nonce 1773062309420
 :italic false}}
-:block/updated-at 1773303502407} 
+:block/updated-at 1773245904208} 
 {:block/created-at 1773245560271
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -257,7 +257,7 @@
 :block/properties 
 {}
 :block/uuid #uuid "69aea461-a45e-46ef-8ea4-9319f6b62bcc"} 
-{:block/created-at 1773303502392
+{:block/created-at 1773245904190
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -274,7 +274,7 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [2776 4155.000075949318]
+:size [2776 4154.999913523764]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -283,8 +283,8 @@
 :point [968 1952]
 :parentId "69a99c77-6ed3-4443-ab94-52f473a22d76"
 :collapsedHeight 0
-:nonce 1773062245226}}
-:block/updated-at 1773303502392} 
+:nonce 1773062245224}}
+:block/updated-at 1773245904190} 
 {:block/created-at 1773245560271
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -553,7 +553,7 @@
 :block/properties 
 {}
 :block/uuid #uuid "69aeb9b2-7072-4372-9ff5-940aa41dd2d4"} 
-{:block/created-at 1773303494578
+{:block/created-at 1773245560271
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -570,7 +570,7 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [736 446.999843502952]
+:size [736 322.4998474121094]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -579,8 +579,8 @@
 :point [1904 8]
 :parentId "69a99c77-6ed3-4443-ab94-52f473a22d76"
 :collapsedHeight 0
-:nonce 1772785786862}}
-:block/updated-at 1773303494578} 
+:nonce 1772785786861}}
+:block/updated-at 1773245560271} 
 {:block/created-at 1773245560271
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -680,7 +680,7 @@
 :block/parent 
 {:block/uuid #uuid "69a99c77-6ed3-4443-ab94-52f473a22d76"}
 :block/uuid #uuid "69b188e9-3687-4145-b88f-2988c6f22ecd"} 
-{:block/created-at 1773303535304
+{:block/created-at 1773302257091
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -691,23 +691,23 @@
 :borderRadius 8
 :index 22
 :scale [1 1]
-:pageId "WSUD Planning Process"
+:pageId "WSUD PSS State"
 :scaleLevel "md"
 :fill ""
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [2600 4824.578714897795]
+:size [2600 3470.5624555535164]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
 :id "3ff2bcc0-1d5e-11f1-9e1d-55e79d98259e"
 :noFill false
-:point [4312 6440]
+:point [4304 6440]
 :parentId "69a99c77-6ed3-4443-ab94-52f473a22d76"
 :collapsedHeight 0
-:nonce 1773242606772}}
-:block/updated-at 1773303535304} 
+:nonce 1773242606769}}
+:block/updated-at 1773302257091} 
 {:block/created-at 1773245905550
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -801,7 +801,7 @@
 :italic false
 :text "WSUD Framework"}}
 :block/updated-at 1773245576962} 
-{:block/created-at 1773303535307
+{:block/created-at 1773302257107
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -818,7 +818,7 @@
 :id "2a1a38e2-1d65-11f1-9e1d-55e79d98259e"
 :fontWeight 400
 :noFill true
-:point [3745 5294.42]
+:point [3745 5215.13]
 :fontSize 20
 :handles 
 {:start 
@@ -829,14 +829,14 @@
 :end 
 {:id "end"
 :canBind true
-:point [1253.57 1141.58]
+:point [1430.28 1220.87]
 :bindingId "2a1a38e1-1d65-11f1-9e1d-55e79d98259e"}}
 :decorations 
 {:end "arrow"}
 :parentId "69a99c77-6ed3-4443-ab94-52f473a22d76"
-:nonce 1773245576104
+:nonce 1773245576101
 :italic false}}
-:block/updated-at 1773303535307} 
+:block/updated-at 1773302257107} 
 {:block/created-at 1773245596807
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -993,7 +993,7 @@
 :nonce 1
 :assets []
 :shapes-index ("1e36b440-1d65-11f1-9e1d-55e79d98259e" "a2720ae0-1ba6-11f1-b482-0d3fcbd8d5aa" "096e7e30-18a6-11f1-b8d1-cf6a39b591c2" "90509040-18a7-11f1-b8d1-cf6a39b591c2" "a1c79522-18a8-11f1-b8d1-cf6a39b591c2" "aa839b00-18a8-11f1-b8d1-cf6a39b591c2" "c1464e00-1934-11f1-852a-cb8a4f9e22e1" "a224dfd0-1936-11f1-852a-cb8a4f9e22e1" "4c683400-1ba4-11f1-b482-0d3fcbd8d5aa" "506f1640-1ba4-11f1-b482-0d3fcbd8d5aa" "506f6460-1ba4-11f1-b482-0d3fcbd8d5aa" "7f6f8ec0-1ba4-11f1-b482-0d3fcbd8d5aa" "f6814710-1ba4-11f1-b482-0d3fcbd8d5aa" "c83c1d62-1ba6-11f1-b482-0d3fcbd8d5aa" "cab42240-1ba6-11f1-b482-0d3fcbd8d5aa" "e9af0ac0-1ba6-11f1-b482-0d3fcbd8d5aa" "fc2e2640-1ba6-11f1-b482-0d3fcbd8d5aa" "2122cae0-1ba8-11f1-b482-0d3fcbd8d5aa" "8b20cce0-1bb1-11f1-b482-0d3fcbd8d5aa" "50432240-1bba-11f1-97ec-45715e47ed8d" "76809000-1bba-11f1-97ec-45715e47ed8d" "7af83570-1bba-11f1-97ec-45715e47ed8d" "3ff2bcc0-1d5e-11f1-9e1d-55e79d98259e" "d03538c0-1d64-11f1-9e1d-55e79d98259e" "24bb8ed0-1d65-11f1-9e1d-55e79d98259e" "2a1a38e2-1d65-11f1-9e1d-55e79d98259e" "2bd15ec0-1d65-11f1-9e1d-55e79d98259e" "14efc780-1de9-11f1-b190-a1de90145a53")}}
-:block/updated-at 1773303535328
+:block/updated-at 1773302257123
 :block/created-at 1772723319155
 :block/type "whiteboard"
 :block/name "urban water"
