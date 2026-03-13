@@ -1,25 +1,33 @@
-- > PSS usefulness is not determined by technology alone. Contextual factors — especially **transparency**, **user attitude**, **active uptakers**, and **political context** — play a decisive role. Only when PSS users can identify favorable and unfavorable contextual factors will the full potential of PSS for spatial planning be realized.
-- | Contextual Factor    | Direction    | Significant?       |
-  |----------------------|--------------|--------------------|
-  | Transparency         | ➕ Positive  | ✅ Yes             |
-  | Communicating        | ➕ Positive  | ✅ Yes             |
-  | Informing            | ➕ Positive  | ✅ Yes (partially) |
-  | Analyzing            | ➖ Negative  | ✅ Yes (partially) |
-  | Designing            | ➖ Negative  | ✅ Yes (partially) |
-  | Flexibility          | ➖ Negative  | ✅ Yes (partially) |
-  | User-friendliness    | —            | ❌ No              |
-  | Interactivity        | —            | ❌ No              |
-  | User attitude        | ➕ Positive  | ✅ Yes             |
-  | Expertise level      | ➖ Negative  | ✅ Yes (partially) |
-  | Profession           | —            | ❌ No              |
-  | Active uptaker       | ➕ Positive  | ✅ Yes (partially) |
-  | Time pressure        | —            | ❌ No              |
-  | Funding              | —            | ❌ No              |
-  | Planning style (closed) | ➕ Positive | ✅ Yes            |
-  | Political pressure   | ➖ Negative  | ✅ Yes             |
-  | Types of urban issues | —           | ❌ No              |
+## Questionnaire Summary
+collapsed:: true
+	- The data were collected through an international online questionnaire distributed
+	  to approximately 1,300 members of the *Computers in Urban Planning and Urban
+	  Management* (CUPUM) research community between May and July 2019. A total of 268
+	  responses were received (response rate ≈ 20%), of which **175 were used in the
+	  analysis** — those from respondents involved in smart city projects where ICT
+	  played a significant role.
+	- ### Structure
+	  
+	  The questionnaire consisted of three parts:
+	  
+	  1. **Respondent background:** gender, age, profession, geographical origin, and
+	   level of expertise with planning support ICTs.
+	  2. **PSS in practice:** perceptions of PSS application in smart city projects,
+	   covering five themes — urban problems, functionalities, usability, added value,
+	   and contextual factors. Responses were recorded on a **7-point Likert scale**
+	   (1 = low, 7 = high).
+	  3. **Conference-specific questions:** related to the 2019 CUPUM conference; not
+	   used in this study.
+	- ### Sample Characteristics
+	  
+	  | Attribute | Detail |
+	  |---|---|
+	  | **Geography** | China (53%), Europe (15.4%), Asia excl. China (14.2%), North America / South America / Oceania (5.1% each), Africa (2.3%) |
+	  | **Profession** | Academic researchers & doctoral students (61.7%), planners (32.6%), designers (3.4%), politicians (2.3%) |
+	  | **Mean PSS usefulness** | 2.90 (on a recoded ordinal scale from 1 to 5) |
 -
-- Used Logistic Model:
+- ## Used Logistic Model:
+  collapsed:: true
 	- $Y$ - usefulness
 	- $X$ - contextual factors
 	- fit model to: 
@@ -57,5 +65,7 @@
 			- Compute the **standard error** from the curvature of the log-likelihood function
 			- Compute the **Wald statistic** as the squared ratio of estimate to standard error
 			- Compute the **p-value** as the right-tail area of the χ²(1) distribution at that Wald value
+- ---
 -
+- Results: [[Contextual Factors Study Results]]
 - [[jiangEffectsContextualFactors2021]]

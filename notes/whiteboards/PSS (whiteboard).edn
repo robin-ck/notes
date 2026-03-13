@@ -118,7 +118,7 @@
 :nonce 1773303909502
 :italic false}}
 :block/updated-at 1773394644284} 
-{:block/created-at 1773394644290
+{:block/created-at 1773406161999
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -135,7 +135,7 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [1072 907.2027800444406]
+:size [1072 907.218793245935]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -144,8 +144,8 @@
 :point [-1128 568]
 :parentId "69b277f4-a8e4-488d-862a-66dfe10929e0"
 :collapsedHeight 0
-:nonce 1773303983188}}
-:block/updated-at 1773394644290} 
+:nonce 1773303983192}}
+:block/updated-at 1773406161999} 
 {:block/content "Usefulness of PSS"
 :block/format :markdown
 :block/left 
@@ -153,7 +153,7 @@
 :block/parent 
 {:block/uuid #uuid "69b277f4-a8e4-488d-862a-66dfe10929e0"}
 :block/uuid #uuid "69b28246-52ba-43ce-9c1c-cd1473089b6b"} 
-{:block/created-at 1773394644294
+{:block/created-at 1773406222584
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -170,17 +170,17 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [1920 2302.999811033456]
+:size [1920 2331.9999750961006]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
 :id "e1c2fee0-1df2-11f1-bef1-1349931039d0"
 :noFill false
-:point [-200 -2528]
+:point [-160 -2552]
 :parentId "69b277f4-a8e4-488d-862a-66dfe10929e0"
 :collapsedHeight 0
-:nonce 1773306443973}}
-:block/updated-at 1773394644294} 
+:nonce 1773306443994}}
+:block/updated-at 1773406222584} 
 {:block/created-at 1773394673449
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -192,7 +192,7 @@
 :borderRadius 8
 :index 6
 :scale [1 1]
-:pageId "Case Studys of PSS"
+:pageId "Case Studys of PSS Usefulness Framework"
 :scaleLevel "md"
 :fill ""
 :compact false
@@ -218,23 +218,24 @@
 :block/properties 
 {}
 :block/uuid #uuid "69b3db10-f0c4-43d4-bfc1-4fe8dfa2dc20"} 
-{:block/created-at 1773394711150
+{:block/created-at 1773405916033
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:blockType "P"
 :stroke ""
+:rotation 0
 :collapsed false
 :borderRadius 8
 :index 7
 :scale [1 1]
-:pageId "Contextual Factors Study"
+:pageId "Contextual Factors Study Results"
 :scaleLevel "md"
 :fill ""
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [400 112.99999999999997]
+:size [1792 992.9999106849962]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -243,8 +244,8 @@
 :point [4888 -816]
 :parentId "69b277f4-a8e4-488d-862a-66dfe10929e0"
 :collapsedHeight 0
-:nonce 1773394708021}}
-:block/updated-at 1773394711150})
+:nonce 1773394708052}}
+:block/updated-at 1773405916033})
 :pages (
 {:block/uuid #uuid "69b277f4-a8e4-488d-862a-66dfe10929e0"
 :block/properties 
@@ -272,7 +273,7 @@
 :nonce 1
 :assets []
 :shapes-index ("c60cefe0-1dec-11f1-bef1-1349931039d0" "ca503ee0-1dec-11f1-bef1-1349931039d0" "d987a970-1dec-11f1-bef1-1349931039d0" "fb8375e2-1dec-11f1-bef1-1349931039d0" "2764d410-1ded-11f1-bef1-1349931039d0" "e1c2fee0-1df2-11f1-bef1-1349931039d0" "68845e00-1dfe-11f1-bef1-1349931039d0" "63af4120-1ec0-11f1-a2f8-dbcc9ee2c405")}}
-:block/updated-at 1773394711150
+:block/updated-at 1773406229082
 :block/created-at 1773303796718
 :block/type "whiteboard"
 :block/name "pss (whiteboard)"

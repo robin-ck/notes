@@ -1,4 +1,4 @@
-tags:: PSS
+tags:: PSS, Method
 
 - Measures to PSS:
 	- Performance (unambiguous conceptual building block)
@@ -49,6 +49,7 @@ tags:: PSS
 		-
 		-
 -
+- [[Case Studys of PSS Usefulness Framework]]
 - ---
 - [[pelzerUsefulnessPlanningSupport2017a]]
 	-
