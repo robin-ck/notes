@@ -35,14 +35,16 @@
 :collapsedHeight 0
 :nonce 1773326244037}}
 :block/updated-at 1773326264785} 
-{:block/content "Linear Regression"
+{:block/content "Regression"
 :block/format :markdown
 :block/left 
 {:block/uuid #uuid "69b2cfa7-74ad-4686-8edc-33db707ce075"}
 :block/parent 
 {:block/uuid #uuid "69b2cf8e-eb90-40ff-9a46-5b76e82aca0f"}
+:block/properties 
+{}
 :block/uuid #uuid "69b2cfcd-a86b-478b-823a-23ffddfb2377"} 
-{:block/created-at 1773406114851
+{:block/created-at 1773406478825
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -59,7 +61,7 @@
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [160 41]
+:size [160 40.99996851959019]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -68,8 +70,8 @@
 :point [2008 -8]
 :parentId "69b2cf8e-eb90-40ff-9a46-5b76e82aca0f"
 :collapsedHeight 0
-:nonce 1773326277233}}
-:block/updated-at 1773406114851} 
+:nonce 1773326277235}}
+:block/updated-at 1773406478825} 
 {:block/content "Bayesian Models"
 :block/format :markdown
 :block/left 
@@ -132,7 +134,7 @@
 :collapsedHeight 0
 :nonce 1773405930663}}
 :block/updated-at 1773406117459} 
-{:block/created-at 1773406127845
+{:block/created-at 1773406478837
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -165,9 +167,9 @@
 :decorations 
 {:end "arrow"}
 :parentId "69b2cf8e-eb90-40ff-9a46-5b76e82aca0f"
-:nonce 1773406120726
+:nonce 1773406120728
 :italic false}}
-:block/updated-at 1773406127845} 
+:block/updated-at 1773406478837} 
 {:block/created-at 1773406130025
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -203,7 +205,72 @@
 :parentId "69b2cf8e-eb90-40ff-9a46-5b76e82aca0f"
 :nonce 1773406127045
 :italic false}}
-:block/updated-at 1773406130025})
+:block/updated-at 1773406130025} 
+{:block/created-at 1773406455927
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 6
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "b9bda282-1edb-11f1-a2f8-dbcc9ee2c405"
+:fontWeight 400
+:noFill true
+:point [844 434.4]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [1211.56 380.6]
+:bindingId "b9bda280-1edb-11f1-a2f8-dbcc9ee2c405"}
+:end 
+{:id "end"
+:canBind true
+:point [0 0]
+:bindingId "b9bda281-1edb-11f1-a2f8-dbcc9ee2c405"}}
+:decorations 
+{:end "arrow"}
+:parentId "69b2cf8e-eb90-40ff-9a46-5b76e82aca0f"
+:nonce 1773406448928
+:italic false}}
+:block/updated-at 1773406455927} 
+{:block/created-at 1773406455933
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke ""
+:borderRadius 0
+:index 7
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "text"
+:size [57 34]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "bc4007a0-1edb-11f1-a2f8-dbcc9ee2c405"
+:padding 4
+:fontWeight 400
+:noFill true
+:point [1416 592]
+:lineHeight 1.2
+:fontSize 20
+:parentId "69b2cf8e-eb90-40ff-9a46-5b76e82aca0f"
+:nonce 1773406453029
+:italic false
+:text "IDEA"}}
+:block/updated-at 1773406455933})
 :pages (
 {:block/uuid #uuid "69b2cf8e-eb90-40ff-9a46-5b76e82aca0f"
 :block/properties 
@@ -243,11 +310,27 @@
 :toId "fbf83310-1e20-11f1-bef1-1349931039d0"
 :handleId "end"
 :point [0.79 0.79]
+:distance 4}
+:b9bda280-1edb-11f1-a2f8-dbcc9ee2c405 
+{:id "b9bda280-1edb-11f1-a2f8-dbcc9ee2c405"
+:type "line"
+:fromId "b9bda282-1edb-11f1-a2f8-dbcc9ee2c405"
+:toId "20358b10-1e21-11f1-bef1-1349931039d0"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:b9bda281-1edb-11f1-a2f8-dbcc9ee2c405 
+{:id "b9bda281-1edb-11f1-a2f8-dbcc9ee2c405"
+:type "line"
+:fromId "b9bda282-1edb-11f1-a2f8-dbcc9ee2c405"
+:toId "fbf83310-1e20-11f1-bef1-1349931039d0"
+:handleId "end"
+:point [0.81 0.45]
 :distance 4}}
 :nonce 1
 :assets []
-:shapes-index ("fbf83310-1e20-11f1-bef1-1349931039d0" "0f989d10-1e21-11f1-bef1-1349931039d0" "20358b10-1e21-11f1-bef1-1349931039d0" "84c89e00-1eda-11f1-a2f8-dbcc9ee2c405" "f60fa400-1eda-11f1-a2f8-dbcc9ee2c405" "f9e27df2-1eda-11f1-a2f8-dbcc9ee2c405")}}
-:block/updated-at 1773406135962
+:shapes-index ("fbf83310-1e20-11f1-bef1-1349931039d0" "0f989d10-1e21-11f1-bef1-1349931039d0" "20358b10-1e21-11f1-bef1-1349931039d0" "84c89e00-1eda-11f1-a2f8-dbcc9ee2c405" "f60fa400-1eda-11f1-a2f8-dbcc9ee2c405" "f9e27df2-1eda-11f1-a2f8-dbcc9ee2c405" "b9bda282-1edb-11f1-a2f8-dbcc9ee2c405" "bc4007a0-1edb-11f1-a2f8-dbcc9ee2c405")}}
+:block/updated-at 1773406481319
 :block/created-at 1773326222495
 :block/type "whiteboard"
 :block/name "map: pss - ai"

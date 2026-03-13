@@ -1,0 +1,53 @@
+{:blocks (
+{:block/content "MCDA Elements"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "69b410b3-53e5-40e6-a816-efecb7bb26b7"}
+:block/parent 
+{:block/uuid #uuid "69b410b3-53e5-40e6-a816-efecb7bb26b7"}
+:block/uuid #uuid "69b410bb-71f3-4e51-9da2-4b6c320523bc"} 
+{:block/created-at 1773410571057
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 0
+:scale [1 1]
+:pageId "MCDA Elements"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [1760 4288.624552900611]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "60a10930-1ee0-11f1-a2f8-dbcc9ee2c405"
+:noFill false
+:point [1008 488]
+:parentId "69b410b3-53e5-40e6-a816-efecb7bb26b7"
+:collapsedHeight 0
+:nonce 1773408446858}}
+:block/updated-at 1773410571057})
+:pages (
+{:block/uuid #uuid "69b410b3-53e5-40e6-a816-efecb7bb26b7"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "69b410b3-53e5-40e6-a816-efecb7bb26b7"
+:name "69b410b3-53e5-40e6-a816-efecb7bb26b7"
+:bindings 
+{}
+:nonce 1
+:assets []
+:shapes-index ("60a10930-1ee0-11f1-a2f8-dbcc9ee2c405")}}
+:block/updated-at 1773410571056
+:block/created-at 1773408435819
+:block/type "whiteboard"
+:block/name "69b410b3-53e5-40e6-a816-efecb7bb26b7"
+:block/original-name "69b410b3-53e5-40e6-a816-efecb7bb26b7"})}

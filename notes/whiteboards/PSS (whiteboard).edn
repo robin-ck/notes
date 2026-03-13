@@ -118,7 +118,7 @@
 :nonce 1773303909502
 :italic false}}
 :block/updated-at 1773394644284} 
-{:block/created-at 1773406161999
+{:block/created-at 1773415337828
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -135,7 +135,7 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [1072 907.218793245935]
+:size [1072 907.2187446762641]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -144,8 +144,8 @@
 :point [-1128 568]
 :parentId "69b277f4-a8e4-488d-862a-66dfe10929e0"
 :collapsedHeight 0
-:nonce 1773303983192}}
-:block/updated-at 1773406161999} 
+:nonce 1773303983194}}
+:block/updated-at 1773415337828} 
 {:block/content "Usefulness of PSS"
 :block/format :markdown
 :block/left 
@@ -245,7 +245,35 @@
 :parentId "69b277f4-a8e4-488d-862a-66dfe10929e0"
 :collapsedHeight 0
 :nonce 1773394708052}}
-:block/updated-at 1773405916033})
+:block/updated-at 1773405916033} 
+{:block/created-at 1773415474016
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 8
+:scale [1 1]
+:pageId "WSUD Planning Process"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [4376 4855.577981232839]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "aeef2ad0-1ef0-11f1-a2f8-dbcc9ee2c405"
+:noFill false
+:point [4056 432]
+:parentId "69b277f4-a8e4-488d-862a-66dfe10929e0"
+:collapsedHeight 0
+:nonce 1773415450219}}
+:block/updated-at 1773415474016})
 :pages (
 {:block/uuid #uuid "69b277f4-a8e4-488d-862a-66dfe10929e0"
 :block/properties 
@@ -272,8 +300,8 @@
 :distance 4}}
 :nonce 1
 :assets []
-:shapes-index ("c60cefe0-1dec-11f1-bef1-1349931039d0" "ca503ee0-1dec-11f1-bef1-1349931039d0" "d987a970-1dec-11f1-bef1-1349931039d0" "fb8375e2-1dec-11f1-bef1-1349931039d0" "2764d410-1ded-11f1-bef1-1349931039d0" "e1c2fee0-1df2-11f1-bef1-1349931039d0" "68845e00-1dfe-11f1-bef1-1349931039d0" "63af4120-1ec0-11f1-a2f8-dbcc9ee2c405")}}
-:block/updated-at 1773406229082
+:shapes-index ("c60cefe0-1dec-11f1-bef1-1349931039d0" "ca503ee0-1dec-11f1-bef1-1349931039d0" "d987a970-1dec-11f1-bef1-1349931039d0" "fb8375e2-1dec-11f1-bef1-1349931039d0" "2764d410-1ded-11f1-bef1-1349931039d0" "e1c2fee0-1df2-11f1-bef1-1349931039d0" "68845e00-1dfe-11f1-bef1-1349931039d0" "63af4120-1ec0-11f1-a2f8-dbcc9ee2c405" "aeef2ad0-1ef0-11f1-a2f8-dbcc9ee2c405")}}
+:block/updated-at 1773415474016
 :block/created-at 1773303796718
 :block/type "whiteboard"
 :block/name "pss (whiteboard)"

@@ -8,6 +8,12 @@ tags:: PSS, Method
 	- Added Value
 		- positive influence of PSS
 	- Usefulness #card
+	  card-last-interval:: 4
+	  card-repeats:: 1
+	  card-ease-factor:: 2.36
+	  card-next-schedule:: 2026-03-17T15:25:18.774Z
+	  card-last-reviewed:: 2026-03-13T15:25:18.778Z
+	  card-last-score:: 3
 		- ‘issue of whether the system can be used to achieve some desired goals’.
 		- PSS usefulness interrelated dimensions:
 			- 1) kinds of usefulness:
@@ -21,7 +27,13 @@ tags:: PSS, Method
 			  | Efficiency | The same or more tasks can be conducted with smaller investments |
 			  | Better informed plans or decisions | A decision or outcome is based on better information and/or a better consideration of the information |
 			- 2) help achieving desired goals
-		- 2 explanatory Usefulness variables: #card 
+		- 2 explanatory Usefulness variables: 
+		  card-last-interval:: 4
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2026-03-17T15:25:31.344Z
+		  card-last-reviewed:: 2026-03-13T15:25:31.344Z
+		  card-last-score:: 5
 		  ![image.png](../assets/image_1773307111101_0.png){:height 209, :width 512}
 			- Utility
 				- ‘utility is the question of whether the functionality of the system in principle can do what is needed’

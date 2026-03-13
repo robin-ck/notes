@@ -100,8 +100,8 @@ tags:: BGI
   card-last-interval:: -1
   card-repeats:: 1
   card-ease-factor:: 2.5
-  card-next-schedule:: 2026-03-12T23:00:00.000Z
-  card-last-reviewed:: 2026-03-12T08:12:01.921Z
+  card-next-schedule:: 2026-03-13T23:00:00.000Z
+  card-last-reviewed:: 2026-03-13T15:26:14.308Z
   card-last-score:: 1
 	- **Current definition:** A term proposed by the US National Research Council (2008) to **replace BMP**; refers to both structural and non-structural control measures **without** implying a value judgement about whether a practice is **'best'**.
 	- **Pre-2008:** BMP recognised as too vague and often used to describe practices that were clearly not best practice.
@@ -109,12 +109,12 @@ tags:: BGI
 	- **Current status:** SCM has not fully replaced BMP; BMP persists in many state design manuals and in general design practice.
 - ---
 - **### Alternative Techniques (ATs) / Compensatory Techniques (CTs)** #card
-  card-last-interval:: -1
-  card-repeats:: 1
-  card-ease-factor:: 2.5
-  card-next-schedule:: 2026-03-12T23:00:00.000Z
-  card-last-reviewed:: 2026-03-12T08:12:14.486Z
-  card-last-score:: 1
+  card-last-interval:: 4
+  card-repeats:: 2
+  card-ease-factor:: 2.36
+  card-next-schedule:: 2026-03-17T15:26:32.015Z
+  card-last-reviewed:: 2026-03-13T15:26:32.015Z
+  card-last-score:: 3
 	- **Current definition:** French-origin terms (techniques alternatives / techniques compensatoires) describing **decentralised**, nature-based stormwater management approaches that compensate for urbanisation impacts through **flow control, retention, and infiltration**. The term is now becoming less favoured, displaced by **source control** and **IUWM** concepts.
 	- **Early 1980s (origin):** Introduced in French-speaking countries as a new urban drainage paradigm moving away from 'rapid disposal'; driven by suburban expansion costs and environmental concern; early goal was quality of life improvement alongside drainage.
 	- **Original concept:** ATs aimed to maintain the same flow rates as natural (pre-development) conditions — similar in intent to LID; included flow management and multi-function stormwater corridors.
@@ -125,8 +125,8 @@ tags:: BGI
   card-last-interval:: -1
   card-repeats:: 1
   card-ease-factor:: 2.5
-  card-next-schedule:: 2026-03-12T23:00:00.000Z
-  card-last-reviewed:: 2026-03-12T08:12:38.583Z
+  card-next-schedule:: 2026-03-13T23:00:00.000Z
+  card-last-reviewed:: 2026-03-13T15:26:25.163Z
   card-last-score:: 1
 	- **Current definition:** An ambiguous term used in two distinct ways — **(1) pollution prevention** through **non-structural measures** (minimising pollutant sources) and **(2) at-source structural stormwater treatment** measures applied close to where runoff is generated. Readers must infer meaning from context.
 	- **Early North American use:** Distinguished on-site stormwater systems from large downstream detention basins; at-source practices treated as a subset of detention techniques targeting quantity only.

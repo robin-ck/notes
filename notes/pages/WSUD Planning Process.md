@@ -8,14 +8,14 @@ tags:: [NbS, WSUD, PSS, Planning]
 	- holistic approach taking technical, social, economic, and environmental factors into account
 	- considers all relevant scales
 	- Engaging all relevant stakeholders, effective communication and cooperation
-- ![image.png](../assets/image_1773246081053_0.png){:height 409, :width 778}
+- ![image.png](../assets/image_1773415726831_0.png)
 -
 - ## WSUD as Part of the Urban Water Cycle #card
   card-last-interval:: -1
   card-repeats:: 1
   card-ease-factor:: 2.5
-  card-next-schedule:: 2026-03-12T23:00:00.000Z
-  card-last-reviewed:: 2026-03-12T08:10:16.211Z
+  card-next-schedule:: 2026-03-13T23:00:00.000Z
+  card-last-reviewed:: 2026-03-13T15:26:54.175Z
   card-last-score:: 1
 	- ![image.png](../assets/image_1773302854102_0.png) 
 	  These tools operate at the lowest, most technical level — they model water flows and drainage system performance. They are primarily used during the design and implementation phases of WSUD, and are rooted in civil engineering.
@@ -92,8 +92,8 @@ tags:: [NbS, WSUD, PSS, Planning]
   card-last-interval:: -1
   card-repeats:: 1
   card-ease-factor:: 2.5
-  card-next-schedule:: 2026-03-12T23:00:00.000Z
-  card-last-reviewed:: 2026-03-12T08:08:55.976Z
+  card-next-schedule:: 2026-03-13T23:00:00.000Z
+  card-last-reviewed:: 2026-03-13T15:26:03.957Z
   card-last-score:: 1
 	- ![image.png](../assets/image_1773302904312_0.png)
 	- Water governance tools operate at the highest, most strategic level — they're about shifting an entire city's water management culture and policy over the long term, not about where to place specific infrastructure.
