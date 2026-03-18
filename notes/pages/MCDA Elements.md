@@ -1,3 +1,6 @@
+tags:: MCDA
+
+-
 - Chapter 2.2 – Elements of MCDA
   
   ---

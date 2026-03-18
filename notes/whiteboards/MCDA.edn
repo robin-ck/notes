@@ -6,7 +6,7 @@
 :block/parent 
 {:block/uuid #uuid "69b410b3-53e5-40e6-a816-efecb7bb26b7"}
 :block/uuid #uuid "69b410bb-71f3-4e51-9da2-4b6c320523bc"} 
-{:block/created-at 1773410571057
+{:block/created-at 1773665194185
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -23,7 +23,7 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [1760 4288.624552900611]
+:size [1760 7243.547181882469]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -32,22 +32,51 @@
 :point [1008 488]
 :parentId "69b410b3-53e5-40e6-a816-efecb7bb26b7"
 :collapsedHeight 0
-:nonce 1773408446858}}
-:block/updated-at 1773410571057})
+:nonce 1773408446891}}
+:block/updated-at 1773665194185} 
+{:block/created-at 1773665113619
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 1
+:scale [1 1]
+:pageId "MCDA Lecture"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [808 1874.390625]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "9ffefbe0-2134-11f1-a493-69dc266a18df"
+:noFill false
+:point [-3088 680]
+:parentId "69b410b3-53e5-40e6-a816-efecb7bb26b7"
+:collapsedHeight 0
+:nonce 1773664533232}}
+:block/updated-at 1773665113619})
 :pages (
 {:block/uuid #uuid "69b410b3-53e5-40e6-a816-efecb7bb26b7"
 :block/properties 
 {:ls-type :whiteboard-page
 :logseq.tldraw.page 
 {:id "69b410b3-53e5-40e6-a816-efecb7bb26b7"
-:name "69b410b3-53e5-40e6-a816-efecb7bb26b7"
+:name "mcda"
 :bindings 
 {}
 :nonce 1
 :assets []
-:shapes-index ("60a10930-1ee0-11f1-a2f8-dbcc9ee2c405")}}
-:block/updated-at 1773410571056
+:shapes-index ("60a10930-1ee0-11f1-a2f8-dbcc9ee2c405" "9ffefbe0-2134-11f1-a493-69dc266a18df")}}
+:block/journal? false
+:block/updated-at 1773665221216
 :block/created-at 1773408435819
 :block/type "whiteboard"
-:block/name "69b410b3-53e5-40e6-a816-efecb7bb26b7"
-:block/original-name "69b410b3-53e5-40e6-a816-efecb7bb26b7"})}
+:block/name "mcda"
+:block/original-name "MCDA"})}
