@@ -9,10 +9,10 @@ tags:: PSS, Method
 		- positive influence of PSS
 	- Usefulness #card
 	  card-last-interval:: 4
-	  card-repeats:: 1
-	  card-ease-factor:: 2.36
-	  card-next-schedule:: 2026-03-17T15:25:18.774Z
-	  card-last-reviewed:: 2026-03-13T15:25:18.778Z
+	  card-repeats:: 2
+	  card-ease-factor:: 2.22
+	  card-next-schedule:: 2026-03-22T08:32:54.185Z
+	  card-last-reviewed:: 2026-03-18T08:32:54.187Z
 	  card-last-score:: 3
 		- ‘issue of whether the system can be used to achieve some desired goals’.
 		- PSS usefulness interrelated dimensions:

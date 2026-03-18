@@ -109,11 +109,11 @@ tags:: BGI
 	- **Current status:** SCM has not fully replaced BMP; BMP persists in many state design manuals and in general design practice.
 - ---
 - **### Alternative Techniques (ATs) / Compensatory Techniques (CTs)** #card
-  card-last-interval:: 4
-  card-repeats:: 2
-  card-ease-factor:: 2.36
-  card-next-schedule:: 2026-03-17T15:26:32.015Z
-  card-last-reviewed:: 2026-03-13T15:26:32.015Z
+  card-last-interval:: 8.88
+  card-repeats:: 3
+  card-ease-factor:: 2.22
+  card-next-schedule:: 2026-03-27T05:32:58.721Z
+  card-last-reviewed:: 2026-03-18T08:32:58.722Z
   card-last-score:: 3
 	- **Current definition:** French-origin terms (techniques alternatives / techniques compensatoires) describing **decentralised**, nature-based stormwater management approaches that compensate for urbanisation impacts through **flow control, retention, and infiltration**. The term is now becoming less favoured, displaced by **source control** and **IUWM** concepts.
 	- **Early 1980s (origin):** Introduced in French-speaking countries as a new urban drainage paradigm moving away from 'rapid disposal'; driven by suburban expansion costs and environmental concern; early goal was quality of life improvement alongside drainage.
@@ -122,12 +122,12 @@ tags:: BGI
 	- **French design rules (ongoing limitation):** Design rules remain limited to hydraulic aspects (flood reduction); ecological and landscape amenity aspects are not formally incorporated; outflow thresholds applied uniformly rather than restoring pre-development water balance.
 - ---
 - **### Source Control** #card
-  card-last-interval:: -1
-  card-repeats:: 1
-  card-ease-factor:: 2.5
-  card-next-schedule:: 2026-03-17T23:00:00.000Z
-  card-last-reviewed:: 2026-03-17T08:01:37.564Z
-  card-last-score:: 1
+  card-last-interval:: 3.72
+  card-repeats:: 2
+  card-ease-factor:: 2.36
+  card-next-schedule:: 2026-03-22T01:33:04.898Z
+  card-last-reviewed:: 2026-03-18T08:33:04.899Z
+  card-last-score:: 3
 	- **Current definition:** An ambiguous term used in two distinct ways — **(1) pollution prevention** through **non-structural measures** (minimising pollutant sources) and **(2) at-source structural stormwater treatment** measures applied close to where runoff is generated. Readers must infer meaning from context.
 	- **Early North American use:** Distinguished on-site stormwater systems from large downstream detention basins; at-source practices treated as a subset of detention techniques targeting quantity only.
 	- **1985 (Ellis):** Source control summarised as non-structural and semi-structural practices focusing on pollution prevention.

@@ -11,12 +11,12 @@ tags:: [NbS, WSUD, PSS, Planning]
 - ![image.png](../assets/image_1773415726831_0.png)
 -
 - ## WSUD as Part of the Urban Water Cycle #card
-  card-last-interval:: -1
-  card-repeats:: 1
-  card-ease-factor:: 2.5
-  card-next-schedule:: 2026-03-17T23:00:00.000Z
-  card-last-reviewed:: 2026-03-17T08:02:17.964Z
-  card-last-score:: 1
+  card-last-interval:: 3.72
+  card-repeats:: 2
+  card-ease-factor:: 2.36
+  card-next-schedule:: 2026-03-22T01:33:18.120Z
+  card-last-reviewed:: 2026-03-18T08:33:18.120Z
+  card-last-score:: 3
 	- ![image.png](../assets/image_1773302854102_0.png) 
 	  These tools operate at the lowest, most technical level — they model water flows and drainage system performance. They are primarily used during the design and implementation phases of WSUD, and are rooted in civil engineering.
 	- ### 1. Water Balance Models

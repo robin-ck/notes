@@ -29,7 +29,11 @@
       "WebFetch(domain:github.com)",
       "mcp__zotero__zotero_get_recent",
       "mcp__zotero__zotero_get_item_metadata",
-      "Bash(gh pr:*)"
+      "Bash(gh pr:*)",
+      "WebFetch(domain:blog.logseq.com)",
+      "WebFetch(domain:discuss.logseq.com)",
+      "Bash(grep -E \"[0-9]{4}\\\\.md$\")",
+      "mcp__zotero__zotero_update_item"
     ]
   }
 }
