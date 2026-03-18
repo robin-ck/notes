@@ -33,7 +33,11 @@
       "WebFetch(domain:blog.logseq.com)",
       "WebFetch(domain:discuss.logseq.com)",
       "Bash(grep -E \"[0-9]{4}\\\\.md$\")",
-      "mcp__zotero__zotero_update_item"
+      "mcp__zotero__zotero_update_item",
+      "WebFetch(domain:pubmed.ncbi.nlm.nih.gov)",
+      "WebFetch(domain:www.researchgate.net)",
+      "WebFetch(domain:www.sciencedirect.com)",
+      "WebFetch(domain:hal.science)"
     ]
   }
 }

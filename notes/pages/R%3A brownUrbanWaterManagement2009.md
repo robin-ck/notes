@@ -1,0 +1,16 @@
+- title:: Urban water management in cities: historical, current and future regimes
+  authors:: R.R. Brown (author), N. Keath (author), T.H.F. Wong (author)
+  date:: [[Jan 1st, 2009]]
+  publicationTitle:: Water Science & Technology
+  volume:: 59
+  issue:: 5
+  pages:: 847-855
+  DOI:: 10.2166/wst.2009.029
+  tags:: [[Urban Water Management]], [[Water Governance]], [[Transition Frameworks]], [[Water Sensitive City]]
+  itemType:: [[journalArticle]]
+  citeKey:: brownUrbanWaterManagement2009
+  links:: zotero://select/library/items?itemKey=3SKVHQHU
+- [[Abstract]]
+	- Drawing from three phases of a social research programme between 2002 and 2008, this paper proposes a framework for underpinning the development of urban water transitions policy and city-scale benchmarking at the macro scale. Through detailed historical, contemporary and futures research involving Australian cities, a transitions framework is proposed, presenting a typology of six city states, namely the 'Water Supply City', the 'Sewered City', the 'Drained City', the 'Waterways City', the 'Water Cycle City', and the 'Water Sensitive City'. This framework recognises the temporal, ideological and technological contexts that cities transition through when moving towards sustainable urban water conditions. The aim of this research is to assist urban water managers with understanding the scope of the hydro-social contracts currently operating across cities in order to determine the capacity development and cultural reform initiatives needed to effectively expedite the transition to more sustainable water management and ultimately to Water Sensitive Cities. One of the values of this framework is that it can be used by strategists and policy makers as a heuristic device and/or the basis for a future city state benchmarking tool. From a research perspective it can be an underpinning framework for future work on transitions policy research.
+- [[Attachments]]
+	- ![Brown et al. - 2009 - Urban water management in cities historical, current and future regimes.pdf](file:///C:/Users/0994359/Zotero/storage/KV9VH74X/Brown%20et%20al.%20-%202009%20-%20Urban%20water%20management%20in%20cities%20historical%2C%20current%20and%20future%20regimes.pdf)
