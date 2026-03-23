@@ -2,11 +2,11 @@
 {:block/content "MCDA Elements"
 :block/format :markdown
 :block/left 
-{:block/uuid #uuid "69b410b3-53e5-40e6-a816-efecb7bb26b7"}
+{:block/uuid #uuid "69bad42e-d87d-46a4-9f03-5dc568f936dc"}
 :block/parent 
-{:block/uuid #uuid "69b410b3-53e5-40e6-a816-efecb7bb26b7"}
+{:block/uuid #uuid "69bad42e-d87d-46a4-9f03-5dc568f936dc"}
 :block/uuid #uuid "69b410bb-71f3-4e51-9da2-4b6c320523bc"} 
-{:block/created-at 1773665194185
+{:block/created-at 1774002230696
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -23,7 +23,7 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [1760 7243.547181882469]
+:size [1960 7218.328357752877]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -32,9 +32,9 @@
 :point [1008 488]
 :parentId "69b410b3-53e5-40e6-a816-efecb7bb26b7"
 :collapsedHeight 0
-:nonce 1773408446891}}
-:block/updated-at 1773665194185} 
-{:block/created-at 1773665113619
+:nonce 1773408446983}}
+:block/updated-at 1774002230696} 
+{:block/created-at 1774002252458
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -51,31 +51,115 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [808 1874.390625]
+:size [808 1919.3902587890625]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
 :id "9ffefbe0-2134-11f1-a493-69dc266a18df"
 :noFill false
-:point [-3088 680]
+:point [-288 520]
 :parentId "69b410b3-53e5-40e6-a816-efecb7bb26b7"
 :collapsedHeight 0
-:nonce 1773664533232}}
-:block/updated-at 1773665113619})
+:nonce 1773664533557}}
+:block/updated-at 1774002252458} 
+{:block/created-at 1774002237943
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 2
+:scale [1 1]
+:pageId "GIS-MCDA Overview"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [2000 2114.9996484197577]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "f3515080-237e-11f1-9566-5f54e25a52a7"
+:noFill false
+:point [1016 8184]
+:parentId "69bad42e-d87d-46a4-9f03-5dc568f936dc"
+:collapsedHeight 0
+:nonce 1773916358638}}
+:block/updated-at 1774002237943} 
+{:block/created-at 1774002260563
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 3
+:scale [1 1]
+:pageId "MCDA and AI"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [3080 4414.781040253528]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "b14ca4a0-2397-11f1-9566-5f54e25a52a7"
+:noFill false
+:point [6352 1216]
+:parentId "69bad42e-d87d-46a4-9f03-5dc568f936dc"
+:collapsedHeight 0
+:nonce 1773926984709}}
+:block/updated-at 1774002260563} 
+{:block/created-at 1774002245789
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 4
+:scale [1 1]
+:pageId "GIS-MADA"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [3176 2858.406381083607]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "6ece95b0-2442-11f1-8386-3b58c23cf86f"
+:noFill false
+:point [-1208 11048]
+:parentId "69bad42e-d87d-46a4-9f03-5dc568f936dc"
+:collapsedHeight 0
+:nonce 1774000317490}}
+:block/updated-at 1774002245789})
 :pages (
-{:block/uuid #uuid "69b410b3-53e5-40e6-a816-efecb7bb26b7"
+{:block/uuid #uuid "69bad42e-d87d-46a4-9f03-5dc568f936dc"
 :block/properties 
 {:ls-type :whiteboard-page
 :logseq.tldraw.page 
-{:id "69b410b3-53e5-40e6-a816-efecb7bb26b7"
+{:id "69bad42e-d87d-46a4-9f03-5dc568f936dc"
 :name "mcda"
 :bindings 
 {}
 :nonce 1
 :assets []
-:shapes-index ("60a10930-1ee0-11f1-a2f8-dbcc9ee2c405" "9ffefbe0-2134-11f1-a493-69dc266a18df")}}
+:shapes-index ("60a10930-1ee0-11f1-a2f8-dbcc9ee2c405" "9ffefbe0-2134-11f1-a493-69dc266a18df" "f3515080-237e-11f1-9566-5f54e25a52a7" "b14ca4a0-2397-11f1-9566-5f54e25a52a7" "6ece95b0-2442-11f1-8386-3b58c23cf86f")}}
 :block/journal? false
-:block/updated-at 1773665221216
+:block/updated-at 1774002260563
 :block/created-at 1773408435819
 :block/type "whiteboard"
 :block/name "mcda"

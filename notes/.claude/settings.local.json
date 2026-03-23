@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__zotero__zotero_search_items",
+      "mcp__zotero__zotero_get_item_children",
+      "mcp__zotero__zotero_get_item_fulltext",
+      "Bash(python3 -c \":*)",
+      "Bash(python3 -u -c \":*)",
+      "Read(//tmp/**)"
+    ]
+  }
+}

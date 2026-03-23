@@ -97,11 +97,11 @@ tags:: BGI
 	- **Current critique:** The superlative 'best' is acknowledged as misleading — no set standard exists against which to measure performance.
 - ---
 - **### Stormwater Control Measures (SCMs)** #card
-  card-last-interval:: 4
-  card-repeats:: 2
-  card-ease-factor:: 2.6
-  card-next-schedule:: 2026-03-21T08:01:46.119Z
-  card-last-reviewed:: 2026-03-17T08:01:46.119Z
+  card-last-interval:: 10.8
+  card-repeats:: 3
+  card-ease-factor:: 2.7
+  card-next-schedule:: 2026-04-03T04:02:54.104Z
+  card-last-reviewed:: 2026-03-23T09:02:54.105Z
   card-last-score:: 5
 	- **Current definition:** A term proposed by the US National Research Council (2008) to **replace BMP**; refers to both structural and non-structural control measures **without** implying a value judgement about whether a practice is **'best'**.
 	- **Pre-2008:** BMP recognised as too vague and often used to describe practices that were clearly not best practice.
@@ -122,11 +122,11 @@ tags:: BGI
 	- **French design rules (ongoing limitation):** Design rules remain limited to hydraulic aspects (flood reduction); ecological and landscape amenity aspects are not formally incorporated; outflow thresholds applied uniformly rather than restoring pre-development water balance.
 - ---
 - **### Source Control** #card
-  card-last-interval:: 3.72
-  card-repeats:: 2
-  card-ease-factor:: 2.36
-  card-next-schedule:: 2026-03-22T01:33:04.898Z
-  card-last-reviewed:: 2026-03-18T08:33:04.899Z
+  card-last-interval:: 8.88
+  card-repeats:: 3
+  card-ease-factor:: 2.22
+  card-next-schedule:: 2026-04-01T06:04:08.055Z
+  card-last-reviewed:: 2026-03-23T09:04:08.055Z
   card-last-score:: 3
 	- **Current definition:** An ambiguous term used in two distinct ways — **(1) pollution prevention** through **non-structural measures** (minimising pollutant sources) and **(2) at-source structural stormwater treatment** measures applied close to where runoff is generated. Readers must infer meaning from context.
 	- **Early North American use:** Distinguished on-site stormwater systems from large downstream detention basins; at-source practices treated as a subset of detention techniques targeting quantity only.

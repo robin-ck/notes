@@ -11,11 +11,11 @@ tags:: [NbS, WSUD, PSS, Planning]
 - ![image.png](../assets/image_1773415726831_0.png)
 -
 - ## WSUD as Part of the Urban Water Cycle #card
-  card-last-interval:: 3.72
-  card-repeats:: 2
-  card-ease-factor:: 2.36
-  card-next-schedule:: 2026-03-22T01:33:18.120Z
-  card-last-reviewed:: 2026-03-18T08:33:18.120Z
+  card-last-interval:: 8.88
+  card-repeats:: 3
+  card-ease-factor:: 2.22
+  card-next-schedule:: 2026-04-01T06:04:18.174Z
+  card-last-reviewed:: 2026-03-23T09:04:18.174Z
   card-last-score:: 3
 	- ![image.png](../assets/image_1773302854102_0.png) 
 	  These tools operate at the lowest, most technical level — they model water flows and drainage system performance. They are primarily used during the design and implementation phases of WSUD, and are rooted in civil engineering.
@@ -27,7 +27,7 @@ tags:: [NbS, WSUD, PSS, Planning]
 	- **UVQ / Aquacycle** — comprehensively model the total urban water cycle at various scales
 	- **Urban Developer** — flexible, modular tool that simulates the water cycle at different spatial and temporal scales
 	- **City Water Balance** — used for city-scale scenario analysis of water balance options
-	- **UWOT** — works with multiple units of water quality measurement for integrated assessment
+	- **UWOT** — works with multiple units of water quality measurement for integrated assessment [[DSS: UWOT]] [[R: makropoulosDecisionSupportSustainable2008a]]
 	-
 	- ### 2. Hydrological and Hydraulic Models
 	  
@@ -41,12 +41,12 @@ tags:: [NbS, WSUD, PSS, Planning]
 	  
 	  While these tools are technically rigorous, the paper argues they are too narrowly focused on *how water behaves* and do not account for the broader planning context — things like land ownership, community values, or where green infrastructure would deliver the most benefit. They treat WSUD as an engineering problem rather than an urban planning one.
 - ## WSUD as Part of the Urban Form #card
-  card-last-interval:: 4
-  card-repeats:: 2
+  card-last-interval:: -1
+  card-repeats:: 1
   card-ease-factor:: 2.22
-  card-next-schedule:: 2026-03-21T08:02:55.893Z
-  card-last-reviewed:: 2026-03-17T08:02:55.893Z
-  card-last-score:: 3
+  card-next-schedule:: 2026-03-23T23:00:00.000Z
+  card-last-reviewed:: 2026-03-23T09:04:01.251Z
+  card-last-score:: 1
 	- ![image.png](../assets/image_1773302881055_0.png)
 	- These tools sit in the middle of the three categories — they treat WSUD planning as a *location choice*, asking where in the city green infrastructure should go. The paper considers this the most relevant category for best planning practice.
 	-
@@ -92,11 +92,11 @@ tags:: [NbS, WSUD, PSS, Planning]
 	-
 - ---
 - ## WSUD as Part of Water Governance #card
-  card-last-interval:: 4
-  card-repeats:: 2
-  card-ease-factor:: 2.36
-  card-next-schedule:: 2026-03-21T08:02:33.798Z
-  card-last-reviewed:: 2026-03-17T08:02:33.798Z
+  card-last-interval:: 8.88
+  card-repeats:: 3
+  card-ease-factor:: 2.22
+  card-next-schedule:: 2026-04-01T06:03:08.335Z
+  card-last-reviewed:: 2026-03-23T09:03:08.335Z
   card-last-score:: 3
 	- ![image.png](../assets/image_1773302904312_0.png)
 	- Water governance tools operate at the highest, most strategic level — they're about shifting an entire city's water management culture and policy over the long term, not about where to place specific infrastructure.

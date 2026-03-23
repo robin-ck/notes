@@ -1,0 +1,83 @@
+## Introduction
+- All MADA methods answer the same question — **given a set of alternatives evaluated on multiple criteria, which is best?** — but differ in how they define "best" and what they assume about trade-offs
+	- Core tension: **compensability** — can a weakness on one criterion be offset by strength on another?
+		- High compensation (additive): WLC, OWA, AHP, ANP
+		- Tunable: OWA ($\lambda$), Ideal Point ($p$)
+		- Low / non-compensatory (outranking): ELECTRE, PROMETHEE
+	- | Method | Family | Compensability | Output | Key parameter | GIS scalability | Stakeholder interaction | Elicitation effort | Result openness |
+	  | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+	  | WLC | Additive | Full | Score per location | Criterion weights $w_k$ | Excellent (map algebra) | One-shot weight input | Low | Single ranking |
+	  | OWA | Additive | Tunable | Score per location | Order weights $\lambda_k$ | Excellent | Weight + risk attitude (ORness) | Low–medium | Single ranking |
+	  | AHP | Additive | Full | Score per alternative | Pairwise comparison matrix | Good (few alternatives) | Structured dialogue, iterative, CR feedback | High | Single ranking |
+	  | ANP | Additive | Full | Score per alternative | Supermatrix | Limited (complex setup) | Expert-intensive, interdependency judgments | Very high | Single ranking |
+	  | Ideal Point | Distance | Tunable | Score per location | Power $p$ | Good | Weight input + $p$ as modelling choice | Low | Single ranking |
+	  | TOPSIS | Distance | Tunable | Score per location | Power $p$ | Good | Weight input | Low | Single ranking |
+	  | ELECTRE | Outranking | Low | Partial ordering | Thresholds $c^+$, $c^-$ | Poor ($O(m^2)$) | Weight + threshold negotiation (non-intuitive) | Medium | Partial — invites discussion |
+	  | PROMETHEE | Outranking | Low | Full ordering | Preference function type | Poor ($O(m^2)$) | Weight + preference function; partial ordering invites deliberation | Medium | Partial (I) or full (II) |
+-
+- ## Methods
+- ### Additive Methods
+- Weighted Linear Combination (WLC):
+	- $V(A_i) = \sum_{k=1}^{n} w_k v(a_{ik})$
+		- $V(A_i)$: overall value of $i$-th alternative
+		- $w_k$: criterion weights
+		- $a_{ik}$: performance of alternative $A_i$ on criterion $C_k$ [[MCDA Elements]]
+		- $v(a_{ik})$: value function — standardised performance score
+	- Assumes:
+		- **Linearity**: marginal value of an attribute unit is constant at any level
+		- **Additivity**: attributes are mutually preference independent — ranking on one criterion does not depend on fixed values of others
+	- Variants:
+		- Proximity-Adjusted WLC: $V(A_i^P) = \sum_{k=1}^{n} w_{ik} v(a_{ik})$ — weight $w_{ik}$ varies per alternative based on spatial proximity to reference locations
+		- Local WLC: $V(A_i^q) = \sum_{k=1}^{n} w_k^q \, v(a_{ik}^q)$ — weights and value functions computed locally per neighbourhood $q$
+- Ordered Weighted Averaging (OWA):
+	- $V(A_i^o) = \dfrac{\sum_{k=1}^{n} \lambda_k u_k z_{ik}}{\sum_{k=1}^{n} \lambda_k u_k}$
+		- $z_{ik}$: criterion values at location $i$ **reordered descending** (best to worst)
+		- $u_k$: criterion weight reordered to match position of $z_{ik}$
+		- $\lambda_k$: order weights ($0 \leq \lambda_k \leq 1$, $\sum \lambda_k = 1$)
+	- Two control dimensions:
+		- $\text{ORness} = \sum_{k=1}^{n} \frac{n-k}{n-1} \lambda_k$ — 1 = OR/optimistic, 0 = AND/pessimistic
+		- $\text{trade-off} = 1 - \sqrt{\frac{n}{n-1} \sum_{k=1}^{n} \left(\lambda_k - \frac{1}{n}\right)^2}$ — 1 = full compensation, 0 = none
+	- Generalises WLC: equal $\lambda$ → WLC; $\lambda=(1,0,\ldots,0)$ → OR/MAX; $\lambda=(0,\ldots,0,1)$ → AND/MIN
+- Analytic Hierarchy Process (AHP):
+	- $V(A_i) = \sum_{k=1}^{n} w_l \, w_{k(l)} \, v(a_{ik})$
+		- $w_l$: weight of objective $l$ (derived by pairwise comparison)
+		- $w_{k(l)}$: weight of attribute $k$ under objective $l$
+		- $v(a_{ik})$: standardised value of alternative $i$ on attribute $k$
+	- Three principles: **decomposition** (hierarchy), **comparative judgment** (pairwise), **synthesis** (weighted priorities)
+	- AHP = WLC when hierarchy has only goal–attributes–alternatives; advantage is the formal structure for eliciting weights
+	- Requires consistency ratio CR < 0.10 per pairwise matrix
+- Analytic Network Process (ANP):
+	- Extends AHP by replacing the hierarchy with a **network** — allows inner (within-cluster) and outer (between-cluster) dependences and feedback loops
+	- Synthesis via **supermatrix** $M$: pairwise priorities fill columns; raise $M$ to power $2N+1$ until convergence → limiting supermatrix gives final priorities
+	- AHP is a special case: hierarchy = network with one-directional links only
+-
+- ### Ideal Point Methods
+- General distance metric: $L_p(A_i) = \left[\sum_{k=1}^{n} \left(w_k |t_k - v(a_{ik})|\right)^p\right]^{1/p}$
+	- $t_k$: reference value for criterion $k$ (ideal or anti-ideal)
+	- $p$: power parameter — 1 = Manhattan, 2 = Euclidean, ∞ = minimax (non-compensatory)
+- Positive ideal $A^+ = (1,\ldots,1)$ → **minimise** $L_p^+(A_i) = \left[\sum_{k=1}^{n} \left(w_k (1 - v(a_{ik}))\right)^p\right]^{1/p}$
+- Negative ideal $A^- = (0,\ldots,0)$ → **maximise** $L_p^-(A_i) = \left[\sum_{k=1}^{n} \left(w_k \, v(a_{ik})\right)^p\right]^{1/p}$
+- TOPSIS — composite measure (maximise): $L_p^*(A_i) = \dfrac{L_p^-(A_i)}{L_p^+(A_i) + L_p^-(A_i)}$
+	- Selects alternative simultaneously **closest to ideal and farthest from anti-ideal** — avoids ambiguous results of using either alone
+	- For $p=1$: $L_1^* = V(A_i)$ → equivalent to WLC
+- $p$ as compensability dial: $p=1$ full compensation (≡ WLC), $p \to \infty$ minimax/non-compensatory
+-
+- ### Outranking Methods
+- ELECTRE (ELimination Et Choix TRaduisant la REalité):
+	- Concordance index: $c_{ij}^+ = \sum_{k: A_i \geq A_j} w_k + \sum_{k: A_i = A_j} 0.5\, w_k$
+	- Discordance index: $c_{ij}^- = \dfrac{\max \text{ interval where } A_j \succ A_i}{\text{total scale range}}$
+	- $A_i$ outranks $A_j$ if $c_{ij}^+ \geq c^+$ **and** $c_{ij}^- \leq c^-$ (thresholds set by decision maker)
+	- Result: **partial ordering** (ELECTRE I); full ordering via ELECTRE II (two outranking levels); sorting via ELECTRE TRI
+	- Non-compensatory; handles ordinal/qualitative criteria; sensitive to arbitrary threshold values
+- PROMETHEE (Preference Ranking Organization METHod for Enrichment Evaluations):
+	- Outranking degree: $P(A_i, A_j) = \sum_{k=1}^{n} w_k \, p_k(a_i, a_j)$
+		- $p_k(a_i, a_j)$: preference function — simplest (usual): 1 if $A_i$ preferred, else 0; six function types available
+	- Leaving flow: $F^+(A_i) = \dfrac{\sum_{j \neq i} P(A_i, A_j)}{m-1}$ — how much $A_i$ outranks others
+	- Entering flow: $F^-(A_i) = \dfrac{\sum_{j \neq i} P(A_j, A_i)}{m-1}$ — how much others outrank $A_i$
+	- Net flow (PROMETHEE II, complete ordering): $F(A_i) = F^+(A_i) - F^-(A_i)$ → higher = better
+	- PROMETHEE I uses $F^+$ and $F^-$ separately → partial ordering
+	- Advantage over ELECTRE: no arbitrary thresholds; mathematically simpler
+	- Major GIS limitation: $O(m^2)$ pairwise comparisons — prohibitive for large raster datasets
+-
+- ---
+- [[R: malczewskiMulticriteriaDecisionAnalysis2015]]

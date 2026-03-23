@@ -8,12 +8,12 @@ tags:: PSS, Method
 	- Added Value
 		- positive influence of PSS
 	- Usefulness #card
-	  card-last-interval:: 4
-	  card-repeats:: 2
-	  card-ease-factor:: 2.22
-	  card-next-schedule:: 2026-03-22T08:32:54.185Z
-	  card-last-reviewed:: 2026-03-18T08:32:54.187Z
-	  card-last-score:: 3
+	  card-last-interval:: 9.28
+	  card-repeats:: 3
+	  card-ease-factor:: 2.32
+	  card-next-schedule:: 2026-04-01T15:04:31.013Z
+	  card-last-reviewed:: 2026-03-23T09:04:31.013Z
+	  card-last-score:: 5
 		- ‘issue of whether the system can be used to achieve some desired goals’.
 		- PSS usefulness interrelated dimensions:
 			- 1) kinds of usefulness:

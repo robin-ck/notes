@@ -1,32 +1,5 @@
 {:blocks (
-{:block/created-at 1773394644229
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:blockType "P"
-:stroke ""
-:collapsed false
-:borderRadius 8
-:index 0
-:scale [1 1]
-:pageId "pss definition"
-:scaleLevel "md"
-:fill ""
-:compact false
-:isAutoResizing true
-:type "logseq-portal"
-:size [400 92.99985660931452]
-:strokeType "line"
-:strokeWidth 2
-:opacity 1
-:id "c60cefe0-1dec-11f1-bef1-1349931039d0"
-:noFill false
-:point [680 672]
-:parentId "69b277f4-a8e4-488d-862a-66dfe10929e0"
-:collapsedHeight 0
-:nonce 1773303820078}}
-:block/updated-at 1773394644229} 
-{:block/created-at 1773303846817
+{:block/created-at 1774270867129
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -35,26 +8,117 @@
 :rotation 0
 :collapsed false
 :borderRadius 8
-:index 1
+:index 10
 :scale [1 1]
-:pageId "4 criteria for PSS modeling and planning"
+:pageId "Transition Framework"
 :scaleLevel "md"
 :fill ""
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [1056 618.0000663097993]
+:size [1944 1036.000019262739]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
-:id "ca503ee0-1dec-11f1-bef1-1349931039d0"
+:id "f6d8fc40-22b0-11f1-9035-9d110e0a29bd"
 :noFill false
-:point [1408 16]
+:point [13256 3368]
 :parentId "69b277f4-a8e4-488d-862a-66dfe10929e0"
 :collapsedHeight 0
-:nonce 1773303827379}}
-:block/updated-at 1773303846817} 
-{:block/created-at 1773303893221
+:nonce 1773827888361}}
+:block/updated-at 1774270867129} 
+{:block/created-at 1774270794732
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 5
+:scale [1 1]
+:pageId "Contextual Factors Study Results"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing false
+:type "logseq-portal"
+:size [1792 992.9999106849962]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "63af4120-1ec0-11f1-a2f8-dbcc9ee2c405"
+:noFill false
+:point [-1008 1880]
+:parentId "69b277f4-a8e4-488d-862a-66dfe10929e0"
+:collapsedHeight 0
+:nonce 1773394708793}}
+:block/updated-at 1774270794732} 
+{:block/created-at 1774270867129
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 7
+:scale [1 1]
+:pageId "Agent based Modelling"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [2888 2583.4064081879483]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "7fd47030-2138-11f1-a493-69dc266a18df"
+:noFill false
+:point [13200 616]
+:parentId "69b277f4-a8e4-488d-862a-66dfe10929e0"
+:collapsedHeight 0
+:nonce 1773666197504}}
+:block/updated-at 1774270867129} 
+{:block/created-at 1774270794732
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 3
+:scale [1 1]
+:pageId "Usefulness of PSS"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing false
+:type "logseq-portal"
+:size [1920 2303.999917987429]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "e1c2fee0-1df2-11f1-bef1-1349931039d0"
+:noFill false
+:point [-3424 752]
+:parentId "69b277f4-a8e4-488d-862a-66dfe10929e0"
+:collapsedHeight 0
+:nonce 1773306445931}}
+:block/updated-at 1774270794732} 
+{:block/content "Usefulness of PSS"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "69b277f4-a8e4-488d-862a-66dfe10929e0"}
+:block/parent 
+{:block/uuid #uuid "69b277f4-a8e4-488d-862a-66dfe10929e0"}
+:block/uuid #uuid "69b28246-52ba-43ce-9c1c-cd1473089b6b"} 
+{:block/created-at 1774270794732
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -64,6 +128,90 @@
 :collapsed false
 :borderRadius 8
 :index 2
+:scale [1 1]
+:pageId "PSS Evaluation Dimension"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing false
+:type "logseq-portal"
+:size [1072 952.203073326489]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "2764d410-1ded-11f1-bef1-1349931039d0"
+:noFill false
+:point [-1128 568]
+:parentId "69b277f4-a8e4-488d-862a-66dfe10929e0"
+:collapsedHeight 0
+:nonce 1773303983218}}
+:block/updated-at 1774270794732} 
+{:block/created-at 1774270794732
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 0
+:scale [1 1]
+:pageId "4 criteria for PSS modeling and planning"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing false
+:type "logseq-portal"
+:size [1008 617.9999292530945]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "ca503ee0-1dec-11f1-bef1-1349931039d0"
+:noFill false
+:point [168 840]
+:parentId "69b277f4-a8e4-488d-862a-66dfe10929e0"
+:collapsedHeight 0
+:nonce 1773303828095}}
+:block/updated-at 1774270794732} 
+{:block/created-at 1774270844836
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 8
+:scale [1 1]
+:pageId "Review on Decision Support Systems"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [3248 7437.0001220703125]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "7713b4b0-220f-11f1-8c2b-25f89195aa06"
+:noFill false
+:point [6368 -8848]
+:parentId "69b277f4-a8e4-488d-862a-66dfe10929e0"
+:collapsedHeight 0
+:nonce 1773758524556}}
+:block/updated-at 1774270844836} 
+{:block/created-at 1774270794732
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 1
 :scale [1 1]
 :pageId "WSUD suitability Framework"
 :scaleLevel "md"
@@ -77,48 +225,21 @@
 :opacity 1
 :id "d987a970-1dec-11f1-bef1-1349931039d0"
 :noFill false
-:point [640 1384]
+:point [-224 4872]
 :parentId "69b277f4-a8e4-488d-862a-66dfe10929e0"
 :collapsedHeight 0
-:nonce 1773303853140}}
-:block/updated-at 1773303893221} 
-{:block/created-at 1773394644284
+:nonce 1773303854196}}
+:block/updated-at 1774270794732} 
+{:block/content ""
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "69b28246-52ba-43ce-9c1c-cd1473089b6b"}
+:block/parent 
+{:block/uuid #uuid "69b277f4-a8e4-488d-862a-66dfe10929e0"}
 :block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:stroke ""
-:index 3
-:scale [1 1]
-:scaleLevel "md"
-:fill ""
-:type "line"
-:strokeType "line"
-:strokeWidth 1
-:opacity 1
-:label ""
-:id "fb8375e2-1dec-11f1-bef1-1349931039d0"
-:fontWeight 400
-:noFill true
-:point [878.4 766]
-:fontSize 20
-:handles 
-{:start 
-{:id "start"
-:canBind true
-:point [1.49 0]
-:bindingId "fb8375e0-1dec-11f1-bef1-1349931039d0"}
-:end 
-{:id "end"
-:canBind true
-:point [0 614]
-:bindingId "fb8375e1-1dec-11f1-bef1-1349931039d0"}}
-:decorations 
-{:end "arrow"}
-:parentId "69b277f4-a8e4-488d-862a-66dfe10929e0"
-:nonce 1773303909502
-:italic false}}
-:block/updated-at 1773394644284} 
-{:block/created-at 1773830030053
+{}
+:block/uuid #uuid "69b3db10-f0c4-43d4-bfc1-4fe8dfa2dc20"} 
+{:block/created-at 1774270794732
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -128,69 +249,6 @@
 :collapsed false
 :borderRadius 8
 :index 4
-:scale [1 1]
-:pageId "PSS Evaluation Dimension"
-:scaleLevel "md"
-:fill ""
-:compact false
-:isAutoResizing true
-:type "logseq-portal"
-:size [1072 150]
-:strokeType "line"
-:strokeWidth 2
-:opacity 1
-:id "2764d410-1ded-11f1-bef1-1349931039d0"
-:noFill false
-:point [-1128 568]
-:parentId "69b277f4-a8e4-488d-862a-66dfe10929e0"
-:collapsedHeight 0
-:nonce 1773303983205}}
-:block/updated-at 1773830030053} 
-{:block/content "Usefulness of PSS"
-:block/format :markdown
-:block/left 
-{:block/uuid #uuid "69b277f4-a8e4-488d-862a-66dfe10929e0"}
-:block/parent 
-{:block/uuid #uuid "69b277f4-a8e4-488d-862a-66dfe10929e0"}
-:block/uuid #uuid "69b28246-52ba-43ce-9c1c-cd1473089b6b"} 
-{:block/created-at 1773831697309
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:blockType "P"
-:stroke ""
-:rotation 0
-:collapsed false
-:borderRadius 8
-:index 5
-:scale [1 1]
-:pageId "Usefulness of PSS"
-:scaleLevel "md"
-:fill ""
-:compact false
-:isAutoResizing true
-:type "logseq-portal"
-:size [1920 2304.0002093286043]
-:strokeType "line"
-:strokeWidth 2
-:opacity 1
-:id "e1c2fee0-1df2-11f1-bef1-1349931039d0"
-:noFill false
-:point [-160 -2552]
-:parentId "69b277f4-a8e4-488d-862a-66dfe10929e0"
-:collapsedHeight 0
-:nonce 1773306444010}}
-:block/updated-at 1773831697309} 
-{:block/created-at 1773394673449
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:blockType "P"
-:stroke ""
-:rotation 0
-:collapsed false
-:borderRadius 8
-:index 6
 :scale [1 1]
 :pageId "Case Studys of PSS Usefulness Framework"
 :scaleLevel "md"
@@ -204,21 +262,12 @@
 :opacity 1
 :id "68845e00-1dfe-11f1-bef1-1349931039d0"
 :noFill false
-:point [2608 -2544]
+:point [-3440 3160]
 :parentId "69b277f4-a8e4-488d-862a-66dfe10929e0"
 :collapsedHeight 0
-:nonce 1773311393792}}
-:block/updated-at 1773394673449} 
-{:block/content ""
-:block/format :markdown
-:block/left 
-{:block/uuid #uuid "69b28246-52ba-43ce-9c1c-cd1473089b6b"}
-:block/parent 
-{:block/uuid #uuid "69b277f4-a8e4-488d-862a-66dfe10929e0"}
-:block/properties 
-{}
-:block/uuid #uuid "69b3db10-f0c4-43d4-bfc1-4fe8dfa2dc20"} 
-{:block/created-at 1773405916033
+:nonce 1773311395146}}
+:block/updated-at 1774270794732} 
+{:block/created-at 1774270867129
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -227,35 +276,7 @@
 :rotation 0
 :collapsed false
 :borderRadius 8
-:index 7
-:scale [1 1]
-:pageId "Contextual Factors Study Results"
-:scaleLevel "md"
-:fill ""
-:compact false
-:isAutoResizing true
-:type "logseq-portal"
-:size [1792 992.9999106849962]
-:strokeType "line"
-:strokeWidth 2
-:opacity 1
-:id "63af4120-1ec0-11f1-a2f8-dbcc9ee2c405"
-:noFill false
-:point [4888 -816]
-:parentId "69b277f4-a8e4-488d-862a-66dfe10929e0"
-:collapsedHeight 0
-:nonce 1773394708052}}
-:block/updated-at 1773405916033} 
-{:block/created-at 1773831694022
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:blockType "P"
-:stroke ""
-:rotation 0
-:collapsed false
-:borderRadius 8
-:index 8
+:index 6
 :scale [1 1]
 :pageId "WSUD Planning Process"
 :scaleLevel "md"
@@ -263,18 +284,18 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [4528 5476.562936133605]
+:size [4528 5573.561614301205]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
 :id "aeef2ad0-1ef0-11f1-a2f8-dbcc9ee2c405"
 :noFill false
-:point [3904 432]
+:point [8064 680]
 :parentId "69b277f4-a8e4-488d-862a-66dfe10929e0"
 :collapsedHeight 0
-:nonce 1773415450268}}
-:block/updated-at 1773831694022} 
-{:block/created-at 1773830030098
+:nonce 1773415450457}}
+:block/updated-at 1774270867129} 
+{:block/created-at 1774270867129
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -283,59 +304,31 @@
 :rotation 0
 :collapsed false
 :borderRadius 8
-:index 9
+:index 11
 :scale [1 1]
-:pageId "Agent based Modelling"
+:pageId "Scenario Analysis"
 :scaleLevel "md"
 :fill ""
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [2888 2583.40625]
+:size [1088 1236.9997846075537]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
-:id "7fd47030-2138-11f1-a493-69dc266a18df"
+:id "64d319d0-22b4-11f1-9035-9d110e0a29bd"
 :noFill false
-:point [9408 472]
+:point [13272 4600]
 :parentId "69b277f4-a8e4-488d-862a-66dfe10929e0"
 :collapsedHeight 0
-:nonce 1773666197232}}
-:block/updated-at 1773830030098} 
-{:block/created-at 1773827885422
-:block/properties 
-{:ls-type :whiteboard-shape
-:logseq.tldraw.shape 
-{:blockType "P"
-:stroke ""
-:rotation 0
-:collapsed false
-:borderRadius 8
-:index 10
-:scale [1 1]
-:pageId "Review on Decision Support Systems"
-:scaleLevel "md"
-:fill ""
-:compact false
-:isAutoResizing true
-:type "logseq-portal"
-:size [3248 2253.999964396337]
-:strokeType "line"
-:strokeWidth 2
-:opacity 1
-:id "7713b4b0-220f-11f1-8c2b-25f89195aa06"
-:noFill false
-:point [6368 -8848]
-:parentId "69b277f4-a8e4-488d-862a-66dfe10929e0"
-:collapsedHeight 0
-:nonce 1773758524546}}
-:block/updated-at 1773827885422} 
-{:block/created-at 1773831694211
+:nonce 1773829360828}}
+:block/updated-at 1774270867129} 
+{:block/created-at 1774270867129
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:stroke ""
-:index 11
+:index 9
 :scale [1 1]
 :scaleLevel "xxl"
 :fill ""
@@ -347,26 +340,35 @@
 :id "b4d3c4e2-22ad-11f1-9035-9d110e0a29bd"
 :fontWeight 400
 :noFill true
-:point [8433 1768.86]
+:point [12593 2017.49]
 :fontSize 60
 :handles 
 {:start 
 {:id "start"
 :canBind true
-:point [0 420.51]
+:point [0 304.71]
 :bindingId "b4d3c4e0-22ad-11f1-9035-9d110e0a29bd"}
 :end 
 {:id "end"
 :canBind true
-:point [971 0]
+:point [603 0]
 :bindingId "b4d3c4e1-22ad-11f1-9035-9d110e0a29bd"}}
 :decorations 
 {:end "arrow"}
 :parentId "69b277f4-a8e4-488d-862a-66dfe10929e0"
-:nonce 1773826488457
+:nonce 1773826488692
 :italic false}}
-:block/updated-at 1773831694211} 
-{:block/created-at 1773835831217
+:block/updated-at 1774270867129} 
+{:block/content ""
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "69b3db10-f0c4-43d4-bfc1-4fe8dfa2dc20"}
+:block/parent 
+{:block/uuid #uuid "69b277f4-a8e4-488d-862a-66dfe10929e0"}
+:block/properties 
+{}
+:block/uuid #uuid "69bbacba-beff-4afa-9104-2a0fc045e770"} 
+{:block/created-at 1774270867129
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -377,24 +379,24 @@
 :borderRadius 8
 :index 12
 :scale [1 1]
-:pageId "Transition Framework"
+:pageId "DSS: UWOT"
 :scaleLevel "md"
 :fill ""
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [1944 1036.0000277762183]
+:size [1648 4634.000155931221]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
-:id "f6d8fc40-22b0-11f1-9035-9d110e0a29bd"
+:id "7ae43370-2369-11f1-8a67-e725acd55e6a"
 :noFill false
-:point [9456 3280]
+:point [13272 6152]
 :parentId "69b277f4-a8e4-488d-862a-66dfe10929e0"
 :collapsedHeight 0
-:nonce 1773827888241}}
-:block/updated-at 1773835831217} 
-{:block/created-at 1773835834692
+:nonce 1773907136913}}
+:block/updated-at 1774270867129} 
+{:block/created-at 1774270853663
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -405,23 +407,276 @@
 :borderRadius 8
 :index 13
 :scale [1 1]
-:pageId "Scenario Analysis"
+:pageId "PSS for NbS Claude Review"
 :scaleLevel "md"
 :fill ""
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [1088 1237.0000067051587]
+:size [7144 3276.7809374915446]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
-:id "64d319d0-22b4-11f1-9035-9d110e0a29bd"
+:id "d025ad10-2372-11f1-9566-5f54e25a52a7"
 :noFill false
-:point [9664 4816]
+:point [-984 -8880]
 :parentId "69b277f4-a8e4-488d-862a-66dfe10929e0"
 :collapsedHeight 0
-:nonce 1773829360673}}
-:block/updated-at 1773835834692})
+:nonce 1773911145407}}
+:block/updated-at 1774270853663} 
+{:block/created-at 1774270794732
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke ""
+:borderRadius 0
+:index 14
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "text"
+:size [24 34]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "c355d950-26b7-11f1-be2e-95569f3e26cc"
+:padding 4
+:fontWeight 400
+:noFill true
+:point [-3256 -128]
+:lineHeight 1.2
+:fontSize 20
+:parentId "69b277f4-a8e4-488d-862a-66dfe10929e0"
+:nonce 1774270612331
+:italic false
+:text "3"}}
+:block/updated-at 1774270794732} 
+{:block/created-at 1774270794732
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke ""
+:borderRadius 0
+:index 15
+:scale [1 1]
+:scaleLevel "xxl"
+:fill ""
+:type "text"
+:size [335 82]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "0ad7aa60-26b8-11f1-9f2f-bd1f3447149f"
+:padding 4
+:fontWeight 400
+:noFill true
+:point [-1576 296]
+:lineHeight 1.2
+:fontSize 60
+:parentId "69b277f4-a8e4-488d-862a-66dfe10929e0"
+:nonce 1774270732449
+:italic false
+:text "Evaluations"}}
+:block/updated-at 1774270794732} 
+{:block/created-at 1774270805911
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke ""
+:borderRadius 0
+:index 16
+:scale [1 1]
+:scaleLevel "xxl"
+:fill ""
+:type "text"
+:size [225 82]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "31bb9150-26b8-11f1-9f2f-bd1f3447149f"
+:padding 4
+:fontWeight 400
+:noFill true
+:point [-248 4592]
+:lineHeight 1.2
+:fontSize 60
+:parentId "69b277f4-a8e4-488d-862a-66dfe10929e0"
+:nonce 1774270797645
+:italic false
+:text "Factors"}}
+:block/updated-at 1774270805911} 
+{:block/created-at 1774270867129
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 17
+:scale [1 1]
+:scaleLevel "xxl"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "461d7692-26b8-11f1-9f2f-bd1f3447149f"
+:fontWeight 400
+:noFill true
+:point [12593 3750.24]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]
+:bindingId "461d7690-26b8-11f1-9f2f-bd1f3447149f"}
+:end 
+{:id "end"
+:canBind true
+:point [659 82.48]
+:bindingId "461d7691-26b8-11f1-9f2f-bd1f3447149f"}}
+:decorations 
+{:end "arrow"}
+:parentId "69b277f4-a8e4-488d-862a-66dfe10929e0"
+:nonce 1774270831868
+:italic false}}
+:block/updated-at 1774270867129} 
+{:block/created-at 1774270867128
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 18
+:scale [1 1]
+:scaleLevel "xxl"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "4a1e3e52-26b8-11f1-9f2f-bd1f3447149f"
+:fontWeight 400
+:noFill true
+:point [12593 4588.91]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]
+:bindingId "4a1e3e50-26b8-11f1-9f2f-bd1f3447149f"}
+:end 
+{:id "end"
+:canBind true
+:point [675 334.4]
+:bindingId "4a1e3e51-26b8-11f1-9f2f-bd1f3447149f"}}
+:decorations 
+{:end "arrow"}
+:parentId "69b277f4-a8e4-488d-862a-66dfe10929e0"
+:nonce 1774270838547
+:italic false}}
+:block/updated-at 1774270867128} 
+{:block/created-at 1774270867129
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 19
+:scale [1 1]
+:scaleLevel "xxl"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "4bd34152-26b8-11f1-9f2f-bd1f3447149f"
+:fontWeight 400
+:noFill true
+:point [12593 5948.6]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 0]
+:bindingId "4bd34150-26b8-11f1-9f2f-bd1f3447149f"}
+:end 
+{:id "end"
+:canBind true
+:point [675 739.61]
+:bindingId "4bd34151-26b8-11f1-9f2f-bd1f3447149f"}}
+:decorations 
+{:end "arrow"}
+:parentId "69b277f4-a8e4-488d-862a-66dfe10929e0"
+:nonce 1774270841442
+:italic false}}
+:block/updated-at 1774270867129} 
+{:block/created-at 1774270899034
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke ""
+:borderRadius 0
+:index 20
+:scale [1 1]
+:scaleLevel "xxl"
+:fill ""
+:type "text"
+:size [183 82]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "5d7961f0-26b8-11f1-9f2f-bd1f3447149f"
+:padding 4
+:fontWeight 400
+:noFill true
+:point [8128 456]
+:lineHeight 1.2
+:fontSize 60
+:parentId "69b277f4-a8e4-488d-862a-66dfe10929e0"
+:nonce 1774270871010
+:italic false
+:text "Types"}}
+:block/updated-at 1774270899034} 
+{:block/created-at 1774270915635
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:isSizeLocked true
+:stroke ""
+:borderRadius 0
+:index 21
+:scale [1 1]
+:scaleLevel "xxl"
+:fill ""
+:type "text"
+:size [215 82]
+:fontFamily "var(--ls-font-family)"
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "72cc8500-26b8-11f1-9f2f-bd1f3447149f"
+:padding 4
+:fontWeight 400
+:noFill true
+:point [5360 -5176]
+:lineHeight 1.2
+:fontSize 60
+:parentId "69b277f4-a8e4-488d-862a-66dfe10929e0"
+:nonce 1774270906763
+:italic false
+:text "Review"}}
+:block/updated-at 1774270915635})
 :pages (
 {:block/uuid #uuid "69b277f4-a8e4-488d-862a-66dfe10929e0"
 :block/properties 
@@ -430,23 +685,7 @@
 {:id "69b277f4-a8e4-488d-862a-66dfe10929e0"
 :name "pss (whiteboard)"
 :bindings 
-{:fb8375e0-1dec-11f1-bef1-1349931039d0 
-{:id "fb8375e0-1dec-11f1-bef1-1349931039d0"
-:type "line"
-:fromId "fb8375e2-1dec-11f1-bef1-1349931039d0"
-:toId "c60cefe0-1dec-11f1-bef1-1349931039d0"
-:handleId "start"
-:point [0.5 0.5]
-:distance 4}
-:fb8375e1-1dec-11f1-bef1-1349931039d0 
-{:id "fb8375e1-1dec-11f1-bef1-1349931039d0"
-:type "line"
-:fromId "fb8375e2-1dec-11f1-bef1-1349931039d0"
-:toId "d987a970-1dec-11f1-bef1-1349931039d0"
-:handleId "end"
-:point [0.09 0.51]
-:distance 4}
-:b4d3c4e0-22ad-11f1-9035-9d110e0a29bd 
+{:b4d3c4e0-22ad-11f1-9035-9d110e0a29bd 
 {:id "b4d3c4e0-22ad-11f1-9035-9d110e0a29bd"
 :type "line"
 :fromId "b4d3c4e2-22ad-11f1-9035-9d110e0a29bd"
@@ -461,12 +700,60 @@
 :toId "7fd47030-2138-11f1-a493-69dc266a18df"
 :handleId "end"
 :point [0.5 0.26]
+:distance 4}
+:461d7690-26b8-11f1-9f2f-bd1f3447149f 
+{:id "461d7690-26b8-11f1-9f2f-bd1f3447149f"
+:type "line"
+:fromId "461d7692-26b8-11f1-9f2f-bd1f3447149f"
+:toId "aeef2ad0-1ef0-11f1-a2f8-dbcc9ee2c405"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:461d7691-26b8-11f1-9f2f-bd1f3447149f 
+{:id "461d7691-26b8-11f1-9f2f-bd1f3447149f"
+:type "line"
+:fromId "461d7692-26b8-11f1-9f2f-bd1f3447149f"
+:toId "f6d8fc40-22b0-11f1-9035-9d110e0a29bd"
+:handleId "end"
+:point [0.56 0.58]
+:distance 4}
+:4a1e3e50-26b8-11f1-9f2f-bd1f3447149f 
+{:id "4a1e3e50-26b8-11f1-9f2f-bd1f3447149f"
+:type "line"
+:fromId "4a1e3e52-26b8-11f1-9f2f-bd1f3447149f"
+:toId "aeef2ad0-1ef0-11f1-a2f8-dbcc9ee2c405"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:4a1e3e51-26b8-11f1-9f2f-bd1f3447149f 
+{:id "4a1e3e51-26b8-11f1-9f2f-bd1f3447149f"
+:type "line"
+:fromId "4a1e3e52-26b8-11f1-9f2f-bd1f3447149f"
+:toId "64d319d0-22b4-11f1-9035-9d110e0a29bd"
+:handleId "end"
+:point [0.75 0.59]
+:distance 4}
+:4bd34150-26b8-11f1-9f2f-bd1f3447149f 
+{:id "4bd34150-26b8-11f1-9f2f-bd1f3447149f"
+:type "line"
+:fromId "4bd34152-26b8-11f1-9f2f-bd1f3447149f"
+:toId "aeef2ad0-1ef0-11f1-a2f8-dbcc9ee2c405"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}
+:4bd34151-26b8-11f1-9f2f-bd1f3447149f 
+{:id "4bd34151-26b8-11f1-9f2f-bd1f3447149f"
+:type "line"
+:fromId "4bd34152-26b8-11f1-9f2f-bd1f3447149f"
+:toId "7ae43370-2369-11f1-8a67-e725acd55e6a"
+:handleId "end"
+:point [0.7 0.39]
 :distance 4}}
 :nonce 1
 :assets []
-:shapes-index ("c60cefe0-1dec-11f1-bef1-1349931039d0" "ca503ee0-1dec-11f1-bef1-1349931039d0" "d987a970-1dec-11f1-bef1-1349931039d0" "fb8375e2-1dec-11f1-bef1-1349931039d0" "2764d410-1ded-11f1-bef1-1349931039d0" "e1c2fee0-1df2-11f1-bef1-1349931039d0" "68845e00-1dfe-11f1-bef1-1349931039d0" "63af4120-1ec0-11f1-a2f8-dbcc9ee2c405" "aeef2ad0-1ef0-11f1-a2f8-dbcc9ee2c405" "7fd47030-2138-11f1-a493-69dc266a18df" "7713b4b0-220f-11f1-8c2b-25f89195aa06" "b4d3c4e2-22ad-11f1-9035-9d110e0a29bd" "f6d8fc40-22b0-11f1-9035-9d110e0a29bd" "64d319d0-22b4-11f1-9035-9d110e0a29bd")}}
-:block/updated-at 1773835834691
+:shapes-index ("ca503ee0-1dec-11f1-bef1-1349931039d0" "d987a970-1dec-11f1-bef1-1349931039d0" "2764d410-1ded-11f1-bef1-1349931039d0" "e1c2fee0-1df2-11f1-bef1-1349931039d0" "68845e00-1dfe-11f1-bef1-1349931039d0" "63af4120-1ec0-11f1-a2f8-dbcc9ee2c405" "aeef2ad0-1ef0-11f1-a2f8-dbcc9ee2c405" "7fd47030-2138-11f1-a493-69dc266a18df" "7713b4b0-220f-11f1-8c2b-25f89195aa06" "b4d3c4e2-22ad-11f1-9035-9d110e0a29bd" "f6d8fc40-22b0-11f1-9035-9d110e0a29bd" "64d319d0-22b4-11f1-9035-9d110e0a29bd" "7ae43370-2369-11f1-8a67-e725acd55e6a" "d025ad10-2372-11f1-9566-5f54e25a52a7" "c355d950-26b7-11f1-be2e-95569f3e26cc" "0ad7aa60-26b8-11f1-9f2f-bd1f3447149f" "31bb9150-26b8-11f1-9f2f-bd1f3447149f" "461d7692-26b8-11f1-9f2f-bd1f3447149f" "4a1e3e52-26b8-11f1-9f2f-bd1f3447149f" "4bd34152-26b8-11f1-9f2f-bd1f3447149f" "5d7961f0-26b8-11f1-9f2f-bd1f3447149f" "72cc8500-26b8-11f1-9f2f-bd1f3447149f")}}
+:block/updated-at 1774270915635
 :block/created-at 1773303796718
 :block/type "whiteboard"
 :block/name "pss (whiteboard)"
-:block/original-name "PSS (whiteboard)"})}
+:block/original-name "pss (whiteboard)"})}

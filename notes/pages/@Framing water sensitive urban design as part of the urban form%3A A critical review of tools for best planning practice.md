@@ -1,4 +1,4 @@
-tags:: [[Ecosystem services]], [[GIS-MCDA]], [[Low impact development]], [[NEXT]], [[Planning support systems]], [[Sustainable urban drainage systems]], [[Urban planning]]
+tags:: [[Ecosystem services]], [[GIS-MCDA Overview]], [[Low impact development]], [[NEXT]], [[Planning support systems]], [[Sustainable urban drainage systems]], [[Urban planning]]
 date:: [[Oct 1st, 2017]]
 issn:: 1364-8152
 doi:: 10.1016/j.envsoft.2017.07.003
@@ -21,7 +21,7 @@ links:: [Local library](zotero://select/library/items/Y47M4U3G), [Web library](h
 - [[Attachments]]
 	- [PDF](zotero://select/library/items/2AW2NNAX) {{zotero-imported-file 2AW2NNAX, "Framing-water-sensitive-urban-design-as-part-of-the-urb_2017_Environmental-M.pdf"}}
 	- [ScienceDirect Snapshot](https://www.sciencedirect.com/science/article/pii/S1364815216310623) {{zotero-imported-file SGFFJV63, "S1364815216310623.html"}}
-- tags:: [[Ecosystem services]], [[GIS-MCDA]], [[Low impact development]], [[NEXT]], [[Planning support systems]], [[Sustainable urban drainage systems]], [[Urban planning]]
+- tags:: [[Ecosystem services]], [[GIS-MCDA Overview]], [[Low impact development]], [[NEXT]], [[Planning support systems]], [[Sustainable urban drainage systems]], [[Urban planning]]
   date:: [[Oct 1st, 2017]]
   issn:: 1364-8152
   extra:: kullerFramingWaterSensitive2017
