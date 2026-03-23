@@ -1,3 +1,5 @@
+tags:: PSS
+
 - Robust Decision Making (RDM) [[R: grovesNewAnalyticMethod2007a]]:
 	- RDM is designed for situations of *deep uncertainty* — conditions where decision makers cannot agree on (or confidently specify) the system model, the probability distributions over future states, or even the value function for ranking outcomes. Traditional expected-utility analysis is seen as inadequate here because it forces analysts to pick a single probability distribution and optimize against it, which can produce overconfident and brittle recommendations.
 	- ![image.png](../assets/image_1773832004670_0.png)

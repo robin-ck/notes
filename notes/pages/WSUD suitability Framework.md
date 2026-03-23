@@ -1,23 +1,25 @@
-## Table 3 — "WSUD needs a place"
-*Factors determining suitability from the perspective of technology operation*
+tags:: PSS
 
-| Category | Factor | Indicators | Explanation | Scale variability |
-|---|---|---|---|---|
-| **Biophysical** | Soil | Type, hydraulic conductivity, storage capacity, contamination | Soil properties affect whether water can infiltrate safely; contaminated soils can spread pollutants | Exact location – neighbourhood |
-| | Slope | Slope rate, topography/natural drainage channels | Steep slopes make most WSUD types impractical or require expensive adaptation | Exact location |
-| | Hydrology | Stream characteristics, contributing impervious catchment area, proximity to water body | The amount and quality of water flowing to a WSUD asset determines its design requirements | Exact location – neighbourhood |
-| | Climate | Rainfall averages/extremes/variability, temperature, evapotranspiration | Rainfall patterns and temperature drive how a system is designed and what plants can survive | Exact location – between cities |
-| | Urban fabric | Roof surfaces, pavement/parking areas, public open space, road accessibility | The built environment determines what space and surface types are available for different technologies | Exact location – neighbourhood |
-| | Ecosystem type | Available vegetation, ecosystem structure | Local flora conditions which plant species can be used and whether existing ecosystems limit options | Neighbourhood – between cities |
-| **Socio-economic** | Waste management | Regular solid waste collection, sanitation level | Without waste collection, systems like bioretention clog and fail, especially in developing cities | Neighbourhood – between cities |
-| | Demographics | Income, population density, house price | Density affects imperviousness and water demand; income affects land costs and community receptivity | Precinct – neighbourhood |
-| | Public awareness & values | Green votes, survey results, NGO membership, education level | Community attitudes are one of the biggest barriers to WSUD uptake | Precinct – neighbourhood |
-| | Social cohesion | Volunteering rates, community club membership | Cohesive communities are more likely to maintain and value green infrastructure | Precinct – neighbourhood |
-| | Political stability | Rate of government change, political responsiveness | WSUD requires sustained political commitment; instability threatens long-term implementation | District – between cities |
-| **Planning & Governance** | Land availability | Land value, ownership type, zoning, resistance to land-use change | High land values or fragmented ownership can block WSUD development | Exact location – neighbourhood |
-| | Development opportunity | Renewal cycles, priority development areas, organisational capacity | Windows of opportunity (e.g. road works) can be leveraged to co-implement WSUD | Neighbourhood – city district |
-| | Development constraint | Planning overlays, utility infrastructure, building foundations | Some zones or underground infrastructure physically prevent WSUD placement | Exact location |
-| | Development type | Greenfield, brownfield, infill | The type of urban development context significantly affects what scale and type of WSUD is feasible | Exact location – neighbourhood |
+- ## Table 3 — "WSUD needs a place"
+- *Factors determining suitability from the perspective of technology operation*
+  
+  | Category | Factor | Indicators | Explanation | Scale variability |
+  |---|---|---|---|---|
+  | **Biophysical** | Soil | Type, hydraulic conductivity, storage capacity, contamination | Soil properties affect whether water can infiltrate safely; contaminated soils can spread pollutants | Exact location – neighbourhood |
+  | | Slope | Slope rate, topography/natural drainage channels | Steep slopes make most WSUD types impractical or require expensive adaptation | Exact location |
+  | | Hydrology | Stream characteristics, contributing impervious catchment area, proximity to water body | The amount and quality of water flowing to a WSUD asset determines its design requirements | Exact location – neighbourhood |
+  | | Climate | Rainfall averages/extremes/variability, temperature, evapotranspiration | Rainfall patterns and temperature drive how a system is designed and what plants can survive | Exact location – between cities |
+  | | Urban fabric | Roof surfaces, pavement/parking areas, public open space, road accessibility | The built environment determines what space and surface types are available for different technologies | Exact location – neighbourhood |
+  | | Ecosystem type | Available vegetation, ecosystem structure | Local flora conditions which plant species can be used and whether existing ecosystems limit options | Neighbourhood – between cities |
+  | **Socio-economic** | Waste management | Regular solid waste collection, sanitation level | Without waste collection, systems like bioretention clog and fail, especially in developing cities | Neighbourhood – between cities |
+  | | Demographics | Income, population density, house price | Density affects imperviousness and water demand; income affects land costs and community receptivity | Precinct – neighbourhood |
+  | | Public awareness & values | Green votes, survey results, NGO membership, education level | Community attitudes are one of the biggest barriers to WSUD uptake | Precinct – neighbourhood |
+  | | Social cohesion | Volunteering rates, community club membership | Cohesive communities are more likely to maintain and value green infrastructure | Precinct – neighbourhood |
+  | | Political stability | Rate of government change, political responsiveness | WSUD requires sustained political commitment; instability threatens long-term implementation | District – between cities |
+  | **Planning & Governance** | Land availability | Land value, ownership type, zoning, resistance to land-use change | High land values or fragmented ownership can block WSUD development | Exact location – neighbourhood |
+  | | Development opportunity | Renewal cycles, priority development areas, organisational capacity | Windows of opportunity (e.g. road works) can be leveraged to co-implement WSUD | Neighbourhood – city district |
+  | | Development constraint | Planning overlays, utility infrastructure, building foundations | Some zones or underground infrastructure physically prevent WSUD placement | Exact location |
+  | | Development type | Greenfield, brownfield, infill | The type of urban development context significantly affects what scale and type of WSUD is feasible | Exact location – neighbourhood |
 - ## Table 4 — "A place needs WSUD"
   *Factors determining suitability from the perspective of a location's needs, organised by ecosystem services*
   
