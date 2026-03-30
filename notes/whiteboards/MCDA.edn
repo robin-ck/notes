@@ -6,7 +6,7 @@
 :block/parent 
 {:block/uuid #uuid "69bad42e-d87d-46a4-9f03-5dc568f936dc"}
 :block/uuid #uuid "69b410bb-71f3-4e51-9da2-4b6c320523bc"} 
-{:block/created-at 1774002230696
+{:block/created-at 1774345792985
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -23,7 +23,7 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [1960 7218.328357752877]
+:size [1960 7218.32740125887]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -32,9 +32,9 @@
 :point [1008 488]
 :parentId "69b410b3-53e5-40e6-a816-efecb7bb26b7"
 :collapsedHeight 0
-:nonce 1773408446983}}
-:block/updated-at 1774002230696} 
-{:block/created-at 1774002252458
+:nonce 1773408447029}}
+:block/updated-at 1774345792985} 
+{:block/created-at 1774345787878
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -51,7 +51,7 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [808 1919.3902587890625]
+:size [808 1104.8907521787899]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -60,9 +60,9 @@
 :point [-288 520]
 :parentId "69b410b3-53e5-40e6-a816-efecb7bb26b7"
 :collapsedHeight 0
-:nonce 1773664533557}}
-:block/updated-at 1774002252458} 
-{:block/created-at 1774002237943
+:nonce 1773664533570}}
+:block/updated-at 1774345787878} 
+{:block/created-at 1774340192510
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -79,7 +79,7 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [2000 2114.9996484197577]
+:size [2000 1394.9998480058366]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -88,8 +88,8 @@
 :point [1016 8184]
 :parentId "69bad42e-d87d-46a4-9f03-5dc568f936dc"
 :collapsedHeight 0
-:nonce 1773916358638}}
-:block/updated-at 1774002237943} 
+:nonce 1773916358643}}
+:block/updated-at 1774340192510} 
 {:block/created-at 1774002260563
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -118,7 +118,7 @@
 :collapsedHeight 0
 :nonce 1773926984709}}
 :block/updated-at 1774002260563} 
-{:block/created-at 1774002245789
+{:block/created-at 1774345788274
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -135,7 +135,7 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [3176 2858.406381083607]
+:size [3176 2858.4065254506477]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -144,8 +144,72 @@
 :point [-1208 11048]
 :parentId "69bad42e-d87d-46a4-9f03-5dc568f936dc"
 :collapsedHeight 0
-:nonce 1774000317490}}
-:block/updated-at 1774002245789})
+:nonce 1774000317541}}
+:block/updated-at 1774345788274} 
+{:block/content ""
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "69b410bb-71f3-4e51-9da2-4b6c320523bc"}
+:block/parent 
+{:block/uuid #uuid "69bad42e-d87d-46a4-9f03-5dc568f936dc"}
+:block/properties 
+{}
+:block/uuid #uuid "69c24b3c-9f17-44f8-af0b-de9a362354ca"} 
+{:block/created-at 1774345787897
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 5
+:scale [1 1]
+:pageId "Overview AI in MCDA"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [1544 1367.9999624667475]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "7b46c9e0-275b-11f1-9df5-27e00ad2dea6"
+:noFill false
+:point [-1512 2720]
+:parentId "69bad42e-d87d-46a4-9f03-5dc568f936dc"
+:collapsedHeight 0
+:nonce 1774340929206}}
+:block/updated-at 1774345787897} 
+{:block/created-at 1774345820287
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 6
+:scale [1 1]
+:pageId "Non-Additive-Value"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 93.00002955803487]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "cffd7dc0-2766-11f1-9df5-27e00ad2dea6"
+:noFill false
+:point [4200 1888]
+:parentId "69bad42e-d87d-46a4-9f03-5dc568f936dc"
+:collapsedHeight 0
+:nonce 1774345795486}}
+:block/updated-at 1774345820287})
 :pages (
 {:block/uuid #uuid "69bad42e-d87d-46a4-9f03-5dc568f936dc"
 :block/properties 
@@ -157,10 +221,10 @@
 {}
 :nonce 1
 :assets []
-:shapes-index ("60a10930-1ee0-11f1-a2f8-dbcc9ee2c405" "9ffefbe0-2134-11f1-a493-69dc266a18df" "f3515080-237e-11f1-9566-5f54e25a52a7" "b14ca4a0-2397-11f1-9566-5f54e25a52a7" "6ece95b0-2442-11f1-8386-3b58c23cf86f")}}
+:shapes-index ("60a10930-1ee0-11f1-a2f8-dbcc9ee2c405" "9ffefbe0-2134-11f1-a493-69dc266a18df" "f3515080-237e-11f1-9566-5f54e25a52a7" "b14ca4a0-2397-11f1-9566-5f54e25a52a7" "6ece95b0-2442-11f1-8386-3b58c23cf86f" "7b46c9e0-275b-11f1-9df5-27e00ad2dea6" "cffd7dc0-2766-11f1-9df5-27e00ad2dea6")}}
 :block/journal? false
-:block/updated-at 1774002260563
+:block/updated-at 1774345820287
 :block/created-at 1773408435819
 :block/type "whiteboard"
 :block/name "mcda"
-:block/original-name "MCDA"})}
+:block/original-name "mcda"})}

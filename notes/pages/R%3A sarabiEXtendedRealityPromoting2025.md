@@ -8,7 +8,7 @@ issue:: 1
 pages:: 51
 DOI:: 10.1038/s42949-025-00240-w
 url:: https://www.nature.com/articles/s42949-025-00240-w
-tags:: [[NEXT]], [[Climate-change adaptation]], [[Environmental studies]], [[Psychology and behaviour]], [[Science]], [[technology and society]]
+tags:: [[READ]], [[NEXT]], [[Climate-change adaptation]], [[Environmental studies]], [[Psychology and behaviour]], [[Science]], [[technology and society]]
 itemType:: [[journalArticle]]
 citeKey:: sarabiEXtendedRealityPromoting2025
 links:: zotero://select/library/items?itemKey=6K4KX2KH

@@ -1,0 +1,337 @@
+
+<style>
+*{box-sizing:border-box}
+.w{padding:12px 0;color:var(--color-text-primary);font-size:13px}
+.tabs{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:12px}
+.tab{padding:4px 10px;border-radius:6px;border:1px solid var(--color-border-secondary);cursor:pointer;font-size:11px;font-weight:500;background:var(--color-background-secondary);color:var(--color-text-secondary);user-select:none;transition:all .12s}
+.tab.on{border-color:var(--color-border-primary);background:var(--color-background-primary);color:var(--color-text-primary)}
+.tab:hover:not(.on){background:var(--color-background-tertiary)}
+.leg{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:10px;font-size:11px;color:var(--color-text-secondary);align-items:center}
+.sh{display:flex;align-items:baseline;gap:8px;margin-bottom:4px}
+.sn{font-size:19px;font-weight:500}
+.st{font-size:14px;font-weight:500}
+.sd{font-size:12px;color:var(--color-text-secondary);margin-bottom:10px;line-height:1.5}
+.cnt{font-size:11px;color:var(--color-text-tertiary);margin-left:auto}
+table{width:100%;border-collapse:collapse;font-size:12px}
+th{text-align:left;padding:6px 8px;font-weight:500;color:var(--color-text-secondary);border-bottom:2px solid var(--color-border-secondary);font-size:11px;white-space:nowrap}
+td{padding:6px 8px;vertical-align:top;border-bottom:1px solid var(--color-border-tertiary);line-height:1.5}
+tr:last-child td{border-bottom:none}
+tr:hover td{background:var(--color-background-secondary)}
+.rn{font-weight:500;color:var(--color-text-primary);font-size:12px}
+.rd{font-size:11px;color:var(--color-text-secondary)}
+.ct{font-size:11px;color:var(--color-text-tertiary);font-style:italic}
+/* source pills */
+.s-ray{display:inline-block;padding:2px 6px;border-radius:3px;font-size:10px;font-weight:500;background:#E1F5EE;color:#085041;white-space:nowrap}
+.s-sah{display:inline-block;padding:2px 6px;border-radius:3px;font-size:10px;font-weight:500;background:#EEEDFE;color:#3C3489;white-space:nowrap}
+.s-lia{display:inline-block;padding:2px 6px;border-radius:3px;font-size:10px;font-weight:500;background:#E6F1FB;color:#0C447C;white-space:nowrap}
+@media(prefers-color-scheme:dark){
+.s-ray{background:#085041;color:#9FE1CB}
+.s-sah{background:#3C3489;color:#CECBF6}
+.s-lia{background:#0C447C;color:#B5D4F4}
+}
+</style>
+
+<div class="w">
+<div class="tabs" id="tabs"></div>
+<div class="leg">
+  <strong style="font-size:11px">Source:</strong>
+  <span><span class="s-ray">Ray 2025</span> — GIS–AI–MCDA urban planning</span>
+  <span><span class="s-sah">Sahoo &amp; Goswami 2023</span> — MCDM methods review</span>
+  <span><span class="s-lia">Liao et al. 2023</span> — ML-driven MCDM review</span>
+</div>
+<div id="content"></div>
+</div>
+
+<script>
+var steps = [
+{num:1, title:"Define decision problem & stakeholder analysis",
+ desc:"Framing the challenge, defining goals, identifying stakeholders and setting the scope of analysis.",
+ refs:[
+  {src:"ray", ref:"Wagner & de Vries (2019)", cite:"Land, 8(8), 123", domain:"Urban development", role:"Comparative review of decision-making methods in urban development; frames planning problem and decision support scope."},
+  {src:"ray", ref:"Kamrowska-Załuska (2021)", cite:"Land, 10(11), 1209", domain:"Smart cities / AI", role:"Impact of AI tools and big data on city design; frames urban complexity as a decision context."},
+  {src:"ray", ref:"Arfanuzzaman (2021)", cite:"Environ. Sustain. Indic., 11, 100127", domain:"South Asia / SDGs", role:"Harnessing AI and big data for SDGs; frames urban sustainability as a multi-objective decision problem."},
+  {src:"ray", ref:"Yigitcanlar & Cugurullo (2020)", cite:"Sustainability, 12(20), 8548", domain:"Smart cities", role:"Frames AI sustainability challenges in urban governance; establishes the urban planning problem space."},
+  {src:"ray", ref:"Inclezan & Prádanos (2017)", cite:"J. Artif. Intell. Res., 60, 681–686", domain:"Smart cities / ethics", role:"Critical view on smart cities and AI; raises equity and framing issues central to defining the decision problem."},
+  {src:"ray", ref:"Saaty (1987, 1990, 2008)", cite:"Math. Modelling 9; EJOR 48; IJSSCI 1", domain:"Decision theory", role:"Foundational AHP references; define the decision problem structure including criteria hierarchies and stakeholder preferences."},
+  {src:"ray", ref:"Eichholz (2025)", cite:"Front. Urban Rural Plan., 3, 6", domain:"Municipal AI governance", role:"Municipal AI integration — structured approach; directly addresses problem framing and governance of algorithmic urban systems."},
+  {src:"ray", ref:"Javed et al. (2023)", cite:"Electronics, 12(4), 1020", domain:"Smart cities / XAI", role:"Survey of explainable AI for smart cities; addresses transparency and framing of AI decision support for stakeholders."},
+  {src:"ray", ref:"Marasinghe et al. (2024)", cite:"J. Geovisualiz. Spat. Anal., 8, 24", domain:"Geo-AI / ethics", role:"Responsible urban Geo-AI; ethical data use, algorithmic accountability, stakeholder framing."},
+  {src:"sah", ref:"Ananda & Herath (2009)", cite:"Ecol. Econ., 68(10), 2535–2548", domain:"Forest management", role:"Critical review of MCDM for forest management; frames how complex multi-stakeholder problems require structured MCDM."},
+  {src:"sah", ref:"Hasan et al. (2022)", cite:"Int. J. Intell. Syst., 37(2), 1129–1156", domain:"General / optimization", role:"Multi-choice best-worst MCDM method; addresses how to frame decision problems with multiple competing choices."},
+  {src:"sah", ref:"Li et al. (2020)", cite:"Energy, 212, 118694", domain:"Renewable energy", role:"Comprehensive MCDM analysis for renewable energy industry; frames the sustainable development decision problem across multiple objectives."},
+  {src:"sah", ref:"Gebre et al. (2021)", cite:"Int. Soil Water Conserv. Res., 9(4), 490–501", domain:"Rural land allocation", role:"Systematic MCDM review for rural land allocation; frames multi-criteria problems in land use and stakeholder complexity."},
+  {src:"sah", ref:"Yüksel (2012)", cite:"Int. J. Bus. Manage., 7(24), 52", domain:"Business strategy", role:"PESTEL analysis as multi-criteria model; frames the decision environment through macro-level strategic factors."},
+  {src:"sah", ref:"Cai et al. (2023)", cite:"Eng. Appl. Artif. Intell., 122, 106064", domain:"Collaborative decision", role:"Survey of collaborative decision-making; addresses problem framing involving multiple stakeholders and group preferences."},
+  {src:"sah", ref:"Sousa et al. (2021)", cite:"Sustainability, 13(8), 4129", domain:"Sustainability / SDGs", role:"MCDM for UN sustainable development goals; frames the decision problem of balancing multiple sustainability objectives for policy."},
+  {src:"sah", ref:"Vatankhah et al. (2023)", cite:"Int. J. Contemp. Hosp. Manage.", domain:"Hospitality / tourism", role:"MCDM bibliometric study in hospitality; frames the scope of decision problems addressed by MCDM in service industries."},
+  {src:"lia", ref:"Vincke (1992)", cite:"Multicriteria Decision Aid, Wiley", domain:"Decision theory", role:"Foundational MCDM textbook; defines the structure of multi-criterion problems with conflicting criteria as the core decision framing challenge."},
+  {src:"lia", ref:"Bouyssou et al. (2006)", cite:"Evaluation and Decision Models, Springer", domain:"Decision theory", role:"Evaluation and decision models with multiple criteria; establishes theoretical foundations for problem definition in MCDM."},
+  {src:"lia", ref:"Jordan & Mitchell (2015)", cite:"Science, 349(6245), 255–260", domain:"ML foundations", role:"Machine learning trends and prospects; frames the role of ML in data-driven decision contexts and motivates the information-age problem framing."},
+  {src:"lia", ref:"Wang et al. (2022)", cite:"Ann. Oper. Res.", domain:"Business management / AI", role:"Integrated AI and big data analytics for managerial decision support; frames the MCDM problem in an information-age context."},
+  {src:"lia", ref:"Wu & Liao (2021)", cite:"Omega, 104, 102471", domain:"E-commerce / MCDM", role:"Personalised cognition modelling for online shopping; frames MCDM as a customer decision problem driven by real data."},
+  {src:"lia", ref:"Malczewski (2006)", cite:"Int. J. Geogr. Inf. Sci., 20(7), 703–726", domain:"GIS-MCDM", role:"GIS-based MCDM survey; frames integration of geographic information in spatial decision problems — foundational problem scoping."},
+  {src:"lia", ref:"Kougkoulos et al. (2021)", cite:"Prod. Oper. Manag., 30(12), 4396–4411", domain:"Labor protection", role:"Multi-method approach to prioritise labor exploitation locations; frames a complex societal MCDM problem with multiple criteria."},
+ ]},
+
+{num:2, title:"Identify objectives, attributes & construct hierarchy",
+ desc:"Determining what goals matter, selecting decision criteria and attributes, and structuring their hierarchy for evaluation.",
+ refs:[
+  {src:"ray", ref:"Saaty (1990, 2008)", cite:"EJOR 48; IJSSCI 1", domain:"Decision theory", role:"AHP pairwise comparison to build and weight criteria hierarchies — foundational for objective structuring."},
+  {src:"ray", ref:"Tzeng et al. (1998)", cite:"EJOR, 110, 342–367", domain:"Decision theory", role:"Weight-assessing with habitual domains; frameworks for objective hierarchies in MCDM."},
+  {src:"ray", ref:"Kilicoglu (2022)", cite:"Environ. Sci. Pollut. Res., 29(24), 35746", domain:"Canik, Turkey", role:"GIS-MCDA for settlement areas: identifies environmental, social and spatial criteria and constructs hierarchy via AHP/TOPSIS."},
+  {src:"ray", ref:"Kilicoglu et al. (2021)", cite:"Theor. Appl. Climatol., 143(1), 379–388", domain:"Atakum, Turkey", role:"Multi-criteria decision-making and GIS for settlement area selection; explicit criteria hierarchy construction."},
+  {src:"ray", ref:"Nyimbili & Erden (2020)", cite:"ISPRS Int. J. Geo-Inf., 9(7), 419", domain:"Urban emergency facilities", role:"Entropy-AHP for urban emergency facilities; objective and attribute weighting for suitability assessment."},
+  {src:"ray", ref:"Mokoena & Sebola (2020)", cite:"Int. Arch. Photogramm. Remote Sens.", domain:"South Africa / land", role:"Multi-criteria decision framework for land expropriation; criteria structuring and stakeholder objective definition."},
+  {src:"ray", ref:"Liladhar Rane et al. (2023, 2024)", cite:"Geocarto Int., 38–39", domain:"Urban settlement", role:"MIF and AHP-GIS for sustainable urban settlement identification; explicit construction of influencing factor hierarchies."},
+  {src:"ray", ref:"Guan et al. (2022)", cite:"Environ. Dev. Sustain.", domain:"Liaoning, China", role:"Spatial suitability of urban human settlements using GIS; defines spatial indicators aligned to SDG objectives."},
+  {src:"ray", ref:"Arshad et al. (2020)", cite:"Geosci. Front., 11(5), 1805–1819", domain:"Pakistan / groundwater", role:"GIS-AHP for groundwater recharge zones; spatial criterion identification and objective structuring."},
+  {src:"ray", ref:"Ray (2023, 2025)", cite:"Int. J. Environ. Sci. Technol.; Groundw. Sustain. Dev.", domain:"India / groundwater", role:"GIS + AHP/TOPSIS for groundwater potential zones; builds multi-attribute hierarchies for spatial decision analysis."},
+  {src:"sah", ref:"Goswami & Mitra (2020)", cite:"Int. J. Data Netw. Sci., 4(1), 27–42", domain:"Product / mobile selection", role:"AHP-COPRAS and AHP-ARAS for mobile model selection; demonstrates criterion hierarchy construction and weighting."},
+  {src:"sah", ref:"Goswami & Behera (2021a)", cite:"Int. J. Serv. Sci. Manag., 12(3), 116–137", domain:"Smartphone selection", role:"AHP-TOPSIS methodology; builds explicit criteria hierarchy (cost, performance, features) via pairwise comparison."},
+  {src:"sah", ref:"Goswami & Behera (2021b)", cite:"Decision, 48, 71–96", domain:"Smartphone selection", role:"Fuzzy-AHP + PROMETHEE; constructs fuzzy criteria hierarchy capturing vague stakeholder preferences."},
+  {src:"sah", ref:"Goswami et al. (2021)", cite:"Symmetry, 13(8), 1331", domain:"Robot selection", role:"TOPSIS-ARAS and COPRAS-ARAS; defines technical and economic criteria hierarchy for industrial decisions."},
+  {src:"sah", ref:"Goswami & Behera (2021c)", cite:"Process Integr. Optim. Sustain., 5(4), 947–973", domain:"Material handling", role:"Entropy-COPRAS and ARAS for equipment selection; entropy weighting constructs objective attribute hierarchy."},
+  {src:"sah", ref:"Goswami et al. (2022a)", cite:"Adv. Mech. Eng., 14(10)", domain:"Machining / manufacturing", role:"Entropy-COPRAS-ARAS for EDM parameter optimization; defines machining criteria hierarchy with entropy-based objective weights."},
+  {src:"sah", ref:"Goswami & Behera (2021d)", cite:"Int. J. Proj. Manag. Prod. Assess., 9(2), 29–47", domain:"Laptop selection", role:"AHP-TOPSIS for laptop selection; constructs technical criteria hierarchy and assigns weights via pairwise comparison."},
+  {src:"sah", ref:"Goswami & Behera (2021e)", cite:"Mater. Today Proc., 38, 2256–2262", domain:"Material selection", role:"Entropy-ARAS for engineering material selection; defines material property criteria hierarchy objectively via entropy."},
+  {src:"sah", ref:"Goswami et al. (2022b)", cite:"Mater. Today Proc., 60, 1130–1139", domain:"Steel / materials", role:"Entropy-TOPSIS for steel grade and heat treatment selection; constructs multi-attribute hierarchy for material decisions."},
+  {src:"sah", ref:"Goswami et al. (2022c)", cite:"Mater. Today Proc., 52, 1153–1160", domain:"Renewable energy", role:"MEREC-PIV for green energy source selection; defines sustainability criteria hierarchy for India's energy planning."},
+  {src:"sah", ref:"Tey et al. (2019)", cite:"IEEE Access, 7, 53687–53697", domain:"Finance / stock market", role:"Neutrosophic AHP; constructs decision hierarchy under deep uncertainty using neutrosophic sets."},
+  {src:"sah", ref:"Liao et al. (2023)", cite:"Int. J. Fuzzy Syst., 1–28", domain:"General / theory", role:"Survey of interval analysis and fuzzy MCDM extensions; covers techniques for structuring criteria under uncertainty."},
+  {src:"sah", ref:"Goswami & Behera (2023)", cite:"Int. J. Decis. Support Syst. Technol., 15(1), 1–38", domain:"Industrial robot", role:"Fuzzy-AHP integrated COPRAS-ARAS; constructs hybrid criteria hierarchy combining subjective and objective weights."},
+  {src:"sah", ref:"Dhiman et al. (2018)", cite:"Habitat Int., 71, 125–134", domain:"Urban / coastal planning", role:"GIS + MCDM for urban coastal classification; identifies spatial criteria and constructs hierarchy for land classification."},
+  {src:"lia", ref:"Liu et al. (2014)", cite:"Soft Comput., 18, 2149–2160", domain:"Large-group decision", role:"Interval-valued intuitionistic fuzzy PCA model; uses ML to extract and structure independent principal criteria in large-group decisions."},
+  {src:"lia", ref:"Liu et al. (2016)", cite:"Proc. CSNC, 389, 15–27", domain:"Navigation signals", role:"PCA with fuzzy clustering to decorrelate and reconstruct bottom-level criteria; addresses criteria hierarchy formation under high correlation."},
+  {src:"lia", ref:"Modibbo et al. (2022)", cite:"Manag. Decis., 60(3), 806–836", domain:"Pharmaceutical supply chain", role:"PCA for dimensionality reduction to find the best four criteria for pharmaceutical supplier selection; data-driven criteria identification."},
+  {src:"lia", ref:"Darko & Liang (2022)", cite:"Expert Syst. Appl., 195, 116649", domain:"Mobile payments", role:"LDA to extract customer satisfaction dimensions as decision criteria; ML-based criteria extraction from online review data."},
+  {src:"lia", ref:"Luo et al. (2023)", cite:"Kybernetes, 52(3), 874–897", domain:"Tourism / destination", role:"LDA to extract criteria for tourist destination recommendation from online reviews; data-driven objective identification."},
+  {src:"lia", ref:"Liu et al. (2023)", cite:"Omega, 115, 102784", domain:"Healthcare / physician ranking", role:"ANN for evaluation criteria extraction from user-generated content; data-driven identification of decision attributes for physician ranking."},
+  {src:"lia", ref:"Eshkevari et al. (2022)", cite:"Expert Syst. Appl., 209, 118294", domain:"Hotel ranking / UGC", role:"Dawid-Skene algorithm to aggregate user sentiment as criteria input for Best-Worst Method; criteria defined from unstructured data."},
+  {src:"lia", ref:"Ince (2021)", cite:"Neural Comput. Appl., 33(15), 9761–9773", domain:"Game design / recreation", role:"BiLSTM + fuzzy AHP for dynamic game level generation; ML extracts player preference criteria adaptively."},
+  {src:"lia", ref:"Ye et al. (2021)", cite:"J. Intell. Fuzzy Syst., 41(2), 3697–3714", domain:"Online health community", role:"PCA + q-rung orthopair fuzzy set + TOPSIS; PCA optimises evaluation criteria system for information service quality."},
+ ]},
+
+{num:3, title:"Identify alternatives",
+ desc:"Generating and structuring the candidate options — sites, suppliers, products, projects, technologies — for subsequent evaluation.",
+ refs:[
+  {src:"ray", ref:"Kilic et al. (2023)", cite:"Socioecon. Plann. Sci., 86, 101478", domain:"Erzincan, Turkey", role:"GIS-MCDA for rural settlement site selection and eco-village design; identifies candidate sites as spatial alternatives."},
+  {src:"ray", ref:"Alqahtany (2023)", cite:"Alex. Eng. J., 62, 269–277", domain:"Saudi Arabia", role:"GIS-based land use suitability for settlements in Al Ahsa; spatial units as candidate development alternatives."},
+  {src:"ray", ref:"Karabulut et al. (2022)", cite:"Environ. Sci. Pollut. Res., 29(3), 4044–4061", domain:"Turkey", role:"GIS-AHP/SAW for landfill siting; candidate sites explicitly identified and compared as alternatives."},
+  {src:"ray", ref:"Asadi et al. (2023)", cite:"Sustainability, 15(10), 8359", domain:"General / energy", role:"GIS-AHP for hybrid solar/wind plant sites; generates spatial alternatives for energy infrastructure siting."},
+  {src:"ray", ref:"Irani et al. (2022)", cite:"Geotech. Geol. Eng., 40(10), 5081–5102", domain:"Tabriz, Iran", role:"GIS-based settlement risk assessment for metro line; candidate corridor alternatives for transport siting."},
+  {src:"ray", ref:"Elghazouly et al. (2024)", cite:"Alex. Eng. J., 86, 277–288", domain:"Cairo, Egypt", role:"MCDA-GIS for slum intervention policies; candidate intervention areas as spatial alternatives."},
+  {src:"ray", ref:"Khahro et al. (2023)", cite:"Sustainability, 15(7), 6228", domain:"Pakistan", role:"GIS-based park accessibility mapping; candidate park zones as spatial alternatives for green space provision."},
+  {src:"ray", ref:"Chen et al. (2023)", cite:"Sustainability, 15(10), 7901", domain:"General", role:"GIS-based strategies for sustainable urban renewal; community-scale identification of densification alternatives."},
+  {src:"ray", ref:"Sturiale & Scuderi (2019)", cite:"Climate, 7(10), 119", domain:"General", role:"Green infrastructure planning for climate adaptation; identifies urban green infrastructure alternatives."},
+  {src:"ray", ref:"Luan et al. (2021)", cite:"Ecol. Indic., 123, 107333", domain:"Ili Valley, China", role:"GIS soft computing for land-use suitability; spatial units serve as the alternatives to be ranked."},
+  {src:"sah", ref:"Alvarez et al. (2021)", cite:"Expert Syst. Appl., 183, 115368", domain:"General / survey", role:"Survey of MCDM sorting methods; covers how alternatives are categorized and structured before evaluation."},
+  {src:"sah", ref:"Tan et al. (2021)", cite:"Autom. Constr., 121, 103451", domain:"Construction / BIM", role:"Combining MCDM with BIM; identifies construction design alternatives for multi-criteria evaluation."},
+  {src:"sah", ref:"Khan et al. (2021)", cite:"J. Clean. Prod., 278, 123357", domain:"Supply chain", role:"Systematic review of sustainable supply chain management; identifies and structures supply chain alternatives for MCDM evaluation."},
+  {src:"sah", ref:"Erol et al. (2022)", cite:"Appl. Soft Comput., 116, 108331", domain:"Supply chain / blockchain", role:"Fuzzy MCDM for blockchain applicability in supply chains; identifies technological alternatives for adoption decisions."},
+  {src:"sah", ref:"Agyekum et al. (2021)", cite:"Util. Policy, 70, 101219", domain:"Renewable energy / Ghana", role:"Multi-criteria evaluation of Ghana's renewable energy sector; identifies energy technology alternatives for national planning."},
+  {src:"sah", ref:"Jamwal et al. (2021)", cite:"Appl. Sci., 11(12), 5725", domain:"Manufacturing / Industry 4.0", role:"MCDM for Industry 4.0 manufacturing sustainability; identifies technology alternatives for sustainable manufacturing adoption."},
+  {src:"sah", ref:"Khoso et al. (2022)", cite:"Socioecon. Plann. Sci., 79, 101137", domain:"Construction / contracting", role:"Comprehensive review of contractor selection models; identifies and analyses contractor alternatives for construction procurement."},
+  {src:"sah", ref:"Coelho et al. (2017)", cite:"Waste Manag. Res., 35(1), 3–28", domain:"Waste management", role:"MCDM for waste management decision support; identifies waste treatment and management alternatives for evaluation."},
+  {src:"sah", ref:"Alao et al. (2022)", cite:"Energy Convers. Manag. X, 16, 100281", domain:"Energy / biogas", role:"Fuzzy MCDM for prime mover selection in biogas CHP; identifies alternative prime mover technologies for community microgrids."},
+  {src:"sah", ref:"Nguyen et al. (2021)", cite:"Processes, 9(8), 1274", domain:"Food delivery / services", role:"Fuzzy MCDM for online food delivery company evaluation; identifies and structures service provider alternatives."},
+  {src:"lia", ref:"Büyüközkan & Feyzioğlu (2004)", cite:"Comput. Ind., 54(2), 151–167", domain:"Product development", role:"ANN + MCDM for new product idea selection; identifies candidate product concepts as alternatives for evaluation."},
+  {src:"lia", ref:"Azadnia et al. (2012)", cite:"Procedia Soc. Behav. Sci., 65, 879–884", domain:"Supply chain / sustainability", role:"Self-organizing map for supplier clustering and pre-qualification; ML identifies and narrows the set of supplier alternatives before MCDM ranking."},
+  {src:"lia", ref:"Kartal et al. (2016)", cite:"Comput. Ind. Eng., 101, 599–613", domain:"Inventory classification", role:"NB, BN, ANN, SVM + AHP and VIKOR; ML classifies inventory items as candidate alternatives for management decisions."},
+  {src:"lia", ref:"Dohale et al. (2021)", cite:"Int. J. Prod. Econ., 242, 108296", domain:"Production system selection", role:"Bayesian Network + Delphi + VAHP for production system selection; Bayes network identifies feasible system alternatives."},
+  {src:"lia", ref:"Shanmugam & Padmanaban (2021)", cite:"IEEE CONFLUENCE 2021, 848–853", domain:"Brand management", role:"Logistic regression + AHP for brand ambassador selection; ML quantifies personality dimensions to define candidate alternatives."},
+  {src:"lia", ref:"Asadi et al. (2023)", cite:"J. Clean. Prod., 135993", domain:"Wind farm site selection", role:"SVR + AHP for wind farm site selection using GIS; SVR scores candidate site alternatives globally without recalculating all options."},
+  {src:"lia", ref:"Shimray et al. (2018)", cite:"Arab. J. Sci. Eng., 43, 6823–6835", domain:"Hydropower site selection", role:"MLP + GA + fuzzy reasoning for hydropower plant site selection; ML evaluates feasibility of candidate sites as alternatives."},
+  {src:"lia", ref:"Ghosh et al. (2016)", cite:"Renew. Sustain. Energy Rev., 59, 1017–1028", domain:"Wave energy / sustainability", role:"ANN + MCDM for wave energy location suitability; identifies candidate locations as spatial alternatives for renewable energy siting."},
+ ]},
+
+{num:4, title:"Predict outcomes of each alternative",
+ desc:"Using GIS, AI/ML models, and data-driven analysis to forecast outcomes for each candidate alternative.",
+ refs:[
+  {src:"ray", ref:"Bharti & Biswas (2024)", cite:"J. Geovisualiz. Spat. Anal., 8(2), 40", domain:"Kathmandu, Nepal", role:"RF and SVM forecast urban expansion hotspots per alternative zone; predicts growth outcomes under different scenarios."},
+  {src:"ray", ref:"Ou et al. (2019)", cite:"Sustainability, 11(9), 2464", domain:"Beijing, China", role:"Cellular automata + deep learning for urban sprawl simulation; predicts land use outcomes under growth scenarios."},
+  {src:"ray", ref:"Fayaz et al. (2022)", cite:"Land, 11(6), 884", domain:"India (NH-44)", role:"ML + GIS for landslide management; predicts hazard outcomes for road corridor alternatives."},
+  {src:"ray", ref:"Do et al. (2022)", cite:"Ecol. Inform., 72, 101912", domain:"Lao Cai, Vietnam", role:"GIS-based quantification of urban expansion and flood risk outcomes for urbanization scenarios."},
+  {src:"ray", ref:"Faisal Koko et al. (2021)", cite:"Geomat. Nat. Hazards Risk, 12(1), 631–652", domain:"Lagos, Nigeria", role:"Remote sensing + GIS to analyse urban growth and flood-prone zones; predicts flood outcomes by location."},
+  {src:"ray", ref:"Khan & Sudheer (2022)", cite:"Egypt. J. Remote Sens. Space Sci., 25(2), 541–550", domain:"Islamabad, Pakistan", role:"ML-based monitoring of spatio-temporal urban growth; forecasts expansion outcomes for planning alternatives."},
+  {src:"ray", ref:"Abid et al. (2024)", cite:"Asian J. Civ. Eng., 25(6), 4673–4682", domain:"General", role:"ML models for forecasting and managing urban futures; predicts expansion outcomes for planning scenarios."},
+  {src:"ray", ref:"Al-Dousari et al. (2023)", cite:"Egypt. J. Remote Sens. Space Sci., 26(2), 381–392", domain:"Kuwait", role:"Neural network LULC analysis; forecasts urban sprawl and built-up area outcomes."},
+  {src:"ray", ref:"Yariyan et al. (2020)", cite:"Int. J. Disaster Risk Reduct., 50, 101705", domain:"Sanandaj, Iran", role:"Fuzzy AHP + neural networks for earthquake risk; predicts seismic risk outcomes per urban zone."},
+  {src:"ray", ref:"Hamdy et al. (2022)", cite:"Sustainability, 14(17), 10722", domain:"Cairo, Egypt", role:"ML + GIS for seismic hazard exposure; predicts exposure outcomes by urban area."},
+  {src:"ray", ref:"Fisher et al. (2022)", cite:"Remote Sens., 14(13), 3072", domain:"Cairo, Egypt", role:"Deep learning for slum mapping; predicts informal settlement patterns as outcomes of urban growth trajectories."},
+  {src:"ray", ref:"Ibrahim et al. (2019, 2021)", cite:"CEUS 76; Environ. Plan. B 48", domain:"General", role:"predictSLUMS and URBAN-i: predict slum formation and informal settlement outcomes from street/satellite data."},
+  {src:"ray", ref:"Mostafa et al. (2021)", cite:"Remote Sens., 13(22), 4498", domain:"Gharbia, Egypt", role:"ML + remote sensing for monitoring/forecasting urban expansion; scenario-based prediction of outcomes."},
+  {src:"ray", ref:"Selmy et al. (2023)", cite:"Remote Sens., 15(23), 5522", domain:"Arid regions", role:"LULC detection and prediction using CA-Markov + GIS; predicts land cover outcomes over time."},
+  {src:"ray", ref:"Robi & George (2025)", cite:"J. Urban Plan. Dev., 151(2), 03125001", domain:"General", role:"ML algorithms to predict urban expansion; outcome forecasting per alternative zone."},
+  {src:"ray", ref:"Tang & Na (2021)", cite:"J. Rock Mech. Geotech. Eng., 13(6), 1274–1289", domain:"General", role:"ML methods for ground settlement prediction; predicts settlement/subsidence outcomes for tunnel alternatives."},
+  {src:"ray", ref:"Reza et al. (2025)", cite:"J. Comput. Sci. Technol. Stud., 7(1), 265–282", domain:"South Asia", role:"ML for predicting energy consumption patterns; forecasts energy demand outcomes for urban alternatives."},
+  {src:"ray", ref:"Wang et al. (2020)", cite:"Sustainability, 12(9), 3925", domain:"Kathmandu, Nepal", role:"Remote sensing + GIS for LULC change detection and prediction; outcome forecasting for planning."},
+  {src:"ray", ref:"Helal & Eldamaty (2024)", cite:"Eng. Technol. Appl. Sci. Res., 14(3), 13864", domain:"Makkah, Saudi Arabia", role:"GIS and remote sensing for urban development analysis; predicts spatial outcomes of urban growth."},
+  {src:"ray", ref:"Sahin et al. (2024)", cite:"Appl. Sci., 14(8), 3484", domain:"Mersin, Turkey", role:"Remote sensing + AHP-GIS for urban growth simulation; predicts growth and suitability outcomes."},
+  {src:"ray", ref:"Gharaibeh et al. (2023)", cite:"Land, 12(1), 214", domain:"General", role:"ML framework for assessing urban growth and suitability; predicts growth outcomes per area."},
+  {src:"ray", ref:"Budha et al. (2025)", cite:"Discover Cities, 2, 84", domain:"Nepal", role:"ML + GIS simulation of urban expansion for sustainable planning; predicts outcomes of expansion scenarios."},
+  {src:"ray", ref:"Belinga et al. (2025)", cite:"Data Policy, 7, e2", domain:"General", role:"Deep learning for simulation and prediction of urban sprawl; predicts sprawl outcomes."},
+  {src:"ray", ref:"Chettry (2022)", cite:"Appl. Geomat., 14(4), 639–652", domain:"Thiruvananthapuram, India", role:"Peri-urban boundary delineation and sprawl quantification; predicts urban agglomeration outcomes."},
+  {src:"ray", ref:"Dhanaraj & Angadi (2021)", cite:"Spat. Inf. Res., 29, 615–629", domain:"Mangalore, India", role:"Historical GIS mapping of urban settlement evolution; temporal prediction of growth outcomes."},
+  {src:"ray", ref:"Edosa et al. (2024)", cite:"City Environ. Interact., 23, 100151", domain:"Sululta, Ethiopia", role:"ML + GIS for urban growth and biodiversity impact assessment; predicts conservation outcomes per zone."},
+  {src:"ray", ref:"Stevens et al. (2020)", cite:"Int. J. Disaster Risk Reduct., 50, 101736", domain:"Cape Town, SA", role:"GIS risk framework for fire spread in informal settlements; predicts fire risk outcomes."},
+  {src:"ray", ref:"Farooqi et al. (2025)", cite:"Environ. Earth Sci., 84(1), 1–16", domain:"General", role:"Geo-AI + RS + GIS for urban land cover assessment; predicts land cover transformation outcomes."},
+  {src:"ray", ref:"Ahmed et al. (2025)", cite:"Remote Sens. Earth Syst. Sci., 8(1), 307–320", domain:"Karachi, Pakistan", role:"ML for decoding informal settlements; predicts settlement classification outcomes."},
+  {src:"sah", ref:"Hariri et al. (2023)", cite:"Int. J. Qual. Reliab. Manage.", domain:"Quality / reliability", role:"MCDM adapted for Quality Function Deployment; data-driven performance measurement translating customer requirements into design outcomes."},
+  {src:"sah", ref:"Islam et al. (2017)", cite:"Adv. Eng. Inform., 33, 112–131", domain:"Construction risk", role:"Fuzzy and hybrid MCDM for risk assessment in construction; predicts risk exposure outcomes using fuzzy sets."},
+  {src:"sah", ref:"Rezk et al. (2022)", cite:"Sustain. Energy Technol. Assess., 52, 102118", domain:"Solar energy", role:"MCDM for concentrated solar power technologies; data-driven performance assessment predicting energy output outcomes."},
+  {src:"sah", ref:"Patil et al. (2022)", cite:"Int. J. Qual. Reliab. Manage., 39(3), 675–703", domain:"Maintenance strategy", role:"Maintenance strategy selection review; performance prediction of maintenance alternatives across reliability and cost criteria."},
+  {src:"sah", ref:"Zahraee et al. (2020)", cite:"Biomass Bioenergy, 142, 105777", domain:"Biomass / bioenergy", role:"Environmental and socio-economic analysis of biomass supply chains; predicts sustainability outcomes of alternative supply chain configurations."},
+  {src:"sah", ref:"Sharma & Sehrawat (2020)", cite:"Technol. Soc., 61, 101258", domain:"Healthcare / cloud", role:"Hybrid MCDM for cloud adoption in healthcare; data-driven performance scoring of cloud service alternatives."},
+  {src:"sah", ref:"Rasheed et al. (2021)", cite:"Interdiscip. Sci., 13, 153–175", domain:"COVID-19 / AI", role:"AI and ML for COVID-19; data-driven outcome prediction relevant to AI-enhanced MCDM in healthcare."},
+  {src:"lia", ref:"Arabameri et al. (2019)", cite:"Sci. Total Environ., 688, 903–916", domain:"Gully erosion", role:"COPRAS + RF, Boosted Regression Tree and Logistic Regression; ML determines criteria weights and predicts gully erosion susceptibility outcomes."},
+  {src:"lia", ref:"Kuznetsova et al. (2013)", cite:"Energy, 59, 133–146", domain:"Energy management", role:"Reinforcement learning for microgrid energy management; ML predicts optimal battery scheduling outcomes under multi-criteria energy objectives."},
+  {src:"lia", ref:"Ferreiro-Cabello et al. (2018)", cite:"Eng. Struct., 155, 91–101", domain:"Industrial engineering", role:"Deep learning metamodel for one-way slab design; predicts structural performance and environmental impact outcomes for design alternatives."},
+  {src:"lia", ref:"dos Santos et al. (2021)", cite:"Sustainability, 13(2), 1–15", domain:"Energy / automotive", role:"ANN-based DSS for vehicle choice; predicts user choice outcomes between electric and fuel vehicles under multiple criteria."},
+  {src:"lia", ref:"Zhang et al. (2022)", cite:"Buildings, 12(6), 829", domain:"Building energy", role:"ANN surrogate model for building energy performance prediction; forecasts energy consumption outcomes for retrofit alternatives."},
+  {src:"lia", ref:"Musbah et al. (2022)", cite:"Electr. Power Syst. Res., 203, 107645", domain:"Hybrid energy systems", role:"RF + LightGBM for energy combination prediction; ML forecasts energy supply outcomes before TOPSIS ranking."},
+  {src:"lia", ref:"Ghodousi et al. (2017)", cite:"Pol. J. Environ. Stud., 26(2), 593–603", domain:"Urban air pollution", role:"ANN for air pollution scenario modelling; predicts outcomes of alternative mitigation strategies under multiple future scenarios."},
+  {src:"lia", ref:"Savun-Hekimoğlu et al. (2021)", cite:"J. Clean. Prod., 287, 125080", domain:"Urban water supply", role:"S-ARIMA + TOPSIS + PROMETHEE; S-ARIMA predicts monthly water consumption as outcome input for MCDM ranking."},
+  {src:"lia", ref:"Aher et al. (2017)", cite:"J. Earth Syst. Sci., 126, 1–14", domain:"Emergency / drought", role:"ANN for drought identification and prediction in Dhalai watershed; predicts drought outcomes for MCDM-weighted indicator assessment."},
+  {src:"lia", ref:"Ghorbanzadeh et al. (2019)", cite:"Fire, 2(3), 50", domain:"Emergency / forest fire", role:"ANN + GIS for forest fire susceptibility; predicts fire risk outcomes across spatial alternatives for MCDM-based mitigation planning."},
+  {src:"lia", ref:"Pham et al. (2021)", cite:"J. Hydrol., 592, 125815", domain:"Emergency / flood", role:"AdaBoost-DT and Bagging-DT + MCDM for flood risk; ML predicts flood susceptibility outcomes per zone."},
+  {src:"lia", ref:"Costache et al. (2022)", cite:"Geocarto Int., 37(25), 7303–7338", domain:"Emergency / landslide", role:"XGBoost + deep learning neural network + FAHP; ML predicts flood-induced landslide risk outcomes for spatial alternatives."},
+  {src:"lia", ref:"Maleki et al. (2021)", cite:"J. Energy Storage, 44, 103310", domain:"Energy storage", role:"ANN for Pareto optimal point prediction in energy storage device optimization; forecasts performance outcomes for MCDM selection."},
+ ]},
+
+{num:5, title:"Elicit & quantify stakeholder preferences",
+ desc:"Gathering and translating stakeholder and expert views into quantified criteria weights via pairwise comparison, fuzzy linguistics, ML-based preference learning, or entropy methods.",
+ refs:[
+  {src:"ray", ref:"Saaty (1987, 1990, 2008)", cite:"Math. Modelling 9; EJOR 48; IJSSCI 1", domain:"Decision theory", role:"Core AHP methodology for eliciting and quantifying expert/stakeholder preferences via pairwise comparison."},
+  {src:"ray", ref:"Enoguanbhor et al. (2019)", cite:"Sustainability, 11(5), 1313", domain:"Abuja, Nigeria", role:"GIS-RS land cover study with community-based inputs; stakeholder preferences used in overlay analysis for land use planning."},
+  {src:"ray", ref:"Enoguanbhor et al. (2024)", cite:"East Afr. J. Environ. Nat. Resour., 7(1), 349–357", domain:"Nigeria", role:"Participatory GIS for city-region spatial density; community input into spatial planning decisions."},
+  {src:"ray", ref:"Inclezan & Prádanos (2017)", cite:"J. Artif. Intell. Res., 60, 681–686", domain:"Smart cities / ethics", role:"Critical view on smart cities and AI; raises participatory and equity considerations in eliciting preferences."},
+  {src:"ray", ref:"Tékouabou et al. (2022)", cite:"Data, 7(12), 170", domain:"Urban data sources", role:"Identifying and classifying urban data sources for ML-based planning; data for quantifying preferences and priorities."},
+  {src:"ray", ref:"Mokoena & Sebola (2020)", cite:"Int. Arch. Photogramm. Remote Sens.", domain:"South Africa", role:"Multi-criteria decision framework for land expropriation; explicitly involves stakeholder preference elicitation."},
+  {src:"ray", ref:"Bousquet et al. (2023)", cite:"Blue-Green Syst., 5(2), 200–219", domain:"Green infrastructure", role:"Critical review of MCDM for urban green space planning; emphasises participatory weighting and preference elicitation."},
+  {src:"ray", ref:"Xiong et al. (2020)", cite:"Water, 12(10), 2885", domain:"Melbourne, Australia", role:"Multi-criteria assessment of water-sensitive urban design; incorporates stakeholder preferences and community-oriented weighting."},
+  {src:"ray", ref:"Shalwee et al. (2025)", cite:"Discov. Appl. Sci., 7, 1185", domain:"Drought vulnerability", role:"Geo-AI + MCDA for drought vulnerability mapping; quantifies stakeholder-driven vulnerability priorities."},
+  {src:"sah", ref:"Mardani et al. (2017)", cite:"Renew. Sustain. Energy Rev., 71, 216–256", domain:"Energy management", role:"Review of MCDM for energy management (1995–2015); synthesises how expert and stakeholder preferences have been elicited over 20 years of energy MCDM."},
+  {src:"sah", ref:"Goswami (2020)", cite:"Found. Manag., 12(1), 93–110", domain:"Outranking / decision", role:"PROMETHEE I and II methods; demonstrates preference function elicitation and outranking flows as a formal mechanism to quantify stakeholder preferences."},
+  {src:"sah", ref:"Mitra & Goswami (2019)", cite:"Adv. J. Grad. Res., 6(1), 60–68", domain:"Product selection", role:"Simple average weighting optimization; directly addresses how to quantify and aggregate stakeholder preferences through weight assignment."},
+  {src:"sah", ref:"Goswami et al. (2020)", cite:"Braz. J. Oper. Prod. Manag., 17(2), 1–18", domain:"Product selection", role:"Weighted product model; formalises preference quantification through multiplicative aggregation of weighted criteria scores."},
+  {src:"sah", ref:"Pelissari et al. (2022)", cite:"Int. J. Inf. Technol. Decis. Mak., 21(2), 493–515", domain:"Sustainable manufacturing", role:"MCDM in sustainable manufacturing; reviews how stakeholder preferences (environmental, economic, social) are elicited and weighted."},
+  {src:"sah", ref:"Zare et al. (2016)", cite:"Appl. Soft Comput., 45, 108–128", domain:"E-learning", role:"MCDM in e-learning; reviews approaches to capturing learner and institutional preferences in multi-criteria course/system evaluation."},
+  {src:"sah", ref:"Agrawal (2022)", cite:"Benchmarking, 29(7), 2122–2146", domain:"Supply chain", role:"PROMETHEE II for supplier selection; preference function parameters directly represent and quantify decision-maker preferences over criteria."},
+  {src:"sah", ref:"Coban et al. (2018)", cite:"J. Clean. Prod., 180, 159–167", domain:"Waste management / Istanbul", role:"ANP + MCDM for municipal solid waste management; ANP captures interdependencies among stakeholder-defined criteria."},
+  {src:"lia", ref:"Birlutiu et al. (2013)", cite:"Mach. Learn., 90, 1–28", domain:"Preference learning", role:"Framework for optimising preference learning by actively selecting queries; reduces stakeholder participation time while eliciting reliable preference data."},
+  {src:"lia", ref:"Zhen et al. (2014)", cite:"Tsinghua Sci. Technol., 19(3), 257–264", domain:"Preference learning", role:"Semiparametric preference learning combining parametric and nonparametric approaches; learns stakeholder preferences from data."},
+  {src:"lia", ref:"Zhao et al. (2016)", cite:"IEEE Trans. Knowl. Data Eng., 28(9), 2522–2534", domain:"Social recommendation", role:"Online graph regularised user preference learning; incorporates collaborative user-item relationships to quantify user preferences."},
+  {src:"lia", ref:"Sun et al. (2020)", cite:"Proc. AAAI, 34(1), 214–221", domain:"Point-of-interest recommendation", role:"Long- and Short-Term Preference Modelling (LSTPM); ML-based preference elicitation modelling both short-term and long-term user preferences."},
+  {src:"lia", ref:"Dugger et al. (2022)", cite:"Expert Syst. Appl., 188, 115984", domain:"Pilot selection", role:"PCA as weight assignment method for ranking pilots; data-driven preference quantification replacing manual elicitation."},
+  {src:"lia", ref:"Xu et al. (2022)", cite:"Energy, 258, 124818", domain:"Wind turbine selection", role:"D numbers + PCA to determine indicator weights for offshore wind turbine selection; ML-based objective preference quantification."},
+  {src:"lia", ref:"Marzouk & Hassan (2022)", cite:"J. Build. Eng., 56, 104794", domain:"Museum management", role:"PROAFTN-K-means-GA framework for determining indicator weights; ML-based weight elicitation for museum evacuation planning."},
+  {src:"lia", ref:"Özkan & İnal (2014)", cite:"Appl. Soft Comput., 24, 232–238", domain:"Business management / supply", role:"ANFIS + MCDM for supplier selection; ANFIS outputs decision rules without pre-determined weights — data-driven preference elicitation."},
+  {src:"lia", ref:"Liao et al. (2023)", cite:"Expert Syst. Appl., 213, 118977", domain:"Preference learning", role:"Contextual Choquet integral-based preference learning; elicits preference parameters considering criteria interactions and decision-maker compromise effects."},
+ ]},
+
+{num:6, title:"Integrate steps 4 & 5, rank alternatives & sensitivity analysis",
+ desc:"Combining predicted outcomes with stakeholder-weighted criteria to rank alternatives, and testing robustness via sensitivity analysis.",
+ refs:[
+  {src:"ray", ref:"Kilicoglu (2022)", cite:"Environ. Sci. Pollut. Res., 29(24), 35746", domain:"Canik, Turkey", role:"AHP and TOPSIS for landfill siting; explicitly ranks settlement alternatives and tests sensitivity of weight changes."},
+  {src:"ray", ref:"Kilicoglu et al. (2021)", cite:"Theor. Appl. Climatol., 143(1), 379–388", domain:"Atakum, Turkey", role:"GIS-MCDA for settlement area selection; integrates weighted criteria and ranks zones."},
+  {src:"ray", ref:"Liladhar Rane et al. (2023, 2024)", cite:"Geocarto Int., 38–39", domain:"General", role:"MIF and AHP-GIS integration producing ranked suitability maps for urban settlement."},
+  {src:"ray", ref:"Irani et al. (2022)", cite:"Geotech. Geol. Eng., 40(10), 5081–5102", domain:"Tabriz, Iran", role:"AHP-GIS for metro route alignment; integrates spatial predictions with stakeholder weights to rank corridor alternatives."},
+  {src:"ray", ref:"Elghazouly et al. (2024)", cite:"Alex. Eng. J., 86, 277–288", domain:"Cairo, Egypt", role:"MCDA-GIS for slum interventions; integrates outcomes and preferences to rank intervention priorities."},
+  {src:"ray", ref:"Kilic et al. (2023)", cite:"Socioecon. Plann. Sci., 86, 101478", domain:"Erzincan, Turkey", role:"AHP-GIS for eco-village site selection; ranks candidate sites by weighted overlay of spatial criteria."},
+  {src:"ray", ref:"Alqahtany (2023)", cite:"Alex. Eng. J., 62, 269–277", domain:"Saudi Arabia", role:"MIF + expert scoring + GIS overlay to rank land suitability for settlement expansion."},
+  {src:"ray", ref:"Bharti & Biswas (2024)", cite:"J. Geovisualiz. Spat. Anal., 8(2), 40", domain:"Kathmandu, Nepal", role:"RF + AHP + GIS integration; ranks zones and validates model accuracy (91% RF vs 89% SVM)."},
+  {src:"ray", ref:"Ray (2023, 2025)", cite:"Int. J. Environ. Sci. Technol.; Groundw. Sustain. Dev.", domain:"India", role:"AHP and TOPSIS GIS integration to rank groundwater potential zones with sensitivity analysis."},
+  {src:"ray", ref:"Nyimbili & Erden (2020)", cite:"ISPRS Int. J. Geo-Inf., 9(7), 419", domain:"General", role:"Entropy-AHP + GIS for urban emergency facilities; integrates weighted criteria to produce ranked suitability surfaces."},
+  {src:"ray", ref:"Yariyan et al. (2020)", cite:"Int. J. Disaster Risk Reduct., 50, 101705", domain:"Sanandaj, Iran", role:"Fuzzy AHP + neural networks; integrates risk predictions with stakeholder weights to rank urban seismic risk zones."},
+  {src:"ray", ref:"Edosa et al. (2024)", cite:"City Environ. Interact., 23, 100151", domain:"Sululta, Ethiopia", role:"MCDA + GIS integrating biodiversity and urban growth outcomes to rank conservation priorities."},
+  {src:"ray", ref:"Bittner & Burian (2024)", cite:"Int. J. Digit. Earth", domain:"Jihlava, Czech Republic", role:"Adaptive MCDA for land suitability modelling; scenario-based ranking and robustness testing."},
+  {src:"ray", ref:"Yaman & Mutlu (2025)", cite:"J. Agric. Sci., 31(2), 427–446", domain:"Konya, Turkey", role:"Hybrid GIS-MCDM for agricultural land suitability; integrates spatial data with multi-criteria ranking."},
+  {src:"ray", ref:"Hackman et al. (2020)", cite:"Int. J. Digit. Earth, 13(12), 1717–1732", domain:"General", role:"Geospatiotemporal ML for urbanisation decision support; integrates multi-source predictions for ranked urban decisions."},
+  {src:"sah", ref:"Goswami & Behera (2021a)", cite:"Int. J. Serv. Sci. Manag., 12(3), 116–137", domain:"Smartphone selection", role:"AHP-TOPSIS integration; ranks smartphone models by combining pairwise weights with distance-to-ideal scoring."},
+  {src:"sah", ref:"Goswami et al. (2021)", cite:"Symmetry, 13(8), 1331", domain:"Robot selection", role:"TOPSIS-ARAS and COPRAS-ARAS hybrid ranking; integrates weighted scores and tests robustness by comparing two ranking chains."},
+  {src:"sah", ref:"Goswami & Behera (2023)", cite:"Int. J. Decis. Support Syst. Technol., 15(1), 1–38", domain:"Industrial robot", role:"Fuzzy-AHP-COPRAS-ARAS; integrates fuzzy weights with performance scores, ranks alternatives, and cross-validates results."},
+  {src:"sah", ref:"Goswami & Behera (2021b)", cite:"Decision, 48, 71–96", domain:"Smartphone", role:"Fuzzy AHP + PROMETHEE; integrates fuzzy preference weights with outranking flows to produce final ranked alternatives."},
+  {src:"sah", ref:"Garg et al. (2019)", cite:"Comput. Stand. Interfaces, 65, 61–78", domain:"Cloud security", role:"Improved TOPSIS; integrates normalised scores with weights and ranks research productivity alternatives."},
+  {src:"sah", ref:"Omerali & Kaya (2022)", cite:"Cogent Eng., 9(1), 2020610", domain:"AR application selection", role:"Spherical fuzzy COPRAS; integrates spherical fuzzy performance assessments with criteria weights to rank alternatives."},
+  {src:"sah", ref:"Alghofaili & Rassam (2022)", cite:"Sensors, 22(2), 634", domain:"IoT trust management", role:"MCDM + deep LSTM for IoT device trust ranking; integrates multi-criteria scores with ML predictions for ranked trust levels."},
+  {src:"sah", ref:"Ortiz-Barrios et al. (2021)", cite:"Ann. Oper. Res., 307, 443–481", domain:"Mining / supply chain", role:"Fuzzy hybrid MCDM for sustainable supplier selection; integrates fuzzy AHP weights with TOPSIS ranking and sensitivity tests."},
+  {src:"sah", ref:"Öztürk & Yildizbaşi (2020)", cite:"Soft Comput., 24, 14771–14789", domain:"Blockchain / supply chain", role:"Integrated MCDM for blockchain adoption barriers; integrates weighted barrier scores to rank implementation priorities."},
+  {src:"sah", ref:"Goswami et al. (2022c)", cite:"Mater. Today Proc., 52, 1153–1160", domain:"Renewable energy", role:"MEREC-PIV for green energy ranking; integrates criterion removal effect weights with PIV scoring to rank renewable energy sources."},
+  {src:"sah", ref:"Alao et al. (2022)", cite:"Energy Convers. Manag. X, 16, 100281", domain:"Biogas / energy", role:"Hybrid fuzzy MCDM with consolidated ranking; integrates multiple fuzzy ranking strategies and cross-validates for robustness."},
+  {src:"lia", ref:"Kuo et al. (2010)", cite:"J. Clean. Prod., 18(12), 1060–1073", domain:"Green supplier selection", role:"ANN + DEA + ANP for green supplier selection; top-cited paper integrating ANN to combine criteria in DEA and ANP for final ranking."},
+  {src:"lia", ref:"Ali et al. (2020)", cite:"Ecol. Indic., 117, 106620", domain:"Flood susceptibility", role:"Hybrid MCDM + Naïve Bayes tree + bivariate statistics + logistic regression; integrates ML predictions with DEMATEL and ANP to rank flood-susceptible zones."},
+  {src:"lia", ref:"Nikoo et al. (2015)", cite:"Water Resour. Manag., 29, 5469–5488", domain:"Dam design", role:"MLP neural networks + NSGA-II + PROMETHEE for optimal dam design; ML generates Pareto set and PROMETHEE ranks alternatives."},
+  {src:"lia", ref:"Mohammadi et al. (2022)", cite:"Expert Syst. Appl., 203, 117509", domain:"Subway engineering", role:"NSGA-III + ELECTRE for subway support system; ML optimisation integrated with outranking method for final ranked selection."},
+  {src:"lia", ref:"Suresh & Dillibabu (2020)", cite:"Soft Comput., 24, 1683–1705", domain:"Software project risk", role:"Fuzzy-DEMATEL + ANFIS-MCDM + IF-TODIM; integrates ML-computed weights with MCDM ranking for software project risk prioritisation."},
+  {src:"lia", ref:"Zabihi et al. (2023)", cite:"Int. J. Disaster Risk Reduct., 84, 103470", domain:"Flood management", role:"LR + neural network + SVM + TOPSIS + AHP + OWA; integrates ML predictions with weighted MCDM aggregation to rank flood management strategies."},
+  {src:"lia", ref:"Guo et al. (2021)", cite:"Omega, 101, 102263", domain:"Human decision-making", role:"NN-MCDM hybrid; MLP captures nonlinear criteria interactions and integrates them into the MCDM ranking procedure."},
+  {src:"lia", ref:"Moghtadernejad et al. (2021)", cite:"Dev. Built Environ., 5, 100038", domain:"Building façade systems", role:"PCA + NN for Choquet integral weights; integrates ML-determined weights into MCDM ranking of building façade alternatives."},
+  {src:"lia", ref:"Ifaei et al. (2018)", cite:"Energy, 158, 357–372", domain:"Renewable energy / Iran", role:"K-means + TOPSIS for renewable energy management strategy; K-means classifies regions and TOPSIS ranks energy alternatives."},
+  {src:"lia", ref:"Guo et al. (2022)", cite:"Energy, 239, 122124", domain:"Distributed energy", role:"Improved K-means + Entropy + TOPSIS for distributed energy system design; integrates clustering outcomes with weighted MCDM ranking."},
+ ]},
+
+{num:7, title:"Discuss results with stakeholders & find consensus",
+ desc:"Presenting ranked outcomes through visualisation and dialogue, resolving conflicts, and reaching consensus on final decisions.",
+ refs:[
+  {src:"ray", ref:"Enoguanbhor et al. (2019)", cite:"Sustainability, 11(5), 1313", domain:"Abuja, Nigeria", role:"Community involvement in GIS-based land cover planning; stakeholder discussion and spatial consensus-building."},
+  {src:"ray", ref:"Edosa et al. (2024)", cite:"City Environ. Interact., 23, 100151", domain:"Sululta, Ethiopia", role:"Urban growth and biodiversity MCDA; discusses results with stakeholders to identify conservation-compatible development zones."},
+  {src:"ray", ref:"Elghazouly et al. (2024)", cite:"Alex. Eng. J., 86, 277–288", domain:"Cairo, Egypt", role:"MCDA-GIS slum intervention framework; results communicated to policymakers for consensus on intervention priorities."},
+  {src:"ray", ref:"Kamrowska-Załuska (2021)", cite:"Land, 10(11), 1209", domain:"Smart cities", role:"AI tools and big data in city design; addresses how outputs are discussed with stakeholders for adaptive planning."},
+  {src:"ray", ref:"Sapienza et al. (2022)", cite:"Sustainability, 14(12), 7480", domain:"Urban health", role:"Digital technologies and AI in urban health; addresses communication of results and citizen/stakeholder engagement."},
+  {src:"ray", ref:"Chen et al. (2020)", cite:"Cities, 101, 102703", domain:"Urban land use planning", role:"AI agent for democratic land use planning; goal-reasoning AI generates consensus-oriented land use outcomes with stakeholders."},
+  {src:"ray", ref:"Son et al. (2023)", cite:"Sustain. Cities Soc., 94, 104562", domain:"Smart cities", role:"Algorithmic urban planning review; addresses how integrated systems communicate planning results for smart city governance."},
+  {src:"ray", ref:"Salama et al. (2023)", cite:"Ain Shams Eng. J., 14(5), 102084", domain:"Urban pandemics", role:"Urban spaces and AI during pandemics; discusses community well-being assessments with AI as basis for policy dialogue."},
+  {src:"ray", ref:"De Sabbata et al. (2023)", cite:"Int. J. Geogr. Inf. Sci., 37(12), 2455–2463", domain:"GeoAI / urban analytics", role:"GeoAI in urban analytics; emphasises blending human expertise with ML outputs for interpretable, stakeholder-trusted planning."},
+  {src:"ray", ref:"Shan et al. (2025)", cite:"Appl. Sci., 15(16), 8944", domain:"Building retrofits", role:"AI-driven multi-objective optimisation for building retrofits; discusses multi-stakeholder trade-off consensus."},
+  {src:"sah", ref:"Cai et al. (2023)", cite:"Eng. Appl. Artif. Intell., 122, 106064", domain:"Collaborative decision", role:"Comprehensive survey of collaborative decision-making; covers group preference aggregation, conflict resolution, and consensus building — the core of this step."},
+  {src:"sah", ref:"Dubey et al. (2017)", cite:"Int. J. Logist. Manage.", domain:"Sustainable supply chain", role:"World-class sustainable supply chain management review; addresses multi-stakeholder engagement and consensus-building in cross-organisational decisions."},
+  {src:"sah", ref:"Sahoo et al. (2023)", cite:"J. Process Manag. New Technol., 11(1–2), 1–21", domain:"Sustainability / climate", role:"MCDM for sustainable development and global warming mitigation; discusses how results feed into policy dialogue and societal consensus."},
+  {src:"sah", ref:"Sahoo & Goswami (2024)", cite:"J. Future Sustain., 4(1), 23–34", domain:"Water pollution / India", role:"Economic and environmental impact of water pollution; frames how assessment results are discussed with policymakers for sustainable development decisions."},
+  {src:"sah", ref:"Yenugula et al. (2024)", cite:"J. Future Sustain., 4(1), 59–66", domain:"Cloud computing", role:"Cloud computing for sustainable development; discusses how multi-criteria results inform organisational consensus on environmental/economic benefits."},
+  {src:"sah", ref:"Sousa et al. (2021)", cite:"Sustainability, 13(8), 4129", domain:"SDGs / sustainability", role:"MCDM for UN SDGs; discusses how ranked priorities are translated into policy consensus and international development agendas."},
+  {src:"sah", ref:"Goswami & Behera (2021d)", cite:"Int. J. Proj. Manag. Prod. Assess., 9(2), 29–47", domain:"Laptop selection", role:"AHP-TOPSIS consumer decision support; demonstrates how clear ranked outputs facilitate consumer-level decision consensus."},
+  {src:"lia", ref:"Liao et al. (2012)", cite:"Saf. Sci., 50(1), 150–163", domain:"Emergency management", role:"ANN-based environmental emergency DSS; results communicated through a decision support system enabling stakeholder discussion of emergency response options."},
+  {src:"lia", ref:"Fernandes & Yen (2021)", cite:"Inf. Sci., 558, 91–102", domain:"Medical diagnostics", role:"Generative adversarial networks + MCDM; discusses how integrated ML-MCDM results are communicated to clinicians for treatment consensus."},
+  {src:"lia", ref:"Giannopoulos et al. (2021)", cite:"Intell. Decis. Technol., 15(3), 497–510", domain:"Recommender systems", role:"KNN + DT + AHP + PROMETHEE for recommendation; discusses how ranked recommendations are presented to end users for acceptance or override."},
+  {src:"lia", ref:"Zhou et al. (2022)", cite:"Knowl. Based Syst., 239, 107801", domain:"Group decision-making", role:"Deep neural network + group decision making; explicitly integrates DNN outputs with GDM consensus methods for final group-level ranked outcomes."},
+  {src:"lia", ref:"Zhan et al. (2023)", cite:"IEEE/CAA J. Autom. Sin., 10(2), 330–350", domain:"Three-way decisions", role:"Wide-sense three-way decision methods; addresses flexibility and transparency in communicating positive, boundary, and negative decision regions to stakeholders."},
+  {src:"lia", ref:"Mazzola et al. (2023)", cite:"J. Adolesc. Health, 72(3), 452–459", domain:"Healthcare / patient", role:"Decision support needs for transgender youth and families; addresses patient-centred needs assessment for consensus on care decisions."},
+  {src:"lia", ref:"Ayano et al. (2022)", cite:"Diagnostics, 13(1), 111", domain:"Healthcare / heart disease", role:"Explainable ML (SHAP) for heart disease classification; interpretable ML results presented to clinicians to support shared decision-making and consensus."},
+ ]},
+];
+
+var activeStep = 0;
+
+function renderTabs() {
+  document.getElementById("tabs").innerHTML = steps.map(function(s,i){
+    return '<div class="tab'+(i===0?' on':'')+'" onclick="setTab('+i+')">Step '+s.num+' <span style="font-size:10px;color:var(--color-text-tertiary)">('+s.refs.length+')</span></div>';
+  }).join("");
+}
+
+function setTab(i) {
+  activeStep = i;
+  document.querySelectorAll(".tab").forEach(function(t,j){ t.classList.toggle("on", j===i); });
+  renderContent();
+}
+
+function renderContent() {
+  var s = steps[activeStep];
+  var rows = s.refs.map(function(r){
+    return '<tr>'
+      +'<td><span class="rn">'+r.ref+'</span></td>'
+      +'<td><span class="ct">'+r.cite+'</span></td>'
+      +'<td><span class="s-'+r.src+'">'+(r.src==='ray'?'Ray 2025':r.src==='sah'?'Sahoo & Goswami 2023':'Liao et al. 2023')+'</span></td>'
+      +'<td><span class="rd">'+r.domain+'</span></td>'
+      +'<td><span class="rd">'+r.role+'</span></td>'
+      +'</tr>';
+  }).join("");
+  document.getElementById("content").innerHTML =
+    '<div class="sh"><span class="sn">'+s.num+'.</span><span class="st">'+s.title+'</span><span class="tc">'+s.refs.length+' references</span></div>'
+    +'<div class="sd">'+s.desc+'</div>'
+    +'<table><thead><tr><th>Reference</th><th>Citation</th><th>Source paper</th><th>Domain</th><th>Role in this step</th></tr></thead>'
+    +'<tbody>'+rows+'</tbody></table>';
+}
+
+renderTabs();
+renderContent();
+</script>

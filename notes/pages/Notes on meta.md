@@ -1,0 +1,8 @@
+-
+- Decision Making and AI
+	- ("decision making" OR "decision-making") AND ("artificial intelligence" OR "machine learning" OR "deep learning")
+	- https://www.webofscience.com/wos/woscc/summary/22381c80-bc9b-4380-a6b4-f3a124cc9f02-01a8bf0e54/288be4a7-ec2f-4407-86d9-59b5f0886204-01a8bf0e10/relevance/1
+	- >44000 results
+- https://www.webofscience.com/wos/woscc/summary/26a2f3cc-6338-4c51-ad11-2e3fb0cd6cdb-01a8bf6f78/relevance/1
+-
+-

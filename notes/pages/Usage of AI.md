@@ -1,5 +1,5 @@
 - [[R: rayIntegratingGeographicInformation2025]]
-- ![image.png](../assets/image_1774257410020_0.png)
+- ![image.png](../assets/image_1774257410020_0.png){:height 350, :width 532}
 - **Further compounding the issue is inconsistent data resolution and format interoperability. For example, remote sensing data may be in raster format with pixel-level classification, while planning data (e.g., zoning policies or census tracts) exists in vector or tabular formats. Ensuring these layers align spatially and semantically requires extensive pre-processing—often beyond the capability or resources of many planning units. Data infrastructure is another area of concern. Many cities lack centralized spatial data repositories, real-time data capture mechanisms, or cloud-based processing infrastructure. Without these, it is difficult to establish the integrated systems necessary for dynamic urban planning.**
 -
 - **Evaluation of the framework:**
@@ -192,21 +192,4 @@
 -
 - ## Notes on newly added references
 -
-- Kamrowska-Załuska (2021) argues that wide access to urban big data and AI-based tools enables new forms of spatial analysis and planning support, but cautions that these tools cannot fully replace traditional urban planning methods and must be evaluated critically for their real impact on design and governance. [[R: kamrowskazaluskaImpactAIBasedTools2021]]
-- Sapienza et al. (2022) conducted a scoping review of AI and digital technology adoption in urban health, finding that most studies focus on characterising exposure to health determinants rather than directly measuring population health outcomes, and call for greater cross-national knowledge sharing. [[R: sapienzaAdoptionDigitalTechnologies2022]]
--
-- Tekouabou et al. (2024) provide a systematic survey of AI and ML methods for urban real estate price prediction, identifying tree-based ensemble models as the strongest performers and highlighting the need for larger, more diverse datasets to improve generalisability. [[R: tekouabouAIBasedMachineLearning2024]]
--
--
-- Fisher et al. (2022) develop an uncertainty-aware deep learning framework using Monte Carlo Dropout on Sentinel-2 imagery to map slums, demonstrating that quantifying prediction uncertainty is essential for reliable, policy-relevant applications at city scale. [[R: fisherUncertaintyAwareInterpretableDeep2022]]
--
-- Ibrahim et al. (2021) present URBAN-i, a multi-task deep learning model that simultaneously maps slums, transport modes, and pedestrians from street-level imagery and satellite data, showing that computer vision can extract rich urban information without relying on conventional survey data. [[R: ibrahimUrbanIUrbanScenes2021]]
--
-- Inclezan & Prádanos (2017) argue in a critical viewpoint that AI developments in smart cities risk making a flawed urban model more efficient rather than transformative, and call for AI to challenge dominant techno-optimistic paradigms by engaging with social sciences and prioritising the common good. [[R: inclezanViewpointCriticalView2017]]
--
-- Enoguanbhor et al. (2024) use GIS-based spatial analysis to examine city-region formation patterns and urban spatial density in Nigerian settlements, demonstrating how GIS data can reveal the spatial interactions between satellite settlements and the urban core to support infrastructure planning decisions. [[R: enoguanbhorCityRegionFormationPatterns2024]]
--
-- Belinga et al. (2025) review the potentialities and challenges of deep learning for simulating and predicting urban sprawl, finding that while DL models offer improved predictive power over traditional methods, issues of data availability, interpretability, and computational demand remain significant barriers to practical deployment. [[R: belingaExploringPotentialitiesChallenges2025]]
--
-- Robi & George (2025) apply and compare multiple machine learning algorithms to predict urban expansion, demonstrating that ensemble methods consistently outperform single classifiers and that spatiotemporal training data quality is the key determinant of model accuracy. [[R: robiApplicationMachineLearningAlgorithms2025]]
 -

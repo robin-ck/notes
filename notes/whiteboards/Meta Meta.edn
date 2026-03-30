@@ -1,0 +1,100 @@
+{:blocks (
+{:block/created-at 1774616756755
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 0
+:scale [1 1]
+:pageId "Known/ Unknown Matrix"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [1008 1880.1875]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "05c8dfb0-29c6-11f1-8e03-6d231b4cc895"
+:noFill false
+:point [760 -728]
+:parentId "69c658ef-a0fc-40c4-860b-a855bb86a054"
+:collapsedHeight 0
+:nonce 1774606590448}}
+:block/updated-at 1774616756755} 
+{:block/created-at 1774614858853
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 1
+:scale [1 1]
+:pageId "Zoom levels"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 2676.984375]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "8001efb0-29c6-11f1-8e03-6d231b4cc895"
+:noFill false
+:point [-856 -576]
+:parentId "69c658ef-a0fc-40c4-860b-a855bb86a054"
+:collapsedHeight 0
+:nonce 1774606795311}}
+:block/updated-at 1774614858853} 
+{:block/created-at 1774616763615
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 2
+:scale [1 1]
+:pageId "Notes on meta"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 113]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "b1f09000-29dd-11f1-8e03-6d231b4cc895"
+:noFill false
+:point [-1320 -264]
+:parentId "69c658ef-a0fc-40c4-860b-a855bb86a054"
+:collapsedHeight 0
+:nonce 1774616757507}}
+:block/updated-at 1774616763615})
+:pages (
+{:block/uuid #uuid "69c658ef-a0fc-40c4-860b-a855bb86a054"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "69c658ef-a0fc-40c4-860b-a855bb86a054"
+:name "meta meta"
+:bindings 
+{}
+:nonce 1
+:assets []
+:shapes-index ("05c8dfb0-29c6-11f1-8e03-6d231b4cc895" "8001efb0-29c6-11f1-8e03-6d231b4cc895" "b1f09000-29dd-11f1-8e03-6d231b4cc895")}}
+:block/updated-at 1774616763615
+:block/created-at 1774606575873
+:block/type "whiteboard"
+:block/name "meta meta"
+:block/original-name "Meta Meta"})}

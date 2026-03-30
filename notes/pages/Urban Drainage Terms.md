@@ -25,11 +25,11 @@ tags:: BGI
   card-last-score:: 5
 	- **Current definition:** A philosophical **approach to urban planning and design** that integrates all aspects of the **urban water cycle** (stormwater, water supply, wastewater). In **Australia** it is paired with *water sensitive cities* — WSUD describes the process; water sensitive city describes the destination. Can be seen as **urban NbS** (martijn).
 	- **two fundamental** aspects of **WSUD**: #card
-	  card-last-interval:: 4
-	  card-repeats:: 2
-	  card-ease-factor:: 2.46
-	  card-next-schedule:: 2026-03-21T08:02:44.897Z
-	  card-last-reviewed:: 2026-03-17T08:02:44.897Z
+	  card-last-interval:: 9.28
+	  card-repeats:: 3
+	  card-ease-factor:: 2.32
+	  card-next-schedule:: 2026-04-01T19:07:12.309Z
+	  card-last-reviewed:: 2026-03-23T13:07:12.310Z
 	  card-last-score:: 3
 		- best management practice (BMP)- structural and non-structural measures
 		- **best planning practice** - urban planning aspects of the implementation of green and distributed systems (underrepresented)

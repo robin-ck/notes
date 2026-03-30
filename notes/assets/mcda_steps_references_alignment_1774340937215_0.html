@@ -1,0 +1,240 @@
+
+<style>
+* { box-sizing: border-box; }
+body { margin: 0; padding: 0; }
+.wrap { padding: 12px 0; font-size: 14px; color: var(--color-text-primary); }
+.step-tabs { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 16px; }
+.tab { padding: 5px 10px; border-radius: 6px; border: 1px solid var(--color-border-secondary); cursor: pointer; font-size: 12px; font-weight: 500; background: var(--color-background-secondary); color: var(--color-text-secondary); transition: all .15s; user-select: none; }
+.tab.active { color: var(--color-text-primary); border-color: var(--color-border-primary); background: var(--color-background-primary); }
+.tab:hover:not(.active) { background: var(--color-background-tertiary); }
+.step-header { display: flex; align-items: baseline; gap: 10px; margin-bottom: 10px; }
+.step-num { font-size: 22px; font-weight: 500; }
+.step-title { font-size: 16px; font-weight: 500; }
+.step-desc { font-size: 13px; color: var(--color-text-secondary); margin-bottom: 14px; line-height: 1.6; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+th { text-align: left; padding: 7px 10px; font-weight: 500; color: var(--color-text-secondary); border-bottom: 1px solid var(--color-border-tertiary); font-size: 12px; }
+td { padding: 8px 10px; vertical-align: top; border-bottom: 1px solid var(--color-border-tertiary); line-height: 1.5; }
+tr:last-child td { border-bottom: none; }
+.badge { display: inline-block; padding: 2px 7px; border-radius: 4px; font-size: 11px; font-weight: 500; margin-right: 4px; }
+.gis { background: #E1F5EE; color: #085041; }
+.ai { background: #E6F1FB; color: #0C447C; }
+.mcda { background: #EEEDFE; color: #3C3489; }
+.all { background: #F1EFE8; color: #444441; }
+.proj { background: #FAECE7; color: #712B13; }
+@media (prefers-color-scheme: dark) {
+  .gis { background: #085041; color: #9FE1CB; }
+  .ai { background: #0C447C; color: #B5D4F4; }
+  .mcda { background: #3C3489; color: #CECBF6; }
+  .all { background: #444441; color: #D3D1C7; }
+  .proj { background: #712B13; color: #F5C4B3; }
+}
+.ref-name { font-weight: 500; color: var(--color-text-primary); }
+.ref-detail { font-size: 12px; color: var(--color-text-secondary); }
+.count-pill { font-size: 11px; color: var(--color-text-secondary); margin-left: 4px; }
+</style>
+<div class="wrap">
+<div class="step-tabs" id="tabs"></div>
+<div id="content"></div>
+</div>
+<script>
+const steps = [
+  {
+    num: 1,
+    title: "Define decision problem & stakeholder analysis",
+    color: "c-gray",
+    desc: "Framing the urban planning challenge, defining goals, identifying who is affected, and setting the scope of analysis.",
+    refs: [
+      { name: "Wagner & de Vries (2019)", type: "ref", tool: "mcda", region: "General", detail: "Review of methods supporting decision-making in urban development; frames the planning problem and comparative decision support approaches." },
+      { name: "Kamrowska-Załuska (2021)", type: "ref", tool: "ai", region: "General", detail: "Addresses impact of AI-based tools and big data analytics on city design/planning; frames the challenge of urban complexity in decision contexts." },
+      { name: "Arfanuzzaman (2021)", type: "ref", tool: "ai", region: "South Asia", detail: "Harnessing AI and big data for SDGs; frames the urban sustainability problem in South Asian cities." },
+      { name: "Yigitcanlar & Cugurullo (2020)", type: "ref", tool: "all", region: "General", detail: "Frames sustainability challenges of AI in urban contexts from a smart cities lens; sets the theoretical urban governance problem." },
+      { name: "Inclezan & Prádanos (2017)", type: "ref", tool: "all", region: "General", detail: "Critical view on smart cities and AI; raises equity and framing issues central to defining the decision problem." },
+      { name: "Saaty (1987, 1990, 2008)", type: "ref", tool: "mcda", region: "General", detail: "Foundational AHP references; define the decision problem structure including criteria hierarchies and stakeholder preferences." },
+      { name: "Eichholz (2025)", type: "ref", tool: "ai", region: "General", detail: "Municipal AI integration: structured approach; directly addresses problem framing and governance of algorithmic urban systems." },
+      { name: "Javed et al. (2023)", type: "ref", tool: "ai", region: "General", detail: "Survey of explainable AI for smart cities; addresses transparency and framing of AI decision support for stakeholders." },
+      { name: "Marasinghe et al. (2024)", type: "ref", tool: "all", region: "General", detail: "Responsible urban Geo-AI: ethical data use, algorithmic accountability, stakeholder framing." },
+    ]
+  },
+  {
+    num: 2,
+    title: "Identify objectives, attributes & construct hierarchy",
+    color: "c-purple",
+    desc: "Determining what planning goals matter (environmental, economic, social), selecting spatial criteria/attributes, and structuring their hierarchy for evaluation.",
+    refs: [
+      { name: "Saaty (1990, 2008)", type: "ref", tool: "mcda", region: "General", detail: "AHP pairwise comparison to build and weight criteria hierarchies — foundational for objective structuring." },
+      { name: "Tzeng et al. (1998)", type: "ref", tool: "mcda", region: "General", detail: "Weight-assessing with habitual domains; frameworks for objective hierarchies in MCDA." },
+      { name: "Kilicoglu (2022)", type: "ref", tool: "mcda", region: "Canik, Turkey", detail: "GIS-based MCDA for settlement areas: identifies environmental, social and spatial criteria and constructs a hierarchy via AHP/TOPSIS." },
+      { name: "Kilicoglu et al. (2021)", type: "ref", tool: "mcda", region: "Atakum, Turkey", detail: "Multi-criteria decision-making and GIS for settlement area selection; explicit criteria hierarchy construction." },
+      { name: "Nyimbili & Erden (2020)", type: "ref", tool: "mcda", region: "General", detail: "Entropy-AHP hybrid for urban emergency facilities; objective and attribute weighting for suitability assessment." },
+      { name: "Mokoena & Sebola (2020)", type: "ref", tool: "mcda", region: "South Africa", detail: "Multi-criteria decision framework for land expropriation; criteria structuring and stakeholder objectives." },
+      { name: "Liladhar Rane et al. (2023, 2024)", type: "ref", tool: "mcda", region: "General", detail: "MIF and AHP-GIS for sustainable urban settlement identification; explicit construction of influencing factor hierarchies." },
+      { name: "Guan et al. (2022)", type: "ref", tool: "gis", region: "Liaoning, China", detail: "Spatial suitability of urban human settlements using GIS; defines spatial indicators aligned to SDG objectives." },
+      { name: "Arshad et al. (2020)", type: "ref", tool: "gis", region: "Pakistan", detail: "GIS-based AHP for groundwater recharge zones; spatial criterion identification and objective structuring." },
+      { name: "Ray (2023, 2025)", type: "ref", tool: "mcda", region: "India", detail: "GIS + AHP/TOPSIS for groundwater potential zones; builds multi-attribute hierarchies for spatial decision analysis." },
+    ]
+  },
+  {
+    num: 3,
+    title: "Identify alternatives",
+    color: "c-teal",
+    desc: "Generating candidate land use zones, settlement sites, infrastructure locations, or policy scenarios for evaluation.",
+    refs: [
+      { name: "Kilic et al. (2023)", type: "ref", tool: "mcda", region: "Erzincan, Turkey", detail: "GIS-MCDA for rural settlement site selection and eco-village design; identifies candidate sites as alternatives." },
+      { name: "Alqahtany (2023)", type: "ref", tool: "mcda", region: "Saudi Arabia", detail: "GIS-based land use suitability for settlements in Al Ahsa; spatial units as candidate development alternatives." },
+      { name: "Karabulut et al. (2022)", type: "ref", tool: "mcda", region: "Turkey", detail: "GIS-AHP/SAW for landfill siting; candidate sites are explicitly identified and compared." },
+      { name: "Asadi et al. (2023)", type: "ref", tool: "mcda", region: "General", detail: "GIS-AHP for hybrid solar/wind plant sites; generates spatial alternatives for energy infrastructure." },
+      { name: "Irani et al. (2022)", type: "ref", tool: "mcda", region: "Tabriz, Iran", detail: "GIS-based settlement risk assessment for metro line; candidate corridor alternatives for transport siting." },
+      { name: "Elghazouly et al. (2024)", type: "ref", tool: "mcda", region: "Cairo, Egypt", detail: "MCDA-GIS for slum intervention policies; candidate intervention areas as spatial alternatives." },
+      { name: "Khahro et al. (2023)", type: "ref", tool: "gis", region: "Pakistan", detail: "GIS-based park accessibility mapping; candidate park zones as spatial alternatives for green space provision." },
+      { name: "Chen et al. (2023)", type: "ref", tool: "gis", region: "General", detail: "GIS-based strategies for sustainable urban renewal; community-scale identification of densification alternatives." },
+      { name: "Sturiale & Scuderi (2019)", type: "ref", tool: "mcda", region: "General", detail: "Green infrastructure planning for climate adaptation; identifies urban green infrastructure alternatives." },
+      { name: "Luan et al. (2021)", type: "ref", tool: "mcda", region: "Ili Valley, China", detail: "GIS soft computing for land-use suitability; spatial units serve as the alternatives to be ranked." },
+    ]
+  },
+  {
+    num: 4,
+    title: "Predict outcomes of each alternative",
+    color: "c-blue",
+    desc: "Using GIS, AI/ML models, and spatial analysis to forecast outcomes such as urban growth, flood risk, land cover change, or infrastructure impact for each candidate alternative.",
+    refs: [
+      { name: "Bharti & Biswas (2024)", type: "ref", tool: "ai", region: "Kathmandu, Nepal", detail: "AI/GIS-based urban growth prediction; Random Forest and SVM forecast expansion hotspots per alternative zone." },
+      { name: "Ou et al. (2019)", type: "ref", tool: "ai", region: "Beijing, China", detail: "Cellular automata + deep learning for urban sprawl simulation in Jingjintang; predicts land use outcomes under growth scenarios." },
+      { name: "Fayaz et al. (2022)", type: "ref", tool: "all", region: "India (NH-44)", detail: "ML + GIS for landslide management; predicts hazard outcomes for road corridor alternatives." },
+      { name: "Do et al. (2022)", type: "ref", tool: "gis", region: "Lao Cai, Vietnam", detail: "GIS-based quantification of urban expansion and flood risk outcomes for urbanization scenarios." },
+      { name: "Faisal Koko et al. (2021)", type: "ref", tool: "gis", region: "Lagos, Nigeria", detail: "Remote sensing and GIS to analyze urban growth and flood-prone zones; predicts flood outcomes by location." },
+      { name: "Khan & Sudheer (2022)", type: "ref", tool: "ai", region: "Islamabad, Pakistan", detail: "ML-based monitoring of spatio-temporal urban growth; forecasts outcomes of expansion alternatives." },
+      { name: "Abid et al. (2024)", type: "ref", tool: "ai", region: "General", detail: "ML models for forecasting and managing urban futures; predicts expansion outcomes for planning scenarios." },
+      { name: "Al-Dousari et al. (2023)", type: "ref", tool: "ai", region: "Kuwait", detail: "Neural network LULC analysis for Kuwait; forecasts urban sprawl and built-up area outcomes." },
+      { name: "Yariyan et al. (2020)", type: "ref", tool: "all", region: "Sanandaj, Iran", detail: "Fuzzy AHP + neural networks for earthquake risk; predicts seismic risk outcomes per urban zone." },
+      { name: "Hamdy et al. (2022)", type: "ref", tool: "all", region: "Cairo, Egypt", detail: "ML + GIS for seismic hazard exposure; predicts exposure outcomes by urban area." },
+      { name: "Fisher et al. (2022)", type: "ref", tool: "ai", region: "Cairo, Egypt", detail: "Deep learning for slum mapping; predicts informal settlement patterns as outcome of urban growth trajectories." },
+      { name: "Ibrahim et al. (2019, 2021)", type: "ref", tool: "ai", region: "General", detail: "predictSLUMS and URBAN-i models: predict slum formation and informal settlement outcomes from street/satellite data." },
+      { name: "Mostafa et al. (2021)", type: "ref", tool: "ai", region: "Gharbia, Egypt", detail: "ML + remote sensing for monitoring/forecasting urban expansion; scenario-based prediction of outcomes." },
+      { name: "Selmy et al. (2023)", type: "ref", tool: "gis", region: "Arid regions", detail: "LULC detection and prediction using CA-Markov + GIS; predicts land cover outcomes over time." },
+      { name: "Robi & George (2025)", type: "ref", tool: "ai", region: "General", detail: "ML algorithms to predict urban expansion; outcome forecasting per alternative zone." },
+      { name: "Tang & Na (2021)", type: "ref", tool: "ai", region: "General", detail: "ML methods for ground settlement prediction; predicts settlement/subsidence outcomes for tunnel alternatives." },
+      { name: "Rudiastuti et al. (2021)", type: "ref", tool: "ai", region: "General", detail: "ML for mapping built-up land in Google Earth Engine; predicts land cover outcomes." },
+      { name: "Reza et al. (2025)", type: "ref", tool: "ai", region: "South Asia", detail: "ML for predicting energy consumption patterns; forecasts energy demand outcomes for urban alternatives." },
+      { name: "Wang et al. (2020)", type: "ref", tool: "gis", region: "Kathmandu, Nepal", detail: "Remote sensing + GIS for LULC change detection and prediction in Kathmandu; outcome forecasting." },
+      { name: "Helal & Eldamaty (2024)", type: "ref", tool: "gis", region: "Makkah, Saudi Arabia", detail: "GIS and remote sensing for urban development analysis; predicts spatial outcomes of urban growth." },
+      { name: "Sahin et al. (2024)", type: "ref", tool: "all", region: "Mersin, Turkey", detail: "Remote sensing + AHP-GIS for urban growth simulation; predicts growth outcomes and suitability." },
+      { name: "Gharaibeh et al. (2023)", type: "ref", tool: "ai", region: "General", detail: "ML framework for assessing urban growth and suitability; predicts growth outcomes per area." },
+      { name: "Budha et al. (2025)", type: "ref", tool: "all", region: "Nepal", detail: "ML + GIS simulation of urban expansion for sustainable planning; predicts outcomes of expansion scenarios." },
+      { name: "Belinga et al. (2025)", type: "ref", tool: "ai", region: "General", detail: "Deep learning for simulation and prediction of urban sprawl; predicts sprawl outcomes." },
+      { name: "Chettry (2022)", type: "ref", tool: "gis", region: "Thiruvananthapuram, India", detail: "Peri-urban boundary delineation and sprawl quantification; predicts urban agglomeration outcomes." },
+      { name: "Dhanaraj & Angadi (2021)", type: "ref", tool: "gis", region: "Mangalore, India", detail: "Historical GIS mapping of urban settlement evolution; temporal prediction of growth outcomes." },
+      { name: "Edosa et al. (2024)", type: "ref", tool: "all", region: "Sululta, Ethiopia", detail: "ML + GIS for urban growth and biodiversity impact assessment; predicts conservation outcomes per zone." },
+      { name: "Stevens et al. (2020)", type: "ref", tool: "all", region: "Cape Town, SA", detail: "GIS risk framework for fire spread in informal settlements; predicts fire risk outcomes." },
+      { name: "Zhu et al. (2022)", type: "ref", tool: "gis", region: "Global", detail: "Urban morphology from space using remote sensing; predicts morphological outcomes at global scale." },
+      { name: "Farooqi et al. (2025)", type: "ref", tool: "all", region: "General", detail: "Geo-AI + RS + GIS for urban land cover assessment; predicts transformation outcomes." },
+      { name: "Ahmed et al. (2025)", type: "ref", tool: "ai", region: "Karachi, Pakistan", detail: "ML for decoding informal settlements; predicts settlement classification outcomes." },
+    ]
+  },
+  {
+    num: 5,
+    title: "Elicit & quantify stakeholder preferences",
+    color: "c-amber",
+    desc: "Gathering input from communities, experts, and policymakers on priorities — typically through participatory GIS, surveys, or AHP pairwise comparisons — and translating these into quantified weights.",
+    refs: [
+      { name: "Saaty (1987, 1990, 2008)", type: "ref", tool: "mcda", region: "General", detail: "Core AHP methodology for eliciting and quantifying expert/stakeholder preferences via pairwise comparison." },
+      { name: "Enoguanbhor et al. (2019)", type: "ref", tool: "all", region: "Abuja, Nigeria", detail: "GIS-RS land cover study including community-based inputs for land use planning; stakeholder preferences used in overlay analysis." },
+      { name: "Enoguanbhor et al. (2024)", type: "ref", tool: "gis", region: "Nigeria", detail: "Participatory GIS for city-region spatial density; community input into spatial planning decisions." },
+      { name: "Inclezan & Prádanos (2017)", type: "ref", tool: "all", region: "General", detail: "Critical view on smart cities and AI; raises participatory and equity considerations in eliciting preferences." },
+      { name: "Tékouabou et al. (2022)", type: "ref", tool: "ai", region: "General", detail: "Identifying and classifying urban data sources for ML-based planning; data for quantifying preferences and priorities." },
+      { name: "Mokoena & Sebola (2020)", type: "ref", tool: "mcda", region: "South Africa", detail: "Multi-criteria decision framework for land expropriation; explicitly involves stakeholder preference elicitation." },
+      { name: "Bousquet et al. (2023)", type: "ref", tool: "mcda", region: "General", detail: "Critical review of MCDA for urban green space planning; emphasizes participatory weighting and preference elicitation." },
+      { name: "Xiong et al. (2020)", type: "ref", tool: "mcda", region: "Melbourne, Australia", detail: "Multi-criteria assessment of water-sensitive urban design; incorporates stakeholder preferences and community-oriented weighting." },
+      { name: "Tekouabou et al. (2024)", type: "ref", tool: "ai", region: "General", detail: "AI-based urban real estate prediction; stakeholder and expert inputs used to validate and calibrate decision models." },
+      { name: "Shalwee et al. (2025)", type: "ref", tool: "all", region: "General", detail: "Geo-AI + MCDA for drought vulnerability mapping; quantifies stakeholder-driven vulnerability priorities." },
+    ]
+  },
+  {
+    num: 6,
+    title: "Integrate steps 4 & 5, rank alternatives & sensitivity analysis",
+    color: "c-coral",
+    desc: "Combining predicted outcomes with stakeholder-weighted criteria using overlay analysis, AHP, TOPSIS, or fuzzy models to rank alternatives; followed by sensitivity analysis to test robustness.",
+    refs: [
+      { name: "Kilicoglu (2022)", type: "ref", tool: "mcda", region: "Canik, Turkey", detail: "AHP and TOPSIS for landfill siting; explicitly ranks settlement alternatives and tests sensitivity of weight changes." },
+      { name: "Kilicoglu et al. (2021)", type: "ref", tool: "mcda", region: "Atakum, Turkey", detail: "GIS-MCDA for settlement area selection; integrates weighted criteria and ranks zones." },
+      { name: "Liladhar Rane et al. (2023, 2024)", type: "ref", tool: "mcda", region: "General", detail: "MIF and AHP-GIS integration producing ranked suitability maps for urban settlement." },
+      { name: "Irani et al. (2022)", type: "ref", tool: "mcda", region: "Tabriz, Iran", detail: "AHP-GIS for metro route alignment; integrates spatial predictions with stakeholder weights to rank corridor alternatives." },
+      { name: "Elghazouly et al. (2024)", type: "ref", tool: "mcda", region: "Cairo, Egypt", detail: "MCDA-GIS framework for slum interventions; integrates outcomes and preferences to rank intervention priorities." },
+      { name: "Kilic et al. (2023)", type: "ref", tool: "mcda", region: "Erzincan, Turkey", detail: "AHP-GIS for eco-village site selection; ranks candidate sites by weighted overlay of spatial criteria." },
+      { name: "Alqahtany (2023)", type: "ref", tool: "mcda", region: "Saudi Arabia", detail: "MIF + expert scoring + GIS overlay to rank land suitability for settlement expansion." },
+      { name: "Bharti & Biswas (2024)", type: "ref", tool: "all", region: "Kathmandu, Nepal", detail: "RF + AHP + GIS integration for urban growth suitability; ranks zones and validates model accuracy (91% RF vs 89% SVM)." },
+      { name: "Ray (2023, 2025)", type: "ref", tool: "mcda", region: "India", detail: "AHP and TOPSIS GIS integration to rank groundwater potential zones with sensitivity analysis." },
+      { name: "Nyimbili & Erden (2020)", type: "ref", tool: "mcda", region: "General", detail: "Entropy-AHP + GIS for urban emergency facilities; integrates weighted criteria to produce ranked suitability surfaces." },
+      { name: "Asadi et al. (2023)", type: "ref", tool: "mcda", region: "General", detail: "GIS-AHP ranking of solar/wind plant sites; integrates predicted energy outcomes with weighted spatial criteria." },
+      { name: "Yariyan et al. (2020)", type: "ref", tool: "all", region: "Sanandaj, Iran", detail: "Fuzzy AHP + neural networks; integrates risk predictions with stakeholder weights to rank urban seismic risk zones." },
+      { name: "Edosa et al. (2024)", type: "ref", tool: "all", region: "Sululta, Ethiopia", detail: "MCDA + GIS integrating biodiversity and urban growth outcomes to rank conservation priorities." },
+      { name: "Bittner & Burian (2024)", type: "ref", tool: "mcda", region: "Jihlava, Czech Republic", detail: "Adaptive MCDA for land suitability modelling; scenario-based ranking and robustness testing." },
+      { name: "Yaman & Mutlu (2025)", type: "ref", tool: "mcda", region: "Konya, Turkey", detail: "Hybrid GIS-MCDM for agricultural land suitability; integrates spatial data with multi-criteria ranking." },
+      { name: "Urbina et al. (2023)", type: "ref", tool: "mcda", region: "Guimarães, Portugal", detail: "GIS-based fire risk vulnerability assessment; integrates spatial outcomes with MCDA to rank critical infrastructure." },
+      { name: "Jochem et al. (2018)", type: "ref", tool: "ai", region: "General", detail: "ML for identifying residential neighbourhood types; integrates classification outputs for spatial ranking." },
+      { name: "Hackman et al. (2020)", type: "ref", tool: "all", region: "General", detail: "Geospatiotemporal ML for urbanization decision support; integrates multi-source predictions for ranked urban decisions." },
+      { name: "Luan et al. (2021)", type: "ref", tool: "mcda", region: "Ili Valley, China", detail: "GIS soft computing for land-use suitability; integrates fuzzy models and AHP to produce ranked suitability maps." },
+    ]
+  },
+  {
+    num: 7,
+    title: "Discuss results with stakeholders & find consensus",
+    color: "c-green",
+    desc: "Presenting ranked outcomes through participatory platforms, visualization, and stakeholder dialogue; identifying consensus alternatives that balance competing interests.",
+    refs: [
+      { name: "Enoguanbhor et al. (2019)", type: "ref", tool: "all", region: "Abuja, Nigeria", detail: "Community involvement in GIS-based land cover planning; stakeholder discussion and spatial consensus-building." },
+      { name: "Edosa et al. (2024)", type: "ref", tool: "all", region: "Sululta, Ethiopia", detail: "Urban growth and biodiversity MCDA; discusses results with stakeholders to identify conservation-compatible development zones." },
+      { name: "Elghazouly et al. (2024)", type: "ref", tool: "mcda", region: "Cairo, Egypt", detail: "MCDA-GIS slum intervention framework; results communicated to policymakers for consensus on intervention priorities." },
+      { name: "Kamrowska-Załuska (2021)", type: "ref", tool: "ai", region: "General", detail: "AI tools and big data in city design; addresses how outputs are discussed with stakeholders for adaptive planning." },
+      { name: "Sapienza et al. (2022)", type: "ref", tool: "ai", region: "General", detail: "Digital technologies and AI in urban health; addresses communication of results and citizen/stakeholder engagement." },
+      { name: "Chen et al. (2020)", type: "ref", tool: "ai", region: "General", detail: "AI agent for democratic land use planning; goal-reasoning AI generates consensus-oriented land use outcomes with stakeholders." },
+      { name: "Tekouabou et al. (2024)", type: "ref", tool: "ai", region: "General", detail: "AI for urban real estate prediction; highlights how transparent outputs facilitate stakeholder discussion." },
+      { name: "Casali et al. (2022)", type: "ref", tool: "ai", region: "General", detail: "ML for spatial urban analyses; reviews stakeholder adoption challenges and need for interpretable outputs." },
+      { name: "Son et al. (2023)", type: "ref", tool: "all", region: "General", detail: "Algorithmic urban planning review; addresses how integrated systems communicate planning results for smart city governance." },
+      { name: "Salama et al. (2023)", type: "ref", tool: "ai", region: "General", detail: "Urban spaces and AI during pandemics; discusses community well-being assessments with AI as basis for policy dialogue." },
+      { name: "Vardopoulos et al. (2023)", type: "ref", tool: "gis", region: "Mediterranean city", detail: "GIS spatial analysis of settlement growth; longitudinal results shared for urban planning and governance consensus." },
+      { name: "De Sabbata et al. (2023)", type: "ref", tool: "all", region: "General", detail: "GeoAI in urban analytics; emphasizes blending human expertise with ML outputs for interpretable, stakeholder-trusted planning." },
+      { name: "Shan et al. (2025)", type: "ref", tool: "ai", region: "General", detail: "AI-driven multi-objective optimization for building retrofits; discusses multi-stakeholder trade-off consensus." },
+      { name: "Shalwee et al. (2025)", type: "ref", tool: "all", region: "General", detail: "Geo-AI + MCDA for vulnerability mapping; results communicated to policymakers for consensus on priority areas." },
+    ]
+  }
+];
+
+const toolLabel = { gis: "GIS", ai: "AI/ML", mcda: "MCDA", all: "GIS+AI+MCDA", proj: "Project" };
+
+function renderTabs() {
+  const el = document.getElementById("tabs");
+  el.innerHTML = steps.map((s, i) =>
+    `<div class="tab${i===0?' active':''}" data-i="${i}" onclick="setTab(${i})">Step ${s.num} <span class="count-pill">${s.refs.length}</span></div>`
+  ).join("");
+}
+
+function setTab(i) {
+  document.querySelectorAll(".tab").forEach((t,j) => t.classList.toggle("active", j===i));
+  renderContent(i);
+}
+
+function renderContent(i) {
+  const s = steps[i];
+  const el = document.getElementById("content");
+  el.innerHTML = `
+    <div class="step-header">
+      <span class="step-num">${s.num}.</span>
+      <span class="step-title">${s.title}</span>
+    </div>
+    <div class="step-desc">${s.desc}</div>
+    <table>
+      <thead><tr><th>Reference / Project</th><th>Tool focus</th><th>Region/Context</th><th>Role in this step</th></tr></thead>
+      <tbody>${s.refs.map(r => `
+        <tr>
+          <td><span class="ref-name">${r.name}</span></td>
+          <td><span class="badge ${r.tool}">${toolLabel[r.tool]}</span></td>
+          <td><span class="ref-detail">${r.region}</span></td>
+          <td><span class="ref-detail">${r.detail}</span></td>
+        </tr>`).join("")}
+      </tbody>
+    </table>`;
+}
+
+renderTabs();
+renderContent(0);
+</script>
