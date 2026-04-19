@@ -1,0 +1,37 @@
+- How does a concrete NbS planning process look like and which ones do I want to focus on?!
+- Scope it down to one problem in NbS, one planning step and align it to AI?!??!?!?!?
+- Which PSS do you want to pick?
+- Read planning process and think how can AI help here?
+- Make it concrete
+- Can we use AI to help improving the Delphi Method?
+- How can AI Help?!?!?!
+-
+- ## Questions of a planner?
+- ### Operational Questions:
+	- How do I justify and defend all my decisions?
+-
+- ### Between Questions:
+	- Which people do I include?
+	- Which framework do I pick for the decision process?
+	-
+- ### Technical Questions:
+	- ***how do I weightend trade-offs***
+	- Where to put my NbS?
+	- Spatial questions?!
+	- Which NbS fits the best under which conditions?
+	- What are my conditions (trade-offs)?
+	- Which people do I include?
+	- Which software do I pick?
+	- How do I make people participate with the software?
+	- How can the software be mediator?
+	-
+- ## Questions from the perspective of NbS?
+	- Which problems do exist in NbS?
+		- Trade-offs
+			- Human vs Biology
+			- Co-benefits vs Benefits
+			-
+	-
+-
+-
+-

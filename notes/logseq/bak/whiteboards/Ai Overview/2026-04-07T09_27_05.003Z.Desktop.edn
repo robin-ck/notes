@@ -40,7 +40,7 @@
 :block/parent 
 {:block/uuid #uuid "69b2cf8e-eb90-40ff-9a46-5b76e82aca0f"}
 :block/uuid #uuid "69bbb3b3-1052-45be-92fb-6d92b96daff5"} 
-{:block/created-at 1775121380404
+{:block/created-at 1774365803807
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -57,7 +57,7 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [2760 6768.703236893592]
+:size [608 15802.188693724867]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -66,8 +66,8 @@
 :point [3048 -5376]
 :parentId "69b2cf8e-eb90-40ff-9a46-5b76e82aca0f"
 :collapsedHeight 0
-:nonce 1774257210238}}
-:block/updated-at 1775121380404} 
+:nonce 1774257210196}}
+:block/updated-at 1774365803807} 
 {:block/created-at 1774365803812
 :block/properties 
 {:ls-type :whiteboard-shape
@@ -108,7 +108,7 @@
 :nonce 1
 :assets []
 :shapes-index ("8ec4c260-2698-11f1-a7d4-cb1398306098" "c1d19100-26bc-11f1-9f2f-bd1f3447149f")}}
-:block/updated-at 1775121380404
+:block/updated-at 1774366213528
 :block/created-at 1773326222495
 :block/type "whiteboard"
 :block/name "ai overview"

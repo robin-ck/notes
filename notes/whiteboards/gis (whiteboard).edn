@@ -1,0 +1,53 @@
+{:blocks (
+{:block/content "GIS Overview"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "69ce1b35-519a-45a1-98d7-5b4c6c514ffe"}
+:block/parent 
+{:block/uuid #uuid "69ce1b35-519a-45a1-98d7-5b4c6c514ffe"}
+:block/uuid #uuid "69ce1b46-efde-4516-a7d8-b52f00c51b6a"} 
+{:block/created-at 1775115534918
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 0
+:scale [1 1]
+:pageId "GIS"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [752 1722.999973804011]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "f1d838d0-2e65-11f1-934c-674fda977840"
+:noFill false
+:point [544 288]
+:parentId "69ce1b35-519a-45a1-98d7-5b4c6c514ffe"
+:collapsedHeight 0
+:nonce 1775115081046}}
+:block/updated-at 1775115534918})
+:pages (
+{:block/uuid #uuid "69ce1b35-519a-45a1-98d7-5b4c6c514ffe"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "69ce1b35-519a-45a1-98d7-5b4c6c514ffe"
+:name "gis (whiteboard)"
+:bindings 
+{}
+:nonce 1
+:assets []
+:shapes-index ("f1d838d0-2e65-11f1-934c-674fda977840")}}
+:block/updated-at 1775115534918
+:block/created-at 1775115061634
+:block/type "whiteboard"
+:block/name "gis (whiteboard)"
+:block/original-name "gis (whiteboard)"})}

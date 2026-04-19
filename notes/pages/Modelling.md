@@ -1,0 +1,7 @@
+- Types of models
+	- conceptual models
+	- physical models
+	- computational models
+- check Nicole van den Berg et al 2023, scenarios for future
+-
+-

@@ -1,0 +1,66 @@
+tags:: NbS
+source:: [[R: seddonUnderstandingValueLimits]]
+
+- Synthesis of Seddon et al. (2020), focused on the barriers and conditions for NbS to actually deliver on their promise.
+-
+- ## Core Argument
+	- NbS are widely promoted as multi-functional answers to climate change, biodiversity loss, and sustainable development — but **the evidence base for their effectiveness is still thin**, and they will only deliver these benefits **if specifically designed to do so**.
+	- The paper organises the barriers into four interlocking themes: [[Measuring Effectiveness of NbS]], cost-effectiveness, governance, and finance.
+	- Without **systemic institutional change**, NbS risk being deployed in ways that produce maladaptation (e.g. monoculture afforestation that satisfies a carbon target but undermines biodiversity and resilience).
+-
+- ## How NbS Deliver Climate Adaptation
+	- Three mechanisms (see [[NBS and Climate Change]]):
+		- 1. **Reducing exposure** — restoring coastal ecosystems to buffer storm surges, flooding, erosion; restoring upland vegetation to reduce flood risk and landslides.
+		- 2. **Reducing sensitivity** — agroforestry and green infrastructure that maintain yields and moderate heat in cities; helping people absorb environmental shocks.
+		- 3. **Increasing adaptive capacity** — preserving genetic and species diversity as a reservoir for future adaptation; using NbS projects as platforms for community learning.
+	- Adaptive capacity has both an **ecological** side (sensitivity of the ecosystem itself, which can be improved by reducing background pressures) and a **socioeconomic** side (community capacity to respond).
+-
+- ## Why Measuring Effectiveness Is Hard
+	- Effectiveness has to be assessed on **two axes simultaneously**: ecological and socioeconomic. A standardised, one-size-fits-all metric is unlikely to be findable.
+	- Social–ecological systems are dynamic and politically contingent — political support and ecosystem condition both shift unexpectedly, so cross-scale comparison is inherently difficult.
+	- The modelling gap is significant: hard infrastructure has decades of physical models predicting performance under climate scenarios; **equivalent ecological models for NbS still need to be developed**.
+	- Empirically, NbS often perform well for moderate hazards but **do not appear to have a major effect on the most extreme events** — an important caveat for adaptation planning.
+	- Implication: assessment should rely on **context-specific metrics**, not universal indicators.
+-
+- ## The Cost-Effectiveness Problem
+	- NbS look weaker than grey infrastructure in conventional appraisal because:
+		- Many co-benefits (food and water security, carbon sequestration, recreation, off-site benefits) are **rarely accounted for**.
+		- These benefits are **difficult to monetise**, with high uncertainty around non-market value.
+		- Appraisals **rarely factor in trade-offs** between interventions, ecosystem services, or stakeholder groups (who may experience costs and benefits very differently).
+		- Grey infrastructure offers **certainty about type and timescale** of benefits; NbS deliver more flexible long-term benefits, but the costs come early and the benefits arrive later (and sometimes elsewhere).
+		- Ecosystem responses are **harder to predict and cost** than engineered alternatives.
+	- The emerging consensus: **green + grey hybrids** are often the best solution, and improving evidence on the efficacy of natural landforms is closing the uncertainty gap.
+-
+- ## Governance Challenges
+	- **Path dependency** is the central barrier: decision-makers default to solutions familiar to them, and grey infrastructure is deeply engrained in institutional practice and culture.
+	- This is reinforced by **cognitive bias** — a lack of awareness of the ecosystem services NbS provide.
+	- **Unsupportive or conflicting incentives and regulations** actively hinder uptake.
+	- **Lack of policy coherence** produces inaction: when "adaptation" is seen as another agency's responsibility, no one acts.
+	- Different stakeholders have different needs and different dependencies on natural resources, which can create real trade-offs and conflicts.
+	- Overcoming this requires **strong institutions** and **well-established planning structures, processes and instruments** that can deliver benefits across whole landscapes and seascapes — not just at project scale.
+-
+- ## Financial Challenges
+	- The **fundamental finance problem**: many NbS benefits cannot be captured by any single party or organisation, so no actor has a strong incentive to fund them at the right scale → a **problem of ownership**.
+	- Most NbS investments are financed by **debt**, which leaves the implementing party carrying most of the risk.
+	- In developing countries, bank lending and microfinance — the dominant external funding sources — **impose risk on those least able to bear it**.
+	- Traditional finance providers tend to lack understanding of NbS and, more importantly, are **not involved in project design**.
+	- **Equity and risk-sharing arrangements** look more promising than debt finance for NbS.
+	- The **short-termism of public and private decision-making** is structurally mismatched with the long horizons over which NbS benefits emerge and need maintenance.
+-
+- ## Implications for Practice
+	- The way forward is **integrated solutions** that:
+		- address a range of climatic impacts simultaneously,
+		- provide additional ecosystem services,
+		- and can be **feasibly implemented and managed over the long term**.
+	- Combining a portfolio of interventions (rather than single-purpose NbS) also helps reconcile diverging stakeholder needs.
+	- For my own work: this paper is a strong reference for arguing why **decision-support and planning tools for NbS need to handle multi-criteria trade-offs, long time horizons, and stakeholder differentiation** — exactly the gap that PSS and MCDA approaches try to fill ([[PSS for NbS Claude Review]], [[MCDA Elements]]).
+-
+- ## Related Pages
+	- [[Nature-based Solutions]]
+	- [[NBS and Climate Change]]
+	- [[Categories of NbS]]
+	- [[Societal Challenges]]
+	- [[Lessons Learned]]
+	- [[Toward an operational framework for NbS]]
+	- [[R: seddonUnderstandingValueLimits]]
+-

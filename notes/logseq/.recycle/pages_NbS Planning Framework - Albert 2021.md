@@ -1,0 +1,55 @@
+tags:: NbS, planning, framework
+source:: [[R: albertPlanningNaturebasedSolutions2021]]
+
+- A framework for planning NbS that connects what NbS *are* (definitional criteria), *how* to plan them (six steps), and *how to do it well* (five principles) — aimed at moving NbS from concept to practice.
+-
+- ## What Counts as NbS — Three Defining Criteria
+	- The framework anchors itself in three criteria that define whether something is actually an NbS:
+		- 1. **Challenge-orientation** — the intervention must address a well-defined societal challenge. This is not window-dressing; it is the primary purpose, and it should be explicit from the outset.
+		- 2. **Ecosystem process utilisation** — NbS work through the use of ecological actions and events that link organisms and their environment. This distinguishes NbS from engineering or social interventions that are merely "inspired by nature."
+		- 3. **Practical viability** — the solution needs to be embedded in a **governance and business model** that makes implementation genuinely feasible. Governance is not a post-hoc concern — it is a definitional one.
+	- The authors also flag two important positioning statements worth remembering:
+		- **Co-benefits should be aspired to, but are not defining criteria** — you cannot justify calling something an NbS just because it produces co-benefits.
+		- **Cost-effectiveness cannot be simply stipulated** — it requires case-specific analysis. This is a useful pushback against casual claims in policy documents.
+-
+- ## Six Planning Steps
+	- The six steps form a structured but iterative planning process:
+		- 1. **Co-define setting** — the kick-off step. Clarifies the project context, overarching societal challenges, aims, and process. Gets everyone aligned before analysis begins.
+		- 2. **Understand challenges** — assesses the specific societal challenges and opportunities across spatial and temporal scales. Societal dimensions include actors, networks, and problem perceptions — not just biophysical conditions.
+		- 3. **Create visions and scenarios** — identifies and spatially localises options for siting NbS within the landscape. This is described as the core aspect of the planning process — where the actual design work happens.
+		- 4. **Assess potential impacts** — evaluates potential costs and benefits of existing or to-be-implemented NbS and of alternative solutions. Explicitly **multi-dimensional** — not just ecological or just economic.
+		- 5. **Develop solution strategies** — produces recommendations and actions, including a **fair weighing of pros and cons** of implementation alternatives.
+		- 6. **Realize and monitor** — addresses the multiple barriers to implementation: inadequate finance, regulatory fragmentation, institutional inertia, uncertainty about effectiveness, and limited land/time availability.
+	- The step structure maps well onto MCDA logic: understand problem → generate alternatives → assess impacts → select and implement. Useful framing for justifying where a PSS tool fits in.
+-
+- ## Five Planning Principles (PEITE)
+	- The principles cut across all steps and govern *how* the process should be run:
+		- **Place-specificity** — societal challenges and NbS options are always context-specific. The framework cannot be applied mechanically; it must be adapted to the particular landscape, community, and institutional setting. Establishing NbS can also help shape a new **sense of place**, which is both an outcome and a resource for participation.
+		- **Evidence base** — decisions should be grounded in available information and knowledge for the specific NbS in its particular setting, in order to draw reliable conclusions. The authors acknowledge the gap directly: empirical evidence on NbS multi-dimensional effectiveness and co-benefits is still largely missing.
+		- **Integration** — means attending to thematically related approaches, and to temporal, spatial, and sectoral scales within the planning process and governance context. Integration across **spatial scales** is essential because NbS deliver social and ecological benefits at multiple levels simultaneously. Multi-scale approaches avoid overlooking directional effects and allow for more effective planning.
+		- **Equity** — understood along four interlinked dimensions: **recognition** (acknowledging rights, values, and interests of different actors), **procedure** (inclusive and effective participation), **distribution** (fair spread of costs and benefits), and **context** (accounting for pre-existing political, economic, and social conditions). Equity applies to both how the process is organised and what the planning outputs deliver.
+		- **Transdisciplinarity** — refers to cooperation between researchers from different disciplines *and* non-academic participants to create new knowledge and address a common question. In planning, this means the **systematic involvement of diverse knowledge holders** in co-designing and implementing the process itself. It is the principle that most directly shapes who is in the room and how knowledge flows.
+	- The acronym **PEITE** (Place-specificity, Evidence base, Integration, Transdisciplinarity, Equity) is a useful mnemonic for the five principles.
+-
+- ## Methodology and Development
+	- The framework was built by **merging literature insights with a case study** in the Lahn river landscape, Germany — iteratively refined against both NbS literature and empirical experience.
+	- The paper offers not just a conceptual framework but also **application-oriented methods** and a checklist of supportive procedures — making it more operational than most framework papers.
+	- The goal is explicit: facilitate planning NbS and contribute to **mainstreaming** NbS in standard planning practice.
+-
+- ## Implications for my Work
+	- The six-step structure is a strong anchor for understanding **where a PSS tool intervenes** in the NbS planning cycle. Steps 3–5 (visions/scenarios → impact assessment → solution strategies) are where spatial analysis and MCDA are most relevant — and where tools like the one I am developing would need to plug in.
+	- The five principles provide normative criteria that any PSS tool should also satisfy: it should be adaptable to place, grounded in evidence, able to handle multi-scale integration, equitable in access and outputs, and designed for transdisciplinary use rather than expert-only operation.
+	- The gap flagged on the **evidence base** (missing empirical evidence on NbS effectiveness) resonates with what [[Limits of NbS]] says about thin evidence — and reinforces why tools must be transparent about uncertainty.
+	- The governance viability criterion (practical viability as a defining NbS feature) connects directly to the governance barriers discussed in [[Limits of NbS]] and in [[PSS for NbS Claude Review]].
+-
+- ## Related Pages
+	- [[Nature-based Solutions]]
+	- [[Toward an operational framework for NbS]]
+	- [[Limits of NbS]]
+	- [[NBS and Climate Change]]
+	- [[Societal Challenges]]
+	- [[PSS for NbS Claude Review]]
+	- [[MCDA Elements]]
+	- [[GIS-MCDA Overview]]
+	- [[R: albertPlanningNaturebasedSolutions2021]]
+-

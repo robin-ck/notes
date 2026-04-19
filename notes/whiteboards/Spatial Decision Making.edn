@@ -1,0 +1,108 @@
+{:blocks (
+{:block/created-at 1775128766501
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 0
+:scale [1 1]
+:pageId "Introduction to Spatial Planning"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [1160 1243.9218457087895]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "57b6c120-2e67-11f1-934c-674fda977840"
+:noFill false
+:point [416 256]
+:parentId "69ce1d54-c383-4cc9-ae5c-495114cef7ca"
+:collapsedHeight 0
+:nonce 1775115681423}}
+:block/updated-at 1775128766501} 
+{:block/created-at 1775129178325
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 1
+:scale [1 1]
+:pageId "GIS"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 2852.8437251964806]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "53bc01f0-2e69-11f1-934c-674fda977840"
+:noFill false
+:point [-56 240]
+:parentId "69ce1d54-c383-4cc9-ae5c-495114cef7ca"
+:collapsedHeight 0
+:nonce 1775116533823}}
+:block/updated-at 1775129178325} 
+{:block/content "spatial inte"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "69ce1d54-c383-4cc9-ae5c-495114cef7ca"}
+:block/parent 
+{:block/uuid #uuid "69ce1d54-c383-4cc9-ae5c-495114cef7ca"}
+:block/uuid #uuid "69ce212e-2952-4193-b6b4-59f53d9dcb94"} 
+{:block/created-at 1775129187319
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 2
+:scale [1 1]
+:pageId "Decision Process"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 92.99999781574087]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "c5395400-2e86-11f1-934c-674fda977840"
+:noFill false
+:point [-472 752]
+:parentId "69ce1d54-c383-4cc9-ae5c-495114cef7ca"
+:collapsedHeight 0
+:nonce 1775129179459}}
+:block/updated-at 1775129187319})
+:pages (
+{:block/uuid #uuid "69ce1d54-c383-4cc9-ae5c-495114cef7ca"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "69ce1d54-c383-4cc9-ae5c-495114cef7ca"
+:name "spatial decision making"
+:bindings 
+{}
+:nonce 1
+:assets []
+:shapes-index ("57b6c120-2e67-11f1-934c-674fda977840" "53bc01f0-2e69-11f1-934c-674fda977840" "c5395400-2e86-11f1-934c-674fda977840")}}
+:block/updated-at 1775129187319
+:block/created-at 1775115604610
+:block/type "whiteboard"
+:block/name "spatial decision making"
+:block/original-name "spatial decision making"})}

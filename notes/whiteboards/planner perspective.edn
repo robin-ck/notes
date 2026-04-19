@@ -1,0 +1,161 @@
+{:blocks (
+{:block/content "Think like a planner"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "69e34a35-8d98-4825-b2ff-591be9c92c55"}
+:block/parent 
+{:block/uuid #uuid "69e34a35-8d98-4825-b2ff-591be9c92c55"}
+:block/properties 
+{}
+:block/uuid #uuid "69e34a45-8c86-4213-808e-e90a2a839ae6"} 
+{:block/created-at 1776503366042
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 0
+:scale [1 1]
+:pageId "69e34a45-8c86-4213-808e-e90a2a839ae6"
+:scaleLevel "md"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 40.66666793823242]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "499b8ed0-3b06-11f1-96ae-df1b565bcd84"
+:noFill false
+:point [352 272]
+:parentId "69e34a35-8d98-4825-b2ff-591be9c92c55"
+:collapsedHeight 0
+:nonce 1776503361599}}
+:block/updated-at 1776503366042} 
+{:block/created-at 1776503386626
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 1
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "line"
+:strokeType "line"
+:strokeWidth 1
+:opacity 1
+:label ""
+:id "5263a2a2-3b06-11f1-96ae-df1b565bcd84"
+:fontWeight 400
+:noFill true
+:point [571.12 96]
+:fontSize 20
+:handles 
+{:start 
+{:id "start"
+:canBind true
+:point [0 175]
+:bindingId "5263a2a0-3b06-11f1-96ae-df1b565bcd84"}
+:end 
+{:id "end"
+:canBind true
+:point [156.88 0]
+:bindingId nil}}
+:decorations 
+{:end "arrow"}
+:parentId "69e34a35-8d98-4825-b2ff-591be9c92c55"
+:nonce 1776503376362
+:italic false}}
+:block/updated-at 1776503386626} 
+{:block/content "Technical Question"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "69e34a45-8c86-4213-808e-e90a2a839ae6"}
+:block/parent 
+{:block/uuid #uuid "69e34a35-8d98-4825-b2ff-591be9c92c55"}
+:block/properties 
+{}
+:block/uuid #uuid "69e34a5a-c021-448b-a57b-a75380aedb1b"} 
+{:block/created-at 1776503392304
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 2
+:scale [1 1]
+:pageId "69e34a5a-c021-448b-a57b-a75380aedb1b"
+:scaleLevel "md"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [200 40.66666793823242]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "5593d3f0-3b06-11f1-96ae-df1b565bcd84"
+:noFill false
+:point [736 48]
+:parentId "69e34a35-8d98-4825-b2ff-591be9c92c55"
+:collapsedHeight 0
+:nonce 1776503381746}}
+:block/updated-at 1776503392304} 
+{:block/created-at 1776503434768
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 3
+:scale [1 1]
+:pageId "Questions"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 92.66666793823242]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "647e08e0-3b06-11f1-96ae-df1b565bcd84"
+:noFill false
+:point [960 216]
+:parentId "69e34a35-8d98-4825-b2ff-591be9c92c55"
+:collapsedHeight 0
+:nonce 1776503406705}}
+:block/updated-at 1776503434768})
+:pages (
+{:block/uuid #uuid "69e34a35-8d98-4825-b2ff-591be9c92c55"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "69e34a35-8d98-4825-b2ff-591be9c92c55"
+:name "planner perspective"
+:bindings 
+{:5263a2a0-3b06-11f1-96ae-df1b565bcd84 
+{:id "5263a2a0-3b06-11f1-96ae-df1b565bcd84"
+:type "line"
+:fromId "5263a2a2-3b06-11f1-96ae-df1b565bcd84"
+:toId "499b8ed0-3b06-11f1-96ae-df1b565bcd84"
+:handleId "start"
+:point [0.5 0.5]
+:distance 4}}
+:nonce 1
+:assets []
+:shapes-index ("499b8ed0-3b06-11f1-96ae-df1b565bcd84" "5263a2a2-3b06-11f1-96ae-df1b565bcd84" "5593d3f0-3b06-11f1-96ae-df1b565bcd84" "647e08e0-3b06-11f1-96ae-df1b565bcd84")}}
+:block/updated-at 1776503434768
+:block/created-at 1776503349592
+:block/type "whiteboard"
+:block/name "planner perspective"
+:block/original-name "planner perspective"})}
