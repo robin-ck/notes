@@ -10,10 +10,10 @@ source:: [[R: sarabiNaturebasedSolutionsPlanning2022]]
 	- The system is explicitly NOT a replacement for human judgment; it is a **"playground"** — a space for stakeholders to test preferences, iterate over planning stages, and build shared understanding.
 -
 - ## System Design: Multiscale Hierarchical Framework (Ch. 2 & 3)
-	- ![image.png](../assets/image_1776512429448_0.png)
-	-
+	- ![image.png](../assets/image_1776672618863_0.png)
 	- The NBS-PSS operates at two nested scales: **city/neighborhood scale** (steps 1–2) and **site/solution scale** (steps 3–5), with stakeholders interacting at each step.
 	- ### Step 1 — Neighborhood Prioritization
+		- ![image.png](../assets/image_1776672646372_0.png){:height 286, :width 270}
 		- Neighborhoods are ranked using a **spatial multicriteria evaluation (MCE)** framework that incorporates stakeholder-weighted challenges (e.g. heat stress, flooding, air pollution).
 		- **Challenge maps** are developed by collecting spatial indicator data for each challenge. Indicators are flexible — different datasets can be used depending on city-specific data availability; most data used by Sarabi et al. came from European, national, or municipal open databases.
 		- Exposure/vulnerability scores are combined via **Weighted Linear Combination (WLC)**. Weights are set using the **Delphi method** to reach consensus among stakeholders; pair-wise comparison is also an option but must be calculated outside the tool.

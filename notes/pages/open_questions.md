@@ -1,4 +1,21 @@
 # Open Questions
-
 - How should the NbS concept be communicated to stakeholders in practice — and what are the implications of using the term at all in participatory planning processes where it may be perceived as biased toward nature conservation?
 	- Source: [[R: albertPlanningNaturebasedSolutions2021]]
+- Planning silos are repeatedly cited as a barrier to multifunctional GI planning — but what does "breaking silos" actually look like institutionally? Is a shared planning tool (like the GISP model or a PSS) sufficient, or does it require organisational restructuring first?
+	- Source: [[R: meerowSpatialPlanningMultifunctional2017a]]
+- Social vulnerability is difficult to quantify, yet it is treated as a single scoreable criterion in the GISP model (via SoVI). How much does the choice of vulnerability index shape which communities are prioritised — and is this made visible to stakeholders in the planning process?
+	- Source: [[R: meerowSpatialPlanningMultifunctional2017a]]
+- The GISP model shows we lack integrated planning tools that assess GI synergies and tradeoffs — but is the gap really about tools, or about the institutional willingness to use them? Detroit had the data; the mismatch with real project locations suggests the tool alone isn't enough.
+	- Source: [[R: meerowSpatialPlanningMultifunctional2017a]]
+- If SSANTO's value scales for converting raw data into suitability scores are context-dependent and may change with progressive insights in WSUD placement, how should a PSS handle the tension between providing usable defaults and ensuring those defaults don't silently encode assumptions that don't transfer to other cities or governance contexts?
+	- Source: [[R: kullerPlanningsupportToolSpatial2019]]
+- Weight elicitation in MCDA consistently reveals that modellers underestimate the importance of some criteria and overestimate others — if this complexity can't be fully resolved upfront, should PSS tools be designed to surface weight sensitivity explicitly rather than present a single suitability map?
+	- Source: [[R: kullerPlanningsupportToolSpatial2019]]
+- The absence of widely accepted validation methods for socio-technical models is flagged as an urgent open challenge — but who should be solving it, and what would a credible yet workable solution actually look like for a tool like SSANTO or similar PSS?
+	- Source: [[R: kullerPlanningsupportToolSpatial2019]]
+- SSANTO's usability would be significantly enhanced by migration to open-source, standalone, or online platforms — does the current dependence on proprietary GIS software fundamentally limit who can use these tools, and does that matter for equitable urban planning outcomes?
+	- Source: [[R: kullerPlanningsupportToolSpatial2019]]
+- The NBS-CBS uses a basic deep neural network with two hidden layers and an automated weighting process is flagged as a future improvement — how much of the system's performance is actually attributable to the ANN choice versus the CBR retrieval layer? Would a richer architecture, different text-vectorisation method, or learned similarity weights meaningfully improve recommendations, or is the bottleneck really the case-base metadata quality?
+	- Source: [[R: sarabiNatureBasedSolutionsCaseBased2022]]
+- Adding a function like an impact assessment requires extensive data regarding the impact of NBS in each case setting, which is not yet available. Is it possible to gather more NbS data or create it synthetically?
+	- Source: [[R: sarabiNatureBasedSolutionsCaseBased2022]]

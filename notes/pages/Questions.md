@@ -5,6 +5,7 @@
 - Make it concrete
 - Can we use AI to help improving the Delphi Method?
 - How can AI Help?!?!?!
+- Can we integrate all NbS data from many places and integrate them into one warehouse?
 -
 - ## Questions of a planner?
 - ### Operational Questions:
@@ -30,6 +31,7 @@
 		- Trade-offs
 			- Human vs Biology
 			- Co-benefits vs Benefits
+		- Measuring vulnerability?
 			-
 	-
 -

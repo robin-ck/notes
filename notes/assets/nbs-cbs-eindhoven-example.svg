@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">
+  <defs>
+    <marker id="arrow2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#333"/>
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="600" y="28" text-anchor="middle" font-size="17" font-weight="600" fill="#111">Worked Example — Eindhoven Target Case 1 (green square, city centre)</text>
+  <text x="600" y="50" text-anchor="middle" font-size="12" fill="#555">tracing one user query through the NBS-CBS pipeline</text>
+
+  <!-- Step 1: Input -->
+  <rect x="20" y="80" width="270" height="340" rx="8" fill="#fff3cd" stroke="#856404" stroke-width="1.5"/>
+  <text x="155" y="103" text-anchor="middle" font-size="13" font-weight="700" fill="#111">Input  (Component 2)</text>
+  <line x1="38" y1="115" x2="272" y2="115" stroke="#d4a820" stroke-width="1"/>
+  <text x="36" y="138" font-size="11" font-weight="600" fill="#333">Challenges</text>
+  <text x="36" y="154" font-size="10" fill="#444">water mgmt · climate adaptation</text>
+  <text x="36" y="168" font-size="10" fill="#444">social justice · biodiversity</text>
+  <text x="36" y="196" font-size="11" font-weight="600" fill="#333">Initiator</text>
+  <text x="36" y="212" font-size="10" fill="#444">municipality · NGO · university</text>
+  <text x="36" y="240" font-size="11" font-weight="600" fill="#333">Climate zone</text>
+  <text x="36" y="256" font-size="10" fill="#444">moderate</text>
+  <text x="36" y="284" font-size="11" font-weight="600" fill="#333">Scale</text>
+  <text x="36" y="300" font-size="10" fill="#444">micro-scale</text>
+  <text x="36" y="328" font-size="11" font-weight="600" fill="#333">Cost</text>
+  <text x="36" y="344" font-size="10" fill="#444">€100,000 – €500,000</text>
+  <text x="36" y="372" font-size="11" font-weight="600" fill="#333">Keywords</text>
+  <text x="36" y="388" font-size="10" font-style="italic" fill="#444">"attractive area; climate robust;</text>
+  <text x="36" y="402" font-size="10" font-style="italic" fill="#444">dense city centre"</text>
+
+  <!-- Arrow 1 -->
+  <line x1="294" y1="250" x2="326" y2="250" stroke="#333" stroke-width="2.5" marker-end="url(#arrow2)"/>
+
+  <!-- Step 2: ANN prediction -->
+  <rect x="330" y="80" width="270" height="340" rx="8" fill="#2b2b2b" stroke="#111" stroke-width="1.5"/>
+  <text x="465" y="103" text-anchor="middle" font-size="11" font-weight="700" fill="#ffd400">🔲 BLACK-BOX</text>
+  <text x="465" y="125" text-anchor="middle" font-size="13" font-weight="700" fill="#eee">ANN Prediction  (Comp. 3)</text>
+  <line x1="348" y1="137" x2="582" y2="137" stroke="#555" stroke-width="1"/>
+  <text x="465" y="160" text-anchor="middle" font-size="11" fill="#ccc">predicted NbS categories</text>
+  <text x="465" y="176" text-anchor="middle" font-size="10" fill="#999">(probability shown in parens)</text>
+
+  <!-- Ranked list -->
+  <rect x="348" y="196" width="234" height="38" rx="4" fill="#3d3d3d" stroke="#555"/>
+  <text x="358" y="215" font-size="11" font-weight="700" fill="#ffd400">1.</text>
+  <text x="378" y="215" font-size="11" font-weight="600" fill="#fff">Green areas for water mgmt</text>
+  <text x="570" y="215" text-anchor="end" font-size="11" font-weight="700" fill="#ffd400">0.71</text>
+  <text x="378" y="229" font-size="9" fill="#aaa">= the solution actually implemented ✓</text>
+
+  <rect x="348" y="244" width="234" height="28" rx="4" fill="#3d3d3d" stroke="#555"/>
+  <text x="358" y="263" font-size="11" font-weight="700" fill="#ccc">2.</text>
+  <text x="378" y="263" font-size="11" fill="#eee">Blue infrastructure</text>
+  <text x="570" y="263" text-anchor="end" font-size="11" font-weight="600" fill="#ccc">0.65</text>
+
+  <rect x="348" y="282" width="234" height="28" rx="4" fill="#3d3d3d" stroke="#555"/>
+  <text x="358" y="301" font-size="11" font-weight="700" fill="#ccc">3.</text>
+  <text x="378" y="301" font-size="11" fill="#eee">Parks &amp; urban forests</text>
+  <text x="570" y="301" text-anchor="end" font-size="11" font-weight="600" fill="#ccc">0.60</text>
+
+  <text x="465" y="344" text-anchor="middle" font-size="10" font-style="italic" fill="#999">multi-label: all predictions with</text>
+  <text x="465" y="358" text-anchor="middle" font-size="10" font-style="italic" fill="#999">probability &gt; 0.5 shown</text>
+
+  <text x="465" y="392" text-anchor="middle" font-size="10" fill="#ffd400">↓ expert selects category to drive retrieval</text>
+  <text x="465" y="408" text-anchor="middle" font-size="10" font-weight="600" fill="#fff">"green areas for water management"</text>
+
+  <!-- Arrow 2 -->
+  <line x1="604" y1="250" x2="636" y2="250" stroke="#333" stroke-width="2.5" marker-end="url(#arrow2)"/>
+
+  <!-- Step 3: Retrieved cases -->
+  <rect x="640" y="80" width="280" height="340" rx="8" fill="#f4f4f4" stroke="#555" stroke-width="1.5"/>
+  <text x="780" y="103" text-anchor="middle" font-size="11" font-weight="700" fill="#555">⬜ WHITE-BOX (CBR)</text>
+  <text x="780" y="125" text-anchor="middle" font-size="13" font-weight="700" fill="#111">Retrieved Cases  (Comp. 4)</text>
+  <line x1="658" y1="137" x2="902" y2="137" stroke="#bbb" stroke-width="1"/>
+  <text x="780" y="158" text-anchor="middle" font-size="10" fill="#555">filtered on "green areas for water mgmt"</text>
+  <text x="780" y="172" text-anchor="middle" font-size="10" font-style="italic" fill="#888">(similarity 0–1)</text>
+
+  <rect x="658" y="186" width="244" height="28" rx="4" fill="#fff" stroke="#ccc"/>
+  <text x="668" y="204" font-size="10" font-weight="700" fill="#2e7d32">1.</text>
+  <text x="684" y="204" font-size="10" fill="#111">Bielefeld Bot. Garden ext. (DE)</text>
+  <text x="894" y="204" text-anchor="end" font-size="10" font-weight="700" fill="#2e7d32">0.84</text>
+
+  <rect x="658" y="218" width="244" height="28" rx="4" fill="#fff" stroke="#ccc"/>
+  <text x="668" y="236" font-size="10" font-weight="700" fill="#555">2.</text>
+  <text x="684" y="236" font-size="10" fill="#111">Park Pod Plachtami, Brno (CZ)</text>
+  <text x="894" y="236" text-anchor="end" font-size="10" font-weight="700" fill="#555">0.81</text>
+
+  <rect x="658" y="250" width="244" height="28" rx="4" fill="#fff" stroke="#ccc"/>
+  <text x="668" y="268" font-size="10" font-weight="700" fill="#555">3.</text>
+  <text x="684" y="268" font-size="10" fill="#111">Győr drainage system (HU)</text>
+  <text x="894" y="268" text-anchor="end" font-size="10" font-weight="700" fill="#555">0.78</text>
+
+  <rect x="658" y="282" width="244" height="28" rx="4" fill="#fff" stroke="#ccc"/>
+  <text x="668" y="300" font-size="10" font-weight="700" fill="#555">4.</text>
+  <text x="684" y="300" font-size="10" fill="#111">Liberty Sq., Bratislava (SK)</text>
+  <text x="894" y="300" text-anchor="end" font-size="10" font-weight="700" fill="#555">0.77</text>
+
+  <rect x="658" y="314" width="244" height="28" rx="4" fill="#fff" stroke="#ccc"/>
+  <text x="668" y="332" font-size="10" font-weight="700" fill="#555">5.</text>
+  <text x="684" y="332" font-size="10" fill="#111">Selma's Park, Göteborg (SE)</text>
+  <text x="894" y="332" text-anchor="end" font-size="10" font-weight="700" fill="#555">0.72</text>
+
+  <text x="780" y="370" text-anchor="middle" font-size="10" font-style="italic" fill="#555">each case links to its full UNA record</text>
+  <text x="780" y="388" text-anchor="middle" font-size="10" font-style="italic" fill="#555">(governance, financing, impacts, media)</text>
+
+  <!-- Arrow 3 -->
+  <line x1="924" y1="250" x2="956" y2="250" stroke="#333" stroke-width="2.5" marker-end="url(#arrow2)"/>
+
+  <!-- Step 4: Expert judgment -->
+  <rect x="960" y="80" width="222" height="340" rx="8" fill="#f4f4f4" stroke="#555" stroke-width="1.5"/>
+  <text x="1071" y="103" text-anchor="middle" font-size="11" font-weight="700" fill="#555">⬜ WHITE-BOX (CBR)</text>
+  <text x="1071" y="125" text-anchor="middle" font-size="13" font-weight="700" fill="#111">Expert Judgment (Comp. 5)</text>
+  <line x1="978" y1="137" x2="1164" y2="137" stroke="#bbb" stroke-width="1"/>
+
+  <text x="976" y="162" font-size="12" font-weight="700" fill="#2e7d32">✓</text>
+  <text x="992" y="162" font-size="10" fill="#111">prediction matches the</text>
+  <text x="992" y="176" font-size="10" fill="#111">actually implemented</text>
+  <text x="992" y="190" font-size="10" fill="#111">solution → validates</text>
+  <text x="992" y="204" font-size="10" fill="#111">system accuracy</text>
+
+  <text x="976" y="234" font-size="12" font-weight="700" fill="#2e7d32">✓</text>
+  <text x="992" y="234" font-size="10" fill="#111">similar cases useful for</text>
+  <text x="992" y="248" font-size="10" fill="#111">governance, participation,</text>
+  <text x="992" y="262" font-size="10" fill="#111">and financing inspiration</text>
+
+  <text x="976" y="292" font-size="12" font-weight="700" fill="#b8860b">~</text>
+  <text x="992" y="292" font-size="10" fill="#111">some cases physically</text>
+  <text x="992" y="306" font-size="10" fill="#111">dissimilar to Eindhoven</text>
+  <text x="992" y="320" font-size="10" fill="#111">context (still flagged as</text>
+  <text x="992" y="334" font-size="10" fill="#111">useful for soft lessons)</text>
+
+  <text x="976" y="362" font-size="12" font-weight="700" fill="#888">○</text>
+  <text x="992" y="362" font-size="10" fill="#555">retain step not tested</text>
+  <text x="992" y="376" font-size="10" fill="#555">in this alpha —</text>
+  <text x="992" y="390" font-size="10" fill="#555">feedback loop that would</text>
+  <text x="992" y="404" font-size="10" fill="#555">refine ANN &amp; CBR untested</text>
+
+  <!-- Bottom notes -->
+  <rect x="20" y="450" width="1162" height="58" rx="6" fill="#f9f9f9" stroke="#e0e0e0"/>
+  <text x="36" y="470" font-size="11" font-weight="600" fill="#333">Notes on this run:</text>
+  <text x="36" y="487" font-size="10" fill="#444">• ANN does multi-label classification over 8 NbS categories · expert picked ONE to drive retrieval (multi-category retrieval is a flagged limitation)</text>
+  <text x="36" y="501" font-size="10" fill="#444">• similarity score ≠ physical similarity · experts valued cases with different physical contexts for governance &amp; financing lessons</text>
+</svg>
