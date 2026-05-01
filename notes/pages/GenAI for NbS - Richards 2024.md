@@ -1,0 +1,87 @@
+tags:: NbS, AI, science communication
+source:: [[R: richardsHarnessingGenerativeArtificial2024]]
+
+- Perspective paper arguing that **generative AI** (LLMs, image generators) can automate and scale up the **science communication, outreach, and extension** side of NbS — turning expert-heavy, bespoke advisory tasks into something that can be done rapidly, at scale, and tailored to local audiences. Three worked case studies (farm report writing, garden chatbot, landscape visualisation) illustrate the envelope.
+-
+- ## Core Argument
+	- The adoption of NbS is **knowledge-intensive and communication-bound**: scientific information about ecosystem services, land-use trade-offs, and site-appropriate design has to reach stakeholders who are not scientists — farmers, homeowners, planners, community groups — before any decision happens.
+	- This communication work currently requires **domain-specific expertise, time to search for and synthesise research, and craft for tailored visualisations and text**. It doesn't scale, and that is itself a **barrier to NbS uptake** — bespoke advisory capacity is expensive and unevenly distributed, meaning NbS may end up available mainly to privileged groups.
+	- **GenAI is well-suited to synthesis tasks** due to its training on very large and diverse corpora, giving it the capacity to ingest scientific material and produce content in a wide range of styles and registers. Combined with **LLM flexibility** and **image generation** for visualisation, it offers a route to **automate parts of the process of preparing locally targeted and customised outreach material in a scalable way**.
+	- The framing here is **augmentation, not replacement**: GenAI serves as a tool to augment the knowledge and enthusiasm of human scientists and practitioners — the same augmentation pattern flagged in [[NBS-CBS Hybrid Expert System - Sarabi 2022]] and [[MCDA and AI]].
+-
+- ## Potential Applications — and how GenAI improves the specific NbS use case
+	- The paper identifies three families of GenAI applications for NbS, plus a forward-looking fourth. For each, what matters is not that GenAI *can* do it but *what it changes* about the NbS workflow.
+	-
+	- ### 1. Data synthesis and report writing — farm-scale NbS advisory
+		- **NbS use case**: producing site-specific reports on current ecosystem services, future land-use options, and NbS opportunities for individual farms.
+		- **The baseline problem**: model-generated farm reports (e.g. from ecosystem-service models) are **identical in format, highly repetitive, and do not include any interpretation of results or any recommendations** — they are data outputs, not advice.
+		- **How GenAI improves it**:
+			- Ingests scientific information and farm-specific model outputs, then generates a **written synthesis for a public audience** in prose form.
+			- Translates scientific data and research findings into content that is **useful for applied environmental management and decision-making** — closing the gap between model output and actionable advice.
+			- Case study: an AI-aided summary of the current state and future land-use options for two farms in Mackenzie District, Aotearoa New Zealand — paragraph-length reports that reframe repetitive model outputs as interpreted narratives.
+		- **Why this matters for NbS specifically**: farm-level NbS advisory is currently a **bespoke consulting service**. Scaling it changes which farms get real advice vs boilerplate.
+	-
+	- ### 2. Interactive advice chatbot — biodiversity-friendly garden design
+		- **NbS use case**: giving homeowners **real-time, interactive guidance** on how to design a garden that supports biodiversity — a Type 3 NbS ([[A typology of NbS applications]]: creating new ecosystems at small scale).
+		- **The baseline problem**: when considering NbS opportunities, stakeholders **need interactive discussion to obtain the information they need** — static guides don't fit the conversational, iterative nature of design decisions. Expert advice exists but doesn't scale to every homeowner.
+		- **How GenAI improves it**:
+			- LLMs provide **increasingly flexible and human-like responses**, able to field open-ended questions and adapt to the homeowner's specific site, goals, and follow-ups.
+			- Offers a scalable way to deliver **personalised advisory** that was previously only available through paid consultants or community workshops.
+			- Bridges to the **extension and outreach** function typically carried out by environmental NGOs and municipal programmes — at a fraction of the marginal cost.
+		- **Why this matters for NbS specifically**: private gardens are an underutilised NbS substrate ([[Categories of NbS]] — green spaces). Uptake is gated by design literacy, not land availability.
+	-
+	- ### 3. Image generation — visualising future landscape scenarios under NbS
+		- **NbS use case**: communicating what a landscape *could look like* under different NbS configurations, so stakeholders can evaluate scenarios intuitively rather than abstractly.
+		- **The baseline problem**: producing high-quality landscape visualisations is slow and expensive, requiring illustrators, landscape architects, or 3D rendering workflows. Most planning processes therefore rely on maps, charts, and verbal description — which underperform for **public engagement** and for conveying **aesthetic and experiential** dimensions.
+		- **How GenAI improves it**:
+			- GenAI can **rapidly generate landscape visualisations** from text prompts, dropping the cost of producing scenario imagery by orders of magnitude.
+			- Case study: visualisations of four potential future land-use scenarios, some more reliant on NbS than others — contrasting grey/tech-heavy futures with NbS-rich ones.
+			- Lets stakeholders **compare alternatives visually** rather than reading descriptions — a much lower cognitive threshold for participation.
+		- **Why this matters for NbS specifically**: scenario visualisation is already recognised as important in NbS planning ([[Scenario Analysis]]), but the **production cost constrains how many alternatives can be shown**. GenAI collapses that constraint.
+		- Cross-domain precedent: GenAI is already being used to **support urban master planning by rapidly rendering designs** — this is the NbS-specific extension of that capability.
+	-
+	- ### 4. Autonomous agents — the next frontier
+		- The paper flags **autonomous agents powered by GenAI** as a further direction: systems that go beyond one-shot Q&A to **actively gather data, run analyses, and produce outputs** with limited human prompting.
+		- In NbS terms this points toward agents that could, for example, pull site data, run an ES model, synthesise literature, and generate a tailored report end-to-end — collapsing the three case studies above into one pipeline.
+		- This is flagged as a green-highlight direction worth following up (see reading list entry).
+	-
+	- ### Cross-cutting improvement mechanism
+		- Across all four applications, the **shared mechanism** is the same: GenAI absorbs the **synthesis + translation + customisation** work that currently requires scarce human expertise, and does it at marginal cost. The NbS-specific payoff is that this work is **the bottleneck for uptake**, not the ecological knowledge itself.
+		- This is a case of **democratising access to expertise** — parallels to [[NBS-CBS Hybrid Expert System - Sarabi 2022]], which explicitly framed its value as lowering the knowledge threshold for NGOs and citizen groups.
+-
+- ## Risks and Caveats
+	- The paper is explicit that GenAI for NbS brings **five categories of risk** that need active management:
+		- **Information fabrication and error-checking** — LLMs hallucinate; for NbS advice this could mean recommending ecologically inappropriate species or misstating benefits. Human expert-in-the-loop verification is non-negotiable at this stage.
+		- **Data bias and security** — training corpora over-represent some ecosystems, regions, and languages; outputs will inherit these biases and may under-serve the very communities NbS is meant to reach.
+		- **Mistrust of machines** — stakeholder acceptance of AI-generated advice is not automatic; the same **black-box trust problem** that [[NBS-CBS Hybrid Expert System - Sarabi 2022]] tried to address through CBR explainability applies here, and probably more strongly for open-ended LLM outputs.
+		- **Overreliance and loss of human employment** — displacing extension officers and planners not just reduces quality control but also removes the local relational knowledge those roles carry.
+		- **Energy usage and associated carbon emissions** — an environmental irony: the tool meant to scale up climate adaptation has a non-trivial carbon cost of its own.
+	- The authors argue for **developing software specifically for the purpose of informing NbS** (rather than relying on general-purpose chatbots) to mitigate these risks and provide **detailed, context-specific advice that accounts for local information and community requirements**.
+	- Querying a **commercial general-purpose GenAI** is cheaper but still involves subscription/interface costs — cost barriers don't disappear, they just change shape.
+	- Compounds the equity concern already noted in NbS literature ([[Limits of NbS]]): NbS risks being **available mainly to privileged groups**, and an expensive/English-biased AI layer could deepen rather than fix this.
+-
+- ## The Social Science Imperative
+	- The authors' strongest normative point: alongside technological development, **a strong social science component must be integrated** to help shape the technology and propose **ethical guidelines for responsible usage** in NbS contexts.
+	- This means **integrated social research into ethics, public acceptability, and user experience** — not as an afterthought but as a co-development track.
+	- Without it, the risks above aren't just theoretical — they determine whether GenAI ends up accelerating NbS adoption equitably or just speeding up the existing inequality in who gets good advice.
+-
+- ## Implications for My Work
+	- This paper sits cleanly in the **science communication / extension** layer of the NbS toolchain — a different layer from where [[NBS-PSS Playground - Sarabi 2022]], [[SSANTO PSS for WSUD - Kuller 2019]], and [[GI Spatial Planning and MCDA - Meerow 2017]] operate. Those tools help **experts decide**; GenAI here helps **non-experts engage**. A complete PSS-for-NbS stack arguably needs both: a structured spatial/decision backend (MCDA + ES models), a case-based experience layer ([[NBS-CBS Hybrid Expert System - Sarabi 2022]]), and a GenAI-powered communication front-end that translates model outputs into interpretable narratives and visuals for stakeholders.
+	- The framing of genAI as the **translation layer** on top of scientific/model outputs is a useful design primitive. It maps onto the [[MCDA and AI]] integration patterns — specifically Pattern 4 ("AI generates inputs, MCDM decides") flipped around: MCDA decides, then genAI **communicates**. This is a Pattern I don't see explicitly enumerated in the MCDA+AI literature and may be worth naming.
+	- The **rapid landscape visualisation** use case is directly relevant to participatory NbS planning ([[Scenario Analysis]], [[WSUD Planning Process]]). Visualising MCDA output or scenario trade-offs this way could meaningfully change how stakeholders engage with PSS output — worth testing.
+	- The **risks section** is essentially a usability/ethics checklist for any AI-augmented PSS. The ones that most clearly cross over to my work: hallucination + data bias (for any LLM wrapper around MCDA outputs), mistrust (parallel to the CBR-explainability argument in [[NBS-CBS Hybrid Expert System - Sarabi 2022]]), and cost/access equity ([[Limits of NbS]]).
+	- The paper's call for **NbS-specific software** rather than general chatbots is worth noting — it implies that the quality of a genAI layer is bounded by the quality of the **domain knowledge base** it's grounded in. Same lesson as the UNA metadata ceiling in [[NBS-CBS Hybrid Expert System - Sarabi 2022]]: the model is only as good as the structured knowledge it's reasoning over.
+-
+- ## Related Pages
+	- [[Nature-based Solutions]]
+	- [[A typology of NbS applications]]
+	- [[Categories of NbS]]
+	- [[Limits of NbS]]
+	- [[NBS-CBS Hybrid Expert System - Sarabi 2022]]
+	- [[NBS-PSS Playground - Sarabi 2022]]
+	- [[MCDA and AI]]
+	- [[Overview AI in MCDA]]
+	- [[Usage of AI]]
+	- [[Scenario Analysis]]
+	- [[R: richardsHarnessingGenerativeArtificial2024]]
+-

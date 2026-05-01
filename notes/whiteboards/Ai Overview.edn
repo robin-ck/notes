@@ -95,7 +95,35 @@
 :parentId "69b2cf8e-eb90-40ff-9a46-5b76e82aca0f"
 :collapsedHeight 0
 :nonce 1774272757402}}
-:block/updated-at 1774365803812})
+:block/updated-at 1774365803812} 
+{:block/created-at 1777458073380
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:rotation 0
+:collapsed false
+:borderRadius 8
+:index 2
+:scale [1 1]
+:pageId "LLM-assisted Decision Making - Eigner 2024"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [2024 1464.0000975501937]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "1c8d2630-43b5-11f1-a2c8-0350a0550b9a"
+:noFill false
+:point [-1104 -5288]
+:parentId "69b2cf8e-eb90-40ff-9a46-5b76e82aca0f"
+:collapsedHeight 0
+:nonce 1777458057348}}
+:block/updated-at 1777458073380})
 :pages (
 {:block/uuid #uuid "69b2cf8e-eb90-40ff-9a46-5b76e82aca0f"
 :block/properties 
@@ -107,8 +135,8 @@
 {}
 :nonce 1
 :assets []
-:shapes-index ("8ec4c260-2698-11f1-a7d4-cb1398306098" "c1d19100-26bc-11f1-9f2f-bd1f3447149f")}}
-:block/updated-at 1775121380404
+:shapes-index ("8ec4c260-2698-11f1-a7d4-cb1398306098" "c1d19100-26bc-11f1-9f2f-bd1f3447149f" "1c8d2630-43b5-11f1-a2c8-0350a0550b9a")}}
+:block/updated-at 1777458073380
 :block/created-at 1773326222495
 :block/type "whiteboard"
 :block/name "ai overview"

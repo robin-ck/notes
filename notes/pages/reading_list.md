@@ -1,20 +1,25 @@
 # Reading List
-
-- **von Haaren et al., 2019** — found via [[R: albertPlanningNaturebasedSolutions2021]]
+- **von Haaren et al., 2019** — found via [[albertPlanningNaturebasedSolutions2021]]
 	- Describes a landscape planning cycle of assessing, goal-setting, designing, implementing, and evaluating — the established model that the Albert et al. NbS planning framework builds on and departs from.
-
-- **Raymond et al., 2017; Pagano et al., 2019** — found via [[R: albertPlanningNaturebasedSolutions2021]]
+- **Raymond et al., 2017; Pagano et al., 2019** — found via [[albertPlanningNaturebasedSolutions2021]]
 	- Empirical evidence on NbS' multi-dimensional effectiveness and their multiple benefits and co-benefits is still largely missing — a key limitation flagged in the context of the Evidence base principle.
-
-- **Net-Map tool (Social Network Analysis)** — found via [[R: albertPlanningNaturebasedSolutions2021]]
+- **Net-Map tool (Social Network Analysis)** — found via [[albertPlanningNaturebasedSolutions2021]]
 	- A participatory Net-Map tool was used in the Lahn case study to conduct Social Network Analysis, helping detect important actor relations essential for understanding the governance context of NbS planning.
-
 - **Cutter, Boruff & Shirley, 2003; Cutter & Finch, 2008 (SoVI)** — found via [[R: meerowSpatialPlanningMultifunctional2017a]]
 	- The Social Vulnerability Index (SoVI) is described as the most well-established and widely used methodology for mapping social vulnerability to natural hazards, freely available through NOAA.
-
 - **Ahern, 2007; Andersson et al., 2014; Elmqvist, Gomez-Baggethun & Langemeyer, 2016** — found via [[R: meerowSpatialPlanningMultifunctional2017a]]
 	- The ecosystem services framework (provisioning, regulating, supporting, cultural) is the classification system used to organise green infrastructure benefits in spatial planning.
-
 - **Leake, Ye & Crandall (2021); Keane & Kenny (2019); Malek (2001)** — found via [[R: sarabiNatureBasedSolutionsCaseBased2022]]
 	- The foundational literature on hybrid ANN-CBR ("twin-system") architectures: ANN and CBR are complementary — ANN is strong on numeric data and pattern generalisation, CBR is strong on symbolic knowledge and reasoning from limited cases. Worth reading for my own AI+MCDA work as these papers establish the broader design pattern that NBS-CBS applies to NbS planning.
-
+- **Autonomous agents powered by GenAI (research direction)** — found via [[R: richardsHarnessingGenerativeArtificial2024]]
+	- Flagged as a forward-looking frontier beyond one-shot LLM use: agents that actively gather data, run analyses, and produce outputs end-to-end with limited human prompting. Relevant for NbS workflows where site data pull + ES modelling + literature synthesis + tailored report generation could be collapsed into one pipeline. Worth tracking the AI agents literature (AutoGPT-style architectures, tool-using LLMs) for applicability to NbS advisory.
+- **Kasneci et al., 2023; Klein et al., 2016; van Dis et al., 2023; Yang et al., 2022** — found via [[R: richardsHarnessingGenerativeArtificial2024]]
+	- Cited as the evidence base for the claim that GenAI algorithms can **rapidly analyse complex data, generate user-friendly content, and provide real-time responses to stakeholder queries** — the core capability argument for using GenAI to inform NbS. Kasneci et al. (2023) specifically is cited elsewhere in the paper for **interactive GenAI assistants supporting personalised education** — likely the strongest analogue for the NbS-advice-chatbot use case.
+- **Multi-agent LLM systems literature [67, 87, 208]** — found via [[R: eignerDeterminantsLLMassistedDecisionMaking2024]]
+	- Multi-agent systems provide enhanced capabilities over single LLM agents through collaboration among specialized agents with distinct roles — flagged as a more capable architecture for decision support tasks.
+- **Multimodal LLM literature [203]** — found via [[R: eignerDeterminantsLLMassistedDecisionMaking2024]]
+	- Multimodal models processing images and audio align more closely with human perception and cognition, potentially enhancing human decision-making processes beyond text-only interaction.
+- **Urbach & Roeglinger [182]** — found via [[R: eignerDeterminantsLLMassistedDecisionMaking2024]]
+	- Curated a collection of real-world AI/digitisation cases — cited as a model for applied scenario-based illustration of LLM decision support in practice.
+- **Intelligent Decision Support Systems (IDSS) — source [149]** — found via [[R: eignerDeterminantsLLMassistedDecisionMaking2024]]
+	- When AI methods are employed to create options (not just evaluate them), the resulting system qualifies as an Intelligent Decision Support System — a relevant framing for PSS tools that use LLMs generatively.

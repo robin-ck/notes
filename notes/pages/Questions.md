@@ -5,16 +5,26 @@
 - Make it concrete
 - Can we use AI to help improving the Delphi Method?
 - How can AI Help?!?!?!
-- Can we integrate all NbS data from many places and integrate them into one warehouse?
+	- Can we integrate all NbS data from many places and integrate them into one warehouse?
+	- Can AI predict what happens after an intervention, is it needed?
+-
+- Which functions can AI have? Or which functions are needed in a planning process
+-
 -
 - ## Questions of a planner?
+- ### Pain Points:
+	- Effect of solution
+	- Time to see the effect
+	- It really depends on context
+	- Very undefined terminology
 - ### Operational Questions:
 	- How do I justify and defend all my decisions?
 -
 - ### Between Questions:
 	- Which people do I include?
 	- Which framework do I pick for the decision process?
-	-
+-
+-
 - ### Technical Questions:
 	- ***how do I weightend trade-offs***
 	- Where to put my NbS?

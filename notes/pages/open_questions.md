@@ -1,6 +1,6 @@
 # Open Questions
 - How should the NbS concept be communicated to stakeholders in practice — and what are the implications of using the term at all in participatory planning processes where it may be perceived as biased toward nature conservation?
-	- Source: [[R: albertPlanningNaturebasedSolutions2021]]
+	- Source: [[albertPlanningNaturebasedSolutions2021]]
 - Planning silos are repeatedly cited as a barrier to multifunctional GI planning — but what does "breaking silos" actually look like institutionally? Is a shared planning tool (like the GISP model or a PSS) sufficient, or does it require organisational restructuring first?
 	- Source: [[R: meerowSpatialPlanningMultifunctional2017a]]
 - Social vulnerability is difficult to quantify, yet it is treated as a single scoreable criterion in the GISP model (via SoVI). How much does the choice of vulnerability index shape which communities are prioritised — and is this made visible to stakeholders in the planning process?
@@ -19,3 +19,5 @@
 	- Source: [[R: sarabiNatureBasedSolutionsCaseBased2022]]
 - Adding a function like an impact assessment requires extensive data regarding the impact of NBS in each case setting, which is not yet available. Is it possible to gather more NbS data or create it synthetically?
 	- Source: [[R: sarabiNatureBasedSolutionsCaseBased2022]]
+- As GenAI is increasingly integrated with tools to search for and access external datasets (retrieval-augmented generation, tool-using agents), could this reliably ground LLM-generated NbS advice in authoritative sources (Urban Nature Atlas, Oppla, ecosystem-service models, local planning data) — and what would it take to make that pipeline trustworthy enough to deploy in a PSS context rather than just a standalone chatbot?
+	- Source: [[R: richardsHarnessingGenerativeArtificial2024]]

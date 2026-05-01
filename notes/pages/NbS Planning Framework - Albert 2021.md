@@ -1,5 +1,5 @@
 tags:: NbS, planning, framework, landscape planning
-source:: [[R: albertPlanningNaturebasedSolutions2021]]
+source:: [[albertPlanningNaturebasedSolutions2021]]
 
 - Albert et al. (2021) propose a structured planning framework for NbS, grounded in a case study on the Lahn river (Germany), consisting of three interlocking components: NbS criteria, six planning steps, and five guiding principles.
 -
@@ -55,5 +55,5 @@ source:: [[R: albertPlanningNaturebasedSolutions2021]]
 	- [[GIS-MCDA Overview]]
 	- [[Societal Challenges]]
 	- [[Barriers to Blue-Green Infrastructure Implementation]]
-	- [[R: albertPlanningNaturebasedSolutions2021]]
+	- [[albertPlanningNaturebasedSolutions2021]]
 -

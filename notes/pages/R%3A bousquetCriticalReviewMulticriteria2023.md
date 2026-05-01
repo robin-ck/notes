@@ -1,4 +1,4 @@
-title:: A critical review of multicriteria decision analysis practices in planning of urban green spaces and nature-based solutions
+- title:: A critical review of multicriteria decision analysis practices in planning of urban green spaces and nature-based solutions
 authors:: Morgane Bousquet (author), Martijn Kuller (author), Sandrine Lacroix (author), Peter A. Vanrolleghem (author)
 date:: [[Nov 3rd, 2023]]
 publicationTitle:: Blue-Green Systems
